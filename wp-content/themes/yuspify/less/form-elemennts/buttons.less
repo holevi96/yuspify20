@@ -1,0 +1,242 @@
+@import (reference) ".././proto/proto.less";
+@import (reference) "general";
+
+
+.form-button{
+  background: fade(@white, 70%);
+  height: 42px;
+  text-align: center;
+  color: @blueNew;
+  font-family: 'Roboto';
+  font-size: 16px;
+  outline: none;
+  border: 1px solid fade(@white, 50%);
+  border-radius: 3px;
+  cursor: pointer;
+  .tr2;
+
+  &:hover, :focus{
+    background: @greenNew;
+    border: 1px solid @white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  &:active{
+    background: darken(@blueNew, 5%);
+    border: 1px solid @greenNew;
+    color: fade(@greenNew, 60%);
+  }
+}
+
+.form-button.center{
+  margin: 0 auto;
+  display: block;
+  padding: 0 16px;
+}
+
+// BLUE
+.form-button.blue{
+  background: @blueNew;
+  color: fade(@white, 60%);
+
+  &:hover, :focus{
+    background: @greenNew;
+    border: 1px solid @white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: fade(@blue, 60%);
+
+  }
+  &:active{
+    background: darken(@blueNew, 5%);
+    border: 1px solid @greenNew;
+    color: fade(@greenNew, 60%);
+  }
+}
+
+// GREEN
+.form-button.green{
+  background: @greenNew;
+  color: fade(@blue, 60%);
+
+  &:hover, :focus{
+    background: @blueNew;
+    //border: 1px solid @white;
+    box-shadow: 0 0 9px rgba(0,0,0,0.1);
+    color: fade(@white, 70%);
+  }
+  &:active{
+    background: darken(@blueNew, 5%);
+    border: 1px solid @greenNew;
+    color: fade(@greenNew, 60%);
+  }
+}
+
+// WHITE
+.form-button.white{
+  background: fade(@white, 60%);
+  color: fade(@blue, 60%);
+
+  &:hover, :focus{
+    background: @greenNew;
+    border: 1px solid @white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: fade(@blue, 60%);
+
+  }
+  &:active{
+    background: darken(@blueNew, 5%);
+    border: 1px solid @greenNew;
+    color: fade(@greenNew, 60%);
+  }
+}
+
+/*** ### TRIAL BUTTONS ### ***/
+
+.free-trial-button {
+  display: inline-block;
+  padding: 10px 16px;
+  min-width: 200px;
+  font-family: 'AvantgardeBold';
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 999em;
+  border: 4px solid inherit;
+  .tr2;
+
+  // WHITE
+  &.white{
+    background: @white;
+    border-color: @white;
+    color: @blueNew;
+
+    &:hover{
+      background: @greenNew;
+      color: fade(@blue, 70%);
+    }
+  }
+
+  // BLUE
+  &.blue{
+    background: @ye-2;
+    border-color: @ye-2;
+    color: @white;
+
+    &:hover{
+      background: @ye-0;
+      color: fade(@blue, 70%);
+    }
+  }
+
+  // GREEN
+  &.green{
+    background: @greenNew;
+    border-color: @greenNew;
+    color: @blueNew;
+
+    &:hover{
+      background: @white;
+      border-color: @white;
+      color: @blueNew;
+    }
+  }
+
+  // ENT GREEN
+  &.ent-green{
+    background: @ye-1;
+    border-color: @ye-1;
+    color: @white;
+
+    &:hover{
+      background: @white;
+      border-color: @white;
+      color: @ye-1;
+    }
+  }
+
+  // OUTLINE
+  &.outlined-white{
+    background: none;
+    border: 4px solid @white;
+    color: @white;
+    font-weight: 600;
+
+    &:hover{
+      background: @greenNew;
+      border: 4px solid @greenNew;
+      color: fade(@blue, 70%);
+    }
+  }
+
+  &.outlined-blue{
+    background: none;
+    border: 4px solid @blueNew;
+    color: @blueNew;
+    font-weight: 600;
+
+    &:hover{
+      background: @blueNew;
+      border: 4px solid @blueNew;
+      color: @white;
+    }
+  }
+
+  &.outlined-darkgray{
+    background: none;
+    border: 4px solid @ye-bg-3;
+    color: @ye-bg-3;
+    font-weight: 600;
+
+    &:hover{
+      background: @white;
+      border: 4px solid @white;
+      color: @ye-bg-3;
+      box-shadow: 0 0 35px fade(black, 40%);
+    }
+  }
+
+  &.middle{
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}
+
+.btn-variables(@btnBG, @btnFont, @btnFontColor){
+  display: inline-block;
+  height: 42px;
+  line-height: 42px !important;
+  font-weight: 400;
+  font-family: @btnFont;
+  border-color: rgba(255, 255, 255, 0) !important;
+  border-radius: 30px;
+  background: @btnBG;
+  color: @btnFontColor;
+  padding: 0px 25px 0px 25px;
+  text-align: center;
+  .tr2;
+  &:hover{
+    background: @greenNew;
+    color: @white;
+  }
+}
+
+.btn-Outline-variables(@btnPadding, @btnHeight, @btnBorderColor, @btnHoverColor){
+  display: inline-block;
+  height: @btnHeight;
+  line-height: @btnHeight !important;
+  font-weight: 400;
+  font-family: 'Roboto';
+  border: 3px solid @btnBorderColor;
+  border-radius: 30px;
+  background: none;
+  color: fade(@btnBorderColor, 70%);
+  padding: 0px @btnPadding 0px @btnPadding;
+  text-align: center;
+  .tr2;
+  &:hover{
+    background: @btnHoverColor;
+    border-color: @btnHoverColor;
+    color: darken(@btnHoverColor, 30%);
+  }
+}

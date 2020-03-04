@@ -1,0 +1,232 @@
+@import (reference) "../../proto";
+
+/* HEADER */
+body.page-template-eguide-signup, body.page-template-tempate-whitepaper-single{
+
+  header#header{
+    display: none;
+  }
+
+  #ebook-template-container{
+
+    .title-wrapper{
+      padding-bottom: 10rem;
+      background-color: @blueLight;
+      background-image: url('@{root}/img/svg/dekor-line.svg');
+      background-repeat: no-repeat;
+      background-size: 140%;
+      background-position: 20% 50%;
+      /* background-position-x: 20%; */
+
+      .logo{
+        position: relative;
+        left: -4px;
+        top: -4px;
+        height: 90px;
+        overflow: hidden;
+
+        img{
+          width: 66px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .title-wrapper{
+    padding: 160px 0;
+  }
+
+  h1.content-title{
+
+    .title-xxl;
+    color: white;
+  }
+}
+
+/* CONTAINER WIDTH */
+
+body.page-template-eguide-signup, #ebook-template-container, body.page-template-tempate-whitepaper-single {
+  .sign-up{
+    //.rsp-paddding;
+  }
+}
+
+
+body.page-template-ebook-template, #ebook-template-container, body.page-template-tempate-whitepaper-single{
+
+  header#header{
+    display: none;
+  }
+
+  h1.content-title{
+
+    .sub-headline{
+      .text('Roboto', 16px, 400, @white);
+      display: block;
+
+    }
+  }
+}
+
+#ebook-template-container{
+  margin-top: -50px;
+}
+
+.whitepaper-cover{
+  .whitepaper-single-mobile-container;
+
+  @media @lg, @xl, @xxl{
+    margin-top: -77px;
+  }
+
+  @media @md, @sm{
+    padding: 0 20%;
+  }
+
+  img{
+    height: auto;
+    padding: 0;
+    box-shadow: 0 0 16px fade(@black, 30%);
+    width: 100%;
+
+    @media @lg, @xl, @xxl{
+      margin-top: -90px;
+    }
+
+    @media @xs, @sm, @md{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.sign-up{
+  //.center-container(100%, 8000px, 1000px, 1100px);
+}
+
+
+.whitepaper-single-mobile-container{
+
+  @media @xs, @sm, @md {
+    float: none;
+    margin: 0 auto;
+  }
+
+  @media @md{
+    width: 70%;
+  }
+
+}
+
+.whitepaper-descirpion{
+  .whitepaper-single-mobile-container;
+
+  @media @lg, @xl, @xxl{
+    padding: 3rem;
+
+    h2{
+      margin-top: -7rem;
+      margin-bottom: 4rem;
+    }
+  }
+
+  p{
+    .paragraph;
+    .gray;
+
+  }
+}
+
+
+.whitepaper-sign-up-form{
+  .whitepaper-single-mobile-container;
+
+  .download-icon{
+    margin: 0 auto;
+    text-align: center;
+
+    img.icon{
+      width: 94px;
+      height: auto;
+    }
+  }
+
+  background: @white;
+  top: -4rem;
+  padding: 4rem;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 0 6px 30px fade(@yfy-light-blue, 45%);
+
+  input.form-location{
+    display: none;
+  }
+
+}
+
+div.testimonial{
+  .center-container(100%, 800px, 800px, 900px);
+  padding-bottom: 60px;
+
+  img{
+    max-height: 180px;
+    width: auto;
+  }
+  p.stnd{
+    font-style: italic;
+
+    span{
+      .text('Roboto', 18px, 600, @blueLight);
+      font-style: normal;
+      position: relative;
+      top: 12px;
+    }
+  }
+}
+
+.about-us{
+  background: @white;
+  padding-bottom: 30px;
+  margin-bottom: -30px;
+
+  .logos{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  a.free-trial-button{
+    display: table;
+  }
+
+}
+
+
+#yusp-line{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+
+  span{
+    float: left;
+    height: 5px;
+
+    &:after{
+      .clear;
+    }
+  }
+
+  .one{
+    width: 19%;
+    background: @grad-radial-green;
+  }
+  .two{
+    width: 31%;
+    background: #3E46D7;
+  }
+  .three{
+    width: 50%;
+    background: @blueExtra;
+  }
+}

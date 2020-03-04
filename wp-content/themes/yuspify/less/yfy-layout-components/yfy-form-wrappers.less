@@ -1,0 +1,40 @@
+@import(reference) "../proto";
+@import(reference) "../yfy-basic-components";
+
+.yfy-form-wrapper{
+
+  form{
+
+    input[type="text"], input[type="email"]{
+      .yfy-form-input;
+      .medium;
+    }
+
+    textarea{
+      .yfy-form-input;
+      .medium;
+    }
+
+    input[type="submit"]{
+      .yfy-button;
+      .medium;
+    }
+  }
+
+  &.blue{
+    input[type="text"], input[type="email"]{
+      .yfy-form-input;
+      .blue;
+    }
+
+    textarea{
+      .yfy-form-input;
+      .blue;
+    }
+
+    input[type="submit"]{
+      .yfy-button;
+      .blue;
+    }
+  }
+}

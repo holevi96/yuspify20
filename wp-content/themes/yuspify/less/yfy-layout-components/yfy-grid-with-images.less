@@ -1,0 +1,84 @@
+@import(reference) "../proto";
+@import(reference) "../yfy-basic-components";
+
+#grid-with-images{
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li.grid-unit{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      &>div{
+        display: flex;
+        flex-flow: column;
+        padding: 1rem;
+        box-sizing: border-box;
+      }
+    }
+
+    @media @xxl, @xl, @lg, @md{
+
+      .grid-unit{
+        margin: 4rem 0;
+      }
+
+      li>div{
+        flex-basis: 50%;
+        width: 50%;
+      }
+
+      .grid-unit:first-child{
+        flex-flow: row;
+      }
+
+      .grid-unit:nth-child(2){
+        flex-flow: row-reverse;
+      }
+
+      .grid-unit:nth-child(3){
+        flex-flow: row;
+      }
+    }
+
+    @media @sm, @xs{
+
+      .grid-unit{
+        flex-flow: column;
+        margin: 1rem 0;
+      }
+    }
+
+    .text-wrapper{
+      justify-content: center;
+
+      h2{
+        .title-xl;
+        color: @yfy-purple;
+      }
+      p{
+        .paragraph;
+        color: @gray3;
+      }
+    }
+
+    .image-wrapper{
+      justify-content: center;
+      width: 100%;
+
+      img{
+        display: flex;
+        align-self: center;
+        overflow: hidden;
+        border-radius: 5px;
+        width: 100%;
+        box-shadow: 0 6px 30px fade(@yfy-light-blue, 45%);
+
+      }
+    }
+  }
+}

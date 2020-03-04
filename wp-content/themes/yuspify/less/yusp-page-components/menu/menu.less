@@ -1,0 +1,311 @@
+@import(reference) "../../proto";
+@import(reference) "../../yfy-all";
+
+@menu-height: 140px;
+@menu-top-padding: 80px;
+
+
+#general-menu{
+  background: @ye-bg-3;
+
+  .menu{
+
+    li {
+
+      a {
+        color: @ye-1;
+        border-bottom: 2px solid transparent;
+        .tr2;
+      }
+
+      a:hover {
+        color: @ye-0;
+        border-bottom: 2px solid @ye-0;
+        .tr2;
+      }
+    }
+  }
+}
+
+#sme-menu{
+  background: @blueLight;
+
+  .menu{
+
+    li {
+
+      a {
+        color: fade(@white, 70%);
+        border-bottom: 2px solid transparent;
+        .tr2;
+      }
+
+      a:hover {
+        color: @white;
+        border-bottom: 2px solid @white;
+        .tr2;
+      }
+    }
+  }
+}
+
+/* THE YUSPIFY MENU */
+/* ----------------------------------------------------------------------------------------- */
+
+#yfy-main-menu{
+  display: flex !important;
+  width: 100%;
+  background: transparent;
+  position: relative;
+  z-index: 100000;
+  //margin-bottom: -10rem;
+
+  @media @xs, @sm, @md{
+    display: none;
+  }
+
+  &.light .wrapper{
+    background: white;
+    //box-shadow: 0 9px 40px fade(@yfy-light-blue, 24%);
+    //border: 1px solid rgba(239, 239, 239, 0.63);
+    //border: 1px solid fade(@yfy-light-blue, 60%);
+  }
+
+  &.normal .wrapper{
+    box-shadow: 0 0 10px @yfy-blue;
+  }
+
+  .yfy-general-menu{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .wrapper{
+    box-sizing: border-box;
+    justify-content: space-between;
+    //margin-bottom: -10rem;
+
+    background: white;
+    margin: 1rem auto;
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    //box-shadow: 0 9px 40px fade(@yfy-light-blue, 24%);
+    //box-shadow: 0 9px 40px fade(@yfy-light-blue, 24%);
+    //border: 1px solid rgba(239, 239, 239, 0.63);
+
+    ul{
+
+      li:last-child{
+
+        a{
+          .button;
+          .medium;
+          .blue;
+        }
+
+        &:hover{
+          border-bottom: transparent;
+        }
+      }
+    }
+  }
+}
+
+.yfy-general-menu{
+
+  a#logo{
+    .lvl5;
+    display: inline;
+    width: 60px;
+    margin: 0.4rem;
+
+    &.general{
+      background-image: url('@{root}/img/svg/yuspify-logo.svg');
+      background-repeat: no-repeat;
+    }
+
+    &.sme{
+      background-image: url('@{root}/img/logos/yusp-SME-white-typo.svg');
+      background-repeat: no-repeat;
+    }
+
+    span{
+      @media @xs, @sm{
+        display: none;
+      }
+
+      height: 90px;
+      left: 59px;
+      position: relative;
+      width: 200px;
+
+      svg{
+        width: 105px;
+        top: 7px;
+        position: relative;
+
+        .st0{
+          .tr2;
+        }
+      }
+    }
+  }
+
+  #logo:hover{
+    svg{
+      .st0 {
+        fill: @yfy-green;
+      }
+    }
+  }
+
+  ul{
+    line-height: 4rem;
+    display: inline;
+    float: right;
+    margin-right: 1rem;
+
+    @media @xs, @sm{
+      display: none;
+    }
+
+    li{
+      display: inline;
+      margin-left: 2rem;
+      padding-bottom: 18px;
+      border-bottom: transparent;
+      .text('Roboto', 18px, 400, @yfy-purple);
+      .tr2;
+
+      a{
+        color: @yfy-purple;
+      }
+    }
+
+    li:hover{
+      border-bottom: 4px solid @yfy-light-blue;
+    }
+
+    li.current_page_item{
+      border-bottom: 4px solid @yfy-light-blue;
+    }
+  }
+
+  .this{
+    padding: .6rem 1.6rem;
+    border-radius: 999rem;
+    background: @yfy-purple;
+    margin-left: 2rem;
+    color: white;
+    box-shadow: 0 6px 10px fade(@yfy-purple, 80%);
+    .tr2;
+
+    &:hover{
+      color: white;
+      background: @yfy-light-blue;
+      box-shadow: 0 6px 18px fade(@yfy-light-blue, 80%);
+      //box-shadow: 0 6px 18px fade(@yfy-green, 80%);
+    }
+  }
+}
+
+
+.floating-wrapper{
+  position: absolute;
+  height: 100vh;
+  width: 0;
+  background: @blue-1;
+  top: -19px;
+  left: 0;
+  z-index: 1000;
+  .bezier-eas-out(0.4s);
+
+  -ms-transform: translate-y(-100vw); /* IE 9 */
+  -webkit-transform: translate-y(-100vw); /* Safari */
+  transform: translate-y(-100vw);
+
+  h2{
+  }
+
+  &.floated{
+    position: absolute;
+    height: 100vh;
+    width: 99vw;
+    opacity: 1;
+
+    -ms-transform: translate-y(0); /* IE 9 */
+    -webkit-transform: translate-y(0); /* Safari */
+    transform: translate-y(0);
+  }
+}
+
+
+#how-it-works{
+
+  #desktop-menu{
+    background: @blue-1;
+
+    ul#main-menu{
+
+      li a{
+        color: @white;
+      }
+    }
+  }
+}
+
+#resources-mega-menu-wrapper{
+  /*
+  width: 700px;
+  right: 350px;
+  */
+
+  width: 350px;
+  right: 420px;
+
+  height: auto;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  background: @white;
+  top: 91px;
+  z-index: 1100;
+  border-radius: 5px;
+  box-shadow: 0 9px 40px fade(@yfy-light-blue, 24%);
+  .bezier-eas-in-slow(0.5s);
+
+  &.visible, &:hover{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .row{
+
+    a{
+      width: 100%;
+    }
+
+    .resource-blocks{
+      height: auto;
+      padding: 30px;
+      .bezier-eas-in-slow(0.3s);
+
+      h2{
+        .text('Roboto', 20px, 400, @blueLight);
+      }
+
+      p{
+        .text('Roboto', 16px, 300, @gray3);
+      }
+    }
+
+    .resource-blocks:hover{
+      background: @greenNew;
+
+      h2, p{
+        color: @footer;
+      }
+    }
+  }
+}

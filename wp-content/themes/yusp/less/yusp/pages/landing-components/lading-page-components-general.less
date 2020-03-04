@@ -1,0 +1,1308 @@
+@import (reference) "../../../proto";
+
+div.kamu{
+  height: 440vh;
+  background: @blueLight;
+}
+
+body.page-free-trial-heureka-partners{
+
+  .cat-button-wrapper{
+    #button-wrapper{
+      display: none !important;
+    }
+  }
+}
+
+section#scrolling-explainer{
+  position: relative;
+  height: auto;
+  //height: 80vh;
+  .tr2;
+
+  &.fixed{
+    position: fixed;
+    height: 100vh;
+    .tr2;
+  }
+}
+
+.cat-button{
+  border-radius: 999em;
+  background: @greenNew;
+  color: @footer;
+  padding: 10px 50px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 800;
+
+  box-shadow: 0 3px 5px 0 fade(@footer, 45%);
+  .tr2;
+
+  &:hover{
+    background: @white;
+    color: @footer;
+    box-shadow: 0 0px 80px 0 fade(@footer, 75%);
+  }
+
+  &:active, &:focus{
+    box-shadow: inset 0 0 5px 0 fade(@footer, 55%);
+  }
+
+  &.center{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    max-width: 220px;
+  }
+}
+
+.cat-button-wrapper{
+  width: auto;
+
+  a{
+    .cat-button;
+  }
+
+  span{
+    text-align: center;
+    display: inline;
+  }
+}
+
+.sticky-cat{
+  border-radius: 3px;
+  padding: 12px 18px;
+  background-color: @greenNew;
+  color: @footer;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  display: block;
+  max-width: 160px;
+  text-align: center;
+  font-weight: 600;
+  .tr2;
+
+  &:hover{
+    background: @footer;
+    color: @greenNew;
+  }
+}
+
+section#request-demo-form{
+  background: @white;
+  height: 0;
+  border-bottom: 1px solid @gray2;
+  visibility: hidden;
+  outline: none;
+  .tr2;
+  //.cubic-bezier-1;
+
+  .interface-elements{
+    position: relative;
+    margin-top: 50px;
+
+    h3{
+      font-family: 'Roboto';
+      color: @blueLight;
+      font-weight: 400;
+      margin: 0;
+
+      @media @xxl{
+        font-size: 30px;
+      }
+
+      @media @xl, @lg{
+        font-size: 24px;
+      }
+    }
+
+    h2{
+      .text('AvantgardeBold', 27px, 800, @blueLight);
+      margin-bottom: 20px;
+    }
+
+
+    .image-wrapper{
+      width: 100%;
+      max-height: 310px;
+
+
+      img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: -13px;
+      }
+
+    }
+
+
+  }
+
+  .form-wrapper{
+    opacity: 0;
+    .tr2;
+  }
+
+  &.opened{
+    margin-bottom: 16px;
+    visibility: visible;
+    height: auto;
+    padding: 20px 0;
+
+    .form-wrapper{
+      visibility: visible;
+      opacity: 1;
+      .tr2;
+    }
+  }
+
+  .form-wrapper{
+    visibility: hidden;
+
+    form{
+      .mc4wp-response .mc4wp-alert.mc4wp-success p{
+        display: block;
+        padding: 10px;
+        background: @greenNew;
+        color: @footer;
+        margin-top: 10px;
+      }
+
+      .mc4wp-response .mc4wp-error p{
+        display: block;
+        padding: 10px;
+        background: @red-1;
+        color: @footer;
+        margin-top: 10px;
+      }
+
+      ul.radio-buttons{
+        padding: 0;
+        margin-bottom: 30px;
+        margin-top: -30px;
+      }
+
+      .interest{
+        margin-bottom: 0px;
+      }
+
+      ul.radio-buttons li{
+        color: @gray4;
+        display: block;
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 40px;
+        margin-left: -20px;
+
+      }
+
+      ul li input[type=radio]{
+        position: absolute;
+        visibility: hidden;
+      }
+
+      ul li label{
+        display: block;
+        position: relative;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 24px 25px 25px 80px;
+        margin: 10px auto;
+        height: 30px;
+        z-index: 9;
+        cursor: pointer;
+        .tr2;
+
+      }
+
+      ul li:hover label{
+        color: @greenNew;
+      }
+
+      ul li .check{
+        display: block;
+        position: absolute;
+        border: 5px solid @greenNew;
+        border-radius: 100%;
+        height: 25px;
+        width: 25px;
+        top: 30px;
+        left: 20px;
+        z-index: 5;
+        .tr2;
+
+      }
+
+      ul li:hover .check {
+        border: 5px solid @blueLight;
+      }
+
+      ul li .check::before {
+        display: block;
+        position: absolute;
+        content: '';
+        border-radius: 100%;
+        height: 11px;
+        width: 11px;
+        top: 2px;
+        left: 2px;
+        margin: auto;
+        transition: background 0.25s linear;
+        .tr2;
+      }
+
+      input[type=radio]:checked ~ .check {
+        border: 5px solid @blueLight;
+      }
+
+      input[type=radio]:checked ~ .check::before{
+        background: @blueLight;
+      }
+
+      input[type=radio]:checked ~ label{
+        color: @blueLight;
+      }
+
+      .submit-button{
+        .sticky-cat;
+      }
+    }
+  }
+}
+
+/* ************************************************************************ */
+/* Arukereso landing changes */
+
+body.page-feed-campaign,
+body.page-template-page-feed-campaign,
+body.page-prestashop-module-free-trial,
+body.page-ecomexpo-2017-offer,
+body.page-yusp-sme,
+#dynamic-landing-components
+{
+
+  .menu-wrapper{
+    display: none;
+  }
+
+  div#nav-icon{
+    @media @sm, @xs, @md{display: none;}
+  }
+
+  .breadcrumbsWrapper{
+    display: none;
+  }
+
+  #content{
+    margin-top: -20px;
+  }
+
+  #content #landing{
+    .event-landing{
+      h1.main-title{
+        margin-left: -12px;
+        float: left;
+        display: block;
+        min-height: 1px;
+        box-sizing: border-box;
+        position: relative;
+        padding-left: 20px;
+
+        &:after{
+          display: none;
+        }
+      }
+    }
+  }
+
+  #mainMenu{
+    padding-top: 40px;
+
+    .logo{
+      z-index: 10000;
+      position: relative;
+
+      @media @xs, @sm{
+        float: none;
+      }
+    }
+
+  }
+
+  .top-navi{
+    display: none;
+  }
+}
+
+
+a.start-free-trial{
+ .cat-button;
+}
+
+/* ************************************************************************ */
+/* SCROLLING wrapper */
+
+section#scrolling-explainer{
+  background: @blueLight;
+  position: relative;
+  z-index: 110;
+  height: 100vh;
+
+  .wrapper{
+    position: absolute;
+    top: 5vh;
+
+    ul.steps{
+
+      li:last-child{
+
+        div.pipe{
+            display: none;
+        }
+      }
+
+
+      li{
+        .text('Roboto', 20px, 400, #355098);
+        margin-bottom: 8px;
+        float: none;
+        cursor: pointer;
+        list-style: none;
+        .tr2;
+
+        &#three{
+          margin-bottom: 12px;
+        }
+
+        span{
+          .text('Roboto', 20px, 700, #355098);
+          margin-left: -60px;
+          border-radius: 999em;
+          background: none;
+          border: 4px solid #355098;
+          padding: 8px;
+          display: block;
+          width: 45px;
+          height: 45px;
+          margin-top: -34px;
+          line-height: 18px;
+          text-align: center;
+          .tr2;
+
+        }
+
+        div.pipe{
+          content: '';
+          display: block;
+          width: 4px;
+          height: 20px;
+          background-color: #355098;
+          margin-left: -39px;
+          margin-top: -1px;
+        }
+
+      }
+
+      li.selected{
+        color: @white;
+        border-color: @white;
+
+        span{
+          border-color: @greenNew;
+          color: @greenNew;
+        }
+      }
+    }
+
+    #initial-slide{
+      background: #4275f4;
+      width: 50%;
+      position: absolute;
+      left: -80px;
+      padding: 14vh 50px 8vh 50px;
+
+      .row{
+        padding: 0;
+      }
+
+      p{
+        font-size: 36px;
+        font-family: 'Roboto';
+        float: left;
+        font-weight: 800;
+        color: @white;
+        line-height: 40px;
+        display: block;
+      }
+
+      .mouse-scroll-animation{
+        width: 40px;
+        height: auto;
+        padding: 0;
+        margin-left: 52px;
+        margin-top: 20px;
+        opacity: 1;
+        .tr2;
+
+        &.hidden{
+          opacity: 0;
+        }
+
+        img.mouse{
+          width: 40px;
+          height: auto;
+          padding: 0;
+        }
+
+        img.arrow{
+          width: 40px;
+          height: auto;
+          padding: 0;
+          .bumping;
+        }
+      }
+    }
+
+    .description{
+      .text('Roboto', 30px, 300, @white);
+      line-height: 35px;
+      opacity: 0;
+      height: 0;
+      .tr2;
+
+      &.selected{
+        opacity: 1;
+        height: auto;
+      }
+    }
+  }
+
+  h2#headline-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: @white;
+
+    @media @xxl{
+      //top: 50vh;
+      width: 28%;
+      font-size: 30px;
+      line-height: 35px;
+    }
+    @media @xl {
+      //top: 60vh;
+      width: 33%;
+      font-size: 22px;
+      line-height: 27px;
+    }
+    @media @lg {
+      width: 32%;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    &.initial{
+      position: absolute;
+      bottom: -50vh;
+    }
+
+    position: absolute;
+    bottom: ~"calc(6vh + 120px)";
+    .tr0;
+
+    /*&.standard{
+      position: relative;
+    }*/
+
+    &.fixed{
+      position: fixed;
+      bottom: 6vh;
+      .tr2;
+    }
+
+  }
+
+  div#animation{
+
+
+    &.fixed{
+      position: absolute;
+      top: 10vh;
+    }
+
+    @media @xs{
+
+      margin-top: -43vh;
+      margin-left: -840px;
+      margin-bottom: -14vh;
+      height: 93vh;
+      padding-bottom: 20vh;
+      .row;
+
+      #Stage{
+        -ms-transform: scale(0.5, 0.5); /* IE 9 */
+        -webkit-transform: scale(0.5, 0.5); /* Safari */
+        transform: scale(0.5, 0.5);
+      }
+    }
+
+    @media @sm{
+      margin-top: -20vh;
+      margin-left: -730px;
+      margin-bottom: -9vh;
+      height: 84vh;
+      .row;
+
+      #Stage{
+        //height: 60vh !important;
+        -ms-transform: scale(0.7, 0.7); /* IE 9 */
+        -webkit-transform: scale(0.7, 0.7); /* Safari */
+        transform: scale(0.7, 0.7);
+      }
+    }
+
+    @media @md{
+      margin-top: 15vh;
+      margin-left: -50%;
+      width: 100%;
+      float: left;
+      margin-bottom: 10px;
+      .row;
+
+      #Stage{
+        height: 80vh !important;
+        -ms-transform: scale(0.7, 0.7); /* IE 9 */
+        -webkit-transform: scale(0.7, 0.7); /* Safari */
+        transform: scale(0.7, 0.7);
+      }
+    }
+
+    @media @lg, @xl, @xxl{
+      width: 80%;
+      margin-left: 30%;
+      height: 80vh;
+      margin-top: -40px;
+    }
+  }
+
+  #Stage{
+    background-color: transparent !important;
+  }
+}
+
+div#animation{
+
+  #stage{
+
+    #Stage_t-hsirt{
+
+      #Stage_t-shirt3:after{
+        display: block;
+        content: 'this is a produc recommendation highlighting your product is something more then a simple static cross sell stuff';
+        background: #4275f4;
+        padding: 10px;
+        max-width: 30vh;
+        font-size: 12px;
+        border-radius: 3px;
+        position: fixed;
+        top: 0;
+        color: white;
+        opacity: 1;
+        .tr2;
+      }
+
+      #Stage_t-shirt3:hover {
+
+        #Stage_t-shirt3:after{
+          opacity: 1;
+        }
+      }
+    }
+
+    #Stage_t-shirt3:after{
+      display: block;
+      content: 'this is a produc recommendation highlighting your product is something more then a simple static cross sell stuff';
+      background: #4275f4;
+      padding: 10px;
+      max-width: 30vh;
+      font-size: 12px;
+      border-radius: 3px;
+      position: fixed;
+      top: 0;
+      color: white;
+      opacity: 1;
+      .tr2;
+    }
+
+    #Stage_t-shirt3:hover {
+
+      #Stage_t-shirt3:after{
+        opacity: 1;
+      }
+    }
+  }
+
+}
+
+#five-points-to-understand{
+
+  ul.steps{
+    text-align: center;
+
+    li:last-child{
+      &:after{
+        display: none;
+      }
+    }
+
+    li{
+      .text('Roboto', 30px, 800, @white);
+      text-align: center;
+      margin-bottom: 5vh;
+      list-style: none;
+
+      &:after{
+        content: '';
+        display: block;
+        background-color: @white;
+        width: 6px;
+        height: 5vh;
+        margin: 0 auto;
+        bottom:5vh;
+        position: relative;
+        top: -16px;
+      }
+
+      span{
+        display: block;
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        border: 6px solid @white;
+        border-radius: 999em;
+        top: -92px;
+        position: relative;
+      }
+    }
+  }
+}
+
+#mobile-breakdown{
+
+  ul.steps{
+    margin: 0 auto;
+
+    @media @xs{max-width: 350px};
+    @media @sm{max-width: 500px};
+    @media @md{max-width: 550px};
+
+    li.row{
+      height: auto;
+      border-left: 1px solid #355098;
+      text-align: left;
+      list-style: none;
+      padding-left: 20px;
+      padding-bottom: 3vh;
+
+      h2{
+        .text('Roboto', 24px, 400, @white);
+        text-align: left;
+        margin: 0;
+
+        &:after{
+          content: '';
+          display: block;
+          border-radius: 999em;
+          width: 7px;
+          height: 7px;
+          background-color: #355098;
+          position: relative;
+          left: -24px;
+          top: -16px;
+        }
+      }
+
+      p{
+        .col;
+        .text('Roboto', 14px, 500, #355098);
+        width: 80%;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+#mobile-illustration{
+  height: 400px;
+  overflow: hidden;
+  width: 120%;
+  margin-left: -10%;
+
+  img{
+    width: 240%;
+    height: 100%;
+    margin-left: -70%;
+  }
+}
+
+
+/* ************************************************************************ */
+/* Animation wrapper */
+
+section#above-the-fold-animation{
+  background: @blueLight;
+  position: relative;
+  z-index: 110;
+
+  #button-wrapper{
+    display: none;
+  }
+
+  @media @xs, @sm, @md{
+    z-index: 10;
+    padding: 110px 0;
+  }
+
+  .text{
+    .col;
+    z-index: 1000;
+
+    @media @xs, @sm, @md{
+      position: relative;
+      width: 100%;
+
+      h1{
+        text-align: center;
+        font-size: 35px;
+      }
+
+      h2{
+        text-align: center;
+        font-size: 30px;
+      }
+
+      a.start-free-trial{
+        margin: 0 auto;
+        display: block;
+        max-width: 200px;
+      }
+    }
+
+    @media @lg{
+      position: absolute;
+      padding: 5vh 0;
+      width: 50%;
+
+      h1{
+        font-size: 45px;
+      }
+      h2{
+        font-size: 30px;
+      }
+    }
+
+    @media @xl {
+      position: absolute;
+      padding: 10vh 0;
+      width: 40%;
+
+      h1{
+        font-size: 40px;
+      }
+      h2{
+        font-size: 30px;
+      }
+    }
+
+    @media @xxl{
+      position: absolute;
+      padding: 8vh 0;
+      width: 50%;
+
+      h1{
+        font-size: 42px;
+        line-height: 40px;
+      }
+      h2{
+        font-size: 30px;
+      }
+    }
+
+
+    h1{
+      //.title('Roboto', 50px, @white);
+      font-family: 'Roboto';
+      color: @white;
+      font-weight: 300;
+      line-height: 50px;
+      margin-bottom: 7vh;
+    }
+
+    h2{
+      //.title('Roboto', 30px, @white);
+      font-family: 'Roboto';
+      color: @white;
+      font-weight: 300;
+      line-height: 35px;
+      margin-bottom: 7vh;
+    }
+  }
+
+  div#animation{
+
+    @media @xs{
+
+      margin-top: -43vh;
+      margin-left: -840px;
+      margin-bottom: -14vh;
+      height: 93vh;
+      padding-bottom: 20vh;
+      .row;
+
+      #Stage{
+        //height: 60vh !important;
+        //width: 100% !important;
+        //height: 100% !important;
+        -ms-transform: scale(0.5, 0.5); /* IE 9 */
+        -webkit-transform: scale(0.5, 0.5); /* Safari */
+        transform: scale(0.5, 0.5);
+      }
+    }
+
+    @media @sm{
+      margin-top: -20vh;
+      margin-left: -730px;
+      margin-bottom: -9vh;
+      height: 84vh;
+      .row;
+
+      #Stage{
+        //height: 60vh !important;
+        -ms-transform: scale(0.7, 0.7); /* IE 9 */
+        -webkit-transform: scale(0.7, 0.7); /* Safari */
+        transform: scale(0.7, 0.7);
+      }
+    }
+
+    @media @md{
+      margin-top: 15vh;
+      margin-left: -50%;
+      width: 100%;
+      float: left;
+      margin-bottom: 10px;
+      .row;
+
+      #Stage{
+        height: 80vh !important;
+        -ms-transform: scale(0.7, 0.7); /* IE 9 */
+        -webkit-transform: scale(0.7, 0.7); /* Safari */
+        transform: scale(0.7, 0.7);
+      }
+    }
+
+    @media @lg, @xl{
+      width: 80%;
+      margin-left: 30%;
+      height: 80vh;
+      margin-top: -40px;
+    }
+
+    @media @xxl{
+      width: 80%;
+      margin-left: 34%;
+      height: 80vh;
+      margin-top: -40px;
+    }
+  }
+
+  #Stage{
+    background-color: transparent !important;
+  }
+}
+
+#mobile-block{
+  background: @blueLight;
+
+  @media @xs, @sm, @md{
+    display: block;
+  }
+
+  @media @lg, @xl, @xxl{
+    display: none;
+  }
+
+  #animation-mobile{
+    width: 80%;
+    margin-left: -20%;
+    height: 80vh;
+    margin-top: 0px;
+
+  }
+}
+
+body.page-feed-campaign,
+body.page-template-page-feed-campaign,
+body.page-prestashop-module-free-trial,
+body.page-ecomexpo-2017-offer,
+body.page-yusp-sme,
+section#sme,
+#dynamic-landing-components
+{
+
+  @media @xs, @sm, @md{
+
+    #landing .event-welcome{
+      background: none;
+      background-color: @footer;
+
+      #mobile.above-the-fold{
+      }
+    }
+  }
+
+  @media @lg, @xl, @xxl {
+  }
+
+  #mobile.above-the-fold{
+    background: url(../img/magento-illustration.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+    background-color: @footer;
+    background-blend-mode: multiply;
+
+    #yusp-line{
+      margin-top: 10vh;
+      margin-bottom: 30px;
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+  .netflix {
+    z-index: 1000;
+    position: relative;
+
+    @media @lg, @xl, @xxl{
+      padding: 60px;
+    }
+
+    .badge-wrapper{
+
+      @media @xs, @sm{
+        position: relative;
+        top: 2vh;
+        //margin-top: 10vh;
+        //margin-top: -40px;
+      }
+
+      @media @xs, @sm, @md{
+        margin: 0 auto;
+        float: none;
+      }
+    }
+
+    img {
+      height: 260px;
+      width: auto;
+      margin: 0 auto;
+    }
+
+    h2 {
+      .text('Roboto', 40px, 800, fade(@blueLight, 100%));
+    }
+
+    p {
+      .text('Roboto', 18px, 400, @gray4);
+      line-height: 30px;
+    }
+
+    @media @xs, @sm, @md {
+
+      .badge-wrapper {
+        text-align: center;
+      }
+
+      img {
+
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+    }
+  }
+
+  /*
+  #feature-breakdown{
+
+    .pb-box .pb-count{
+      background: @magento;
+    }
+
+    .mobile-link{
+
+      &:after{
+        top: 56px;
+      }
+
+      span{
+        .title('AvantgardeBold', 18px, @blueNew);
+        position: relative;
+        left: 100%;
+        margin-left: -11px;
+        top: -29px;
+      }
+    }
+
+    .pb-wrapper{
+
+      img.products-illustrations{
+
+        @media @xs, @sm, @md{
+          padding: 0;
+          margin: 40px 0;
+        }
+      }
+    }
+  }
+  */
+
+  #contact-details{
+
+    @media @lg, @xl, @xxl{
+      display: none;
+    }
+
+    padding: 2vh;
+    border: 5px solid @blueLight;
+    background: @bg;
+
+    h2{
+      .text('Roboto', 20px, 800, fade(@footer, 60%));
+      text-align: center;
+    }
+
+    .contact-wrapper{
+
+      .contact-mail{
+        text-align: center;
+
+        h3{
+          .text('Roboto', 18px, 400, fade(@footer, 60%));
+          padding-top: 21px;
+
+          a{
+            border-bottom: 2px solid fade(@blueLight, 0%);
+          }
+          a:hover{
+            color: @blueLight;
+            border-bottom: 2px solid fade(@blueLight, 40%);
+          }
+        }
+      }
+
+      .skype{
+        text-align: center;
+
+        h3{
+          .text('Roboto', 18px, 400, fade(@footer, 60%));
+          padding-top: 21px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+
+
+  #numbers{
+    border-top: 2px solid fade(@footer, 8%);
+
+    h2{
+      font-weight: 400;
+      color: @blueLight;
+    }
+
+    h3{
+      padding: 20px 0;
+    }
+
+    .examples{
+
+      p{
+        padding: 0 20px 0 0;
+      }
+    }
+  }
+
+  #landing.expo {
+
+    section.event-welcome {
+      background-color: @footer;
+    }
+  }
+
+  .event-landing{
+    img.arukereso-logo{
+      max-width: 250px;
+      position: absolute;
+      left: 0;
+      bottom: -110px;
+    }
+  }
+
+  #key-clients{
+    border-bottom: 2px solid fade(@footer, 8%);
+
+    .client-logo{
+
+      a{
+        cursor: default;
+
+        img{
+          @media @xxl{padding: 20px 15%;}
+          @media @xl {padding: 20px 15%;}
+          @media @lg {padding: 20px 10%;}
+          @media @md {padding: 20px 30%;}
+          @media @sm {padding: 20px 25%;}
+          @media @xs {padding: 20px 20%;}
+        }
+      }
+    }
+  }
+
+  .install {
+
+
+    h2{
+      .text('Roboto', 40px, 800, fade(@blueLight, 100%));
+      text-align: center;
+      margin-top: 10vh;
+      padding-bottom: 30px;
+    }
+
+    .start-now{
+      width: 100% / 5;
+
+      i.MatIcons{
+        color: @blueLight;
+        font-size: 60px;
+      }
+    }
+
+
+    .MatIcons{
+      color: fade(black, 60%);
+      font-size: 26px;
+    }
+
+    .install-icon{
+      text-align: center;
+    }
+  }
+
+  .start-free-trial{
+
+    @media @md, @sm, @xs { text-align: center; }
+
+    h2{
+      //margin-left: 80px;
+      @media @md, @sm, @xs { margin-left: 0px; }
+    }
+  }
+
+
+  #campaign-call-to-action{
+    background: url(../img/rocket.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+
+    //background-blend-mode: multiply;
+
+    @media @xs, @sm, @md{
+      height: auto;
+      background-position-x: -10vh;
+      padding-bottom: 40px;
+      background: @greenNew;
+    }
+
+    @media @xxl, @xl, @lg {
+      height: 70vh;
+      min-height: 560px;
+      background-position-x: 50vh;
+    }
+
+    .cat-button-holder{
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 14vh;
+
+      @media @lg, @xl, @xxl{
+        padding: 10vh 0;
+        width: 70%;
+      }
+
+      @media @xs, @sm, @md{
+        padding: auto;
+        width: 100%;
+      }
+
+      img.arukereso-logo{
+        min-width: 320px;
+        height: auto;
+      }
+
+      a.probalja-ki-ingyen{
+        padding: 17px 30px;
+        font-size: 20px;
+        background: @footer;
+        color: @white;
+        font-family: 'Roboto';
+        font-weight: 800;
+
+        &:hover{
+          background: @white;
+          color: @footer;
+        }
+      }
+      p.kezdje-el{
+        .text('Roboto', 30px, 800, @footer);
+        text-align: center;
+        display: inline-block;
+      }
+    }
+  }
+
+  #footer-wrapper{
+    margin-top: -30px;
+  }
+}
+
+body.page-prestashop-module-free-trial{
+  section#numbers{
+    .examples{
+      h2{
+        color: @blueLight;
+      }
+    }
+  }
+}
+
+

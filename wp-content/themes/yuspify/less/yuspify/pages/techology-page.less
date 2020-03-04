@@ -1,0 +1,287 @@
+@import (reference) "../../proto";
+
+
+/*
+#menu-general-menu{
+
+  .sub-menu{
+    display: block;
+    float: left;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    .fluid-container;
+
+    li{
+      .col;
+      width: 200px;
+    }
+  }
+}
+*/
+
+#technology-menu{
+  padding: 10px 0;
+  .tr(0.7s);
+  .gradient-ye-dark;
+
+    &.scrolled{
+      .translateY(-200px);
+		
+	}
+
+	&.ontop{
+      .translateY(0px);
+      position:fixed;
+      box-shadow: 0 0 10px rgba(50, 80, 39, 0.6);
+      padding: 18px 0;
+    }
+
+  ul{
+
+    li{
+      line-height: 0;
+
+      a {
+        color: @ye-bg-3;
+        border-bottom: 2px solid transparent;
+        .tr2;
+      }
+
+      a:hover {
+        color: @white;
+        //border-bottom: 2px solid @white;
+        .tr2;
+      }
+    }
+    li.current-menu-item{
+      a{
+        color: @white;
+      }
+    }
+  }
+}
+
+section#why-us{
+
+  .fluid-container{
+    @media @xs{padding: 0 10px;}
+    @media @sm{padding: 0 20px;}
+    @media @md{padding: 0 20px;}
+    @media @lg{padding: 0 10px;}
+
+    @media @xs, @sm, @md, @lg{
+      box-sizing: border-box;
+    }
+  }
+
+  section{
+    border-bottom: 2px solid #ececec;
+    padding: 30px 0;
+
+    h2.title{
+      padding: 10px 0;
+      .text('AvantgardeBold', 24px, 800, @ye-1);
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+section#the-team{
+  margin-top: 70px;
+
+  h2{
+    .text('AvantgardeBold', 42px, 800, @ye-bg-3);
+    margin-bottom: 8px;
+  }
+
+  p{
+    padding-top: 20px;
+    .text('Roboto', 17px, 400, #999);
+    line-height: 25px;
+  }
+
+  img.badge{
+    float: right;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media @xs, @sm, @md{
+    padding: 30px 20px;
+
+    h2{
+      text-align: center;
+      font-size: 30px;
+    }
+
+    p{
+      text-align: center;
+    }
+
+    img.badge{
+      width: 50%;
+      float: none;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+section#in-the-press{
+  background: @white;
+}
+
+section#awards{}
+
+ul.grid-listing{
+
+  li.list-element{
+    padding: 60px 0;
+
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+
+    h3{
+      text-align: center;
+      color: @ye-1;
+      font-weight: 600;
+    }
+
+    p{
+      .text('Roboto', 17px, 400, @gray3);
+      line-height: 25px;
+      text-align: center;
+    }
+
+    a{
+      color: @ye-1;
+      font-weight: 600;
+    }
+
+    @media @md{
+      padding: 30px 10vw;
+      height: 310px;
+    }
+  }
+
+  .list-element{
+
+    .text-wrapper{
+
+    }
+
+  }
+
+
+}
+
+section#patents{
+  .section;
+
+  ul#patents{
+    .unit-listing;
+  }
+
+  h2.general-title{
+    margin-bottom: 20px;
+  }
+
+}
+
+section#publications{
+  .section;
+
+  ul#publications{
+    .unit-listing;
+  }
+
+  h2.general-title{
+    margin-bottom: 20px;
+  }
+}
+
+
+
+.unit-listing{
+
+  li.unit-row{
+
+    background: @white;
+    padding: 26px 31px 30px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15);
+    border-left: 4px solid @ye-0;
+    margin-bottom: 0;
+    margin-bottom: 16px;
+
+    a{
+      display: inline-block;
+      .text('Roboto', 17px, 600, @ye-1);
+      border-bottom: none;
+    }
+
+    h2{
+      display: inline-block;
+      .text('Roboto', 17px, 400, @gray3);
+      line-height: 25px;
+      padding-left: 10px;
+    }
+
+    .free-text{
+
+      p{
+        .text('Roboto', 17px, 400, @gray3);
+        color: @gray3;
+      }
+    }
+  }
+}
+
+#simple-text{
+
+  li{
+    .section;
+
+    h2{
+      .text('AvantgardeBold', 42px, 800, @ye-bg-3);
+      margin-bottom: 8px;
+    }
+
+    p{
+      padding-top: 20px;
+      .text('Roboto', 17px, 400, #999);
+      line-height: 25px;
+    }
+
+    img.badge{
+      float: right;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media @xs, @sm, @md{
+      padding: 30px 20px;
+
+      h2{
+        text-align: center;
+        font-size: 30px;
+      }
+
+      p{
+        text-align: center;
+      }
+
+      img.badge{
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+
+}

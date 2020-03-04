@@ -1,0 +1,753 @@
+@import (reference) "../../../proto";
+
+/* Woocommerce landing */
+
+@woc: #9C5D90;
+@woc-bg: #e6e6e6;
+
+.page-woocommerce-plugin-features{
+
+  ul#fomenu{
+
+    li.menu-item a{
+      color: @blue;
+    }
+  }
+}
+
+
+.start-point{
+  .center-container(100%, 900px, 1100px, 1100px);
+
+  @media @xs, @sm, @md {display: none;}
+  @media @lg, @xl, @xxl{display: block;}
+
+  i.MatIcons{
+    position: relative;
+    font-size: 29px;
+    padding: 8px;
+    border-radius: 50%;
+    box-sizing: content-box;
+  }
+
+  .click{
+    top: 55px;
+    left: 90px;
+    color: white;
+    background: #b5b5b5;
+  }
+  .cart{
+    float: right;
+    margin-right: 40px;
+    background: @greenNew;
+    color: fade(@blue, 60%);
+    top: 53px;
+    left: -48px;
+
+    &:after{
+      display: block;
+      content: '';
+      height: 2px;
+      width: 18px;
+      background-color: #bbbcbd;
+      margin-top: 12px;
+      margin-left: -26px;
+      top: -25px;
+      position: relative;
+    }
+  }
+}
+
+#plugin-features{
+  background: @woc-bg;
+
+  .flickity-page-dots{
+    position: relative;
+    padding: 10px 0;
+    height: auto;
+
+    @media @xs, @sm, @md {display: none;}
+    @media @lg, @xl, @xxl{display: block; top: -940px;}
+
+    li.dot{
+      display: inline-block;
+      height: 30px;
+      margin: 0 8px;
+      background: transparent;
+      cursor: pointer;
+      position: relative;
+      top: 22px;
+      border: 2px solid #bbbcbd;
+      border-radius: 6px;
+      color: @gray4;
+      opacity: 1;
+      .tr2;
+
+      @media @lg{min-width: 130px;}
+      @media @xl{min-width: 180px;}
+      @media @xxl{min-width: 180px;}
+    }
+
+    li.is-selected{
+      border: 2px solid @blueNew;
+      background: @blueNew;
+      color: @white;
+      opacity: 1;
+    }
+    li.dot:before{
+      display: block;
+      content: '';
+      height: 2px;
+      width: 16px;
+      background-color: #bbbcbd;
+      margin-top: 12px;
+      position: absolute;
+      margin-left: -18px;
+    }
+
+    li.dot:after{
+      position: relative;
+      top: 5px;
+      font-family: 'AvantgardeBold';
+      text-transform: uppercase;
+      font-size: 14px;
+      visibility: visible;
+    }
+    li.dot-1:after{
+      content: "Homepage";
+    }
+    li.dot-2:after{
+      content: "Category page";
+    }
+    li.dot-3:after{
+      content: "Procuct Page";
+    }
+    li.dot-4:after{
+      content: "Cart";
+    }
+  }
+
+  ul.testimonial-carousel {
+    z-index: 10;
+    list-style: none;
+    margin-bottom: 50px;
+
+    @media @xs, @sm, @md {height: auto;}
+    @media @lg  {height: 820px; margin-top: 177px;}
+    @media @xl  {height: 820px; margin-top: 100px;}
+    @media @xxl {height: 820px; margin-top: 100px;}
+
+    .client-logo{
+      max-width: 100%;
+      height: auto;
+
+      @media @md, @sm, @xs{margin: 0 auto; display: block; width: 60%;}
+    }
+
+    li.carousel-cell.is-selected {
+      opacity: 1;
+
+      -webkit-filter: grayscale(0%);
+      -moz-filter:    grayscale(0%);
+      -ms-filter:     grayscale(0%);
+      -o-filter:      grayscale(0%);
+      filter: gray;
+
+      @media @xs  {padding: 0;}
+      @media @sm  {padding: 10px;}
+      @media @md  {padding: 20px;}
+      @media @lg  {padding: 0 80px;}
+      @media @xl  {padding: 0 100px;}
+      @media @xxl {padding: 0 120px;}
+    }
+
+    li.carousel-cell {
+      .center-container(100%, 900px, 1100px, 1100px);
+      list-style: none;
+      margin-left: auto;
+      margin-right: auto;
+
+      margin-right: 50px;
+      opacity: 0.10;
+      //background: @bg2;
+
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      -ms-transition-property: opacity;
+      transition-property: opacity;
+
+      -webkit-transition-duration: 1s;
+      -moz-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      -ms-transition-duration: 1s;
+      transition-duration: 1s;
+
+      -webkit-filter: grayscale(100%);
+      -moz-filter:    grayscale(100%);
+      -ms-filter:     grayscale(100%);
+      -o-filter:      grayscale(100%);
+      filter: gray;
+
+      h2.text{
+        @media @xs, @sm, @md{text-align: center;}
+      }
+
+      h2.metrics-big{
+        .text('AvantgardeBold', 50px, 800, @blueLight);
+
+        span{
+          .text('Roboto', 16px, 400, @blueLight);
+          float: left;
+          //@media @xs, @sm, @md{text-align: center;}
+        }
+      }
+    }
+  }
+}
+
+.above-the-fold{
+  height: 75vh;
+  background: @woc-bg;
+  margin-bottom: -100px;
+
+  @media @xs, @sm, @md {display: block;}
+  @media @lg, @xl, @xxl{display: none;}
+
+  .main-content{
+    .center-container(100%, 400px, 500px, 600px);
+    text-align: center;
+
+    h1{
+      font-family: 'AvantgardeBold';
+      color: @blueLight;
+      text-align: center;
+    }
+
+    h2{
+      .text('Roboto', 20px, 300, @blueNew);
+      text-align: center;
+    }
+    a.free-trial-button{
+      display: inline-block;
+      outline: none;
+    }
+  }
+
+  .woc-logo{
+    margin: 0 auto;
+    max-width: 450px;
+    min-width: 180px;
+    height: auto;
+    display: block;
+    padding-top: 6vh;
+
+    @media @xs{width: 80%;}
+
+  }
+}
+
+#why-start{
+
+  .install-wrapper{
+    //height: 60vh;
+    min-height: 560px;
+    background: @bg2;
+
+    .install{
+      .center-container(50%, 50%px, 60%, 50%);
+
+      p.simple-text {
+        font-family: 'Roboto';
+        font-weight: 300;
+        color: #868686;
+        font-size: 16px;
+        line-height: 30px;
+      }
+      p.text{
+        @media @md, @sm, @xs{
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+#plugin-pricing{
+
+
+
+
+}
+
+
+#installation{
+  background: @bg;
+}
+
+/*** ### Parntner Landing body cases ### ***/
+
+body.single-plugins, body.page-template-woocommerce-plugin {
+  background: @woc-bg;
+
+  .breadcrumbsWrapper{
+    display: none;
+  }
+
+  #content{
+    z-index: 1;
+    position: relative;
+    margin-top: 0;
+  }
+
+  #header{
+    background: none;
+    height: 100px;
+
+    .top-navi{
+      display: none;
+    }
+
+    #nav-icon span{
+      background: @woc;
+    }
+
+    #mainMenu{
+
+      .logo{
+        display: none;
+      }
+
+      a.free-trial-button{
+        display: none;
+      }
+
+      .menu-wrapper{
+        //margin-top: 140px;
+      }
+
+      #nav-icon{
+        //margin-top: 140px;
+        span{
+          background: @woc;
+        }
+      }
+
+      #fomenu{
+        //margin-top: 160px;
+        //margin-right: 140px;
+        z-index: 100;
+
+        li.menu-item{
+          a{
+            color: @gray4;
+          }
+        }
+      }
+    }
+  }
+
+  section.welcome {
+    display: none;
+  }
+}
+
+.flip-button{
+  z-index: 110;
+
+  .default-state{
+    background: @greenNew;
+
+    span{
+      .text('AvantgardeBold', 16px, 400, fade(@footer, 60%));
+      margin-left: -22px;
+    }
+
+    i.MatIcons{
+      font-size: 20px;
+      padding-left: 20px;
+      color: @footer;
+    }
+
+    &:after{
+      display: block;
+      content: '';
+      visibility: visible;
+      height: 60px;
+      width: 1px;
+      background-color: fade(@blue, 40%);
+      position: absolute;
+      top: 0;
+      right: 54px;
+    }
+  }
+
+  .active-state{
+    background: @green;
+
+    span{
+      .text('AvantgardeBold', 16px, 400, fade(@footer, 60%));
+    }
+
+    i.MatIcons{
+      font-size: 20px;
+      padding-left: 50px;
+      color: @footer;
+    }
+
+    &:after{
+      display: block;
+      content: '';
+      visibility: visible;
+      height: 60px;
+      width: 1px;
+      background-color: fade(@blue, 40%);
+      position: absolute;
+      top: 0;
+      right: 54px;
+    }
+  }
+}
+
+/*** PARTNER MENU ***/
+
+section#woc-landing-menu{
+  height: 110px;
+  background: @woc-bg;
+  border-bottom: 1px solid @blueNew;
+  position: fixed;
+  top: -110px;
+  z-index: 100;
+  box-shadow: 0 0 10px fade(@footer, 15%);
+  width: 100%;
+  .tr2;
+
+  a.logo {
+    display: block;
+    z-index: 1000;
+    height: auto;
+
+    .yusp-logo{
+      display: block;
+
+      img{
+        height: 90px;
+        padding-top: 10px;
+        .col;
+      }
+      p{
+        font-family: avantgardeBold;
+        color: white;
+        font-size: 28px;
+        .col;
+      }
+    }
+  }
+
+  .flip-button{
+    float: right;
+    top: 20px;
+    margin-top: 23px;
+    margin-right: 23px;
+  }
+}
+
+/*  TABLET & DESKTOP */
+@media @md, @lg, @xl, @xxl{
+  section#yusp-partner-menu {
+    display: block;
+  }
+}
+
+/*  MOBILE  */
+@media @xs, @sm{
+  section#yusp-partner-menu {
+    display: none;
+  }
+}
+
+section.plugin-above-the-fold{
+  padding: 20px 20px 70px 20px;
+  background: @woc-bg;
+  z-index: 100;
+  position: relative;
+  margin-top: -16px;
+  margin-bottom: -45px;
+  //.center-container(100%, 1100px, 90%px, 80%);
+
+  a.logo{
+    display: block;
+    z-index: 1000;
+    height: auto;
+
+    .yusp-logo-partners{
+      margin-top: -100px;
+
+      p{
+        font-family: avantgardeBold;
+        color: @gray4;
+        font-size: 28px;
+      }
+
+      img{
+        padding: 10px 0;
+        height: 110px;
+      }
+    }
+  }
+
+  div.partner-landing-wrapper{
+    padding: 40px 0;
+    box-shadow: 0 0 80px rgba(0,0,0,0.7);
+    background-image: url('@{root}/img/woocommerce-landing-above-the-fold-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media @xs  {display: none}
+    @media @sm  {display: none}
+    @media @md  {display: block}
+    @media @lg  {background-position-y: 0px;}
+    @media @xl  {background-position-y: -30px;}
+    @media @xxl {background-position-y: -110px;}
+
+    h1{
+      @media @xs {font-size: 26px; text-align: center;}
+      @media @sm {font-size: 32px; text-align: center;}
+      @media @lg {font-size: 31px;}
+      @media @xl {font-size: 38px;}
+      @media @xxl {font-size: 45px;}
+
+      font-family: 'Roboto';
+      color: @white;
+      font-weight: 300;
+      line-height: 48px;
+      margin-top: 10vh;
+      text-align: left;
+      .col;
+
+      @media @md, @lg, @xl, @xxl{
+        &:after{
+          content: '';
+          display: block;
+          width: 5px;
+          height: 102px;
+          background: #2ce5b5;
+          visibility: visible;
+          position: absolute;
+          left: -20px;
+          top: 6px;
+        }
+      }
+    }
+
+    h2{
+      @media @xs  {font-size: 18px; text-align: center; padding-bottom: 20px;}
+      @media @sm  {font-size: 20px; text-align: center; padding-bottom: 20px;}
+      @media @md  {font-size: 20px; padding-bottom: 20px;}
+      @media @lg  {font-size: 18px; line-height: 26px;}
+      @media @xl  {font-size: 20px; line-height: 30px;}
+      @media @xxl {font-size: 22px; line-height: 36px;}
+
+      font-family: 'Roboto';
+      color: @white;
+      font-weight: 300;
+      //line-height: 37px;
+      .col;
+    }
+
+    a.free-trial-button{
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      background: @white;
+      color: fade(@blue, 60%);
+
+      @media @xs {display: table}
+      @media @sm {display: table}
+      @media @md {display: inline-block}
+      @media @lg {display: inline-block}
+      @media @xl {display: inline-block}
+      @media @xxl {display: inline-block}
+
+      &:hover{
+        background: @greenNew;
+      }
+    }
+
+    .woc-illustration{
+      height: auto;
+
+      @media @xs {display: none}
+      @media @sm {display: none}
+      @media @md {display: block}
+      @media @lg {display: block}
+      @media @xl {display: block}
+      @media @xxl {display: block}
+
+      img{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 65px rgba(0,0,0,0.55);
+      }
+    }
+  }
+
+  .flip-button{
+    @media @lg, @xl, @xxl {
+      position: absolute;
+      right: 2px;
+      top: -80px;
+    }
+
+    @media @xs, @sm, @md {
+      position: absolute;
+      top: -80px;
+      left: 0;
+    }
+
+    &:after{
+      .clear;
+    }
+  }
+}
+
+section#yusp-partner-menu.active{
+  top: 0;
+}
+
+/**** PRODUCT BREAKDOWN ******/
+
+@lb: 1px solid @blueNew;
+
+.before{
+  content: '';
+  display: block;
+  width: 9px;
+  height: 9px;
+  background: #3b66d3;
+  border-radius: 20px;
+  position: relative;
+  right: 5px;
+}
+
+.after{
+  content: '';
+  display: block;
+  width: 9px;
+  height: 9px;
+  background: #3b66d3;
+  border-radius: 20px;
+  position: relative;
+  visibility: visible;
+  text-align: right;
+  float: right;
+  z-index: 1;
+  left: 4px;
+}
+
+
+.install-breakdown {
+  background: @bg;
+
+  .install-row{
+    z-index: 100;
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .link {
+    display: block;
+    background: none;
+    width: 50%;
+    border-right: 1px solid fade(@grey2, 35%);
+    content: '';
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+
+    span{
+      position: relative;
+      left: 100%;
+      margin-left: -12px;
+      top: -34px;
+      .text('AvantgardeBold', 20px, 400, @blueNew);
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      width: 42px;
+      height: 42px;
+      border: 1px solid fade(@grey2, 35%);
+      border-radius: 30px;
+      float: right;
+      position: relative;
+      right: -22px;
+      top: -44px;
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 100px;
+      margin: 0 auto;
+      height: 1px;
+      background-color: fade(@grey2, 35%);
+      position: relative;
+      right: -50%;
+      top: 54px;
+    }
+  }
+
+  .inst-wrapper{
+    .center-container(100%, 600px, 700px, 800px);
+
+    .install-box{
+      padding-bottom: 20px;
+
+      h2{
+        font-family: 'Roboto';
+        color: @blueNew;
+        text-align: center;
+        line-height: normal;
+        font-weight: 400;
+        @media @xs  {font-size: 18px;}
+        @media @sm  {font-size: 20px;}
+        @media @md  {font-size: 20px;}
+        @media @lg  {font-size: 18px;}
+        @media @xl  {font-size: 20px;}
+        @media @xxl {font-size: 22px;}
+      }
+
+      p{
+        font-size: 18px;
+        font-family: 'Roboto';
+        color: @gray4;
+        text-align: center;
+        line-height: normal;
+        font-weight: 300;
+      }
+
+      .install-illustration{
+        .center-container(100%, 100%, 100%, 100%);
+        height: auto;
+        padding: 0 !important;
+        box-shadow: 0 0 50px rgba(0,0,0,0.45);
+      }
+    }
+  }
+}
+
+#woocommerce-breakdown.install-breakdown{
+
+  .link span{
+    color: @woc;
+  }
+  .inst-wrapper .install-box h2 {
+    color: @woc;
+  }
+  .install-illustration.yusp-connection{
+    box-shadow: none;
+    width: 60%;
+  }
+}
+

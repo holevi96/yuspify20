@@ -1,0 +1,91 @@
+@import(reference) "../proto";
+@import(reference) "../yfy-basic-components";
+@import(reference) "yfy-design-patterns";
+
+.rsp-paddding{
+  box-sizing: border-box;
+  //margin: 0 auto;
+
+  /*
+  @media @xs{width: ~'calc(100% - (2*10px))';}
+  @media @sm{width: 92%;}
+  @media @md{width: 92%;}
+  @media @lg{width: 92%;}
+  @media @xl{width: 80%;}
+  @media @xxl{width: 70%;}
+  */
+
+  /*
+  @media @xs{left: 10px; right: 10px;}
+  @media @sm{left: 4%; right: 4%;}
+  @media @md{left: 4%; right: 4%;}
+  @media @lg{left: 4%; right: 4%;}
+  @media @xl{left: 10%; right: 10%;}
+  @media @xxl{left: 15%; right: 15%;}
+  */
+
+
+  @media @xs{padding-left: 10px; padding-right: 10px;}
+  @media @sm{padding-left: 4%; padding-right: 4%;}
+  @media @md{padding-left: 4%; padding-right: 4%;}
+  @media @lg{padding-left: 4%; padding-right: 4%;}
+  @media @xl{padding-left: 10%; padding-right: 10%;}
+  @media @xxl{padding-left: 15%; padding-right: 15%;}
+
+}
+
+.yfy-container{
+  .rsp-paddding;
+}
+
+
+.rsp-listing(@desktop-col, @medium-col, @small-col){
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media @xs, @sm{
+    //flex-direction: column;
+  }
+
+  li{
+    box-sizing: border-box;
+
+    @media @xxl, @xl, @lg{
+      flex-basis: calc(~'100% / @{desktop-col}');
+    }
+
+    @media @md{
+      flex-basis: calc(~'100% / @{medium-col}');
+    }
+
+    @media @sm, @xs{
+      flex-basis: calc(~'100% / @{small-col}');
+    }
+  }
+}
+
+.design-box{
+  background-color: white;
+  border-radius: 6px;
+  .drop-shadow-blue;
+
+  @media @xs, @sm{
+    padding: 0rem;
+  }
+
+  @media @md, @lg{
+    padding: 2rem;
+  }
+
+  @media @xl, @xxl{
+    padding: 5rem;
+  }
+}
+
+
+
+/* BUTTONS */
+
+
+

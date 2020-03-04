@@ -1,0 +1,427 @@
+@import (reference) "../../proto";
+
+/* HOW IT WORKS AREA */
+#how-it-works{
+  background: @bg;
+  margin-top: -20px;
+  padding-bottom: 70px;
+
+  ul.tabs{
+    text-align: center;
+    border-bottom: 2px solid fade(@gray2, 50%);
+    z-index: 1500;
+    position: relative;
+
+    .tab{
+      background: @white;
+      color: fade(@footer, 60%);
+      .tr2;
+
+      @media @sm, @xs{
+        width: 100%;
+        .col;
+      }
+
+      &.current{
+        background: @blueLight;
+        color: @white;
+      }
+      &:hover{
+        background: @greenNew;
+        color: fade(@footer, 60%);
+      }
+    }
+  }
+
+  .help-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 99em;
+
+    background: @footer;
+    text-align: center;
+    z-index: 10;
+    cursor: pointer;
+    z-index: 1000000;
+
+    position: absolute;
+    //top: 110px;
+    left: -40px;
+    .tr2;
+
+    p{
+      .text('Roboto', 30px, 800, @greenNew);
+      line-height: 0;
+      margin-top: 30px;
+    }
+
+    &:hover{
+      background: @greenNew;
+
+      & p{
+        color: fade(@footer, 60%);
+      }
+    }
+
+    &.fixed{
+      position: fixed;
+      z-index: 1000000;
+    }
+
+    &.selected{
+      background: @greenNew;
+
+      p{
+        color: @footer;
+      }
+    }
+
+    @media @xs, @sm, @md{
+      display: none;
+    }
+  }
+
+  .hider{
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: fade(@footer, 80%);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -10;
+    .tr(0.4s);
+
+    &.selected{
+      display: block;
+      opacity: 1;
+      z-index: 10000;
+    }
+  }
+
+  .image-wrapper{
+  }
+
+  #item-page, #cart-page, #home-page, #catergory-page{
+    .center-container(100%, 900px, 1000px, 1100px);
+    margin: 0 auto;
+    position: relative;
+
+    h3{
+      .text('Roboto', 30px, 800, fade(@footer, 60%));
+
+      @media @lg, @xl, @xxl{
+        padding: 0 97px;
+      }
+
+      @media @xs, @sm, @md{
+        padding: 0;
+        text-align: center;
+      }
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+
+    ul.reco-row{
+      .col;
+
+      width: 100%;
+      padding: 0 10%;
+      margin: 0 auto;
+      position: relative;
+      .tr2;
+
+      .tooltip{
+        width: 80%;
+        background: @white;
+        padding: 20px;
+        position: absolute;
+        box-shadow: 0 0 20px 0 fade(@footer, 50%);
+        opacity: 0;
+        margin-top: 60px;
+
+        @media @lg, @xl, @xxl{
+          top: 240px;
+        }
+
+        &.selected{
+          opacity: 1;
+        }
+
+        h4{
+          .text('Roboto', 20px, 800, @footer);
+        }
+
+        p{
+          .text('Roboto', 18px, 400, fade(@footer, 60%));
+        }
+
+        &:after{
+          content:'';
+          display: block;
+          background: @white;
+          transform: rotate(45deg);
+          width: 40px;
+          height: 40px;
+
+          position: absolute;
+          left: 30px;
+          top: 0;
+        }
+      }
+
+      .recommended-for-you{
+        width: ~'calc(100% - 32px)';
+        margin-left: 5px;
+
+        padding: 10px;
+        background: @white;
+        color: fade(@footer, 60%);
+        font-weight: 700;
+        .tr2;
+      }
+
+      li.product{
+        margin-top: 10px;
+        list-style: none;
+        .tr2;
+        .col;
+
+        @media @xs {width: 50%;}
+        @media @sm {width: 50%;}
+        @media @md {width: 50%;}
+        @media @lg {width: 25%;}
+        @media @xl {width: 25%;}
+        @media @xxl{width: 25%;}
+
+        @media @xs, @sm, @md{
+          margin-bottom: 25px;
+        }
+
+        .product-wrapper{
+          border: 1px solid @white;
+          box-shadow: 0 0 0px 0 fade(@footer, 66%);
+          margin: 0 7px;
+          .col;
+          .tr2;
+
+          .image{
+            height: auto;
+            width: 100%;
+            background: @white;
+            padding: 15px 0;
+
+            img{
+              width: 100%;
+              height: auto;
+              //.desaturate;
+            }
+
+            i.MatIcons{
+              font-size: 60px;
+              color: fade(@footer, 30%);
+              text-align: center;
+              display: block;
+              margin: 0 auto;
+              line-height: 80px;
+            }
+          }
+
+          .content{
+            padding: 10px;
+
+            h2{
+              .text('Roboto', 18px, 400, @blueLight);
+              .tr2;
+            }
+
+            p{
+              .text('Roboto', 14px, 400, @blueLight);
+              .tr2;
+            }
+          }
+        }
+      }
+    }
+
+    ul.reco-row.selected{
+      z-index: 11000;
+
+      .recommended-for-you{
+        background: @greenNew;
+        color: fade(@footer, 60%);
+        box-shadow: 0 0 40px 0 fade(@footer, 66%);
+      }
+
+      li.product{
+
+        .product-wrapper{
+          border-color: @greenNew;
+          box-shadow: 0 0 40px 0 fade(@footer, 66%);
+
+          .image{
+            background: @greenNew;
+
+            img{
+              .saturate;
+            }
+          }
+
+          .content{
+            h2{
+              color: @greenNew;
+            }
+            p{
+              color: @greenNew;
+            }
+          }
+        }
+      }
+    }
+
+    .the-prodcuct{
+      height: 30vh;
+
+      .image{
+        background: @gray2;
+        width: 100%;
+        height: 30vh;
+      }
+    }
+
+    .product-boxes-wrapper{
+      width: 24%;
+      margin-right: 1%;
+      float: left;
+      background: #e2e2e2;
+      margin-top: 3px;
+
+      box-shadow: transparent 2px 2px 0 0;
+      -webkit-box-shadow: transparent 2px 2px 0 0;
+      -moz-box-shadow: transparent 2px 2px 0 0;
+
+      -webkit-transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+      transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+
+      .product-box{
+        padding: 10px;
+
+        .image{
+          background: @gray2;
+          width: 108%;
+          height: 20vh;
+          margin: -10px -10px 0px -10px;
+        }
+      }
+    }
+    .product-boxes-wrapper.highlighted, .product-boxes-wrapper:hover{
+      margin-top: 0px;
+
+      box-shadow: fade(@footer, 35%) 2px 2px 16px 0;
+      -webkit-box-shadow: fade(@footer, 35%) 2px 2px 16px 0;
+      -moz-box-shadow: fade(@footer, 35%) 2px 2px 16px 0;
+    }
+  }
+
+  #cart-page{
+    .center-container(100%, 900px, 1000px, 1100px);
+
+    .cart-products{
+      margin-bottom: 15px;
+      border-bottom: 1px solid @gray4;
+      padding: 10px 0;
+      height: 80px;
+
+      .col-lg-1{
+        .image{
+          background: @gray2;
+          width: 100%;
+          height: 50px;
+        }
+      }
+    }
+
+    .summary{}
+
+    .cart-recommendation{
+      .recommended{
+        .image{
+          background: @gray2;
+          width: 100%;
+          height: 20vh;
+        }
+      }
+    }
+  }
+
+  #download-white-paper{
+    .center-container(100%, 900px, 900px, 900px);
+    padding: 20px 0;
+    margin-bottom: -60px;
+
+    .white-paper-cover{
+
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .white-paper-synopsis{
+
+      h2{
+        .text('Roboto', 24px, 400, @blueLight);
+      }
+      p{
+        .text('Roboto', 18px, 400, @gray4);
+      }
+
+    }
+  }
+
+  #sing-up-form{
+    position: relative;
+    z-index: 1000;
+    padding: 60px 0 30px 0;
+
+    .test-form{
+      .center-container(100%, 600px, 600px, 600px);
+      padding: 20px;
+      background: @white;
+      box-shadow: 0 0 10px fade(@footer, 15px);
+
+      .download-button{
+        border: 1px solid @gray2;
+        padding: 5px;
+
+        .newsletter-form.button{
+          background: @blueLight;
+          color: @white;
+        }
+
+        i.MatIcons{
+          font-size: 18px;
+
+        }
+      }
+    }
+  }
+
+  .start-free-trial{
+    z-index: 1000;
+    position: relative;
+    background: @greenNew;
+
+    &:hover{
+      background: @footer;
+      color: @greenNew;
+      box-shadow: 0 0 25px fade(@footer, 40%);
+    }
+  }
+}

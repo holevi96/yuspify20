@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantgardeBold', AvantgardeBold, serif;
+    src: url('ITCAvantGardePro-Bold.eot');
+    src: local('☺'),
+    url('ITCAvantGardePro-Bold.woff') format('woff'),
+    url('ITCAvantGardePro-Bold.ttf') format('truetype'),
+    url('ITCAvantGardePro-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantgardeThin', AvantgardeThin, serif;
+    src: url('ITCAvantGardePro-XLt.eot');
+    src: local('☺'),
+    url('ITCAvantGardePro-XLt.woff') format('woff'),
+    url('ITCAvantGardePro-XLt.ttf') format('truetype'),
+    url('ITCAvantGardePro-XLt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantgardeBold';
+    src: url(ITCAvantGardePro-Bold.otf),
+    url(ITCAvantGardePro-Bold.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantgardeThin';
+    src: url(ITCAvantGardePro-XLt.otf),
+    url(ITCAvantGardePro-Xlt.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+

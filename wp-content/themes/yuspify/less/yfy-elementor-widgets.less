@@ -1,0 +1,270 @@
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+  padding: 0px;
+}
+
+.atf-spaceing{
+  /*
+  @media @xs{padding-left: 10px; padding-right: 10px;}
+  @media @sm{padding-left: 4%; padding-right: 4%;}
+  @media @md{padding-left: 4%; padding-right: 4%;}
+  @media @lg{padding-left: 4%; padding-right: 4%;}
+  @media @xl{padding-left: 10%; padding-right: 10%;}
+  @media @xxl{padding-left: 15%; padding-right: 15%;}
+
+   */
+
+  @media @xs{margin: 1rem}
+  @media @sm{margin: 1rem}
+  @media @md{padding-left: 4%; padding-right: 4%;}
+
+  @media @lg{
+    padding-left: 4%;
+    padding-right: 4%;
+
+  }
+
+
+  @media @xl{
+    margin: 2vw 6vw 0 6vw;
+    padding: 8rem 6rem 2rem;
+  }
+
+  @media @xxl{
+    margin: 2vw 8vw 0 8vw;
+    padding: 10rem 8rem 4rem;
+  }
+}
+
+.elementor-margin{
+  margin: 1rem 0;
+}
+
+#elementor-above-the-fold{
+  z-index: 1;
+  background-repeat: no-repeat;
+  .elementor-margin;
+
+  .wrapper{
+    position: relative;
+    z-index: 100;
+    background: @light;
+    border-radius: @border-radius;
+    .atf-spaceing;
+
+    display: flex;
+    padding: 4rem;
+
+    .text-box{
+      display: inline-block;
+
+      @media @xs, @sm, @md{
+        width: 100%;
+      }
+
+      @media @xxl{
+        width: 50%;
+      }
+
+      @media @xl, @lg{
+        width: 50%;
+      }
+
+      img{
+        width: 90px;
+        padding: 2rem 0;
+      }
+
+      h1{
+        .title-xxl;
+        font-family: 'AvantgardeBold';
+        letter-spacing: -2px;
+        color: @yfy-purple;
+        padding-bottom: 2rem;
+      }
+
+      h2{
+        .title-lg;
+        color: @yfy-purple;
+        padding-bottom: 2rem;
+      }
+
+      .button-wrapper{
+        display: flex;
+
+        a{
+          margin-right: 1rem;
+          font-family: 'AvantgardeBold';
+          letter-spacing: -1px;
+        }
+      }
+    }
+
+    .image-wrapper{
+      height: 110%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: -30px;
+      margin-right: -110px;
+
+      img{
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+}
+
+#rich-text-widget{
+  .elementor-margin;
+
+  &.normal{
+
+    .wrapper{
+      .yfy-container;
+    }
+  }
+
+  &.thin{
+
+    .wrapper{
+      margin: 0 auto;
+      max-width: 800px;
+    }
+  }
+
+  h2{
+    .title-xl;
+    font-family: 'AvantgardeBold';
+    letter-spacing: -2px;
+    color: @yfy-purple;
+    margin-bottom: 2rem;
+  }
+
+  p{
+    .title-lg;
+    color: @yfy-purple;
+    padding-bottom: 2rem;
+    line-height: normal;
+  }
+}
+
+#module-support{
+  .elementor-margin;
+
+  .wrapper{
+    .yfy-container;
+
+    h2{
+      .title-xl;
+      font-family: 'AvantgardeBold';
+      letter-spacing: -2px;
+      color: @yfy-purple;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    p{
+      .title-lg;
+      color: @yfy-purple;
+      padding-bottom: 2rem;
+      line-height: normal;
+      text-align: center;
+    }
+
+    .modules{
+      width: 100%;
+      padding: 4rem;
+      display: flex;
+      justify-content: space-evenly;
+      background: @light;
+      border-radius: @border-radius;
+
+      li{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width: 100%;
+
+        h3{
+          .title-xxl;
+          color: @yfy-blue;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .button-wrapper{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          a{
+            width: auto;
+            font-family: 'AvantgardeBold';
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#call-to-action #button-and-text .form-wrapper .free-trial-image {
+  position: absolute;
+  right: -170px;
+  top: -80%;
+  height: 350px;
+  background: white;
+  border-radius: 999rem;
+  box-shadow: 0 10px 60px @yfy-light-blue;
+
+}
+
+section#start-free-trial{
+  .elementor-margin;
+
+  .wrapper{
+    .yfy-container;
+    position: relative;
+
+    #button-and-text{
+      border-radius: @border-radius;
+      background: @light;
+      padding: 4rem;
+      display: flex;
+      justify-content: space-between;
+
+      .text-wrapper{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+
+        h2{
+          .title-xl;
+          font-family: 'AvantgardeBold';
+          letter-spacing: -2px;
+          color: @yfy-purple;
+          margin-bottom: 2rem;
+        }
+
+        p{
+          .paragraph;
+          color: @yfy-purple;
+          margin-bottom: 1rem;
+        }
+
+        a{
+          font-family: 'AvantgardeBold';
+        }
+      }
+    }
+
+    img{
+      height: 350px;
+
+      @media @xxl{
+        margin-right: 5rem;
+      }
+     }
+  }
+}

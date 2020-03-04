@@ -1,0 +1,80 @@
+@import (reference) "../../proto";
+
+section#placement-type-tabulator-section{
+  border-top: 1px solid @gray1;
+
+  ul.col-lg-4{
+
+  }
+
+  .col-lg-8{
+
+
+  }
+  .vertical-tabulator.desktop{
+		@media @lg,@xl,@xxl{
+			display: table !important;
+			width: 100%;
+			table-layout: fixed;
+		}
+	}
+	.leftside{
+		@media @lg,@xl,@xxl{
+			display: table-cell !important;
+			width: 40%;
+			vertical-align: middle;
+		}
+	}
+	.rightside{
+		@media @lg,@xl,@xxl{
+			display: table-cell !important;
+			width: 60%;
+			vertical-align: middle;
+		}
+	}
+}
+
+
+
+li.vertical-tab{
+  padding: 20px;
+  background: @white;
+  cursor: pointer;
+  .bezier-eas-in-slow(0.3s);
+
+  h3{
+    .text('AvantgardeBold', 20px, 800, @blueLight);
+  }
+  p{
+    .text('Roboto', 16px, 400, @gray3);
+  }
+
+
+  @media @xs, @sm{
+    h3, p{
+      font-size: 14px;
+    }
+  }
+
+  &.selected{
+    background: @blueLight;
+
+    h3{color: @white;}
+    p{color: fade(@white, 80%);}
+  }
+}
+
+
+
+.vertical-tab-content{
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  .bezier-eas-in-slow(0.3s);
+
+  &.visible{
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+  }
+}

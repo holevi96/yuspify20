@@ -1,0 +1,387 @@
+@import (reference) "../../proto";
+
+/*** ### Parntner Landing body cases ### ***/
+body.page-solutions{
+
+  #content {
+    margin-top: 0;
+  }
+
+  .breadcrumbsWrapper{
+    display: none;
+  }
+}
+
+body.page-solutions {
+
+  #menu-general-menu{
+    //margin-top: 160px;
+    margin-right: 140px;
+    z-index: 100;
+
+    li.menu-item a{
+      color: @ye-bg-3;
+
+      @media @sm, @xs, @md{
+        color: fade(@white, 80%);
+      }
+    }
+  }
+
+  a#logo.general{
+    background: url('@{root}/img/logos/yusp-logo-dark.svg');
+    background-repeat: no-repeat;
+  }
+
+  #header{
+    background: transparent;
+    height: 100px;
+
+    .top-navi{
+      //display: none;
+    }
+
+
+    #mainMenu{
+
+      a.free-trial-button{
+        display: none;
+      }
+
+      .menu-wrapper{
+        //margin-top: 140px;
+      }
+
+      #nav-icon{
+        //margin-top: 140px;
+      }
+    }
+
+    #top-menu{
+      li.menu-item a{
+        color: @ye-bg-3;
+
+        @media @sm, @xs, @md{
+          color: fade(@white, 80%);
+        }
+
+      }
+    }
+  }
+
+  section.welcome {
+    display: none;
+  }
+}
+
+@brand-gradient: linear-gradient(to right top, @purple2 25%, @blueLight 75%);
+
+#solutions-page{
+  background: @footer;
+  margin-bottom: -30px;
+  border-bottom: 1px solid fade(@white, 20%);
+
+  .starter{
+    //background: @brand-gradient;
+    background-attachment: fixed;
+    margin-top: -160px;
+    .gradient-ye-dark;
+    //.gradient-ye-gray;
+
+    @media @xs, @sm, @md {
+      height: auto;
+      padding: 160px 20px 20px 20px;
+    }
+
+    @media @lg, @xl, @xxl{
+      height: 80vh;
+      padding: 220px 60px 60px 60px;
+    }
+
+    .mask{
+      width: 100%;
+      height: 100%;
+      //background: @ye-bg-3;
+      content: '';
+      //background-image: url('@{root}/img/svg/yusp-white-logo-background.svg');
+      background-repeat: no-repeat;
+      //box-shadow: 0 0 80px rgba(0,0,0,0.7);
+      background: transparent;
+
+      @media @lg, @xl, @xxl{
+        background-size: 70%;
+        background-position-x: 20%;
+      }
+
+      @media @xs, @sm, @md{
+        background-size: 170%;
+        background-position-x: 40%;
+      }
+
+    }
+
+    h1.the-headline{
+      .col;
+      margin-top: 10vh;
+      margin-bottom: 15vh;
+
+      font-family: 'AvantgardeBold';
+      color: @white;
+      font-weight: 200;
+      text-align: left;
+
+      padding-left: 30px;
+      border-left: 5px solid @greenNew;
+
+      @media @xl, @xxl{
+        font-size: 42px;
+      }
+
+      @media @lg, @md{
+        font-size: 36px;
+      }
+
+      strong{
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+
+#solutions-page{
+
+  img{
+    width: 100%;
+  }
+
+  .wrapper {
+    .center-container(100%, 80%, 70%, 65%);
+
+    .solutions-desktop {
+      .col;
+      margin-left: -10%;
+      width: 120%;
+
+      .solutions {
+
+        @media @lg, @xl, @xxl {
+          height: 42vh;
+          position: relative;
+        }
+      }
+    }
+
+    .solutions-mobile {
+
+      @media @xs, @sm, @md {
+        display: block;
+      }
+
+      @media @lg, @xl, @xxl {
+        display: none;
+      }
+    }
+  }
+}
+
+@media @xs, @sm, @md {
+  .solutions-desktop{
+    display: none;
+    width: 0 !important;
+
+    .solutions{
+      display: none;
+      width: 0 !important;
+    }
+  }
+  .solutions-mobile{
+    display: block;
+  }
+}
+
+@media @lg, @xl, @xxl {
+  .solutions-mobile{
+    display: none;
+  }
+  .solutions-desktop{
+    display: block;
+
+    img{
+      width: auto;
+    }
+
+  }
+}
+
+#solutions-page{
+
+  .solutions.digital{
+    //background: @blueLight;
+    background: @brand-gradient;
+
+
+    h2, h3{
+      color: @white;
+    }
+
+    .free-trial-button{
+
+    }
+  }
+
+  .solutions.digical{
+    //background: @purple2;
+    //.gradient-ye-dark;
+    .gradient-ye-gray;
+
+    h2, h3{
+      color: fade(@ye-bg-3, 60%);
+    }
+  }
+}
+
+
+
+
+/* SOLUTIONS-DESKTOP */
+.solutions-desktop{
+  z-index: 100;
+
+  .solutions{
+    padding: 30px 30px 30px 60px;
+    cursor: pointer;
+    .tr2;
+
+    h2{
+      @media @xxl {font-size: 32px;}
+      @media @xl  {font-size: 28px;}
+      @media @lg  {font-size: 24px;}
+
+      font-family: 'Roboto';
+      color: white;
+      line-height: 28.6px;
+      font-weight: 300;
+      position: absolute;
+      top: -20px;
+      opacity: 0;
+      width: 80%;
+      .tr2;
+    }
+
+    h3{
+      .text('AvantgardeBold', 22px, 800, initial);
+    }
+
+    img.logo{
+      width: 40% !important;
+      position: absolute;
+      top: 90px;
+      .tr2;
+    }
+
+    a.free-trial-button{
+      position: absolute;
+      opacity: 0;
+      bottom: -30px;
+    }
+  }
+
+  .solutions:hover{
+
+    h2{
+      top: 90px;
+      opacity: 1;
+    }
+
+    img.logo{
+      opacity: 0;
+    }
+
+    a.free-trial-button{
+      bottom: 60px;
+      opacity: 1;
+    }
+  }
+}
+
+/* SOLUTIONS-MOBILE */
+.solutions-mobile{
+  .row.solutions{
+    padding: 15px;
+    text-align: center;
+
+    img{
+      max-height: 110px;
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+    }
+
+    h2{
+      .text('Roboto', 20px, 300, @white);
+      text-align: center;
+    }
+  }
+
+  .digital-mobile{
+    .gradient-ye-dark;
+  }
+  .digical-mobile{
+    background: @purple2;
+  }
+
+}
+
+#solutions-page{
+
+  #below-the-fold{
+    background: @ye-bg-3;
+  }
+
+  .technology{
+    .center-container(100%, 80%, 70%, 65%);
+
+    .technology-row.data{
+
+      @media @xs, @sm, @md{
+        margin-top: 5vh;
+      }
+
+      @media @lg, @xl, @xxl{
+        margin-top: 30vh;
+      }
+    }
+
+    .technology-row{
+      margin: 0 auto;
+      padding: 2% 10%;
+
+      h2{
+        .text('Roboto', 24px, 300, @white);
+        border-left: 3px solid @greenNew;
+        padding-left: 20px;
+        position: relative;
+        left: -20px;
+      }
+      h3{
+        .text('Roboto', 20px, 300, fade(@white, 80%));
+      }
+      p{
+        .text('Roboto', 18px, 400, fade(@white, 60%));
+        line-height: 26px;
+      }
+
+      .graphic{
+        margin: 0 auto;
+
+        svg{
+
+          .st0{
+            fill: @greenNew;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import (reference) "../../proto";
+
+#few-steps-to-start{
+  //margin: 40px 0 60px 0;
+  background: @bg;
+
+  @media @md, @lg, @xl, @xxl{
+    padding: 80px 60px;
+  }
+
+  @media @xs, @sm{
+    padding: 0;
+  }
+
+  .wrapper{
+    background: white;
+    box-shadow: 0 0 80px rgba(0,0,0,0.3);
+    padding: 30px;
+    border-radius: 3px;
+
+    h2{
+      font-family: 'Roboto';
+      font-weight: 800;
+      color: @blueLight;
+
+      @media @xs, @sm, @md{
+        font-size: 24px;
+      }
+      @media @lg{
+        font-size: 30px;
+      }
+
+      @media @xl, @xxl{
+        font-size: 30px;
+      }
+    }
+
+    h3{
+      font-family: 'Roboto';
+      font-size: 24px;
+      color: @gray2;
+      line-height: 31.2px;
+      font-weight: 300;
+    }
+  }
+}

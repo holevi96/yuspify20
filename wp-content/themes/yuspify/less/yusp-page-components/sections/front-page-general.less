@@ -1,0 +1,855 @@
+@import(reference) "../../proto";
+
+#front-page{
+
+  #general{
+    .uniqe;
+  }
+
+  &.body.dark{
+    background: @bg;
+  }
+
+  #general-menu{
+    //background: fade(@ye-bg-3, 90%);
+
+    background: transparent;
+    //border-bottom: 1px solid fade(@white, 20%);
+
+    ul{
+      li{
+        a{
+          color: @white;
+        }
+      }
+    }
+  }
+
+  .testimonial-wrapper{
+    z-index: 1;
+    background: @bg;
+    padding-bottom: 40px;
+  }
+
+  #in-the-press{
+    .section;
+
+    h2{
+      text-align: center;
+    }
+
+    .list-element{
+
+      h3{
+        .text('AvantgardeBold', 20px, 800, @ye-0);
+
+      }
+    }
+  }
+
+  .general-title{
+    @media @md, @sm, @xs{
+      text-align: center;
+    }
+  }
+}
+
+@sticking-height: 80px;
+
+section#front-page-above-the-fold{
+  margin-top: -270px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
+  background-color: @ye-bg-3;
+  
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  .skew(0deg, -7deg);
+
+  #Stage{
+    position: absolute !important;
+    height: 109vh !important;
+    margin-top: -24vh;
+    width: 1980px;
+  }
+
+
+  @media @xxl{
+    height: 100vh;
+    padding: 220px 0px 60px 0px;
+    background-size: cover;
+  }
+
+  @media @xl{
+    height: 120vh;
+    padding: 220px 0px 60px 0px;
+    background-size: cover;
+
+  }
+
+  @media @lg, @md{
+    height: 118vh;
+    padding: 220px 0px 60px 0px;
+
+    background-size: auto 130%;
+    background-position: 0 -50%;
+  }
+
+  @media @xs, @sm  {
+	#animation{
+		display:none;
+	}
+	.layer{
+		display:none;
+	}
+    height: 150vh;
+    padding: 30px 0px 20px 0px;
+	background-image: url('@{root}/img/svg/background-effect.svg');
+    background-position: 50% 50%;
+    background-size: auto 120%;
+  }
+
+  #animation{
+    .skew(0deg, 7deg);
+
+    #Stage {
+      position: absolute !important;
+      height: 109vh !important;
+      width: 1980px;
+      background-color: @ye-bg-3 !important;
+      margin-top: -90px;
+
+      #Stage_BG {
+        height: 1008px !important;
+      }
+    }
+
+  }
+
+  .layer{
+    .col;
+    background: fade(@ye-bg-3, 80%);
+    position: absolute;
+    top: 0;
+    .translateX(-2000px);
+    .bezier-eas-in-slow(0.4s);
+
+    &.loaded{
+      .translateX(0);
+    }
+
+    @media @xs{
+      width: 100%;
+      height: 65%;
+    }
+
+    @media @sm{
+      width: 100%;
+      height: 50%;
+    }
+
+    @media @md{
+      width: 100%;
+      height: 80%;
+    }
+
+    @media @lg, @xl, @xxl{
+      width: 50%;
+      height: 100%;
+
+    }
+  }
+
+  .text-wrapper{
+    .skew(0deg, 7deg);
+
+    .text-container{
+      padding-right: 30px;
+    }
+
+    h1.the-headline{
+
+      font-family: 'AvantgardeBold';
+      font-weight: 200;
+      text-align: left;
+      color: @white;
+
+      /*
+      //.translateX(-2000px);
+      //.bezier-eas-in-slow(0.4s);
+
+      &.loaded{
+        .translateX(0);
+      }
+      */
+
+      /*
+      &:after{
+        display: block;
+        content: '';
+        width: 6px;
+        height: 145px;
+        background-color: @ye-0;
+        border-radius: 20px;
+        margin-left: -36px;
+        position: absolute;
+        top: 145px;
+      }
+      */
+
+
+      @media @xs{
+        font-size: 24px;
+        margin-top: 26vh;
+        margin-bottom: 60px;
+      }
+      @media @sm{
+        font-size: 26px;
+        margin-top: 26vh;
+        margin-bottom: 60px;
+      }
+      @media @md{
+        font-size: 30px;
+        margin-top: 16vh;
+        margin-bottom: 100px;
+      }
+      @media @lg{
+        font-size: 30px;
+        margin-top: 10vh;
+        margin-bottom: 60px;
+      }
+      @media @xl{
+        font-size: 31px;
+        margin-top: 14vh;
+        margin-bottom: 60px;
+      }
+      @media @xxl{
+        font-size: 35px;
+        margin-top: 16vh;
+        margin-bottom: 100px;
+      }
+
+    }
+
+    h2, h2 p{
+      font-family: 'Roboto';
+      font-weight: 300;
+      color: @gray2;
+      line-height: 32px;
+
+      /*
+      .translateX(-2000px);
+      .bezier-eas-in-slow(0.4s);
+
+      &.loaded{
+        .translateX(0);
+      }
+      */
+
+      a{
+        color: @white;
+        border-bottom: 2px solid @ye-0;
+        .tr2;
+
+        &:hover{
+          color: @ye-0;
+        }
+      }
+
+      @media @xxl{
+        font-size: 26px;
+      }
+      @media @xl{
+        font-size: 25px;
+      }
+
+      @media @lg, @md{
+        font-size: 24px;
+      }
+      @media @sm, @xs{
+        font-size: 23px;
+      }
+    }
+  }
+}
+
+#general{
+
+  #front-page-me0nu{
+    background: @white;
+    height: @sticking-height;
+    z-index: 1000;
+    position: fixed;
+    top: -100px;
+    left: 0;
+    //.tr2;
+    .bezier-eas-in-slow(0.4s);
+
+    &.visible{
+      top: 0
+    }
+
+    a#main-menu-logo{
+      height: @sticking-height;
+      padding: 10px 0;
+
+      img{
+        width: auto;
+        height: 100%;
+      }
+    }
+
+    nav{
+      float: right;
+
+      ul{
+        li{
+          float: left;
+          margin-left: 40px;
+
+          a{
+            .text('Roboto', 18px, 300, @gray3);
+            line-height: @sticking-height;
+            padding-bottom: 3px;
+            border-bottom: 3px solid transparent;
+            .tr2;
+
+            &:hover{
+              border-bottom: 3px solid @ye-0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .starter{
+    //background-attachment: fixed;
+    margin-top: -270px;
+    .skew(0deg, -7deg);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);
+    //background: url('@{root}/img/magento-illustration.svg');
+
+    background-color: @ye-bg-3;
+    background-image: url('@{root}/img/svg/background-effect.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    z-index: 10;
+    //background-color: @footer;
+    //background-blend-mode: multiply;
+
+    //.gradient-ye-dark;
+    //
+    @media @xs, @sm {
+      height: 125vh;
+      padding: 30px 20px 20px 20px;
+    }
+
+    @media @xxl{
+      height: 100vh;
+      padding: 220px 0px 60px 0px;
+    }
+
+    @media @xl{
+      height: 120vh;
+      padding: 220px 0px 60px 0px;
+    }
+    @media @lg, @md{
+      height: 118vh;
+      padding: 220px 0px 60px 0px;
+    }
+    @media @xs, @sm  {
+      height: 150vh;
+      padding: 30px 20px 20px 20px;
+    }
+
+    .illustration-wrapper{
+      @media @xl,@xxl,@lg{
+        margin-top: -25vh;
+      }
+      @media @md,@xs,@sm{
+        display:none;
+      }
+      padding-top: 60px;
+
+      img{
+        width: 170%;
+      }
+    }
+
+    .cool-wrapper.text-wrapper{
+      position: absolute;
+      background: fade(@ye-bg-3, 80%);
+      //top: 0;
+      padding: 260px 20px 330px 17%;
+      .skew(0deg, 0deg);
+      top: -65px;
+
+
+      h1{
+        color: @white !important;
+      }
+      h2{
+        color: @white;
+      }
+    }
+
+    .text-wrapper{
+      .skew(0deg, -0.5deg);
+
+      h1.the-headline{
+        .skew(0deg, 7deg);
+
+        .col;
+        margin-top: 10vh;
+        margin-bottom: 15vh;
+
+        font-family: 'AvantgardeBold';
+        font-weight: 200;
+        text-align: left;
+
+        //color: @white;
+        color: @ye-bg-3;
+
+        padding-left: 30px;
+        border-left: 5px solid @greenNew;
+
+        @media @xxl{
+          font-size: 35px;
+          margin-bottom: 11vh;
+          margin-top: 4vh;
+        }
+        @media @xl{
+          font-size: 31px;
+          margin-bottom: 10vh;
+          margin-top: 0px;
+        }
+
+        @media @lg, @md{
+          font-size: 30px;
+          margin-top: 0vh;
+          margin-bottom: 11vh;
+        }
+        @media @md{
+          font-size: 30px;
+          margin-top: -15vh;
+          margin-bottom: 11vh;
+        }
+        @media @sm{
+          font-size: 26px;
+          margin-top: 14vh;
+          margin-bottom: 11vh;
+        }
+        @media @xs{
+          font-size: 24px;
+          margin-top: 14vh;
+          margin-bottom: 7vh;
+        }
+
+        strong{
+          font-weight: 600;
+        }
+      }
+
+      h2{
+        .skew(0deg, 7deg);
+
+        font-family: 'Roboto';
+        font-weight: 300;
+
+        //color: @white;
+        color: @ye-bg-3;
+
+        @media @xxl{
+          font-size: 26px;
+        }
+        @media @xl{
+          font-size: 25px;
+        }
+
+        @media @lg, @md{
+          font-size: 24px;
+        }
+        @media @sm, @xs{
+          font-size: 23px;
+        }
+      }
+    }
+  }
+
+  #video{
+    .section;
+    background: transparent;
+    margin-top: 40px;
+
+    h2{
+
+    }
+
+    h3{
+      //.text('Roboto', 18px, 400, @gray3);
+      p{
+        .param;
+      }
+    }
+
+    .video-wrapper{
+      box-shadow: 0 12px 18px rgba(0,0,0,0.2);
+      background: @ye-0;
+
+      @media @lg, @xl, @xxl{
+        height: 380px;
+      }
+
+      @media @xs, @sm, @md {
+
+        iframe{
+          margin: 0 auto;
+          height: 280px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #front-page-case-studies{
+    .section;
+
+    .wrapper{
+      h2{
+        color: @ye-bg-3
+      }
+    }
+
+    .kpi-wrapper{
+
+    }
+  }
+
+  #key-clients{
+    background: transparent;
+    z-index: 100;
+    //.section;
+    @media @xxl{
+      margin-top: -13vh;
+    }
+    @media @xl{
+      margin-top: -22vh;
+    }
+    @media @lg{
+      margin-top: -30vh;
+      padding-left:60px;
+      padding-right:60px;
+    }
+    @media @md{
+      margin-top: -30vh;
+    }
+    @media  @sm{
+      margin-top: -60vh;
+    }
+    @media  @xs{
+      margin-top: -45vh;
+    }
+
+    .client-logo{
+      .col;
+      @media @xs,@sm  {width: 100%;padding-bottom:24px;}
+
+      @media @md  {width: 20%;}
+      @media @lg  {width: 19%;}
+      @media @xl  {width: 20%;}
+      @media @xxl {width: 20%;}
+
+      a{
+        cursor: default;
+      }
+
+      .row{
+        float: left;
+        margin: 0 auto;
+        padding: 0;
+
+        img{
+          @media @xs,@sm,@md,@lg, @xl, @xxl{
+            max-height: 70px;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+          }
+        }
+
+        @media @md{
+          padding: 0 9%;
+        }
+
+        @media @sm{
+          padding: 10%;
+        }
+      }
+    }
+  }
+
+  #left-right-content, .left-right-content{
+    .section;
+
+    div{
+      border-bottom:none;
+
+      h2{
+        .general-title;
+        .mgT24;
+        .mgB24;
+      }
+
+      p{
+        .text('Roboto', 21px, 300, @gray4);
+        line-height: 1.58em;
+
+        a{
+          color: @ye-1;
+          font-weight: 400;
+          text-decoration: underline;
+        }
+      }
+
+      img{
+        width:100%;
+        padding: 40px;
+
+        box-sizing: border-box;
+        padding-right: 140px;
+      }
+    }
+  }
+
+  #deloitte-row{
+    .section;
+
+    .logo{
+      margin-top: 62px;
+
+      img{
+        @media @lg, @xl, @xxl{
+          max-width: 400px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  #netflix-badge{
+    .section;
+  }
+
+  #general-company-numbers{
+    .gradient-ye-gray;
+    padding: 72px 0;
+
+    .field{
+      padding: 20px 0;
+
+      @media @xs, @sm, @md{
+        text-align: center;
+        margin: 0 auto;
+
+        h2{
+          font-size: 40px;
+        }
+
+        p{
+          text-align: center;
+          float: none !important;
+          margin: 0 auto;
+        }
+      }
+
+      @media @lg, @xl, @xxl{
+        padding-right: 7%;
+      }
+
+      h2{
+        .text('AvantgardeBold', 20px, 800, @ye-0);
+        .row;
+      }
+
+      p{
+        .text('Roboto', 16px, 400, @white);
+        .col;
+      }
+    }
+  }
+
+  #numbers{
+
+    .examples{
+
+      @media @lg, @xl, @xxl{
+        padding-right: 20px;
+      }
+
+      @media @md, @sm, @xs{
+        text-align: center;
+      }
+
+      h2{
+        .text('AvantgardeBold', 70px, 800, @ye-3);
+      }
+
+      h3{
+        .text('AvantgardeBold', 20px, 800, @ye-bg-3);
+        padding-bottom: 20px;
+
+        @media @md, @lg, @xl, @xxl{
+          height: 60px;
+        }
+      }
+
+      a{
+        padding-top: 10px;
+
+        @media @lg, @xl, @xxl{
+          .col;
+        }
+      }
+    }
+  }
+}
+
+#key-clients{
+  background: transparent;
+  z-index: 100;
+
+  @media @xxl, @xl, @lg{
+    //margin-top: -50vh;
+  }
+
+  .clients-wrapper{
+    .fluid-container;
+  }
+
+  .client-logo{
+    .col;
+    @media @xs  {width: 100%;}
+    @media @sm  {width: 100%;}
+    @media @md  {width: 100%;}
+    @media @lg  {width: 100 / 3%;}
+    @media @xl  {width: 100 / 3%;}
+    @media @xxl {width: 100 / 3%;}
+
+    .row{
+      float: left;
+      margin: 0 auto;
+      padding: 0;
+
+      img{
+        @media @lg, @xl, @xxl{
+          max-height: 70px;
+          width: 100%;
+          height: 100%;
+          .desaturate;
+        }
+      }
+
+      @media @md{
+        padding: 0 20%;
+      }
+
+      @media @sm{
+        padding: 10%;
+      }
+    }
+  }
+}
+
+#frontpage-key-solutions{
+  .section;
+  display: block !important;
+
+  .visible-placement{
+    display:table;
+    height:500px;
+
+    @media @xxl, @xl, @lg{
+      margin-bottom: -140px;
+    }
+  }
+
+  #horizontal{
+    @media @xs, @sm, @md{
+      display: block !important;
+
+      li.vertical-tab.horizontal{
+        width: 100%;
+      }
+
+    }
+  }
+
+  .vertical-tab-content{
+
+    div{
+      //padding:50px;
+      display: table-cell;
+      vertical-align: middle;
+
+      @media @xxl, @xl, @lg{
+        width: 100% / 2;
+      }
+
+      @media @xs, @sm, @md{
+        width: 100%;
+        display: block;
+      }
+
+      p{
+        .param;
+      }
+
+      button{
+
+
+        a{
+          background: #404852;
+          padding: 20px 80px 20px 80px;
+          margin-top: 25px;
+          color: #2BF59E;
+          text-transform:uppercase;
+          font-family: 'AvantgardeBold';
+          .tr2;
+
+          &:hover{
+            background: @ye-0;
+            color: @ye-bg-3;
+          }
+        }
+      }
+    }
+  }
+
+  li.vertical-tab{
+    height: 90px;
+    color: @gray3;
+    cursor: pointer;
+    border-bottom:4px solid #C9D6E2;
+    background: transparent;
+
+    &.selected{
+      border-bottom: 4px solid #2AF9A7;
+      background: @white;
+    }
+    h3{
+
+      font-family: 'AvantgardeBold';
+      font-weight: 800;
+      font-size: 20px;
+      color: #404852;
+      letter-spacing: -1px;
+      text-transform: uppercase;
+    }
+  }
+}
+

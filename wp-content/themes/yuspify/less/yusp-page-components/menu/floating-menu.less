@@ -1,0 +1,177 @@
+@import(reference) "../../proto";
+
+section#floating-menu{
+
+  &.visible{
+    .translateY(0px);
+  }
+
+  @media @sm, @xs, @md{
+    //display: none;
+  }
+
+  padding: 0;
+  background: @white;
+  position: fixed;
+  top: -100px;
+  z-index: 100000000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.23);
+  .tr(0.4s);
+  .translateY(-200px);
+
+  .logo{
+    margin-right: 30px;
+
+    img{
+      height: 70px;
+
+    }
+  }
+
+  #call-to-action{
+    border: 1px dashed @gray2;
+    padding: 12px;
+    border-radius: 3px;
+
+    p{
+      margin: 0;
+      padding: 0 12px;
+    }
+
+    .discount{
+      p{
+        .text('Roboto', 15px, 400, @gray3);
+        line-height: 20px;
+      }
+    }
+
+    .coupon-code{
+      padding-left: 20px;
+      border-left: 1px solid @gray2;
+
+      p{
+        .text('Roboto', 18px, 800, @blueLight);
+      }
+      span{
+        .text('Roboto', 14px, 400, @gray3);
+      }
+    }
+
+    a.start-free-trial-floating{
+      .sticky-cat;
+
+      &.hun{
+        max-width: 180px;
+      }
+
+      /*
+      border-radius: 3px;
+      padding: 12px 18px;
+      background-color: @greenNew;
+      color: @footer;
+      position: relative;
+
+      display: block;
+      max-width: 160px;
+      text-align: center;
+      font-weight: 600;
+      .tr2;
+
+      &:hover{
+        background: @footer;
+        color: @greenNew;
+      }
+      */
+    }
+  }
+
+  #request-a-demo{
+    float: right;
+
+    button.request-a-demo-button{
+      .sticky-cat;
+      padding: 22px 28px;
+      margin-top: 2px;
+      max-width: 290px;
+      border: none;
+      outline: none;
+
+      i.MatIcons{
+        left: -5px;
+      }
+
+      span{
+        top: 3px;
+      }
+    }
+  }
+
+  table.contact-table{
+    float: right;
+
+    tr{
+
+      td{
+        padding: 0 10px;
+
+        &.mail-address{
+          color: @gray3;
+
+          a{
+            margin-left: 20px;
+          }
+        }
+
+        &.skype-image{}
+
+        img{
+          margin: 0 !important;
+          vertical-align: 0 !important;
+          position: relative;
+          top: 4px;
+        }
+      }
+    }
+  }
+
+  .contact-mail{
+    p{
+      float: right;
+    }
+    a{
+      border-bottom: 2px solid fade(@blueLight, 0%);
+    }
+    a:hover{
+      color: @blueLight;
+      border-bottom: 2px solid fade(@blueLight, 40%);
+    }
+  }
+
+  .skype{
+    p{
+      float: right;
+    }
+
+    .skype-wrapper{
+      float: right;
+      margin-top: -31px;
+      margin-bottom: -32px;
+    }
+  }
+
+  &.visible{
+    top: 0px;
+  }
+
+  #navigation{
+
+    a{
+      width: 3rem;
+
+      img{
+        height: 50px;
+        padding: 5px;
+      }
+    }
+  }
+}

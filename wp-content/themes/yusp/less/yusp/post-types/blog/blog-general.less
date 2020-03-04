@@ -1,0 +1,67 @@
+@import(reference) "../../../proto";
+
+.blog-padding{
+  //border-left: 3px solid @greenNew;
+  padding-left: 8px;
+  .tr2;
+
+  @media @md, @lg, @xl,@xxl{
+    margin-left: 5vw;
+    .tr2;
+  }
+}
+
+.blog-container{
+  .center-container(100%, 700px, 800px, 900px);
+}
+
+.date-and-author{
+  .blog-padding;
+  margin: 16px 0;
+
+  .avatar-wrapper{
+    border-radius: 999em;
+    height: 72px;
+    width: 72px;
+    overflow: hidden;
+    margin-right: 16px;
+
+    img{
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .date-wrapper{
+    margin-top: 10px;
+
+    .year, .dayAndMonth{
+      .text('Roboto', 16px, 400, @blueLight);
+    }
+    .author{
+      .text('Roboto', 16px, 400, @gray3);
+    }
+  }
+}
+
+.blog-middle{
+  width: 80%;
+  margin: 0 auto;
+  //border-bottom: 3px solid #ececec;
+}
+
+@paramGray: #a2a3a5;
+
+.param{
+  .text('Roboto', 21px, 300, #5c5d5f);
+  padding: 16px 0;
+  color: #5c5d5f;
+  line-height: 1.58em;
+
+  @media @xs, @sm{
+    font-size: 18px;
+    line-height: 26px;
+  }
+}

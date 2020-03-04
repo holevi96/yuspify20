@@ -1,0 +1,339 @@
+@import (reference) "../proto";
+@import(reference) "../yfy-basic-components";
+
+
+#call-to-action{
+  position: relative;
+  z-index: 10;
+
+  .wrapper{
+    .rsp-paddding;
+  }
+
+  #button-and-text{
+    .yfy-grad-1;
+    border-radius: 4px;
+    box-shadow: 0 10px 60px @yfy-light-blue;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+    display: flex;
+    width: 100%;
+
+    @media @xs, @sm, @md{
+      flex-flow: column;
+      padding: 10%;
+
+      .text-wrapper, .form-wrapper{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+      }
+    }
+
+    @media @lg, @xl, @xxl{
+      padding: 4rem 6rem;
+
+      .text-wrapper, .form-wrapper, .mailchimp-optin{
+        .col;
+        width: 50%;
+      }
+    }
+
+    .text-wrapper{
+      h2{
+        .title-xl;
+        color: white;
+      }
+
+      p{
+        .paragraph;
+        color: white;
+        margin-top: 1rem;
+      }
+    }
+
+    .form-wrapper{
+
+      .yfy-form-input{
+        height: 64px;
+        line-height: 64px;
+        width: 100%;
+      }
+
+      .button.green{
+        box-shadow: 0 9px 40px fade(@yfy-green, 70%);
+        margin-top: 1rem;
+
+        &:hover{
+          background: white;
+          border-color: white;
+          box-shadow: 0 9px 40px fade(white, 30%);
+        }
+      }
+    }
+  }
+
+  #start-free-trial{
+    background: @footer;
+    z-index: 0;
+    padding: 10rem 0;
+
+    img.dekor-line{
+      position: absolute;
+      height: 950px;
+      width: auto;
+      z-index: 10;
+      left: 6rem;
+      top: -130px;
+    }
+
+    .container{
+      .rsp-paddding;
+    }
+
+    .call-to-action-box{
+      background: white;
+      padding: 4rem;
+      float: right;
+      width: 480px;
+      border-radius: 5px;
+      box-shadow: 0 9px 40px fade(@yfy-light-blue, 90%);
+      z-index: 100;
+      position: relative;
+
+      h1{
+        .title-xl;
+        color: @footer;
+      }
+
+      p{
+        .paragraph;
+        color: @yfy-light-blue;
+      }
+
+      .form-wrapper{
+
+        .yfy-form-input{
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+
+        .button{
+          border: none;
+        }
+      }
+    }
+  }
+
+  #whitepaper-mode{
+
+  }
+}
+
+
+#call-to-action.content-sign-up{
+
+
+  .mailchimp-optin{
+
+    input[type="text"], input[type="email"]{
+      .yfy-form-input;
+      .small;
+      .white-filled;
+      margin-top: 0.5rem;
+      width: 100%;
+
+      &:hover{
+        .placeholder-hover(fade(@footer, 80%));
+        border-color: fade(@yfy-green, 80%);
+        background: fade(@yfy-green, 80%);
+        color: fade(@footer, 80%);
+        box-shadow: 0 9px 20px fade(@yfy-purple, 60%);
+      }
+
+      &:focus{
+        .placeholder-hover(fade(@footer, 100%));
+        border-color: fade(@yfy-green, 100%);
+        background: fade(@yfy-green, 100%);
+        color: fade(@footer, 80%);
+        box-shadow: 0 9px 20px fade(@yfy-green, 60%);
+      }
+    }
+
+    input[type="submit"]{
+      .yfy-button;
+      .medium;
+      .green;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+      border: none;
+
+      &:hover{
+        .placeholder-hover(fade(@footer, 80%));
+        background: white;
+        color: fade(@footer, 80%);
+        box-shadow: 0 9px 20px fade(white, 50%);
+      }
+
+      &:focus{
+        .placeholder-hover(fade(@footer, 80%));
+        background: @yfy-green;
+        color: fade(@footer, 80%);
+        box-shadow: 0 9px 20px fade(@yfy-green, 100%);
+      }
+    }
+  }
+}
+
+
+section#call-to-action{
+
+  /*
+  .subtext{
+    .text('Roboto', 18px, 600, @gray3);
+    text-align: center;
+  }
+
+  .wrapper {
+    //.center-container(600px, 60%, 60%, 60%);
+    background: @white;
+    border-radius: 3px;
+    box-shadow: 0 0 40px fade(@footer, 30%);
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+
+    h2 {
+      .text('AvantgardeBold', 26px, 400, initial);
+      letter-spacing: -1px;
+      text-align: center;
+    }
+
+    h3{
+      .text('Roboto', 26px, 400, initial);
+      letter-spacing: -1px;
+      text-align: center;
+    }
+  }
+
+  .free-trial-call-to-action{
+    padding: 6px 16px;
+    .text('AvantgardeBold', 18px, 800, @white);
+    background: inherit;
+    border: 2px solid initial;
+    border-radius: 999em;
+    cursor: pointer;
+    margin: 0 auto;
+    display: inline;
+    .tr2;
+
+    &:hover{
+      background: @greenNew;
+      border-color: @greenNew;
+      color: fade(@footer, 60%);
+    }
+  }
+  */
+
+
+  /* SME */
+  /*
+  &.sme-features{
+    background: @white;
+    padding: 90px 0;
+
+    .wrapper{
+      h2{color: @blueLight};
+      h3{color: @blueLight};
+    }
+
+    .free-trial-call-to-action{
+      color: @white;
+      background: @blueLight;
+      border-color: @blueLight;
+    }
+
+    &:before{
+      display: block;
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+
+      background-image: url('@{root}/img/svg/all-together.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: luminosity;
+      background-color: @white;
+      opacity: 0.2;
+      .tr2;
+    }
+
+    &:hover{
+
+      &:before{
+        background-color: @greenNew;
+        opacity: 1;
+      }
+    }
+  }
+  */
+
+  /* ENTERPRISE */
+  /*
+  &.enterprise-features{
+    background: @white;
+    padding: 90px 0;
+
+    .wrapper{
+      h2{color: @ye-bg-3};
+      h3{color: @ye-bg-3};
+      .tr2;
+
+      .subtext{
+        color: @ye-bg-3;
+      }
+    }
+
+    .free-trial-call-to-action{
+      color: @ye-0;
+      background: @ye-bg-3;
+      border-color: @ye-bg-3;
+    }
+
+    &:before{
+      display: block;
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+
+      background-image: url('@{root}/img/svg/all-together.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: luminosity;
+      background-color: @white;
+      opacity: 0.2;
+      .tr2;
+    }
+
+    &:hover{
+
+      .wrapper{
+        background: @ye-0;
+      }
+
+
+      &:before{
+        //background-color: @ye-bg-3;
+        //background-blend-mode: multiply;
+        //opacity: 1;
+      }
+    }
+  }
+  */
+}

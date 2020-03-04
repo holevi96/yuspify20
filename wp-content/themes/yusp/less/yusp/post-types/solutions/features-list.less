@@ -1,0 +1,163 @@
+@import(reference) "../../../proto";
+
+
+body.page-id-2278{
+  overflow-x: hidden;
+
+  .menu-row{
+    background: @bg;
+  }
+}
+
+#solution-list{
+}
+
+li.solution{
+  border-bottom: 1px solid fade(@gray3, 5%);
+  overflow: hidden;
+  width: 150%;
+  background-color: @bg;
+  .translateX(0%);
+
+  //.bezier-eas-in(0.4s);
+  .bezier-eas-out-slow(0.65s);
+
+  .solutions-wrapper{
+    height: ~"calc(100vh - 100px)";
+    display: table;
+    padding: 2%;
+
+    .solutions-list{
+      display: table-cell;
+      vertical-align: middle;
+      background: @white;
+      box-shadow: 0 15px 100px fade(black, 5%);
+      text-align: center;
+      overflow-y: hidden;
+
+      h2.solution-name{
+        .text('Roboto', 42px, 300, @blueLight);
+        line-height: 42px;
+      }
+
+      h3.description{
+        display: block;
+        .translateY(100vh);
+        .bezier-eas-in-slow(0.45s);
+        .text('Roboto', 21px, 400, @blueLight);
+        opacity: 0;
+        padding: 0 16%;
+        text-align: left;
+        animation-delay: 12s, 4ms;
+      }
+    }
+
+    .solutions-list:hover{
+      h2{
+
+      }
+      h3{
+        .translateY(0vh);
+        opacity: 1;
+      }
+    }
+  }
+
+  .features-wrapper{
+    display: table;
+    height: ~"calc(100vh - 100px)";
+    padding: 2%;
+
+    .features-list{
+      display: table-cell;
+      vertical-align: middle;
+
+      .feature-row{
+        border-bottom: 1px solid fade(@gray3, 30%);
+        cursor: pointer;
+        .tr(0.4s);
+        z-index: 16;
+        position: relative;
+
+        /*
+        &:after{
+          visibility: visible;
+          display: block;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          z-index: 15;
+          position: absolute;
+          .gradient-ye-dark;
+        }
+        */
+
+        h3{
+          .text('Roboto', 21px, 400, fade(@footer, 60%));
+          text-align: left;
+          z-index: 20;
+          .bezier-eas-in(0.4s);
+        }
+      }
+
+      .feature-row:hover{
+        background: @blueLight;
+        h3{
+          color: @white;
+        }
+      }
+    }
+  }
+
+  &.opened{
+  }
+}
+
+li.solution.opened{
+  .translateX(-33.333333%);
+
+
+  .features-wrapper{
+
+    .features-list{
+
+      .feature-row{
+
+        h3{
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+/* CASE STUDIES */
+/**********************************************************/
+
+#case-studies{
+
+  .case-study-wrapper{
+    padding: 10px;
+    //height: 100vh;
+    //background: red;
+
+    .case-study{
+      background: @white;
+      padding: 10px;
+
+      h2{
+        margin-top: 20px;
+        .text('Roboto', 20px, 400, @gray4);
+      }
+    }
+  }
+}
+
+
+/* INDUSTRIES */
+/**********************************************************/
+
+
+

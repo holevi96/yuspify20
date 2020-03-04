@@ -1,0 +1,96 @@
+@import (reference) "../../proto";
+
+/* CAREER RESULT PAGE TEMPLATE */
+
+#career-result{
+  background: @white;
+
+  .career-wrapper{
+
+    h1{
+      .text('Roboto', 30px, 300, @ye-bg-3);
+      margin-top: 40px;
+
+      &:after{
+        content: '';
+        display: block;
+        width: 5px;
+        height: 36px;
+        background: @ye-1;
+        visibility: visible;
+        position: relative;
+        left: -20px;
+        top: -36px;
+      }
+    }
+
+    p{
+      .text('Roboto', 18px, 400, @gray4);
+      line-height: 27px;
+      margin: 18px 0;
+
+      span{
+        font-weight: 300;
+      }
+
+      b{
+        font-size: 22px;
+        font-weight: 600;
+      }
+
+      strong{
+        font-size: 22px;
+        color: @gray4;
+        background: none;
+        font-weight: 600;
+        padding: 0;
+      }
+    }
+
+    ul{
+      padding-left: 30px;
+
+      li{
+        .text('Roboto', 18px, 300, @gray4);
+        line-height: 27px;
+        list-style: initial;
+
+      }
+    }
+
+    a.apply{
+      background: @greenNew;
+      padding: 6px 16px;
+      border-radius: 999em;
+      color: fade(@footer, 60%);
+      box-shadow: 0 3px 7px fade(@footer, 30%);
+
+      &:hover{
+        background: @footer;
+        color: @greenNew;
+        box-shadow: 0 0 14px fade(@footer, 40%);
+      }
+    }
+  }
+
+  .benefits{
+    background: @ye-bg-3;
+    padding: 30px;
+    box-shadow: 0 0 80px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    margin-top: 30px;
+
+    ul{
+      li{
+        .text('Roboto', 16px, 400, @white);
+        line-height: 30px;
+
+      }
+    }
+  }
+}
+
+li#menu-item-2284{
+
+}
+

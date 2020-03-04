@@ -1,0 +1,110 @@
+@import (reference) "../../proto";
+
+body.page-yusp-digical{
+
+  img{
+    width: 100%;
+  }
+
+  #general-menu {
+    //background: @purple2;
+    background: black;
+  }
+
+  .breadcrumbsWrapper{
+     //background: @purple2;
+     background: black;
+     border-bottom: 1px solid fade(@white, 20%);
+     border-top: 1px solid fade(@white, 20%);
+
+     a{
+       color: @white;
+     }
+   }
+  #content {
+    margin-top: 0px;
+  }
+
+}
+
+#yusp-digical-page{
+
+  section#introduction{
+    //background: @purple2;
+    background: black;
+
+    .wrapper{
+      padding: 60px 0;
+
+      .logo{
+
+        @media @xl, @xxl{
+          padding: 3% 5% 10% 30px;
+        }
+
+        @media @xs, @sm, @md, @lg{
+          padding: 5% 10% 10% 5%;
+        }
+
+        img{
+          min-width: 200px;
+
+          @media @xs, @sm, @md, @lg{
+            display: block;
+            margin: 0 auto;
+            width: 35%;
+          }
+        }
+
+        .yusp{
+          padding-right: 90px;
+          margin-bottom: 40px;
+        }
+      }
+
+      .intro-text{
+        @media @xs, @sm, @md, @lg{
+          padding: 0 10%;
+        }
+
+        h1{
+          .text('Roboto', 40px, 300, @white);
+        }
+
+        p{
+          .text('Roboto', 20px, 300, fade(@white, 80%));
+          line-height: 36px;
+        }
+      }
+    }
+  }
+}
+
+section#deloitte{
+  background: #80c343;
+
+  p{
+    .center-container(80%, 80%, 70%, 60%);
+    .text('Roboto', 26px, 800, fade(@black, 90%));
+    padding: 60px;
+    line-height: 36px;
+  }
+
+}
+
+
+section#digical-features{
+
+  .wrapper{
+    .center-container(80%, 80%, 70%, 60%);
+    padding: 60px;
+
+    h2{
+      .text('Roboto', 36px, 800, @black);
+    }
+    p{
+      .text('Roboto', 20px, 800, fade(@blue, 60%));
+    }
+  }
+
+}

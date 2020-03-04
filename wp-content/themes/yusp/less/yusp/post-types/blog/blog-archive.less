@@ -1,0 +1,220 @@
+@import(reference) "../../../proto";
+@import(reference) "blog-general";
+
+
+section#blog-archive-page{
+  background: @bg;
+
+  ul#blog-posts{
+    padding-right: 24px;
+
+    li.blog-post{
+      margin-bottom: 48px;
+      .tr2;
+
+      .image-wrapper{
+        width: 100%;
+        margin-bottom: 24px;
+
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .text-content{
+        .blog-padding;
+
+        a{
+          color: @blueLight;
+          .tr2;
+
+          h2.blog-list-title{
+            .text('AvantgardeBold', 26px, 400, @blueLight);
+            line-height: 26px;
+            margin-bottom: 24px;
+            border-left: 3px solid @greenNew;
+            margin-left: -8px;
+            padding-left: 8px;
+          }
+
+          &:hover{
+            color: @footer;
+          }
+        }
+
+        .excrept p{
+          .text('Roboto', 17px, 400, @gray3);
+          line-height: 25px;
+        }
+      }
+    }
+    li.blog-post:hover{
+
+      .date-and-author{
+      }
+
+      .text-content{
+      }
+    }
+  }
+}
+
+
+
+#archive-sidebar{
+
+  h2{
+    padding-top: @gutter;
+    padding-bottom: @gutter;
+    padding-left: @gutter / 2;
+    padding-right: @gutter / 2;
+    border-bottom: 1px solid fade(@grey2, 20%);
+  }
+  ul, li {
+    list-style: none;
+    -webkit-padding-start: 0px;
+  }
+  li.widget {
+    h2.widgettitle {
+      .text('Roboto', 30px, 300, @gray3);
+    }
+  }
+  ul li{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: @gutter / 2;
+    padding-right: @gutter / 2;
+
+    a{
+      .text('Roboto', 16px, 400, @blueNew);
+      line-height: 22px;
+    }
+  }
+}
+
+/***  RECENT POST ***/
+section#blog-archive-page #recent-potst {
+  background: @white;
+  list-style: none;
+
+  h2{
+    font-family: 'Roboto';
+    color: @blueLight;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 75px 25px 75px;
+    background: fade(@gray1, 70%);
+    border-bottom: 1px solid @gray1;
+  }
+
+  ul.recent-post-wrapper {
+
+    a {
+      li.recent-post-element {
+        list-style: none;
+        border-bottom: 1px solid fade(@gray3, 20%);
+        height: 104px;
+        padding: 8px 16px;
+        .tr1;
+
+        h3 {
+          .text('Roboto', 16px, 400, @mediumGrey);
+          max-height: 72px;
+          overflow: hidden;
+          .tr1;
+
+          @media @lg {
+            max-width: 190px;
+          }
+        }
+
+        div {
+          height: 104px;
+          width: 110px !important;
+          overflow: hidden;
+          background-position: center;
+          float: right;
+          opacity: 1;
+          position: relative;
+          margin-top: -8px;
+          margin-right: -16px;
+
+          img {
+            height: 104px;
+            width: auto;
+            margin-left: -40%;
+          }
+        }
+      }
+    }
+
+    a:hover{
+      li{
+        background: @blueLight;
+
+        h3{
+          color: @white;
+        }
+        div{
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+
+  @media @xs, @sm, @md {
+    display: none;
+  }
+}
+
+.wp-pagenavi{
+
+  .page-box{
+    text-decoration: none;
+    border: 1px solid #e6e6e6;
+    padding: 6px 11px;
+    margin: 2px;
+    background: white;
+    .text('Roboto', 16px, 400, @ye-bg-3);
+    .tr2;
+
+    &:hover{
+      background: @blueLight;
+      color: @white;
+    }
+  }
+
+  span.pages{
+    .page-box;
+
+  }
+
+  span.current{
+    .page-box;
+    background: @blueLight;
+    color: @white;
+    border: 1px solid fade(@blue, 60%) !important;
+  }
+
+  a.page{
+    .page-box;
+
+  }
+
+  a.page.larger{
+
+  }
+
+
+  a.previouspostslink{
+    .page-box;
+
+  }
+
+  a.nextpostslink{
+    .page-box;
+
+  }
+}

@@ -1,0 +1,509 @@
+[01-Mar-2020 18:23:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 18:24:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 19:32:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 19:41:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 19:54:21 UTC] PHP Notice:  Undefined offset: 1 in C:\laragon\www\yuspify20\wp-includes\class-wp-query.php on line 3252
+[01-Mar-2020 19:54:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 19:54:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 19:56:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 19:56:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:03:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:03:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:03:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:03:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:07:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:08:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:08:42 UTC] auditor:event=wp_login {"user_id":1,"blog_id":1,"event":"wp_login","current_user_id":0,"remote_addr":"127.0.0.1"}
+[01-Mar-2020 20:08:53 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[01-Mar-2020 20:08:53 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[01-Mar-2020 20:08:53 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[01-Mar-2020 20:08:53 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[01-Mar-2020 20:08:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:09:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:09:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:09:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:09:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:09:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:10:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:16:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:16:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:16:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:16:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:16:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:16:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:19:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:19:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:19:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:20:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:20:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:21:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:21:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:21:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:21:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:25:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:25:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:25:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:32:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:32:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:32:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:32:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:33:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:33:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:33:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:33:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:33:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:34:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:35:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:35:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:35:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:36:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:36:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:36:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:36:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:38:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:38:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:38:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:38:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:39:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:39:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:39:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:39:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:40:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:40:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:40:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:42:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:42:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:42:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:42:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:42:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:43:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:44:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:44:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:45:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:46:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:46:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:46:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:48:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:48:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:48:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:52:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:52:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:53:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:53:40 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 20:53:40 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 20:53:41 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 20:53:41 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 20:53:42 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 20:53:42 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 20:53:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:53:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:54:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:54:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:56:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:57:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:57:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:57:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:57:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:58:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:58:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:58:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:58:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:59:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:59:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:59:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 20:59:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:01:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:02:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:02:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:05:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:05:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:06:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:07:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:07:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:10:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:10:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:10:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:10:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:10:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:10:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:13:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:13:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:13:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:15:20 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 21:15:20 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 21:15:20 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 21:15:20 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 21:15:21 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 21:15:21 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 21:15:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:15:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:15:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:17:06 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 21:17:06 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 21:17:06 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 21:17:06 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 21:17:07 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 21:17:07 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 21:17:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:17:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:19:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:19:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:20:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:20:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:21:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:21:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:21:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:21:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:22:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:22:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:22:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:22:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:23:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:24:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:25:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:25:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:25:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:25:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:26:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:26:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:26:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:26:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:26:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:26:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:32:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:34:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:34:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:35:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:35:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:35:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:36:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:36:58 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 21:36:58 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 21:36:58 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 21:36:58 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 21:36:59 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 21:36:59 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 21:37:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:37:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:38:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:38:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:40:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:42:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:42:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:42:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:42:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:42:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:42:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:43:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:43:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:43:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:43:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:43:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:44:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:46:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:46:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:46:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:46:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:46:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 21:46:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:00:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:00:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:01:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:01:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:04:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:04:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:05:33 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 22:05:33 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 22:05:34 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 22:05:34 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 22:05:34 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 22:05:34 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 22:05:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:05:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:07:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:07:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:07:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:08:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:08:39 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Fifteen","slug":"twentyfifteen","ver":"1.5","sig":"v1:3d8151573a7436cad9b5c3cf51ad4965f14683db77e6a88d0652a37ae27b169d"}
+[01-Mar-2020 22:08:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:08:42 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Fourteen","slug":"twentyfourteen","ver":"1.7","sig":"v1:13356b86a2224e3f5d2acdc48216b2722db251ff18f8d802c4cb3f43856783b8"}
+[01-Mar-2020 22:08:45 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Nineteen","slug":"twentynineteen","ver":"1.4","sig":"v1:28294e49e3b9d845518a5613d9e9d7a95a5e623bea3453ec796eb9a24d4c1920"}
+[01-Mar-2020 22:08:47 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Seventeen","slug":"twentyseventeen","ver":"1.1","sig":"v1:dd814dbe71c6fd9fc29d94f042868f2bb2f1c57a8b705e87a8a0498e10c57225"}
+[01-Mar-2020 22:08:48 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Sixteen","slug":"twentysixteen","ver":"1.2","sig":"v1:0ba878ccba5d24f48063dea3e3f3b2e8e1421faeff979ad4f933e117104759f2"}
+[01-Mar-2020 22:08:51 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Twenty","slug":"twentytwenty","ver":"1.1","sig":"v1:ec451a17ea3376caac5adc1971c6663632803594adc10247ae005982121f4533"}
+[01-Mar-2020 22:09:01 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Yusp 2.0","slug":"yusp","ver":"","sig":"v1:b8d471fa8ed4458eb07ab433f39fc1b3a8015ce673344da93b8dd9e5b216497b"}
+[01-Mar-2020 22:09:03 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Yuspify 1.0","slug":"yuspify","ver":"","sig":"v1:8e09edc65cec0cb88b5d0cc09bb1a08753f7143e2fbe07244ec449a11fae8141"}
+[01-Mar-2020 22:09:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:09:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:09:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:09:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:10:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:10:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:10:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:10:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:13:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:13:20 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 22:13:20 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 22:13:20 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 22:13:20 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 22:13:21 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 22:13:21 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 22:13:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:13:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:13:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:13:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:16:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:16:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:16:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:16:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:16:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:16:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:18:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:18:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:25:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:25:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:26:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:26:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:27:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:27:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:28:35 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 22:28:35 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 22:28:36 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 22:28:36 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 22:28:37 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 22:28:37 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 22:28:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:28:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:37:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:37:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:55:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:55:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:56:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:56:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:56:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:56:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:56:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:57:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:57:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 22:58:16 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-includes","slug":"wp-includes","ver":"5.3.2","sig":"v1:833291d125af196451633e8eaab1cc247c096340f5bac51044ce089388d6ebc6"}
+[01-Mar-2020 22:58:41 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-admin","slug":"wp-admin","ver":"5.3.2","sig":"v1:08cc10a8bd794092fb44bffd7e96aadfc8a0f7ed55fd712011c5c1ad2ca3d04d"}
+[01-Mar-2020 23:00:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:00:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:00:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:00:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:00:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:00:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:01:59 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 23:01:59 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 23:01:59 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 23:01:59 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 23:02:00 UTC] http_request_async curl error: Failed to connect to localhost port 9002: Timed out
+[01-Mar-2020 23:02:00 UTC] purge_varnish_cache() failed for: (localhost) #^(yuspify20\.test)$# #((.*)|/wp-json/wp/v2/pages)#
+[01-Mar-2020 23:02:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:02:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:04:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:04:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:05:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:07:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:07:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:08:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:08:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:22:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:24:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:24:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:31:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:31:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:31:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:31:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:32:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:32:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:32:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:32:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:32:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:32:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:34:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:34:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:34:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:35:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:35:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:35:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:36:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:36:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:36:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:36:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:36:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:36:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:38:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:38:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:38:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:38:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:38:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:38:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:39:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:39:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:39:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:39:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:39:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:39:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:40:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:40:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:40:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:40:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:40:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:42:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:44:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[01-Mar-2020 23:44:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:01:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:01:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:05:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:09:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:09:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:10:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:10:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:10:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:11:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:11:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:11:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:12:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:12:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:15:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:15:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:15:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:15:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:17:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:17:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:17:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:17:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:29:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:29:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:30:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:30:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:30:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:30:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:30:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:30:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 00:30:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:29:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:29:30 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Fifteen","slug":"twentyfifteen","ver":"1.5","sig":"v1:3d8151573a7436cad9b5c3cf51ad4965f14683db77e6a88d0652a37ae27b169d"}
+[02-Mar-2020 10:29:33 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Fourteen","slug":"twentyfourteen","ver":"1.7","sig":"v1:13356b86a2224e3f5d2acdc48216b2722db251ff18f8d802c4cb3f43856783b8"}
+[02-Mar-2020 10:29:36 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Nineteen","slug":"twentynineteen","ver":"1.4","sig":"v1:28294e49e3b9d845518a5613d9e9d7a95a5e623bea3453ec796eb9a24d4c1920"}
+[02-Mar-2020 10:29:37 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Seventeen","slug":"twentyseventeen","ver":"1.1","sig":"v1:dd814dbe71c6fd9fc29d94f042868f2bb2f1c57a8b705e87a8a0498e10c57225"}
+[02-Mar-2020 10:29:39 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Sixteen","slug":"twentysixteen","ver":"1.2","sig":"v1:0ba878ccba5d24f48063dea3e3f3b2e8e1421faeff979ad4f933e117104759f2"}
+[02-Mar-2020 10:29:41 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Twenty","slug":"twentytwenty","ver":"1.1","sig":"v1:ec451a17ea3376caac5adc1971c6663632803594adc10247ae005982121f4533"}
+[02-Mar-2020 10:29:44 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\laragon\www\yuspify20\wp-includes\wp-db.php on line 2030
+[02-Mar-2020 10:29:44 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\laragon\www\yuspify20\wp-includes\wp-db.php on line 2030
+[02-Mar-2020 10:29:44 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\laragon\www\yuspify20\wp-includes\wp-db.php on line 2030
+[02-Mar-2020 10:29:44 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\laragon\www\yuspify20\wp-includes\wp-db.php on line 2030
+[02-Mar-2020 10:30:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:30:08 UTC] auditor:event=wp_login {"user_id":1,"blog_id":1,"event":"wp_login","current_user_id":0,"remote_addr":"127.0.0.1"}
+[02-Mar-2020 10:30:15 UTC] auditor:event=wp_login {"user_id":1,"blog_id":1,"event":"wp_login","current_user_id":1,"remote_addr":"127.0.0.1"}
+[02-Mar-2020 10:30:19 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:30:19 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:30:19 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:30:19 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:30:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:30:26 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:30:26 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:30:26 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:30:26 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:30:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:30:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:30:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:31:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:31:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:31:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:31:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:31:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:32:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:32:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:33:07 UTC] auditor:event=wp_login {"user_id":1,"blog_id":1,"event":"wp_login","current_user_id":0,"remote_addr":"127.0.0.1"}
+[02-Mar-2020 10:33:18 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:33:18 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:33:18 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:33:18 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:33:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:33:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:33:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:33:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:34:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:34:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:35:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:40:30 UTC] auditor:event=wp_login {"user_id":1,"blog_id":1,"event":"wp_login","current_user_id":0,"remote_addr":"127.0.0.1"}
+[02-Mar-2020 10:40:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:41:22 UTC] auditor:event=wp_login {"user_id":1,"blog_id":1,"event":"wp_login","current_user_id":1,"remote_addr":"127.0.0.1"}
+[02-Mar-2020 10:41:33 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:41:33 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:41:33 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:41:33 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 10:41:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:44:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 10:44:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:26:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:26:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:30:57 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 12:30:57 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 12:30:58 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 12:30:58 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[02-Mar-2020 12:30:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:31:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:31:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:32:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:33:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:33:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:34:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[02-Mar-2020 12:34:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:40:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:40:24 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-includes","slug":"wp-includes","ver":"5.3.2","sig":"v1:833291d125af196451633e8eaab1cc247c096340f5bac51044ce089388d6ebc6"}
+[03-Mar-2020 12:40:25 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-admin","slug":"wp-admin","ver":"5.3.2","sig":"v1:08cc10a8bd794092fb44bffd7e96aadfc8a0f7ed55fd712011c5c1ad2ca3d04d"}
+[03-Mar-2020 12:40:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:40:31 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Fifteen","slug":"twentyfifteen","ver":"1.5","sig":"v1:3d8151573a7436cad9b5c3cf51ad4965f14683db77e6a88d0652a37ae27b169d"}
+[03-Mar-2020 12:40:31 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Fourteen","slug":"twentyfourteen","ver":"1.7","sig":"v1:13356b86a2224e3f5d2acdc48216b2722db251ff18f8d802c4cb3f43856783b8"}
+[03-Mar-2020 12:40:32 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Nineteen","slug":"twentynineteen","ver":"1.4","sig":"v1:28294e49e3b9d845518a5613d9e9d7a95a5e623bea3453ec796eb9a24d4c1920"}
+[03-Mar-2020 12:40:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:40:32 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Seventeen","slug":"twentyseventeen","ver":"1.1","sig":"v1:dd814dbe71c6fd9fc29d94f042868f2bb2f1c57a8b705e87a8a0498e10c57225"}
+[03-Mar-2020 12:40:32 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Sixteen","slug":"twentysixteen","ver":"1.2","sig":"v1:0ba878ccba5d24f48063dea3e3f3b2e8e1421faeff979ad4f933e117104759f2"}
+[03-Mar-2020 12:40:32 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Twenty","slug":"twentytwenty","ver":"1.1","sig":"v1:ec451a17ea3376caac5adc1971c6663632803594adc10247ae005982121f4533"}
+[03-Mar-2020 12:40:32 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Yusp 2.0","slug":"yusp","ver":"","sig":"v1:b8d471fa8ed4458eb07ab433f39fc1b3a8015ce673344da93b8dd9e5b216497b"}
+[03-Mar-2020 12:40:32 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Yuspify 1.0","slug":"yuspify","ver":"","sig":"v1:392c1109d84352617fb8ae5cbc1399b80a6a88608698652c6d5c020682234fe0"}
+[03-Mar-2020 12:40:41 UTC] auditor:event=wp_login {"user_id":9,"blog_id":1,"event":"wp_login","current_user_id":0,"remote_addr":"127.0.0.1"}
+[03-Mar-2020 12:42:25 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[03-Mar-2020 12:42:25 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[03-Mar-2020 12:42:25 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[03-Mar-2020 12:42:25 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[03-Mar-2020 12:42:28 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[03-Mar-2020 12:42:28 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "read_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[03-Mar-2020 12:42:28 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[03-Mar-2020 12:42:28 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type blog is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\yuspify20\wp-includes\functions.php on line 4986
+[03-Mar-2020 12:42:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:42:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:42:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:42:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:43:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:43:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:46:09 UTC] WPMDB Error: Data cannot be unserialized. Scope: WPMDB_Replace::recursive_unserialize_replace().
+[03-Mar-2020 12:46:35 UTC] WPMDB Error: Data cannot be unserialized. Scope: WPMDB_Replace::recursive_unserialize_replace().
+[03-Mar-2020 12:48:56 UTC] WPMDB Error: Data cannot be unserialized. Scope: WPMDB_Replace::recursive_unserialize_replace().
+[03-Mar-2020 12:52:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:52:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:52:53 UTC] PHP Notice:  Undefined index: plugins in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-security-auditor.php on line 189
+[03-Mar-2020 12:52:53 UTC] auditor:event=upgrader_process_complete_plugin {"type":"plugin","action":"install","plugin":"advanced-database-cleaner","blog_id":1,"event":"upgrader_process_complete_plugin","current_user_id":9,"remote_addr":"127.0.0.1"}
+[03-Mar-2020 12:53:00 UTC] auditor:event=activated_plugin {"plugin":"advanced-database-cleaner/advanced-db-cleaner.php","network_activation":false,"blog_id":1,"event":"activated_plugin","current_user_id":9,"remote_addr":"127.0.0.1"}
+[03-Mar-2020 12:53:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:53:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:53:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:53:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071
+[03-Mar-2020 12:54:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\yuspify20\wp-content\mu-plugins\wpengine-common\plugin.php on line 1071

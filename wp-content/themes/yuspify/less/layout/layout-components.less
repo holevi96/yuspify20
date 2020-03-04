@@ -1,0 +1,273 @@
+@import (reference) "../base.less";
+@import (reference) "../responsive.less";
+
+.section{
+  border-bottom: 1px solid #e1e1e1;
+  padding: 72px 0;
+  background: @bg;
+}
+
+.grid-col{
+  @media @sm, @md, @lg, @xl, @xxl{
+    padding: 10px;
+  }
+
+  @media @md, @sm, @xs{
+    margin-bottom: 20px;
+  }
+}
+
+.grid{
+  z-index: 100;
+
+  @media @lg, @xl, @xxl{
+    margin-left: -15px;
+    width: ~'calc(100% + 30px)';
+  }
+
+  li.case-study-wrapper{
+    .col;
+
+    &.col-4{
+      @media @xs  {width: 100%}
+      @media @sm  {width: 100% / 2;}
+      @media @md  {width: 100% / 2;}
+      @media @lg  {width: 100% / 4;}
+      @media @xl  {width: 100% / 4;}
+      @media @xxl {width: 100% / 4;}
+    }
+
+    &.col-3{
+      @media @xs  {width: 100%}
+      @media @sm  {width: 100% / 2;}
+      @media @md  {width: 100% / 2;}
+      @media @lg  {width: 100% / 3;}
+      @media @xl  {width: 100% / 3;}
+      @media @xxl {width: 100% / 3;}
+    }
+
+    @media @sm, @md, @lg, @xl, @xxl{
+      padding: 10px;
+    }
+
+    @media @md, @sm, @xs{
+      margin-bottom: 20px;
+    }
+
+    .row.wrapper{
+      box-shadow: 0 0 3px #CCCCCC;
+      .tr(0.3s);
+
+      h2{
+        .text('AvantgardeBold', 18px, 400px, @blueLight);
+        padding: 20px;
+        background: @white;
+        border-top: 1px solid @gray1;
+        min-height: 90px;
+      }
+
+      .p-wrapper{
+        padding: 20px;
+        background: @white;
+
+        p{
+          .text('Roboto', 16px, 400, @gray3);
+          height: 60px;
+          overflow-y: hidden;
+
+        }
+      }
+
+      .image-wrapper{
+        height: 160px;
+        padding: 10px;
+        //background: fade(@white, 60%);
+        background: #fafafa;
+
+        img{
+          height: 100%;
+          /* width: auto; */
+          margin: 0 auto;
+          text-align: center;
+          opacity: 0.6;
+          .desaturate;
+        }
+      }
+
+      .kpi-wrapper{
+        padding: 20px;
+        background: @ye-bg-3;
+        .tr2;
+
+        h3{
+          .text('AvantgardeBold', 22px, 800, @ye-0);
+
+        }
+
+        h4{
+          .text('Roboto', 16px, 400, @gray3);
+          height: 40px;
+        }
+      }
+    }
+  }
+
+  li.case-study-wrapper:hover{
+
+    .row.wrapper{
+      box-shadow: 0 6px 50px fade(@footer, 25%);
+
+
+      .image-wrapper{
+        background: @white;
+
+        img{
+          .saturate;
+          opacity: 1;
+
+        }
+      }
+
+      .kpi-wrapper{
+        background: @white;
+
+        h3, h4{
+          color: @ye-bg-3;
+        }
+      }
+    }
+  }
+}
+
+.dark-grid{
+
+  @media @lg, @xl, @xxl{
+    margin-left: -15px;
+    width: ~'calc(100% + 30px)';
+  }
+
+  .grid-element-wrapper{
+    .col;
+
+    @media @md, @lg, @xl, @xxl{
+      padding: 20px;
+    }
+
+    @media @xs, @sm{
+      margin-bottom: 40px;
+    }
+
+    .grid-box{
+      height: auto;
+      border: 3px solid @ye-gray-1;
+      //border: 3px solid @ye-bg-0;
+      border-radius: 3px;
+      padding: 30px;
+      box-shadow: 0 0 15px transparent;
+      box-sizing: border-box;
+      .bezier-eas-in-slow(0.4s);
+
+      &.col-4{
+        @media @xs  {width: 100%}
+        @media @sm  {width: 100% / 2;}
+        @media @md  {width: 100% / 2;}
+        @media @lg  {width: 100% / 4;}
+        @media @xl  {width: 100% / 4;}
+        @media @xxl {width: 100% / 4;}
+
+        .solution-desc {
+
+          @media @md, @lg, @xl, @xxl {
+            height: 210px;
+          }
+        }
+      }
+
+      &.col-3{
+        @media @xs  {width: 100%}
+        @media @sm  {width: 100% / 2;}
+        @media @md  {width: 100% / 2;}
+        @media @lg  {width: 100% / 3;}
+        @media @xl  {width: 100% / 3;}
+        @media @xxl {width: 100% / 3;}
+
+        .solution-desc {
+
+          @media @md, @lg, @xl, @xxl {
+            height: 130px;
+          }
+        }
+      }
+
+      .image-wrapper{
+
+        img.illustration{
+          width: 80px;
+          margin: 40px 0;
+          .bezier-eas-in-slow(0.6s);
+
+          &.inverse{
+            .translateY(-200px);
+            opacity: 0;
+          }
+
+          &.normal{
+            .translateY(0px);
+            left: -80px;
+            opacity: 1;
+          }
+        }
+      }
+
+      .text-wrapper{
+
+        h2{
+          .text('AvantgardeBold', 20px, 400, @ye-0);
+          letter-spacing: 0.2px;
+
+          @media @md, @lg, @xl, @xxl{
+            height: 60px;
+          }
+        }
+
+        .solution-desc, .solution-desc p{
+          .text('Roboto', 16px, 400, @gray2);
+          line-height: 18px;
+          .tr2;
+
+        }
+      }
+    }
+
+    .grid-box:hover{
+      //padding: 30px 40px;
+      border-color: @white;
+      background: @white;
+      box-shadow: 0 0 30px @ye-bg-0;
+
+      h2{
+        //color: @ye-bg-3;
+        color: @blueExtra;
+      }
+      .solution-desc{
+        //color: @blueExtra;
+        color: @gray4;
+      }
+
+      .image-wrapper{
+
+        img{
+          &.inverse{
+            transform: translateY(0px);
+            opacity: 1;
+          }
+
+          &.normal{
+            .translateY(200px);
+            opacity: 0;
+          }
+        }
+      }
+    }
+  }
+}

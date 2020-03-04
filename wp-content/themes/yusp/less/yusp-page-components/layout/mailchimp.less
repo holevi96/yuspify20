@@ -1,0 +1,45 @@
+@import (reference) "../../proto";
+
+.mc4wp-form{
+
+  .form-location{
+    display: none;
+  }
+
+  .mc4wp-alert{
+    //position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding: 10px 40px 10px 10px;
+    display: block;
+    margin-top: 20px;
+    .row;
+
+    /*
+    &:after{
+      content: 'X';
+      font-size: 14px;
+      display: block;
+      position: absolute;
+      visibility: visible;
+      color: @black;
+      right: 0px;
+      top: 0px;
+      cursor: pointer;
+      padding: 6px 10px;
+      background: fade(@black, 10%);
+    }
+    */
+
+    &.mc4wp-success{
+      background: @greenNew;
+      color: @footer;
+    }
+
+    &.mc4wp-error{
+      background: @red-1;
+      color: @footer;
+    }
+  }
+}
+

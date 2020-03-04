@@ -1,0 +1,55 @@
+@import (reference) "../../../proto";
+
+#recent-blogposts-widget{
+  background: @white;
+  padding: 48px 0;
+  border-bottom: 1px solid @gray1;
+}
+
+.post-grid{
+
+  .blogpost-row{
+    background: @white;
+    border-right: 1px solid @gray1;
+    box-shadow: 0 0 3px #CCCCCC;
+    .tr(0.3s);
+
+    .tr2;
+
+    h2{
+      .text('Roboto', 18px, 400, @gray3);
+      padding: 60px 20px 20px 20px;
+      height: 160px;
+
+      @media @sm{
+        min-height: 150px;
+      }
+    }
+
+    .image-wrapper{
+      height: 156px;
+
+      @media @sm{
+        min-height: 140px;
+      }
+
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .blogpost-row:hover{
+    box-shadow: 0 6px 50px fade(@footer, 25%);
+  }
+
+  .blogpost-row.unhovered{
+    background: transparent;
+    .tr2;
+
+    img{
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,1738 @@
+@import (reference) "../../proto";
+
+body.page-sme-pricing{
+  #sme-menu{
+    background: transparent;
+  }
+}
+
+.pricing-calculator{
+  .col-lg-6{
+    h3{
+      .text('AvantgardeBold', 600, 20px, @gray3);
+    }
+  }
+}
+
+
+#pricing {
+  .tr(0.5s);
+  margin-bottom: -30px;
+  border-bottom: 1px solid fade(@white, 20%);
+
+  .tabulator-wrapper {
+    background: @blueLight;
+    padding: 30px 0 0 0;
+
+    h1 {
+      .text('AvantgardeBold', 600, 24px, @white);
+      text-transform: uppercase;
+      //text-align: center;
+    }
+
+    .tabs {
+      margin-bottom: 0px;
+
+      li.tab-link {
+        border-right: none;
+        background: fade(@blue, 20%);
+
+        &:hover {
+          background: @greenNew;
+        }
+      }
+      li.tab-link.current {
+        background: @white;
+      }
+    }
+  }
+
+  #digital-or-digical{
+    .center-container(100%, 80%, 70%, 65%);
+    border-radius: 5px;
+    margin-bottom: 15vh;
+
+    .button{
+      cursor: pointer;
+      .tr(0.4);
+
+      @media @xs  { padding: 30px;}
+      @media @sm  { padding: 30px;}
+      @media @md  { padding: 30px;}
+      @media @lg  { padding: 40px;}
+      @media @lg  { padding: 40px;}
+      @media @xl  { padding: 50px;}
+      @media @xxl { padding: 60px;}
+
+      img{
+        width: 180px;
+        .col;
+      }
+
+      p{
+        .text('Roboto', 16px, 400, @white);
+      }
+    }
+
+    .digital{
+      border-right: 1px solid fade(@footer, 50%);
+      background: @blueLight;
+      border: 5px solid @blueLight;
+
+
+      &.active{
+        background: transparent;
+        border: 5px solid @white;
+      }
+
+      @media @xs, @sm, @md{
+        border-radius: 5px 5px 0 0;
+      }
+
+      @media @lg, @xl, @xxl{
+        border-radius: 5px 0 0 5px;
+      }
+
+    }
+
+    .digical{
+      cursor: pointer;
+      background: @purple2;
+      border: 5px solid @purple2;
+      .tr(0.4);
+
+      &.active{
+        background: transparent;
+        border: 5px solid @white;
+      }
+
+      @media @xs, @sm{
+        border-radius: 0 0 5px 5px;
+      }
+
+      @media @md, @lg, @xl, @xxl{
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+}
+
+@pricing-margin: 180px;
+
+#pricing{
+  margin-top: -@pricing-margin;
+  padding-top: @pricing-margin;
+  //.gradient-cool-blue;
+}
+
+#feature-based-pricing{
+  background: @bg;
+}
+
+#pricing.pricing-overview{
+  //background: @footer;
+  //background: @grad-radial-blue;
+
+  //.header-green-gradient;
+  //background-color: @footer;
+
+  background: @blueLight;
+  background-image: url('@{root}/img/svg/yusp-white-logo-background.svg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 30%;
+  //padding-bottom: 80px;
+}
+
+#pricing.pricing-starter{
+  background: @blueLight;
+  //background: @grad-radial-blue;
+  //background: url('@{root}/img/blue-gradient-background.svg');
+
+  background: @blueLight;
+  background-image: url('@{root}/img/svg/yusp-white-logo-background.svg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 60%;
+}
+
+#pricing.pricing-pro{
+  //background: @grad-radial-green;
+  //background: url('@{root}/img/green-gradient-background.svg');
+  background: @greenNew;
+  background-image: url('@{root}/img/svg/yusp-white-logo-background.svg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 90%;
+
+  h2.yusp-starter-title{
+    display: none;
+  }
+
+  .noUi-base{
+    background: darken(@green, 10%);
+  }
+  #yusp-pro{
+
+    .price-box{
+      background: fade(@blue, 60%);
+
+      h2, h3, h4, span{
+        color: @white;
+      }
+    }
+
+    .pro-contact-us{
+      button#submit-pro{
+        background: @white;
+      }
+    }
+
+    .enterpise-full-feature-list{
+      li{
+        color: fade(@blue, 60%);
+        border-bottom: 1px solid fade(@blue, 80%);
+      }
+    }
+  }
+}
+
+#pricing.pricing-enterprise{
+  background-color: @footer;
+  //background: url('@{root}/img/dark-gradeient-background.svg');
+  //background: @grad-radial-footer;
+  /*
+  background-image: url('@{root}/img/yusp-logo-for-login.png');
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+  */
+
+  background-image: url('@{root}/img/svg/yusp-white-logo-background.svg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 120%;
+
+  h2.yusp-starter-title{
+    display: none;
+  }
+
+  .noUi-base{
+    background: darken(@footer, 3%);
+  }
+}
+
+#pricing-slider-box{}
+#price-slider{
+  margin-bottom: 40px;
+}
+
+
+#pricing-calculator{
+  //background: @gradient-blueNew-to-blueLight;
+  //background: @gradient-gray-to-gray;
+  //background: @bg-dash;
+  background: transparent;
+}
+
+/*** ### FOR ALL SIZES ### ***/
+
+
+
+
+
+#plans-wrapper{
+}
+
+#plans{
+  .tr2;
+
+
+
+  .plan-wrapper{
+
+    &#plan-1{
+      &:before{ background-color: @greenNew;}
+    }
+    &#plan-2{
+      &:before{ background-color: @green;}
+    }
+    &#plan-3{
+      &:before{ background-color: @blueLight;}
+    }
+    &#plan-4{
+      &:before{ background-color: @blueNew;}
+    }
+
+    &:before{
+      content: '';
+      display: block;
+      background-color: @blueNew;
+      height: 3px;
+      width: 100%;
+      //padding-right: 15px;
+    }
+  }
+}
+
+/*** THE PLAN ***/
+.plan{
+  float: left;
+  cursor: default;
+  display: block;
+  font-weight: 300;
+  border-radius: 0 0 3px 3px;
+  margin-right: -15px;
+  background: @white;
+  padding: 15px;
+  border: 1px solid fade(@gray3, 20%);
+  .tr(0.4s);
+
+  .basic-info{
+    text-align: center;
+
+    h3.plan-name{
+      .text('AvantgardeBold', 20px, 300, @gray3);
+    }
+
+    p{
+      .text('Roboto', 15px, 400,@blueNew);
+    }
+
+    h2.price{
+      .text('AvantgardeBold', 30px, 600, @blueNew);
+      margin: 20px 0;
+
+    }
+
+    h4.tertiary, h4{
+      .text('Roboto', 20px, 300, @gray3);
+
+      span.value{
+        .text('Roboto', 20px, 300, @gray3);
+        position: relative;
+        top: 2px;
+      }
+
+      span{
+        .text('Roboto', 15px, 300, @gray3);
+        position: relative;
+        top: 2px;
+      }
+
+      i.material-icons{
+        color: @blueLight;
+        top: 5px;
+        position: relative;
+        .tr2;
+
+        span{
+          visibility: hidden;
+          width: 290px;
+          background-color: @footer;
+          box-shadow: 0 0 40px fade(@blue, 35%);
+          color: fade(@white, 60%);
+          text-align: center;
+          border-radius: 3px;
+          padding: 11px;
+          border: 3px solid @blueLight;
+          position: absolute;
+          z-index: 10000;
+          left: -1040%;
+        }
+      }
+
+      .material-icons:hover{
+
+        span{
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+  .estimated-info{
+    text-align: center;
+    max-height: 0;
+    opacity: 0;
+    margin: 0 auto;
+    .tr(0.3s);
+
+    &:before{
+      content: '';
+      display: block;
+      background: fade(@gray2, 70%);
+      height: 1px;
+      margin: 0 auto;
+      width: 0%;
+      .tr(0.3s);
+    }
+
+    .plus, .equals{
+      .text('AvantgardeBold', 20px, 600, @gray3);
+      margin-top: 20px;
+    }
+
+    .base-price, .overuse{
+      .text('AvantgardeThin', 24px, 600, @gray3);
+    }
+
+    .total{
+      .text('AvantgardeBold', 24px, 600, @blueLight);
+    }
+
+    span.stnd{
+      display: block;
+    }
+
+    .trial{
+      .text('AvantgardeBold', 20px, 600, @blueLight);
+      display: inline-block;
+      padding: 9px 5px;
+      border: 3px solid @blueLight;
+      margin: 0 auto;
+      width: 210px;
+      position: relative;
+      text-align: center;
+      background: white;
+      border-radius: 100px;
+      cursor: pointer;
+      .tr2;
+
+      @media @lg, @xl, @xxl{top: 27px;}
+      @media @md{top: 41px;}
+      @media @sm, @xs{top: 16px;}
+
+      &:hover{
+        background: @greenNew;
+        border: 3px solid @greenNew;
+        color: fade(@blue, 60%);
+      }
+    }
+  }
+}
+
+
+/*** SELECTED PLAN ***/
+
+#plans{
+  margin-top: 10px;
+  .tr2;
+
+  .plan-wrapper.selected{
+    opacity: 1;
+    max-height: 370px;
+    .tr2;
+
+    &:before{
+      display: none;
+    }
+
+    .plan{
+      box-shadow: 0 0 140px fade(@blue, 65%);
+      background: @white;
+      border: 3px solid @blueLight;
+      .tr2;
+
+      .basic-info{
+        margin-bottom: -30px;
+      }
+
+      h3, h2, h4{
+        color: @blueLight !important;
+        opacity: 1;
+      }
+
+      h2.plan-price{
+        color: @blueNew;
+      }
+
+      .estimated-info{
+        max-height: 280px;
+        opacity: 1;
+        padding-top: 45px;
+
+
+        p{
+          opacity: 1;
+        }
+
+        &:before{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+#plans{
+  .plan-wrapper.unselected{
+    .plan {
+      //box-shadow: 0 0 30px fade(@blue, 15%);
+      //background: @bg-dash;
+      opacity: 0.7;
+      .tr2;
+
+      h3, h2, h4, span{
+        //color: white;
+      }
+    }
+  }
+}
+
+.plans.selected {
+
+  @media @xs  {
+    //max-height: 700px;
+    height: 700px;
+  }
+  @media @sm  {
+    //max-height: 680px;
+    height: 680px;
+  }
+  @media @md  {
+    //max-height: 530px;
+    height: 530px;
+  }
+  @media @lg  {
+    //max-height: 480px;
+    height: 480px;
+  }
+  @media @xl  {
+    //max-height: 400px;
+    height: 480px;
+  }
+  @media @xxl {
+    //max-height: 400px;
+    height: 480px;
+  }
+
+  max-height: 700px;
+  opacity: 1;
+  z-index: auto;
+  //margin-bottom: 150px;
+}
+
+
+/*** ### FOR DESKTOP ### ***/
+
+@media @lg, @xl, @xxl {
+
+  .plans{
+    max-height: 0;
+    opacity: 0;
+
+    .plan-wrapper{
+      max-height: 0;
+      opacity: 0;
+      padding-right: 0;
+      padding-left: 0;
+
+      .plan{
+        padding-left: 0;
+        max-height: 0;
+        opacity: 0;
+        z-index: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .plans.selected {
+    /*
+    max-height: 400px;
+    opacity: 1;
+    z-index: auto;
+    margin-bottom: 150px;
+    */
+
+    .plan-wrapper{
+      max-height: 370px;
+      opacity: 1;
+
+      .plan{
+        max-height: 450px;
+        opacity: 1;
+
+        h3, h2, h4, span{
+          max-height: 320px;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+/*** ### FOR MOBILE ### ***/
+
+@media @md, @sm, @xs {
+
+  .plans{
+    display: block;
+    //height: 260px;
+
+    .plan-wrapper{
+      margin-bottom: 15px;
+      position: absolute;
+      //right: 30px;
+      height: auto;
+      opacity: 0;
+      left: 0;
+
+      &.mobile-selected{
+        opacity: 1;
+      }
+
+      .plan{
+      }
+
+      .plan.slected{
+        z-index: 100;
+        opacity: 1;
+
+      }
+      .plans.unselected{
+        opacity: 0;
+      }
+    }
+  }
+}
+
+@media @xs, @sm, @md {
+  .plans .plan-wrapper.mobile-selected {
+    display: block;
+  }
+
+  .plans .plan-wrapper.mobile-selected.unselected {
+    display: none;
+  }
+}
+
+
+//@media @lg, @xl, @xxl{
+
+
+
+#free-trial-box{
+
+  .modal-wrapper{
+    width: 600px;
+    background: @white;
+    padding: 60px;
+    margin: 0 auto;
+    display: table;
+    height: auto;
+    margin-top: 15vh;
+    box-shadow: 0 0 100px fade(black, 40%);
+
+    .decor-line{
+      content: '';
+      width: 100%;
+      height: 5px;
+      content: '';
+      margin-top: -60px;
+      margin-bottom: 60px;
+      background: @blueLight;
+    }
+
+    #close-trial{
+      float: right;
+      cursor: pointer;
+      //padding-right: 42px;
+    }
+
+    h2{
+      .text('AvantgardeBold', 20px, 600, @blueNew);
+    }
+    p{
+      .text('Roboto', 16px, 300, @gray4);
+    }
+
+    #trial-form{
+      display: block;
+      text-align: center;
+
+      input{
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+
+        &:hover{
+          box-shadow: 0 0 20px fade(black, 40%);
+        }
+      }
+
+      button{
+        margin: 0 auto;
+        border-radius: 100px;
+        width: 60%;
+      }
+
+      &.inactive{
+        display: none;
+      }
+
+      .error-msg{
+        display: none;
+        color: @red-1;
+
+        &.active{
+          display: block;
+        }
+      }
+
+      div#recaptcha div{
+        margin: 0 auto;
+        padding-top: 5px;
+      }
+    }
+
+    i.material-icons.filled{
+      font-size: 14px;
+      margin-right: 6px;
+    }
+
+    #trial-thanks{
+      opacity: 0;
+      height: 0;
+      .tr2;
+
+      p{
+        font-weight: 400;
+        color: fade(@blue, 60%);
+      }
+      &.active{
+        opacity: 1;
+        height: auto;
+        padding: 40px;
+
+        background: #2ce5b5;
+        text-align: center;
+        border-radius: 3px;
+        .tr2;
+      }
+    }
+  }
+}
+
+
+#free-trial-box.modal.visible {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1500; /*hide it in the back of the page*/
+
+  .modal-wrapper{
+    visibility: visible;
+  }
+
+}
+#free-trial-box.modal{
+
+  transition: all .5s ease-in-out;
+
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background: fade(@footer, 90%);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+#yusp-plus {
+  display: none;
+  //border-radius: 3px;
+  //padding: 15px;
+  box-sizing: border-box;
+  //box-shadow: 0 0 140px fade(@blue, 35%);
+  //border: 1px solid fade(@gray3, 35%);
+
+  .yusp-plus-pageview {
+    border-bottom: 1px solid fade(@white, 40%);
+
+    p {
+      .text('Roboto', 18px, 300, fade(@white, 60%));
+    }
+    h2 {
+      .text('AvantgardeBold', 24px, 600, @white);
+    }
+  }
+}
+
+#enterprise-form, #pro-form{
+  display: block;
+  opacity: 1;
+
+  .tr2;
+
+  &.inactive{
+    display: none;
+    opacity: 0;
+  }
+
+  .error-msg{
+    display: none;
+    color: @red-1;
+
+    &.active{
+      display: block;
+    }
+  }
+}
+
+#enterprise-thanks, #pro-thanks{
+  display: none;
+  opacity: 0;
+  .tr2;
+
+  &.active{
+    display: block;
+    opacity: 1;
+    .tr2;
+
+  }
+}
+
+
+
+@media @xs, @sm, @md {
+  #yusp-plus.selected{
+    display: block;
+    //margin-top: 130px;
+  }
+}
+
+@media @lg, @xl, @xxl{
+  #yusp-plus.selected{
+    display: block;
+  }
+}
+
+
+.pageview-count.warning{
+  color: red;
+}
+
+.pageview-mode .tab-page{
+  display: none;
+}
+
+.pageview-mode .selected{
+  display: block;
+}
+
+#pricing{
+
+  h3.form-title{
+    .text('AvantgardeBold', 20px, 600, @gray3);
+  }
+
+  form#domain-form{
+    padding: 0;
+
+    @media @lg, @xl, @xxl{
+      margin: 0 auto;
+      width: 600px;
+    }
+
+    @media @xs, @sm, @md{
+      padding: 0 10%;
+      width: 100%
+    }
+
+    input#domain-input{
+      margin-top: 19px;
+      padding: 0px 15px;
+      height: 60px;
+
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+
+      box-shadow: none;
+      background: white;
+    }
+
+    input#domain-input:hover{
+      box-shadow: 0 0 25px fade(black, 10%);
+
+    }
+    #actionButton{
+      margin-top: 19px;
+      height: 60px;
+
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      //border: 1px solid #4275f4;
+      border-left: none;
+      box-shadow: none;
+    }
+  }
+
+  @media @xs, @sm{
+    #domain-input{
+      text-align: center;
+    }
+
+    #actionButton{
+      margin-left: 20%;
+    }
+  }
+
+  #pricing-traffic-box {
+    padding-bottom: 20px;
+
+    p.stnd{
+      margin-bottom: -15px;
+    }
+  }
+}
+
+.calculations{
+  padding-top: 15px;
+  //.center-container(100%, 800px, 900px, 1100px);
+
+
+  span.price-description{
+    .text('Roboto', 18px, 300, fade(@white, 70%));
+
+    @media @xs, @sm{
+      max-width: 120px;
+      display: block;
+    }
+  }
+
+  h3.pricing-values{
+    .text('AvantgardeThin', 24px, 300, @white);
+    display: inline;
+  }
+
+  h3.price-per-reco{
+    .text('AvantgardeBold', 26px, 600, @white);
+    display: inline;
+    line-height: 31.2px;
+  }
+
+  .basic-numbers{
+    padding-bottom: 8px;
+    //border-bottom: 1px solid fade(@gray3, 50%);
+
+    .calculated-price{
+      display: block;
+    }
+    .calculated-price.hidden{
+      display: none;
+    }
+
+    h3.plan-price{
+      padding-right: 30px;
+    }
+  }
+
+  .total{
+    span{
+      .text('Roboto', 18px, 500, @blueNew);
+    }
+  }
+}
+
+.pageview-dynamic-values{
+  h3{
+    .text('Roboto', 18px, 300, @gray3);
+
+    span.pageview-count{
+      .text('AvantgardeBold', 24px, 600, @blueNew);
+      display: inline;
+    }
+  }
+}
+
+.captcha-placeholder{
+  display: none;
+
+  &.active{
+    display: block;
+  }
+}
+
+
+/*  slider */
+
+/* Functional styling;
+ * These styles are required for noUiSlider to function.
+ * You don't need to change these rules to apply your design.
+ */
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1; /* Fix 401 */
+  //background: fade(@blue, 20%);
+  background: #69a5ff;
+  height: 8px;
+}
+
+.noUi-background {
+  //background: #f5f5f5;
+  //background: @blueExtra;
+  background: @white;
+}
+
+.noUi-target,
+.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.noUi-target {
+  position: relative;
+  direction: ltr;
+}
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.noUi-handle {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/*
+.noUi-background.noUi-stacking{
+
+  @media @xs, @sm, @md, @lg{
+    left: 94% !important;
+  }
+  @media @xl, @xxl {
+    left: auto;
+  }
+}
+*/
+
+.noUi-stacking .noUi-handle {
+  /* This class is applied to the lower origin when
+     its values is > 50%. */
+  z-index: 10;
+}
+.noUi-state-tap .noUi-origin {
+  -webkit-transition: left 0.3s, top 0.3s;
+  transition: left 0.3s, top 0.3s;
+}
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+/* Painting and performance;
+ * Browsers can paint handles in their own layer.
+ */
+.noUi-base,
+.noUi-handle {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/* Slider size and handle placement;
+ */
+
+
+@media @xs, @sm, @md{
+
+  .noUi-horizontal {
+    height: 15px;
+  }
+
+  .noUi-background {
+    background: #f5f5f5;
+  }
+}
+
+@media @lg, @xl, @xxl {
+
+  .noUi-horizontal {
+    height: 3px;
+  }
+}
+
+
+.noUi-horizontal .noUi-handle {
+  width: 80px;
+  height: 28px;
+  left: -17px;
+  top: -12px;
+
+  &:before {
+    content: '';
+    display: block;
+    background: url('@{root}/img/slider-arrow.svg');
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    //opacity: 0.5;
+    .rotate(180deg);
+    //background: red;
+  }
+  &:after{
+    content: '';
+    display: block;
+    background: url('@{root}/img/slider-arrow.svg');
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    //opacity: 0.5;
+  }
+}
+
+
+.noUi-vertical {
+  width: 18px;
+}
+.noUi-vertical .noUi-handle {
+  width: 28px;
+  height: 34px;
+  left: -6px;
+  top: -17px;
+}
+
+/* Styling;
+ */
+
+.noUi-connect {
+  //background: #3FB8AF;
+  //box-shadow: inset 0 0 3px rgba(51,51,51,0.45);
+  border: none;
+  -webkit-transition: background 450ms;
+  transition: background 450ms;
+}
+.noUi-origin {
+  border-radius: 2px;
+}
+.noUi-target {
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.noUi-target.noUi-connect {
+  //box-shadow: inset 0 0 3px rgba(51,51,51,0.45), 0 3px 6px -5px #BBB;
+}
+
+/* Handles and cursors;
+ */
+.noUi-draggable {
+  cursor: w-resize;
+}
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize;
+}
+.noUi-handle {
+  border-radius: 73px;
+  background: #ffffff;
+  cursor: default;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+.noUi-active {
+  box-shadow: inset 0 0 1px #FFF,
+  inset 0 1px 7px #DDD,
+  0 3px 6px -3px #BBB;
+}
+
+/* Handle stripes;
+ */
+
+/* Disabled state;
+ */
+[disabled].noUi-connect,
+[disabled] .noUi-connect {
+  background: #B8B8B8;
+}
+[disabled].noUi-origin,
+[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+
+/* Base;
+ *
+ */
+.noUi-pips,
+.noUi-pips * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.noUi-pips {
+  position: absolute;
+  color: @white;
+}
+
+/* Values;
+ *
+ */
+.noUi-value {
+  position: absolute;
+  text-align: center;
+  top: 5px;
+
+  &:last-child{
+    width: 90px;
+  }
+}
+.noUi-value-sub {
+  //color: #ccc;
+  font-size: 11px;
+  top: 7px;
+}
+
+/* Markings;
+ *
+ */
+.noUi-marker {
+  position: absolute;
+  top: 3px;
+  background: #CCC;
+}
+.noUi-marker-sub {
+  background: #AAA;
+}
+.noUi-marker-large {
+  height: 8px;
+  background: #AAA;
+}
+
+/* Horizontal layout;
+ *
+ */
+.noUi-pips-horizontal {
+  padding: 10px 0;
+  height: 80px;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+.noUi-value-horizontal {
+  -webkit-transform: translate3d(-50%,50%,0);
+  transform: translate3d(-50%,50%,0);
+}
+
+.noUi-marker-horizontal.noUi-marker {
+  margin-left: -1px;
+  width: 2px;
+  height: 5px;
+}
+.noUi-marker-horizontal.noUi-marker-sub {
+  height: 10px;
+}
+.noUi-marker-horizontal.noUi-marker-large {
+  height: 8px;
+}
+
+/* Vertical layout;
+ *
+ */
+.noUi-pips-vertical {
+  padding: 0 10px;
+  height: 100%;
+  top: 0;
+  left: 100%;
+}
+.noUi-value-vertical {
+  -webkit-transform: translate3d(0,-50%,0);
+  transform: translate3d(0,-50%,0);
+  padding-left: 25px;
+}
+
+.noUi-marker-vertical.noUi-marker {
+  width: 5px;
+  height: 2px;
+  margin-top: -1px;
+}
+.noUi-marker-vertical.noUi-marker-sub {
+  width: 10px;
+}
+.noUi-marker-vertical.noUi-marker-large {
+  width: 15px;
+}
+
+
+.tab-page{
+  display: none;
+}
+.tab-page.selected{
+  display: block;
+}
+
+
+
+
+
+.pageview-count.warning{
+  color: red;
+}
+
+.pageview-mode .tab-page{
+  display: none;
+}
+
+.pageview-mode .selected{
+  display: block;
+}
+
+.progress-button{
+  display: inline-block;
+  font-size:18px;
+  color:#fff;
+  text-decoration: none !important;
+  line-height:1;
+  overflow: hidden;
+  position:relative;
+  cursor: pointer;
+  box-shadow:0 0 5px fade(@blue, 20%);
+  border-radius:2px;
+  background-color: #00c6ad;
+}
+
+.progress-button:disabled{
+  cursor: default;
+  opacity: 0.7;
+  background: rgb(105, 195, 184);
+}
+
+.progress-button.in-progress,
+.progress-button.finished{
+  //color:transparent !important;
+}
+
+.progress-button.in-progress:after,
+.progress-button.finished:after{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  padding-top: inherit;
+  color: #fff !important;
+  left: 0;
+}
+
+.progress-button.in-progress:after{
+  content:attr(data-loading);
+}
+
+.progress-button.finished:after{
+  content:attr(data-finished);
+}
+
+.progress-button .tz-bar{
+  background-color:#4275f4;
+  height:3px;
+  bottom:0;
+  left:0;
+  width:0;
+  position:absolute;
+  z-index:1;
+
+  border-radius:0 0 2px 2px;
+
+  -webkit-transition: width 0.5s, height 0.5s;
+  -moz-transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s;
+}
+
+.progress-button .tz-bar.background-horizontal{
+  height:100%;
+  border-radius:2px;
+}
+
+.progress-button .tz-bar.background-vertical{
+  height:0;
+  top:0;
+  width:100%;
+  border-radius:2px;
+}
+
+#yusp-pro{
+
+  h2.text.bold{
+    color: fade(@blue, 60%);
+  }
+
+  .enterprise-sidebar{
+
+  }
+  .price-box{
+    background: fade(@blue, 60%);
+
+    h2, h4, span{
+      color: white;
+    }
+  }
+
+  .pro-contact-us {
+    input.form-input {
+      background: fade(@blue, 60%);
+      .placeholderColor(@white, fade(@white, 100%), fade(@white, 100%));
+      .tr2;
+    }
+    input.form-input:hover {
+      background: fade(@blue, 95%);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    }
+    button#submit-pro {
+      border: none;
+      color: fade(@blue, 60%);
+    }
+    button#submit-pro:hover{
+      background: @white;
+      box-shadow: 0 0 10px fade(@blue, 20%);
+    }
+  }
+  .pro-full-feature-list{
+    li{
+      .text('Roboto', 20px, 400, fade(@blue, 60%));
+      list-style: none;
+      padding-bottom: 4px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid fade(@blue, 80%);
+    }
+  }
+}
+
+@media @xs, @sm, @md {
+  #yusp-pro, #yusp-plus {
+    margin-top: -20px;
+  }
+}
+
+@media @lg, @xl, @xxl {
+  #yusp-pro, #yusp-plus {
+    margin-top: 0;
+  }
+}
+
+#yusp-pro, #yusp-plus{
+  display: none;
+  margin-bottom: 48px;
+
+  &.selected{
+    display: block;
+  }
+
+  .enterprise-sidebar{
+
+    .price-box {
+      padding: 30px;
+      background: @white;
+
+      h3.plan-name {
+        .text('Roboto', 20px, 300, @blueLight);
+      }
+      h2 {
+        .text('AvantgardeThin', 40px, 300, @blueLight);
+
+        span {
+          .text('Roboto', 12px, 400, @blueLight);
+        }
+      }
+      h4.tertiary, h4 {
+        .text('Roboto', 20px, 300, @blueLight);
+
+        span {
+          .text('Roboto', 12px, 300, fade(@blue, 60%));
+        }
+      }
+    }
+    .why-register{
+      p{
+        .text('Roboto', 15px, 400, @white);
+      }
+    }
+  }
+  .enterpise-full-feature-list{
+    padding-left: 10px;
+
+    li{
+      .text('Roboto', 20px, 400, fade(@white, 85%));
+      list-style: none;
+      padding-bottom: 4px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid @gray2;
+    }
+  }
+}
+
+/* Feature based pricing */
+
+#feature-based-pricing{
+  z-index: 100;
+  position: relative;
+
+  h2.text{
+    margin-top: 30px;
+  }
+
+  &.hidden {
+    display: none;
+  }
+
+  .features-sidebar {
+    padding-right: 20px;
+    padding-left: 0px;
+
+    #plan-info-bar {
+      background: @bg;
+      border: none;
+
+      h3.plan-name, h3.plan-support, h3.plan-features {
+        font-family: 'Roboto';
+        font-size: 24px;
+        color: fade(@blue, 60%);
+        line-height: 26px;
+        font-weight: 300;
+      }
+
+      h2.plan-price {
+        font-family: 'Roboto';
+        font-size: 24px;
+        color: fade(@blue, 60%);
+        line-height: 52px;
+        font-weight: 300;
+      }
+
+      h3.plan-traffic {
+        font-family: 'Roboto';
+        font-size: 24px;
+        color: fade(@blue, 60%);
+        line-height: 26px;
+        font-weight: 300;
+        margin-bottom: 0px;
+      }
+    }
+
+    .feature-content {
+      background-color: @white;
+      padding: 15px;
+    }
+
+    .feature-unit {
+      height: 60px;
+      display: block;
+
+      h3.plan-name, h3.plan-support, h3.plan-features {
+        font-family: 'Roboto';
+        font-size: 24px;
+        color: #4275f4;
+        line-height: 26px;
+        font-weight: 300;
+      }
+
+      h2.plan-price {
+        font-family: 'AvantgardeThin';
+        font-size: 40px;
+        color: #4275f4;
+        line-height: 52px;
+        font-weight: 300;
+      }
+
+      h3.plan-traffic {
+        font-family: 'Roboto';
+        font-size: 24px;
+        color: #4275f4;
+        line-height: 26px;
+        font-weight: 300;
+        margin-bottom: 0px;
+      }
+
+      .plan-smalltext {
+        margin-top: 0px;
+      }
+
+      h3.plan-custom-price {
+        font-family: 'Roboto';
+        font-size: 24px;
+        color: #4275f4;
+        line-height: 26px;
+        font-weight: 300;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+    }
+
+    .feature-unit-features {
+
+      h3{
+        font-family: 'Roboto';
+        font-size: 24px;
+        color: #4275f4;
+        line-height: 26px;
+        font-weight: 300;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+
+
+      &.border {
+        div.plan-features {
+          border-top: 1px solid @gray1;
+          border-bottom: 1px solid @gray1;
+          margin-bottom: 15px;
+        }
+
+        h3.plan-features {
+
+          &.plus {
+            font-size: 32px;
+          }
+        }
+      }
+
+      &.borderless {
+        padding: 15px 0px 15px 0px;
+
+        h3.plan-features {
+          margin-bottom: 60px;
+          margin-top: 10px;
+
+        }
+      }
+
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 16px;
+      }
+
+      .feature-list {
+
+        p {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+
+#feature-based-pricing {
+
+  .desktop {
+    @media @lg, @xl, @xxl{
+      display: block;
+      padding-bottom: 40px;
+    }
+    @media @xs, @sm, @md{
+      display: none;
+    }
+  }
+
+  .mobile{
+    @media @lg, @xl, @xxl{
+      display: none;
+    }
+    @media @xs, @sm, @md{
+      display: block;
+    }
+  }
+}
+
+#feature-based-pricing {
+
+
+  .mobile{
+    background: @bg;
+
+    .overview-mobile-header{
+      background: @bg-dash;
+      text-align: center;
+      border: 2px 0 solid @blue;
+
+      h2.header-title{
+        .text('Roboto', 16px, 400, fade(@blue, 60%));
+        padding: 20px 0;
+      }
+    }
+
+    h2.table-plan-name{
+      .text('AvantgardeBold', 20px, 600, @blueLight);
+      padding: 30px 0;
+      text-align: center;
+
+      &:after{
+        visibility: visible;
+        content: '';
+        display: block;
+        height: 3px;
+        width: 100px;
+        background-color: @blueLight;
+        margin: 0 auto;
+      }
+    }
+
+    .table-row{
+      .row;
+      border-bottom: 1px solid @gray3;
+      text-align: center;
+
+      h2.table-value.price{
+        .text('AvantgardeBold', 20px, 600, @blueNew);
+        padding: 20px 0;
+      }
+      h2.table-value.impression{
+        .text('Roboto', 16px, 400, @blueNew);
+        padding: 20px 0;
+      }
+      h2.table-value.support{
+        .text('Roboto', 16px, 400, fade(@blue, 60%));
+        padding: 20px 0;
+      }
+    }
+  }
+}
+
+#yusp-digical{
+  display: none;
+  background: @purple2;
+
+  .yusp-digical-wrapper{
+    .center-container(100%, 80%, 70%, 65%);
+
+    &.active{
+      background: @white;
+    }
+
+    padding: 60px 0;
+
+    h2{
+      .text('Roboto', 30px, 400, @white);
+    }
+
+    p{
+      .text('Roboto', 20px, 300, fade(@white, 70%));
+    }
+  }
+}
+
+#yusp-digital{
+  //display: none;
+
+  &.active{
+    display: block;
+  }
+}
+

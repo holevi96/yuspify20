@@ -1,0 +1,55 @@
+@import (reference) "../../proto";
+
+section#numbers{
+  padding: 60px 0;
+
+  .examples{
+
+    img.logo{
+      height: 45px;
+      margin-top: 20px;
+      .desaturate;
+      .tr2;
+
+      @media @xs, @sm, @md{
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 10px;
+      }
+
+      @media @lg, @xl, @xxl{
+
+      }
+    }
+
+    h2{
+      font-family: AvantgardeThin;
+      font-size: 70px;
+      color: @ye-1;
+      padding: 0;
+      font-weight: 200;
+    }
+    h3{
+      .text('Roboto', 24px, 300, @ye-bg-3);
+    }
+    p{
+      .text('Roboto', 18px, 300, @ye-bg-3);
+      font-weight: 300;
+    }
+    a{
+      .text('Roboto', 18px, 400, @ye-1);
+    }
+
+    @media @lg, @xl, @xxl{}
+
+    @media @xs, @sm, @md {
+      padding: 60px;
+
+      h2, h3, p, a, .examples{
+        text-align: center;
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import (reference) "../../proto";
+
+section#platforms-and-modules{
+  border-top: 2px solid rgba(46,55,93,0.08);
+  padding: 30px 0;
+
+  h2{
+    .text('Roboto', 24px, 400, @blueLight);
+    margin: 30px auto;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h3{
+    .text('Roboto', 24px, 400, @gray3);
+    margin: 30px auto;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  ul.row{
+    padding: 30px 0;
+
+    li.platform{
+      @media @xs, @sm{
+        min-height: 300px;
+      }
+
+      @media @md, @lg{
+        height: 200px;
+      }
+
+      @media @xl, @xxl{
+        height: 160px;
+
+      }
+
+      a{
+        @media @xs, @sm{
+          padding: 0 10%;
+          height: 300px;
+        }
+
+        @media @md, @lg{
+          padding: 0 10%;
+        }
+
+        @media @xl, @xxl{
+          padding: 0 10%;
+        }
+
+        img{
+          height: 100%;
+          padding: 0 10px;
+          .desaturate;
+        }
+      }
+    }
+  }
+}

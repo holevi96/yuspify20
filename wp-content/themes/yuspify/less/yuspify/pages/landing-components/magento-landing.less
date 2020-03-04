@@ -1,0 +1,711 @@
+@import (reference) "../../../proto";
+
+@magento: #ef672f;
+
+/***--- EXPO LANDING ---***/
+
+/* MAGENTO GENERAL TEMPLATE */
+body.page-template-magento-landing,
+
+/* Meet Magento Event Landing */
+body.page-template-meet-magento-vietnam-landing,
+
+/* Meet Magento Event Landing 2*/
+body.page-template-magento-landing-php,
+
+/* Free Trial Landing */
+body.page-arukereso-ingyenes-probaidoszak{
+
+  header#header{
+    background: none;
+    top: 37px;
+
+    .moreEnglishContent{
+      display: block;
+      height: 28px;
+      background: white;
+      position: fixed;
+
+      h1{
+        .text('Roboto', 20px, 400, @blueNew);
+        text-align: center;
+      }
+    }
+
+    .breadcrumbsWrapper{
+      display: none;
+    }
+    .top-navi{
+      display: none;
+    }
+    ul#fomenu{
+      //display: none;
+    }
+
+    #logo {
+      //.yusp-logo-negative;
+      //.sme;
+
+    }
+
+    a.free-trial-button.google-conversion-tracking-head{
+      display: none;
+    }
+  }
+
+  #content{
+    margin-top: 0;
+    background: @bg;
+  }
+
+  #so-explainerHolder {
+    background: @magento;
+    padding: 20px 0 50px 0;
+  }
+
+  #so-references{
+    .so-panel{
+
+      h3.widget-title{
+        color: @magento;
+      }
+
+      .textwidget a{
+        color: @magento;
+        &:hover{
+          color: @blueNew;
+        }
+      }
+    }
+  }
+}
+
+
+.desktop{
+  padding-bottom: 30px;
+}
+
+.desktop{
+  @media @sm, @xs, @md{display: none;}
+  @media @lg  {display: block;}
+  @media @xl  {display: block;}
+  @media @xxl {display: block;}
+}
+
+body.page-template-meet-magento-vietnam-landing{
+
+  #mobile.above-the-fold{
+    @media @xs  {display: block;}
+    @media @sm  {display: block;}
+    @media @md  {display: block;}
+    @media @lg  {display: none;}
+    @media @xl  {display: none;}
+    @media @xxl {display: none;}
+
+    background: @footer;
+    display: block;
+    position: relative;
+    z-index: 1;
+    height: auto;
+    padding-bottom: 30px;
+
+    .logo{
+      margin: 0 auto;
+      max-width: 450px;
+      min-width: 180px;
+      height: auto;
+      display: block;
+      padding-top: 6vh;
+
+      @media @xs{width: 80%;}
+
+    }
+
+    .main-content{
+      .center-container(100%, 400px, 500px, 600px);
+      text-align: center;
+
+      h1, h2{
+        text-align: center;
+      }
+      h1{
+        .text('AvantgardeBold', 28px, 800, @white);
+      }
+      h2{
+        .text('Roboto', 20px, 400, @white);
+      }
+      a.mobile.free-trial-button{
+        color: @white;
+        border: 3px solid @white;
+        display: block;
+
+        &:hover{
+          background: @white;
+          color: @gray4;
+        }
+      }
+    }
+
+    #landing.expo{
+      section.event-welcome{
+        background: @magento;
+      }
+    }
+  }
+
+}
+
+
+div.event-landing{
+
+  h1.main-title{
+    @media @xs {font-size: 26px; text-align: center;}
+    @media @sm {font-size: 32px; text-align: center;}
+    @media @lg {font-size: 31px;}
+    @media @xl {font-size: 38px;}
+    @media @xxl {font-size: 45px;}
+
+    font-family: 'Roboto';
+    color: @white;
+    font-weight: 400;
+    line-height: 48px;
+    margin-top: 5vh;
+    text-align: left;
+    border-left: 5px solid @greenNew;
+    margin-left: -20px;
+    padding-right: 20px;
+    .col;
+
+    @media @md, @lg, @xl, @xxl{
+
+      &:after{
+        content: '';
+        display: block;
+        width: 5px;
+        height: 102px;
+        background: #2ce5b5;
+        visibility: visible;
+        position: absolute;
+        left: -20px;
+        top: 6px;
+      }
+    }
+  }
+
+  h2{
+    @media @xs  {font-size: 18px; text-align: center; padding-bottom: 20px;}
+    @media @sm  {font-size: 20px; text-align: center; padding-bottom: 20px;}
+    @media @md  {font-size: 20px; padding-bottom: 20px;}
+    @media @lg  {font-size: 18px; line-height: 26px;}
+    @media @xl  {font-size: 20px; line-height: 30px;}
+    @media @xxl {font-size: 22px; line-height: 36px;}
+
+    font-family: 'Roboto';
+    color: @white;
+    font-weight: 300;
+    //line-height: 37px;
+    .col;
+  }
+
+  .mobile{
+    a.free-trial-button{
+      @media @xs {display: inline-block !important;}
+      @media @sm {display: inline-block !important;}
+      @media @md {display: none;}
+      @media @lg {display: none;}
+      @media @xl {display: none;}
+      @media @xxl {display: none;}
+    }
+  }
+
+  .wrapper{
+    @media @xs {display: none;}
+    @media @sm {display: none;}
+    @media @md {display: inline-block;}
+    @media @lg {display: inline-block;}
+    @media @xl {display: inline-block;}
+    @media @xxl {display: inline-block;}
+  }
+}
+
+#button-wrapper{
+
+  @media @sm, @xs, @md{display: none;}
+  @media @lg  {display: inline-block;}
+  @media @xl  {display: inline-block;}
+  @media @xxl {display: inline-block;}
+
+  background: @white;
+  color: fade(@blue, 60%);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  border-radius: 999em;
+  padding: 3px;
+  width: 479px;
+  .col;
+
+  a.free-trial-button{
+    display: inline-block;
+
+    span.number{
+      .text('AvantgardeBold', 18px, 400, @gray4);
+      .col;
+      display: block;
+      background: @white;
+      padding: 1px 7px !important;
+      border-radius: 999em;
+      margin-right: 8px;
+      left: -4px;
+    }
+  }
+
+  a.free-trial-button.try{
+    background: @blueLight;
+    left: -11px;
+    position: relative;
+    color: @white;
+    line-height: 25px;
+
+    &:hover{
+      background: @greenNew;
+      color: fade(@blue, 60%);
+    }
+
+  }
+
+  a.free-trial-button.download{
+    background: @magento;
+    position: relative;
+    right: -12px;
+    color: @white;
+    line-height: 25px;
+
+    &:hover{
+      background: @bg-dash;
+      color: fade(@blue, 60%);
+    }
+  }
+}
+
+.mobile-button{
+
+  @media @lg, @xl, @xxl{display: none;}
+  @media @md  {display: block;}
+  @media @sm  {display: block;}
+  @media @xs {display: block;}
+
+  div.row{
+    text-align: center;
+
+    a.free-trial-button{
+      display: inline-block;
+      background: @white;
+      padding: 7px 16px;
+      color: fade(@blue, 60%);
+
+    }
+  }
+}
+
+#animation-wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  div#stage.EDGE-64815824{
+    position: relative;
+    height: 0 !important;
+    width: 0 !important;
+    z-index: 0;
+    right: auto;
+    bottom: auto;
+    background-color: transparent;
+    overflow: hidden;
+    text-overflow: clip;
+    background-size: 100% 100%;
+
+    //background-color: @magento;
+    //background-blend-mode:multiply;
+  }
+}
+
+/* ***************************************************************/
+/* MAGENTO ORIGINAL LANDING */
+
+#landing.expo{
+  section.event-welcome {
+    background: url('@{root}/img/magento-illustration.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: 510px;
+
+    position: relative;
+    z-index: 10;
+    padding-top: 170px;
+    margin-top: -140px;
+    background-color: @magento;
+    background-blend-mode:multiply;
+    //z-index: 1;
+
+    @media @xs, @sm, @md {
+      height: 100%;
+      background-position-y: 0px;
+    }
+    @media @lg, @xl, @xxl {
+      height: auto;
+    }
+
+    &:after {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      content: '';
+      top: 0;
+      left: 0;
+      opacity: 1;
+    }
+  }
+}
+
+.welcomeWrapper.expo{
+  position: relative;
+  padding: 0;
+  width: 100%;
+  z-index: 2;
+  float: left;
+
+  .mainText{
+    position: relative;
+  }
+  h1{
+    span{
+      font-size: 110px;
+      color: fade(#00FFDF, 100%);
+      text-transform: uppercase;
+    }
+  }
+  h1.mobile{
+    @media @xs, @sm {
+      display: block;
+      font-size: 35px;
+      color: fade(#00FFDF, 80%) !important;
+      span{
+        background: url('@{root}/img/budapest-typo.svg');
+        display: block;
+        height: 250px;
+        width: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    @media @md, @lg, @xl, @xxl {
+      display: none;
+    }
+  }
+  h2{}
+}
+
+#yusp-features{
+
+  .yusp-features-wrapper{
+    .center-container(100%, 80%, 70%, 60%);
+
+      i.MatIcons{
+        font-size: 38px;
+        color: @gray4;
+      }
+      .feature-text{
+        .text('Roboto', 28px, 300, @magento);
+      }
+      p{
+        font-size: 18px;
+        font-family: 'Roboto';
+        color: #797d82;
+        line-height: normal;
+        font-weight: 300;
+      }
+    }
+
+  @media @lg, @xl, @xxl{
+
+  }
+  @media @xs, @sm, @md{
+    .yusp-features-wrapper{
+      text-align: center;
+    }
+  }
+}
+
+
+#event-messages{
+  padding-bottom: 30px;
+
+  .event-messages-wrapper{
+    height: 180px;
+    padding: 20px;
+
+    h2{
+      color: @white;
+    }
+  }
+
+  @media @lg, @xl, @xxl {
+
+    h2{
+      .text('AvantgardeThin', 42px, 400, @white);
+      text-align: left;
+    }
+
+    h3{
+      .text('Roboto', 30px, 400, @white);
+      margin: 0;
+      text-align: left;
+    }
+
+    p{
+      .text('Roboto',18px, 400, fade(@white, 70%));
+      line-height: 26px;
+      margin: 0 auto;
+      margin-top: 16px;
+      text-align: left;
+      display: block;
+    }
+  }
+
+  @media @xs, @sm, @md {
+    h2{
+      .text('AvantgardeThin', 30px, 400, #00FFDF);
+      text-align: center;
+    }
+    h3{
+      .text('Roboto',20px, 400, @white);
+      margin: 0;
+      text-align: center;
+    }
+    p{
+      .text('Roboto',18px, 300, fade(@white, 70%));
+      line-height: 26px;
+      margin: 0 auto;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      text-align: center;
+      width: 80%;
+      display: block;
+    }
+  }
+}
+
+
+section#clients-or-partners{
+
+  .for-clients, .for-partners{
+    .desaturate;
+    /*
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+    */
+
+    @media @lg {height: 480px;}
+    @media @xl {height: 450px;}
+    @media @xxl {height: 400px;}
+
+
+    @media @lg, @xl, @xxl {
+      padding: 50px;
+      h2{
+        .text('Roboto', 30px, 300, @white);
+        margin-bottom: 30px;
+      }
+      p{
+        .text('Roboto', 18px, 300, @white);
+        line-height: 22px;
+        display: block;
+        max-width: 80%;
+      }
+      h3{
+        .text('AvantgardeThin', 30px, 200, @white);
+        span{
+          .text('Roboto', 20px, 300, @white);
+        }
+      }
+      a{
+        .btn-variables(@white, 'Roboto', @blueNew);
+      }
+    }
+
+    @media @xs, @sm, @md {
+      padding: 20px;
+      text-align: center;
+
+      h2{
+        .text('Roboto', 20px, 300, @white);
+        margin-bottom: 15px;
+      }
+      p{
+        .text('Roboto', 18px, 300, @white);
+        line-height: 22px;
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+      }
+      h3{
+        .text('AvantgardeThin', 25px, 200, @white);
+        span{
+          .text('Roboto', 18px, 300, @white);
+        }
+      }
+      a{
+        .btn-variables(@white, 'Roboto', @blueNew);
+      }
+    }
+  }
+
+  .for-clients{
+    background: url('@{root}/img/yusp-for-clients.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .for-partners{
+    background: url('@{root}/img/yusp-for-partners.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+#magento-breakdown.install-breakdown{
+
+  .link span{
+    color: @magento !important;
+  }
+  .inst-wrapper .install-box h2 {
+    color: @magento !important;
+  }
+  .install-illustration.yusp-connection{
+    box-shadow: none !important;
+    width: 60% !important;
+  }
+}
+
+#plugin-cat{
+  padding: 80px 0;
+  margin-bottom: -70px;
+
+  background: url('@{root}/img/magento-illustration.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+
+  background-color: @magento;
+  background-blend-mode:multiply;
+
+  @media @xxl, @xl, @lg, @md {
+    background-size: 80%;
+    background-position-x: -60px;
+    background-position-y: -240px;
+  }
+
+  @media @xs, @sm {
+    background-size: 170%;
+    background-position-x: -60px;
+    background-position-y: -140px;
+  }
+
+  .button-holder{
+    margin: 0 auto;
+    text-align: center;
+
+    .center-container(100%, 400px, 500px, 600px);
+
+    #button-wrapper{
+      float: none;
+
+      a.download{
+        right: 12px;
+      }
+      a.try{
+        left: 12px
+      }
+    }
+  }
+}
+
+
+body.page-template-meet-magento-landing{
+
+  @media @lg, @xl, @xxl{
+    .testimonial-wrapper{
+      .flickity-viewport{
+        height: 320px;
+      }
+    }
+  }
+}
+
+/*** NOT USED ***/
+
+.counterWrapper{
+}
+
+#expoCountDown {
+  .text('AvantgardeThin', 70px, 200, @greenNew);
+  //  width: 700px;
+  //  height: 145px;
+  //  margin: 55px auto 0 auto;
+  background: @blue;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.countDays, .countHours, .countMinutes, .countSeconds {
+  float: left;
+  width: 102px;
+  height: 138px;
+  padding-left: 36px;
+}
+
+.points {
+  float: left;
+  width: 40px;
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 138px;
+  text-shadow: none;
+}
+
+.position {
+  position: relative;
+  float: left;
+  width: 35px;
+  height: 92px;
+  margin: 8px 0 0 0;
+}
+
+.digit {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.boxName {
+  float: left;
+  width: 80px;
+  margin: -5px 0 0 7px;
+  font-size: 36px;
+  color: #a6a6a6;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.Hours { margin-left: 5px; }
+.Seconds { margin-left: 2px; }
+
+

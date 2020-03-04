@@ -1,0 +1,85 @@
+@import (reference) "../proto";
+@import(reference) "../yfy-basic-components";
+
+section#placement-type-tabulator-section{
+
+  .wrapper{
+    //.rsp-paddding;
+    padding: 0 3%;
+  }
+
+  .vertical-tabulator.desktop{
+    @media @lg,@xl,@xxl{
+      display: table !important;
+      width: 100%;
+      table-layout: fixed;
+    }
+  }
+
+  .leftside{
+    @media @lg,@xl,@xxl{
+      display: table-cell !important;
+      width: 40%;
+      vertical-align: middle;
+    }
+  }
+  .rightside{
+    @media @lg,@xl,@xxl{
+      display: table-cell !important;
+      width: 60%;
+      vertical-align: middle;
+    }
+  }
+}
+
+li.vertical-tab{
+  padding: 2rem;
+  cursor: pointer;
+  border-left: 3px solid #e2e2e2;
+  background: transparent;
+  .bezier-eas-in-slow(0.3s);
+
+  h3{
+    .title-lg;
+    color: @yfy-light-blue;
+  }
+
+  p{
+    .paragraph;
+    color: white;
+    //color: @gray3;
+  }
+
+  @media @xs, @sm{
+    h3, p{
+      font-size: 14px;
+    }
+  }
+
+  &.selected{
+    //box-shadow: 0 0 30px @ye-gray-1;
+    box-shadow: 0 9px 40px fade(@yfy-light-blue, 24%);
+    background: white;
+
+    h3{
+      color: @yfy-purple;
+    }
+    p{
+      .paragraph;
+      color: @gray3;
+    }
+  }
+}
+
+.vertical-tab-content{
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  .bezier-eas-in-slow(0.3s);
+
+  &.visible{
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+  }
+}

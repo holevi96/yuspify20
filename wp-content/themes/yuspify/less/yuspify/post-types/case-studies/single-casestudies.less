@@ -1,0 +1,523 @@
+@import(reference) "../../../proto";
+
+
+body.single-casestudies{
+
+    #case-studies-details{
+      background: @ye-bg-2;
+  }
+}
+
+#single-case-studies {
+
+  #transition {
+    height: 35vh;
+
+    #case-studies-header {
+      background-image: none;
+    }
+
+    .mask{
+      display: none;
+    }
+  }
+
+  #case-studies-header {
+    .gradient-ye-dark;
+
+    #description {
+      .text('Roboto', 20px, 400, @ye-bg-2);
+    }
+  }
+}
+
+
+/* --------------------------------------------------- */
+/* SME  */
+body.page-template-template-sme-case-studies{
+
+  #sme-menu{
+    background: transparent;
+  }
+
+  .fluid-container{
+
+    @media @md, @sm, @xs{
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+  }
+
+  #single-case-studies {
+
+    .fluid-container{
+      @media @xs{padding: 10px;}
+      @media @sm{padding: 5vw;}
+    }
+
+    #case-studies-header{
+      padding-top: 200px;
+      padding-bottom: 120px;
+
+      background-image: url('@{root}/img/svg/yfy-case-studies-bg.svg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      //background-position-x: 30%;
+
+      @media @xs, @sm{
+
+      }
+
+      @media @md, @lg, @xl, @xxl{
+
+      }
+
+
+      #description{
+        color: @white;
+      }
+
+      #kpi .kpi-block li.kpi-row{
+
+        h2, h3{
+          color: @white;
+        }
+        h2{
+          font-size: 100px;
+          line-height: 100px;
+          font-family: 'AvantgardeThin';
+        }
+
+        @media @xxl, @xl, @lg{
+          text-align: right;
+          padding-left: 5vw;
+        }
+
+        @media @md{
+          padding: 30px 0;
+
+          h2, h3{
+            text-align: center;
+
+          }
+        }
+
+        @media @xs, @sm{
+          padding: 30px 0;
+
+          h2, h3{
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    #case-studies-details{
+      background: @white;
+      padding: 60px 0;
+
+      .project-summary{
+        h2, p{
+          color: fade(@footer, 60%);
+        }
+      }
+    }
+
+    #challenge-solution-result{
+      @media @lg, @xl, @xxl{
+        padding: 100px 30px;
+      }
+
+      padding: 30px;
+
+      h2{
+        .text('Roboto', 24px, 400, @blueLight);
+        margin-bottom: 30px;
+        padding-top: 0px;
+        border-left: 3px solid @greenNew;
+        padding-left: 16px;
+        border-top: none;
+      }
+
+      .text-wrapper{
+        .text('Roboto', 18px, 400, @gray3);
+        line-height: 26px;
+
+        @media @md, @sm, @xs{
+          margin-bottom: 40px;
+        }
+
+        @media @lg, @xl, @xxl{
+          padding-right: 40px;
+        }
+      }
+    }
+  }
+}
+
+
+/* UNIVERSAL TEMPLATE */
+/*---------------------------*/
+#single-case-studies{
+
+  #case-studies-header{
+    margin-top: -140px;
+    padding-top: 160px;
+    padding-bottom: 60px;
+
+    h1.content-title {
+      .text('Roboto', 40px, 300, @white);
+      line-height: 40px;
+      border-left: 3px solid @greenNew;
+      padding-left: 16px;
+      margin-bottom: 20px;
+    }
+
+    #description{
+      .text('Roboto', 20px, 400, @ye-bg-2);
+    }
+
+    #kpi{
+
+      ul.kpi-block{
+
+        li.kpi-row{
+
+          h2, h3{
+            color: @ye-bg-3;
+          }
+          h2{
+            .title-xxl;
+            .purple;
+          }
+
+          @media @xxl, @xl, @lg{
+            text-align: right;
+            padding-left: 5vw;
+          }
+
+          @media @md{
+            padding: 30px 0;
+
+            h2, h3{
+              text-align: center;
+
+            }
+          }
+
+          @media @xs, @sm{
+            padding: 30px 0;
+
+            h2, h3{
+              text-align: center;
+            }
+          }
+
+
+          /*
+          h2{
+            .text('AvantgardeBold', 40px, 800, @ye-bg-2);
+            margin: 0;
+          }
+
+          h3{
+            .text('Roboto', 16px, 400, @ye-bg-2);
+            margin: 0;
+          }
+          */
+        }
+      }
+    }
+  }
+
+  #case-studies-details{
+    padding: 30px 0;
+
+    h2{
+      .text('AvantgardeBold', 30px, 800, fade(@white, 80%));
+      padding-bottom: 30px;
+    }
+
+    .project-summary{
+      .text('Roboto', 21px, 400, fade(@white, 60%));
+    }
+
+    .illustration-wrapper{
+
+      @media @xxl, @xl{
+        margin-top: -70px;
+      }
+
+      @media @lg{
+        margin-top: -60px;
+      }
+
+      img{
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+#challenge-solution-result{
+  padding: 30px;
+
+  h2{
+    .general-title;
+    margin-bottom: 30px;
+    border-top: 4px solid @ye-0;
+    padding-top: 10px;
+  }
+
+  .text-wrapper{
+    .text('Roboto', 18px, 400, @gray3);
+    line-height: 26px;
+
+    @media @md, @sm, @xs{
+      margin-bottom: 40px;
+    }
+
+    @media @lg, @xl, @xxl{
+      padding-right: 40px;
+    }
+  }
+}
+
+
+/* ENTERPRISE TEMPLATE */
+/*-----------------------*/
+
+section#general-single-case-studies{
+
+  &.body{
+    margin-top: 0;
+  }
+
+  #single-case-studies {
+
+    #case-studies-header {
+      margin-top: 0px;
+      padding-top: 160px;
+      padding-bottom: 60px;
+
+      @media @xs, @sm{
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+
+      h1.content-title{
+        .general-title;
+        border: none;
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+
+    #case-studies-details{
+      background: @bg;
+
+      .project-summary{
+
+        h2{
+          .general-title;
+        }
+
+        ul{
+          padding-bottom: 12px;
+          li{
+            .text('Roboto', 17px, 400, @gray3);
+            padding-bottom: 6px;
+            list-style: initial;
+          }
+        }
+
+        p{
+          color: @gray3;
+          padding-bottom: 12px;
+
+          b{
+            .text('AvantgardeBold', 17px, 800, @gray3);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.dark{
+
+  #case-studies-header{
+    .gradient-ye-dark;
+
+    #description{
+      .text('Roboto', 20px, 400, @ye-bg-2);
+    }
+  }
+
+  #case-studies-details{
+    background: @ye-bg-2;
+  }
+}
+
+.light {
+
+  #case-studies-header{
+    background: @blueLight;
+
+    #description{
+      .text('Roboto', 20px, 400, @ye-bg-2);
+    }
+  }
+
+  #case-studies-details{
+
+    background: @greenNew;
+  }
+}
+
+section#cat-row.green{
+  .gradient-cool-green;
+
+
+  @media @xxl, @xl, @lg{
+    padding: 15vh;
+  }
+
+  @media @md{
+    padding: 10vh;
+  }
+
+  @media @sm{
+    padding: 140px 20px;
+  }
+
+  @media @xs{
+    padding: 80px 0px;
+  }
+
+  div{
+    h2{
+      .text('AvantgardeBold', 30px, 800, @ye-bg-2);
+    }
+    h3{
+      .text('Roboto', 20px, 400, fade(@white, 80%));
+    }
+
+    button{
+      padding: 6px 16px;
+      .text('AvantgardeBold', 18px, 800, fade(@white, 80%));
+      border: 2px solid @white;
+      border-radius: 999em;
+      cursor: pointer;
+      .tr2;
+
+      &:hover{
+        background: @white;
+        color: @ye-bg-2;
+      }
+    }
+  }
+}
+
+section#cat-row.silver{
+  .gradient-ye-gray;
+
+  div{
+    h2{
+      .text('AvantgardeBold', 30px, 800, @ye-bg-2);
+    }
+    h3{
+      .text('Roboto', 20px, 400, @white);
+    }
+
+    button{
+      padding: 6px 16px;
+      .text('AvantgardeBold', 18px, 800, @white);
+      border: 2px solid @white;
+      border-radius: 999em;
+      cursor: pointer;
+      .tr2;
+
+      &:hover{
+        background: @white;
+        border-color: @white;
+        color: @ye-bg-2;
+      }
+    }
+  }
+}
+
+#related-case-studies{
+
+  .wrapper{
+    h2{
+      color: @ye-bg-3;
+      min-height: 0;
+      font-size: 22px;
+    }
+
+    .image-wrapper{
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+  .case-study-wrapper{
+    .kpi-wrapper{
+      padding: 20px;
+      background: @ye-bg-3;
+      .tr2;
+
+      h3{
+        .text('AvantgardeBold', 22px, 800, @ye-0);
+
+      }
+
+      h4{
+        .text('Roboto', 16px, 400, @gray3);
+        height: 40px;
+      }
+    }
+  }
+
+  .case-study-wrapper:hover{
+    .kpi-wrapper{
+      background: @white;
+
+      h3, h4{
+        color: @ye-bg-3;
+      }
+    }
+  }
+}
+
+
+#challenge-solution-result{
+  padding: 60px;
+
+  h2{
+    .general-title;
+    margin-bottom: 30px;
+    border-top: 4px solid @ye-0;
+    padding-top: 10px;
+  }
+
+  .text-wrapper{
+    .title-xxl;
+    .purple;
+
+    @media @md, @sm, @xs{
+      margin-bottom: 3rem;
+    }
+
+    @media @lg, @xl, @xxl{
+      padding-right: 3rem;
+    }
+  }
+}

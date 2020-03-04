@@ -1,0 +1,59 @@
+@import (reference) "../../proto";
+
+section#white-paper-list{
+  background-color: white;
+  //background: @bg;
+
+  ul.white-paper-listing{
+    padding: 60px 0;
+
+    li.white-paper-wrapper{
+      @media @xs  {padding: 30px 20px};
+      @media @sm  {padding: 30px 20vw};
+      @media @md  {padding: 30px 30vw};
+      @media @lg  {padding: 0 80px};
+      @media @xl  {padding: 0 80px};
+      @media @xxl {padding: 0 80px};
+
+      .translateY(0);
+      .tr2;
+
+      .white-paper{
+        //background: @white;
+
+        img{
+          width: 100%;
+          box-shadow: 0 4px 25px fade(@yfy-light-blue, 30%);
+          .tr4;
+        }
+
+        .text-wrapper{
+          //padding: 30px;
+
+          h2{
+            .title-lg;
+            color: @yfy-purple;
+            font-weight: 800;
+          }
+
+          p{
+            .paragraph;
+            color: @gray3;
+            font-weight: 400;
+            //.text('Roboto', 16px, 400, @gray4);
+          }
+        }
+      }
+    }
+
+    li.white-paper-wrapper:hover{
+      .translateY(-10px);
+
+      img{
+        box-shadow: 0 4px 35px fade(@yfy-light-blue, 90%);
+      }
+
+    }
+  }
+}
+

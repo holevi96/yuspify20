@@ -1,0 +1,345 @@
+@import(reference) "yfy-blog-basics";
+@import(reference) "../proto";
+
+
+.blog-middle{
+
+  @media @xxl, @xl, @lg, @md{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  @media @xs{padding-left: 1rem; padding-right: 1rem;}
+  @media @sm{padding-left: 4%; padding-right: 4%;}
+}
+
+#blog-single{
+  margin-top: 5rem;
+
+  .blog-container{
+
+    .post-thumbnail{
+
+      img{
+        height: auto !important;
+        width: 100%;
+      }
+
+      &:after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: @greenNew;
+        visibility: visible;
+        margin-top: -4px;
+      }
+    }
+
+    .title-wrapper{
+      .blog-middle;
+      padding: 24px 0;
+
+      .post-date{
+        padding: 10px 0;
+        .text('Roboto', 16px, 400, @gray3);
+      }
+
+      .date-and-author{
+        border: none;
+        margin-left: -8px;
+      }
+
+      .the-title{
+        margin-bottom: 24px;
+        font-family: 'Roboto';
+        font-weight: 400;
+      }
+    }
+
+    #blog-content{
+      display: block;
+      padding: 32px 0;
+      .blog-middle;
+
+      p{
+        .param;
+
+        b, strong{
+          font-weight: 600;
+          color: #898b8e;
+        }
+
+      }
+
+      img{
+        max-width: 900px !important;
+        height: auto;
+      }
+
+      a{
+        .text('Roboto', 20px, 400, @yfy-light-blue);
+        border-bottom: 2px solid @yfy-light-blue;
+        padding-bottom: 2px;
+        .tr2;
+
+        &:hover{
+          border-color: @yfy-purple;
+        }
+      }
+
+      pre{
+        padding: 20px !important;
+        border-left: 3px solid @greenNew;
+        background: #e4e3e3;
+        white-space: normal;
+        .param;
+
+        b{
+          .text('Roboto', 20px, 800, #5c5d5f);
+          white-space: normal;
+        }
+
+        p, span{
+          .param;
+          white-space: normal;
+          display: block;
+          font-size: 19px;
+        }
+      }
+
+      h4{
+        .text('Roboto', 22px, 400, @yfy-purple);
+      }
+
+      h3{
+        .text('Roboto', 24px, 400, @yfy-purple);
+      }
+
+      h2{
+        .text('Roboto', 26px, 400, @yfy-purple);
+      }
+
+      ul{
+        .param;
+
+        li{
+          .param;
+        }
+      }
+
+
+      blockquote{
+        font-style: italic;
+        font-weight: 800;
+      }
+
+      p{
+        img{
+          width: 120%;
+          margin-left: -10%;
+        }
+      }
+
+      img{
+        width: 120%;
+        margin-left: -10%;
+      }
+
+      img.alignleft{
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .alignleft{
+
+        img {
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+
+      div.wp-caption{
+        width: 100% !important;
+
+        .wp-caption-text{
+          width: 100%;
+          margin-left: -10%;
+
+          color: #828282;
+          padding: 8px 10%;
+          font-size: 14px;
+          line-height: 18px;
+          position: relative;
+          top: -5px;
+          text-align: center;
+
+          a{
+            font-size: 14px;
+            color: @blueLight;
+          }
+        }
+      }
+    }
+  }
+}
+
+#share-blog{
+  margin-bottom: 2rem;
+
+  a{
+    .yfy-button;
+    .small;
+    .blue;
+    border-radius: 3px;
+    margin-right: 1rem;
+  }
+
+  a.facebook{
+    background: #4267b2;
+  }
+
+  a.twitter{
+    background: #1da1f2;
+  }
+}
+
+section#blog-call-to-action{
+  padding: 48px 0;
+
+  background-image: url('@{root}/img/cat-element-blog-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: hard-light;
+  background-color: @blueLight;
+
+  .center-container{
+    box-sizing: border-box;
+
+    @media @xs{
+      padding: 0 20px;
+    }
+
+    @media @sm, @md{
+      padding: 0 10vw;
+    }
+
+    h3{
+      .text('Roboto', 24px, 400, fade(@white, 60%));
+    }
+
+    a{
+      .text('Roboto', 24px, 800, @white);
+      padding: 6px 18px;
+      border: 3px solid @white;
+      border-radius: 999em;
+      text-align: center;
+      top: 16px;
+      .tr2;
+
+      &:hover{
+        background: @white;
+        color: @blueLight;
+      }
+    }
+  }
+}
+
+section#prev-next-posts{
+  background: @bg;
+  border-top: 1px solid #dcdcdc;
+  padding: 48px 0;
+
+  .blog-container{
+
+    .col-lg-6{
+      .text('Roboto', 18px, 400, @gray3);
+
+      .matIcons{}
+
+      a{
+        color: @gray3;
+      }
+      a:hover{
+        color: @blueLight;
+      }
+    }
+
+    .prev{}
+
+    .next{
+      text-align: right;
+    }
+  }
+}
+
+
+#recent-blogposts{
+  background: #ececec;
+  padding: 48px 0;
+  border-top: 1px solid #d6d6d6;
+
+  .fluid-container{}
+
+  ul#recent-posts-links{
+
+    @media @lg, @xl , @xxl{
+      &:nth-child(4){
+        display: none;
+      }
+    }
+  }
+
+  a.recent-post-wrapper{
+
+    @media @xs{padding: 5px};
+    @media @sm{padding: 5px 16vw};
+    @media @md{padding: 15px};
+    @media @lg, @xl, @xxl{padding: 5px};
+
+    li.recent-post{
+      border-radius: 3px;
+      box-shadow: 0 0 3px #CCCCCC;
+      .tr(0.3s);
+
+      div.image-wrapper{
+        width: 100%;
+        overflow: hidden;
+
+        @media @xxl, @xl, @lg, @md, @sm{
+          height: 210px;
+
+        }
+
+        img{
+          height: 100%;
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+          border-radius: 3px 3px 0 0;
+        }
+      }
+
+      h3{
+        .text('Roboto', 18px, 400, @blueLight);
+        padding: 24px 24px;
+        margin: 0;
+        background: @white;
+        border-radius: 0 0 3px 3px;
+        line-height: 24px;
+
+        @media @xs{height: auto};
+
+        height: 120px;
+      }
+    }
+
+    li.recent-post:hover{
+      box-shadow: 0 6px 50px fade(@footer, 25%);
+      margin-top: -1px;
+
+    }
+  }
+}
+

@@ -1,0 +1,155 @@
+@import (reference) "../base.less";
+
+.text(
+  @fontFamily,
+  @fontSize,
+  @fontWeight,
+  @fontColor) {
+  font-family: @fontFamily;
+  font-weight: @fontWeight;
+  font-size: @fontSize;
+  color: @fontColor;
+  line-height: @fontSize * 1.3;
+}
+
+.text{
+  font-family: 'Roboto';
+
+  // SIZES
+  &.t-18{
+    font-size: 18px;
+    line-height: 18px * 1.3;
+  }
+  &.t-22{
+    font-size: 22px;
+    line-height: 22px * 1.3;
+  }
+  &.t-24{
+    font-size: 24px;
+    line-height: 24px * 1.3;
+  }
+  &.t-26{
+    font-size: 26px;
+    line-height: 26px * 1.3;
+  }
+  &.t-32{
+    font-size: 32px;
+    line-height: 32px * 1.3;
+  }
+  &.t-80{
+    font-size: 80px;
+    line-height: 80px * 1.3;
+  }
+
+
+  // COLORS
+  &.white{
+    color: @white;
+  }
+  &.gray{
+    color: @gray4;
+  }
+  &.blue{
+    color: @blueNew;
+  }
+  &.green{
+    color: @greenNew;
+  }
+  &.green2{
+    color: @ye-1;
+  }
+  &.dark-grey-enterprise{
+    color: @ye-bg-3;
+  }
+  &.green-light-enterprise{
+    color: @ye-1;
+  }
+  &.dark-enterprise{
+    color: @ye-bg-0;
+  }
+
+  // CASES
+  &.normal{
+    font-family: 'Roboto';
+    font-weight: 300;
+  }
+  &.bold{
+    font-family: 'AvantgardeBold';
+  }
+  &.left{
+    text-align: left;
+  }
+  &.center{
+    text-align: center;
+  }
+  &.uppercase{
+    text-transform: uppercase;
+  }
+
+  &.block {
+    display: block;
+  }
+}
+
+.stnd{
+  font-family: 'Roboto';
+  font-weight: 300;
+
+  &.s-12{
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  &.s-16{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &.s-18{
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  &.s-white{
+    color: @white;
+  }
+
+  &.s-gray{
+    color: @gray3;
+  }
+
+  &.s-blue{
+    color: @blueNew;
+  }
+
+  &.s-green{
+    color: @greenNew;
+  }
+
+  &.center{
+    text-align: center;
+  }
+
+  &.bold{
+    font-weight: 600;
+    padding: 0;
+    background: none;
+  }
+  &.uppercase{
+    text-transform: uppercase;
+  }
+}
+
+.the-title{
+  .text('Roboto', 24px, 300, @blueLight);
+  border-left: 3px solid @greenNew;
+  padding-left: 8px;
+  position: relative;
+  z-index: 1000;
+
+  @media @xs{
+    font-size: 18px;
+  }
+
+
+}

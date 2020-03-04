@@ -1,0 +1,150 @@
+@import(reference) "../../../proto";
+
+/* GENERAL */
+/* -------------------------- */
+section#general-case-stuides{
+
+  .huge-display-title{
+    position: absolute;
+    text-overflow: clip;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 280px;
+    background: transparent;
+    color: @white;
+  }
+
+  .grid{
+
+    li.case-study-wrapper{
+
+      a.wrapper{
+        border-top: 3px solid @ye-0;
+
+        h2{
+          color: @ye-bg-3;
+        }
+      }
+    }
+  }
+}
+
+section#general-industries{
+  background: @ye-bg-3;
+
+  h2.general-title{
+    color: @ye-0;
+  }
+
+  h2.huge-display-title{
+    position: absolute;
+  }
+
+  ul#industries-list{
+
+    li.grid-element-wrapper:nth-child(-n+4){
+      @media @xs  {width: 100%}
+      @media @sm  {width: 100% / 2;}
+      @media @md  {width: 100% / 2;}
+      @media @lg  {width: 100% / 4;}
+      @media @xl  {width: 100% / 4;}
+      @media @xxl {width: 100% / 4;}
+
+      .solution-desc {
+
+        @media @md, @lg, @xl, @xxl {
+          height: 160px;
+        }
+      }
+    }
+
+    li.grid-element-wrapper:nth-child(n+5){
+      @media @xs  {width: 100%}
+      @media @sm  {width: 100% / 2;}
+      @media @md  {width: 100% / 2;}
+      @media @lg  {width: 100% / 3;}
+      @media @xl  {width: 100% / 3;}
+      @media @xxl {width: 100% / 3;}
+
+      .solution-desc {
+
+        @media @md, @lg, @xl, @xxl {
+          height: 130px;
+        }
+      }
+    }
+  }
+
+  /*
+  ul{
+    //.center-container(100%, 80%, 70%, 70%);
+
+    li.industry-wrapper{
+
+      a.industry-row{
+
+        .image-wrapper{
+          padding: 16px 32px;
+          height: 100px;
+          .tr2;
+
+          img{
+            height: 100%;
+            position: absolute;
+            left: 0;
+            .tr2;
+          }
+
+        }
+
+        .text-wrapper{
+          background: @ye-0;
+          margin-bottom: 40px;
+          box-shadow: 0 0 30px @black;
+          padding: 16px 32px;
+          .tr2;
+
+          h2{
+            .text('AvantgardeBold', 20px, 800, @ye-bg-3);
+          }
+
+          p{
+            .text('Roboto', 18px, 400, @ye-bg-3);
+          }
+        }
+      }
+
+      a.industry-row:hover{
+
+        .image-wrapper{
+
+          img{
+            position: absolute;
+            right: 0;
+          }
+
+        }
+
+        .text-wrapper{
+          background: @white;
+          box-shadow: 0 0 00px transparent;
+        }
+      }
+    }
+  }
+  */
+}
+
+
+#related-industries{
+  padding: 40px 0;
+}
+
+
+#case-studies-listing-page{
+
+  h2.general-title{
+    color: @ye-0;
+  }
+}

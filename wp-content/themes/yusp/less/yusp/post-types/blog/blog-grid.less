@@ -1,0 +1,136 @@
+@import(reference) "../../../proto";
+@import(reference) "blog-general";
+
+section#blog-archive-grid{
+
+}
+
+#blog-posts{
+  margin-top: 60px;
+
+  .blog-first-row{
+    margin-bottom: 20px;
+
+    .text-container{
+      @media @lg, @xl, @xxl{
+        padding-left: 20px;
+      }
+
+      h2{
+        .text('Avantgardebold', 24px, 800, @blueLight);
+        margin-bottom: 40px;
+      }
+
+      h3{
+        .param;
+      }
+
+    }
+  }
+
+  .infinite-container{
+
+    .blog-post.infinite-post{
+
+    }
+  }
+}
+
+
+.blog-post.infinite-post{
+  .col;
+  @media @xs  {width: 100%;}
+  @media @sm  {width: 50%;}
+  @media @md  {width: 50%;}
+  @media @lg  {width: 100/3%;}
+  @media @xl  {width: 100/3%;}
+  @media @xxl {width: 100/3%;}
+
+  a.row{
+    padding-right: 20px;
+
+    .image-wrapper{
+      height: 218px;
+      overflow-y: hidden;
+
+      img{
+        width:100%;
+        height:auto;
+      }
+    }
+
+    .text-content{
+
+      h2{
+        .text('Avantgardebold', 20px, 800, @blueLight);
+        line-height: 27px;
+        height: 90px;
+      }
+
+      .excrept{
+        //.text('Roboto', 18px, 800, @blueLight);
+        .param;
+        height: 180px;
+
+        //overflow: hidden;
+        //text-overflow: ellipsis;
+        //white-space: nowrap;
+
+      }
+    }
+
+    .date-and-author{
+
+      .avatar-wrapper{
+        width: 52px;
+        height: 52px;
+
+      }
+
+    }
+  }
+}
+
+button.more-blogs{
+  .free-trial-button;
+  .outlined-blue;
+  margin: 30px auto 0;
+  display: block;
+}
+
+.blog-filter{
+  ul{
+    margin-bottom: 20px;
+    .row;
+
+    li{
+      .col;
+      margin-right: 2px;
+      padding: 3px 11px;
+      background: @white;
+      border-bottom: 2px solid fade(@gray2, 80%);
+      cursor: pointer;
+      .text('Roboto', 16px, 400, @blueLight);
+      .tr2;
+
+      &:hover{
+        background: @blueLight;
+        color: @white;
+      }
+
+
+    }
+  }
+}
+
+
+
+.image-wrapper img{
+
+}
+.date-and-author{
+  margin-left:0px;
+}
+.firstrow-image{
+  width:100%;
+}

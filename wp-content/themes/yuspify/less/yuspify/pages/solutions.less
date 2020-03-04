@@ -1,0 +1,168 @@
+@import (reference) "../../proto";
+
+
+
+#solution-archive-page{
+  padding-top: 40px;
+  background: @ye-0;
+
+  h1.huge-display-title{
+    position: absolute;
+    background: transparent;
+    color: fade(@ye-1, 20%);
+  }
+
+  .single-solution-block{
+
+    .solution-wrapper{
+
+      @media @md, @lg, @xl, @xxl{
+        padding: 20px;
+      }
+
+      @media @xs, @sm{
+        margin-bottom: 40px;
+      }
+
+      .solution-box{
+        height: auto;
+        border: 3px solid fade(@ye-bg-3, 25%);
+        //border: 3px solid @ye-bg-0;
+        border-radius: 3px;
+        padding: 30px;
+        box-shadow: 0 0 15px transparent;
+        box-sizing: border-box;
+        .bezier-eas-in-slow(0.4s);
+
+        .image-wrapper{
+
+          img.illustration{
+            width: 80px;
+            margin: 40px 0;
+            .bezier-eas-in-slow(0.6s);
+
+            &.inverse{
+              .translateY(-200px);
+              opacity: 0;
+            }
+
+            &.normal{
+              .translateY(0px);
+              left: -80px;
+              opacity: 1;
+            }
+          }
+        }
+
+        .text-wrapper{
+
+          h2{
+            //.text('AvantgardeBold', 20px, 400, @ye-0);
+            .text('AvantgardeBold', 20px, 400, @ye-bg-2);
+            letter-spacing: 0.2px;
+
+            @media @md, @lg, @xl, @xxl{
+              height: 60px;
+            }
+          }
+
+          .solution-desc{
+            //.text('Roboto', 16px, 400, @gray2);
+            .text('Roboto', 16px, 400, @ye-bg-3);
+            .tr2;
+
+            @media @md, @lg, @xl, @xxl{
+              height: 240px;
+            }
+          }
+        }
+      }
+
+      .solution-box:hover{
+        //padding: 30px 40px;
+        border-color: @white;
+        background: @white;
+        box-shadow: 0 0 30px @ye-bg-0;
+
+        h2{
+          //color: @ye-bg-3;
+          color: @blueExtra;
+        }
+        .solution-desc{
+          //color: @blueExtra;
+          color: @gray4;
+        }
+
+        .image-wrapper{
+
+          img{
+            &.inverse{
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            &.normal{
+              .translateY(200px);
+              opacity: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .related-case-studies{
+
+    img{
+      .col;
+      width: auto;
+      height: 80px;
+      .desaturate;
+    }
+  }
+}
+
+
+
+
+/*
+#solution-archive-page{
+  padding-top: 40px;
+
+  .single-solution-block{
+    .center-container(100%, 800px, 800px, 900px);
+
+    h1{
+      margin: 20px 0;
+    }
+
+    .solution-desc{
+      height: 140px;
+      .text('Roboto', 16px, 400, @gray4);
+      .tr2;
+    }
+
+    .solution-label{
+      background: @white;
+      padding: 10px;
+      display: inline;
+      padding: 3px 8px;
+
+
+      h4{
+        .text('Roboto', 16px, 400, @gray4);
+      }
+    }
+  }
+
+  .related-case-studies{
+
+    img{
+      .col;
+      width: auto;
+      height: 80px;
+      .desaturate;
+    }
+  }
+}
+*/

@@ -1,0 +1,121 @@
+@import(reference) "../proto";
+@import(reference) "../yfy-basics/yfy-typo";
+
+.yfy-form-input{
+  display: inline-block;
+  background: none;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  box-sizing: border-box;
+  .tr2;
+
+  &.small{
+    font-size: 14px;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+  }
+
+  &.medium{
+    font-size: 16px;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+  }
+
+  &.large{
+    font-size: 18px;
+    padding: 0.4rem 1rem;
+    border-radius: 7px;
+  }
+
+  &.white{
+    .placeholder-standard(fade(@white, 60%));
+    border-color: fade(@white, 60%);
+    color: fade(white, 60%);
+
+    &:hover{
+      .placeholder-hover(fade(@white, 80%));
+      border-color: fade(@white, 80%);
+      color: fade(white, 80%);
+      box-shadow: 0 9px 20px fade(@yfy-light-blue, 60%);
+    }
+
+    &:focus{
+      .placeholder-focus(@purple);
+      background: white;
+      border-color: fade(@white, 100%);
+      color: @purple;
+      box-shadow: 0 9px 40px fade(@yfy-light-blue, 90%);
+    }
+  }
+
+  &.blue{
+    .placeholder-standard(fade(@yfy-purple, 60%));
+    color: fade(@yfy-purple, 60%);
+    border-color: fade(@yfy-light-blue, 60%);
+
+    &:hover{
+      .placeholder-hover(fade(@yfy-purple, 80%));
+      color: fade(@yfy-purple, 80%);
+      border-color: fade(@yfy-light-blue, 80%);
+      box-shadow: 0 9px 20px fade(@yfy-light-blue, 60%);
+    }
+
+    &:focus{
+      .placeholder-focus(white);
+      color: white;
+      background: @yfy-light-blue;
+      border-color: fade(@yfy-light-blue, 100%);
+      box-shadow: 0 9px 40px fade(@yfy-light-blue, 90%);
+    }
+  }
+
+  &.white-filled{
+    .placeholder-standard(fade(@footer, 60%));
+    color: fade(@footer, 60%);
+    border-color: white;
+    background: white;
+
+    &:hover{
+      .placeholder-hover(fade(@footer, 80%));
+      border-color: fade(@white, 80%);
+      color: fade(white, 80%);
+      box-shadow: 0 9px 20px fade(@yfy-light-blue, 60%);
+    }
+
+    &:focus{
+      .placeholder-focus(@purple);
+      background: white;
+      border-color: fade(@white, 100%);
+      color: @purple;
+      box-shadow: 0 9px 40px fade(@yfy-light-blue, 90%);
+    }
+  }
+
+  &.white-submit{
+    .placeholder-focus(@purple);
+    background: white;
+    border-color: fade(@white, 100%);
+    color: @yfy-light-blue;
+    box-shadow: 0 9px 40px fade(@yfy-light-blue, 20%);
+    cursor: pointer;
+
+    &:hover{
+      .placeholder-hover(fade(@white, 80%));
+      border-color: fade(@white, 80%);
+      color: @yfy-purple;
+      box-shadow: 0 9px 20px fade(@yfy-light-blue, 60%);
+    }
+
+    &:focus{
+      .placeholder-focus(@purple);
+      background: #b9ecff;
+      border-color: #b9ecff;
+      color: @purple;
+      box-shadow: inset 0 0 10px fade(@footer, 40%);
+    }
+  }
+}
+

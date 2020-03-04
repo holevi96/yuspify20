@@ -1,0 +1,59 @@
+@import (reference) "../../proto";
+
+#hero{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: luminosity;
+  background-color: @greenNew;
+
+  background-size: contain;
+  //background-position-y: -16vh;
+
+  padding-top: 5vh;
+  margin-top: -30px;
+
+  @media @lg, @xl, @xxl{
+    background-size: 100%;
+    padding-top: 5vh;
+    //background-position-y: center;
+    background-position: center;
+    background-position-y: -50px;
+  }
+
+  @media @xs, @sm{
+    background-position-y: -9vh;
+    background-size: 200%;
+  }
+
+  &:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: @greenNew;
+    opacity: 0.4;
+    z-index: 0;
+    visibility: visible;
+  }
+
+  h1{
+    z-index: 100;
+    position: relative;
+  }
+  h2, h2 p{
+    //text-align: center;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    z-index: 100;
+    position: relative;
+    .text('Roboto', 20px, 800px, @gray4);
+  }
+
+  h3{
+    text-align: center;
+    .text('Roboto', 20px, 800px, @gray4);
+    padding: 20px 0;
+  }
+}

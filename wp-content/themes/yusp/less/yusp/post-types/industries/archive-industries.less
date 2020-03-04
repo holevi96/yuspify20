@@ -1,0 +1,284 @@
+@import(reference) "../../../proto";
+
+/* INDSUTRIES #3 */
+/*-------------------------------------*/
+
+.vertical{
+  &:before{
+    visibility: visible;
+    display: block;
+    content: '';
+    height: 0;
+    width: 3px;
+    right: -3px;
+    background: @blueLight;
+    position: absolute;
+    z-index: 10;
+    .tr2;
+  }
+}
+
+.horizontal{
+  &:before{
+    visibility: visible;
+    display: block;
+    content: '';
+    width: 0;
+    height: 3px;
+    top: -3px;
+    left: 0;
+    background: @ye-1;
+    position: absolute;
+    z-index: 10;
+    .tr2;
+  }
+}
+
+body.post-type-archive-industries{
+
+  .menu-row a#logo img.logo {
+    width: 48px;
+    height: auto;
+    margin-top: -12px;
+  }
+
+  nav#desktop-menu{
+    background: @bg;
+  }
+
+  #main-menu{
+
+  }
+}
+
+@ye-bg-0: #1e2630;
+@ye-bg-1: #2a323a;
+@ye-bg-2: #323b45;
+@ye-bg-3: #404852;
+
+@ye-1: #6ac183;
+@ye-2: #32c4eb;
+
+section#industries{
+  padding-top: 80px;
+
+  div#industries-block{
+    .col;
+    width: 33.333%;
+    z-index: 11;
+    box-shadow: 0 15px 100px rgba(0,0,0,.075);
+
+    &.small{
+      width: 33.3333%;
+      position: fixed;
+      height: 100vh;
+      overflow-y: scroll;
+    }
+
+    ul#industries-list{
+
+      li.industry-wrapper{
+        height: 16.6666vh;
+        padding-left: 14vw;
+        position: relative;
+        background: @white;
+        cursor: pointer;
+        border-bottom: 3px solid @bg-dash;
+        .tr2;
+        //.horizontal;
+        .vertical;
+
+        h2{
+          .text('AvantgardeBold', 21px, 400, fade(@footer, 60%));
+          line-height: 16.666vh;
+          z-index: 30;
+          position: relative;
+        }
+
+        /*
+        &:hover{
+          &:before{
+            width: 100%;
+          }
+        }
+        */
+
+
+        &:after{
+          visibility: visible;
+          display: block;
+          content: '';
+          width: 0;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: #f1f1f1;
+          position: absolute;
+          z-index: 15;
+          .tr2;
+        }
+      }
+
+      .industry-wrapper.current{
+        background: #e8e8e8;
+        .tr2;
+
+
+        &:before{
+          height: 100%;
+          background-color: @ye-0;
+        }
+
+
+        &:after{
+          width: 100%;
+        }
+
+        h2{
+          color: @ye-bg-1;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  div#selected-industries{
+    .col;
+    width: 66.666%;
+    height: 100vh;
+    z-index: 10;
+
+    &.large{
+      width: 66.6666%;
+      float: right;
+    }
+
+    .empty-state-design{
+      width: 30%;
+      height: 30%;
+      margin: 15% 30%;
+
+      h3{
+        .text('AvantgardeBold', 30px, 800, @ye-bg-3);
+        text-align: center;
+      }
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .selected-industry{
+      .col;
+      opacity: 0;
+      height: 0;
+      visibility: hidden;
+      z-index: -1;
+      position: relative;
+
+      h2.large-title{
+        .text('AvantgardeBold', 200px, 800, @white);
+        .rotate(90deg);
+        position: absolute;
+      }
+
+      .intro{
+        opacity: 0;
+        .tr2;
+      }
+
+      ul.relevant-solution{
+        opacity: 0;
+        .tr2;
+      }
+    }
+
+    .selected-industry.current{
+      background: @bg;
+      height: 100vh;
+      opacity: 1;
+      visibility: visible;
+      z-index: 100;
+      position: absolute;
+      top: 0;
+      box-sizing: border-box;
+      padding-left: 4vh;
+      //padding: 4vh  6vh;
+
+      .intro{
+        background: @ye-0;
+        padding: 30px;
+        opacity: 1;
+        box-shadow: 0 0 30px #35e065;
+
+        h2{
+          .text('AvantgardeBold', 24px, 800, @ye-bg-3);
+          margin-bottom: 20px;
+        }
+
+        h3{
+          .text('Roboto', 18px, 400, @ye-bg-3);
+        }
+      }
+
+      ul.relevant-solution{
+        opacity: 1;
+
+        li{
+
+          a.solution-row{
+            padding: 4px 10px;
+            background: @white;
+            margin-top: 16px;
+
+            h3{
+              .text('Roboto', 24px, 400, @ye-1);
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .case-studies-wrapper{
+      padding: 0 4vh 6vh;
+
+      ul.related-case-studies {
+
+        .case-study {
+          background: @white;
+          padding: 20px;
+          margin-bottom: 20px;
+          box-shadow: 0 15px 100px rgba(0,0,0,.075);
+          .horizontal;
+          .tr2;
+
+          .case-study-inner {
+
+            .title{
+              .text('AvantgardeBold', 20px, 800, @ye-bg-3);
+              display: inline;
+              border-top: 3px solid @ye-0;
+              padding-top: 6px;
+            }
+
+            .description{
+              overflow-y: hidden;
+              height: 140px;
+              .text('Roboto', 16px, 400, @gray3);
+            }
+          }
+        }
+
+        .case-study:hover{
+
+          &:before{
+            width: 100%;
+            background-color: @ye-1;
+          }
+        }
+      }
+    }
+  }
+}

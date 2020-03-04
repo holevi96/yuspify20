@@ -1,0 +1,76 @@
+@import(reference) "../proto";
+@import(reference) "../yfy-basic-components";
+
+body{
+
+  .body {
+
+    .lvl1;
+    background: white;
+
+    &.white{
+      background: @white;
+    }
+
+    &.light{
+      background: @bg;
+    }
+
+    &.dark{
+      background: @bg-dash;
+    }
+  }
+}
+
+.body{
+  padding-top: 0rem;
+
+  &.illustrated{
+    background-image: url('@{root}/img/svg/dekor-line.svg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 30% 98%;
+    padding-top: 4rem;
+  }
+
+  .content {
+    .row;
+    padding: 10px;
+    margin-top: 20px;
+  }
+}
+
+#sme-contianer{
+  .container{
+
+    a, h2, h3, h4, h5{
+      color: @blueLight;
+    }
+
+    a:hover{
+      border-color: @blueLight;
+    }
+  }
+}
+
+#general-contianer{
+  .container{
+
+    a, h2, h3, h4, h5{
+      color: @ye-bg-3;
+    }
+
+    a:hover{
+      border-color: @ye-0;
+    }
+
+    h2, h3, h4{
+      font-family: 'AvantgardeBold';
+      letter-spacing: -1px;
+    }
+  }
+}
+
+
+
+

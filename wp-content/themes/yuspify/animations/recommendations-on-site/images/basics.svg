@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1174 933.2" style="enable-background:new 0 0 1174 933.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2;fill:#231F20;enable-background:new    ;}
+	.st1{fill:#D2D2D2;}
+	.st2{fill:#F7F8F9;}
+	.st3{fill:#D0D2D3;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#EBEDED;}
+	.st6{fill:#A7A9AC;}
+	.st7{fill:#96D6DA;}
+	.st8{opacity:0.61;fill:url(#_Path_17_1_);enable-background:new    ;}
+	.st9{fill:#EFEEEE;}
+	.st10{fill:#BDC0C0;}
+	.st11{opacity:0.76;fill:url(#_Path_20_1_);enable-background:new    ;}
+	.st12{fill:#7F7154;}
+	.st13{opacity:0.23;fill:#A9A9A9;enable-background:new    ;}
+	.st14{fill:none;stroke:#79C7A6;stroke-miterlimit:10;}
+	.st15{fill:#79C7A6;}
+	.st16{opacity:0.23;fill:url(#_Path_30_1_);enable-background:new    ;}
+	.st17{opacity:0.23;fill:url(#_Path_31_1_);enable-background:new    ;}
+	.st18{opacity:0.23;fill:url(#_Path_32_1_);enable-background:new    ;}
+	.st19{opacity:0.23;fill:url(#_Path_33_1_);enable-background:new    ;}
+	.st20{fill:#665B45;}
+	.st21{fill:#928167;}
+	.st22{fill:none;stroke:#96D6DA;stroke-miterlimit:10;}
+	.st23{fill:#D1D2D3;}
+	.st24{fill:#B3B2B3;}
+	.st25{opacity:0.4;}
+	.st26{fill:#57585A;}
+	.st27{fill:none;stroke:#BBBDBF;stroke-width:4;stroke-miterlimit:10;}
+	.st28{fill:#CECDC9;}
+	.st29{fill:#BBBDBF;}
+	.st30{fill:#B4B4B5;}
+	.st31{fill:#ECECEC;}
+	.st32{fill:none;stroke:#F3F3F3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st33{fill:none;stroke:#F6F8F8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st34{fill:#777776;}
+	.st35{fill:none;stroke:#DADCDC;stroke-linecap:round;stroke-miterlimit:10;}
+	.st36{fill:#EAEBEC;}
+	.st37{fill:#E9E9E9;}
+	.st38{fill:none;stroke:#D6DADA;stroke-linecap:round;stroke-miterlimit:10;}
+	.st39{fill:#8D8D8D;}
+	.st40{fill:#E1E0DF;}
+	.st41{fill:none;stroke:#636464;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st42{fill:url(#_Ellipse__1_);stroke:#636464;stroke-width:3;stroke-miterlimit:10;}
+	.st43{fill:url(#_Ellipse_2_1_);stroke:#636464;stroke-width:3;stroke-miterlimit:10;}
+	.st44{fill:none;stroke:#636464;stroke-width:3;stroke-miterlimit:10;}
+	.st45{fill:#C3C2BD;}
+	.st46{fill:#CECECE;}
+	.st47{fill:none;stroke:#E2E2E2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st48{clip-path:url(#SVGID_2_);}
+	.st49{fill:#6FCBDC;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st50{fill:#6FCBDB;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st51{fill:#70CBDB;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st52{fill:#6ECBDB;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st53{fill:#6FCBDA;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st54{fill:#6FCBD9;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st55{fill:#70CBD9;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st56{fill:#6FCBD8;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st57{fill:#6FCBD7;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st58{fill:#70CBD7;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st59{fill:#70CBD6;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st60{fill:#70CBD5;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st61{fill:#70CBD4;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st62{fill:#71CBD3;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st63{fill:#70CAD2;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st64{fill:#71CAD2;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st65{fill:#71CAD1;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st66{fill:#72CACF;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st67{fill:#70CAD0;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st68{fill:#70CACF;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st69{fill:#72CACD;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st70{fill:#71CACD;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st71{fill:#71CACC;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st72{fill:#72CACC;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st73{fill:#71CACB;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st74{fill:#73CACB;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st75{fill:#72CACA;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st76{fill:#72CAC9;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st77{fill:#72CAC8;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st78{fill:#74CAC7;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st79{fill:#72CAC7;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st80{fill:#72C9C7;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st81{fill:#74CAC6;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st82{fill:#74CAC5;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st83{fill:#75CAC5;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st84{fill:#76CAC4;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st85{fill:#74CAC4;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st86{fill:#74CAC3;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st87{fill:#76CAC3;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st88{fill:#77CAC3;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st89{fill:#77CAC2;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st90{fill:#76CAC1;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st91{fill:#78CAC1;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st92{fill:#78CAC0;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st93{fill:#78CABF;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st94{fill:#78CABE;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st95{fill:#78CABD;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st96{fill:#7ACABC;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st97{fill:#7ACABB;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st98{fill:#7BCABA;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st99{fill:#7DCAB9;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st100{fill:#7CCABA;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st101{fill:#7DCAB8;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st102{fill:#7ECBB8;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st103{fill:#7FCBB8;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st104{fill:#80CBB7;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st105{fill:#80CBB6;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st106{fill:#81CBB6;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st107{fill:#81CBB4;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st108{fill:#82CCB5;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st109{fill:#82CCB4;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st110{fill:#83CCB4;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st111{fill:#85CCB3;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st112{fill:#85CCB2;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st113{fill:#86CCB1;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st114{fill:#86CCB2;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st115{fill:#87CDB1;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st116{fill:#87CDB0;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st117{fill:#88CDB1;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st118{fill:#88CDB0;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st119{fill:#8ACDAF;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st120{fill:#8BCDAF;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st121{fill:#8BCDAE;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st122{fill:#8CCEAE;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st123{fill:#8DCEAD;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st124{fill:#8ECEAD;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st125{fill:#90CFAC;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st126{fill:#90CFAD;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st127{fill:#91CFAB;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st128{fill:#92CFAB;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st129{fill:#92CFAA;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st130{fill:#93CFA9;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st131{fill:#94D0AA;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st132{fill:#94D0A9;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st133{fill:#95D0A8;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st134{fill:#97D0A8;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st135{fill:#98D1A7;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st136{fill:#99D1A6;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st137{fill:#9AD1A6;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st138{fill:#9BD1A6;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st139{fill:#9BD1A5;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st140{fill:#9CD2A4;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st141{fill:#9DD2A5;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st142{fill:#9ED2A4;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st143{fill:#A0D3A3;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st144{fill:#A1D3A2;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st145{fill:#A1D3A3;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st146{fill:#A2D3A2;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st147{fill:#A3D4A2;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st148{fill:#A4D4A1;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st149{fill:#A5D4A1;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st150{fill:#A5D4A0;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st151{fill:#A6D4A0;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st152{fill:#A6D49F;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st153{fill:#A7D59F;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st154{fill:#A8D59F;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st155{fill:#A9D59D;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st156{fill:#AAD69E;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st157{fill:#AAD69D;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st158{fill:#ACD69C;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st159{fill:#ADD69C;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st160{fill:#AED79C;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st161{fill:#AFD79C;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st162{fill:#B0D79C;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st163{fill:#B1D89A;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st164{fill:#B1D89B;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st165{fill:#B2D899;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st166{fill:#B3D899;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st167{fill:#B4D897;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st168{fill:#B4D898;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st169{fill:#B5D997;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st170{fill:#B6D997;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st171{fill:#B7D997;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st172{fill:#B8DA96;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st173{fill:#B9DA96;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st174{fill:#BADA96;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st175{fill:#BBDB95;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st176{fill:#BCDB95;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st177{fill:#BEDB94;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st178{fill:#BEDC94;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st179{fill:#BFDC93;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st180{fill:#C0DC93;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st181{fill:#C1DC92;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st182{fill:#C2DD92;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st183{fill:#C3DD90;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st184{fill:#C4DD90;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st185{fill:#C5DE90;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st186{fill:#C6DE90;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st187{fill:#C6DE8F;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st188{fill:#C7DE8F;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st189{fill:#C8DF8E;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st190{fill:#C9DF8D;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st191{fill:#CADF8C;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st192{fill:#CBE08C;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st193{fill:#CCE08B;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st194{fill:#CDE08B;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st195{fill:#CEE08A;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st196{fill:#CFE18A;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st197{fill:#D1E289;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st198{fill:#D1E089;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st199{fill:#D2E187;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st200{fill:#D3E087;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st201{fill:#D4E086;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st202{fill:#D5E086;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st203{fill:#D6E085;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st204{fill:#D7E085;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st205{fill:#D8DF84;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st206{fill:#D8DF83;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st207{fill:#D9DF83;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st208{fill:#DADF82;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st209{fill:#DBDF82;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st210{fill:#DCDF81;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st211{fill:#DDDF80;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st212{fill:#DEDF80;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st213{fill:#DFDE80;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st214{fill:#E0DE80;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st215{fill:#E2DE80;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st216{fill:#E1DE7E;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st217{fill:#E3DF7E;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st218{fill:none;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st219{fill:#35BCB3;stroke:#DFE1E1;stroke-miterlimit:10;}
+	.st220{clip-path:url(#SVGID_4_);}
+	.st221{clip-path:url(#SVGID_6_);}
+	.st222{clip-path:url(#SVGID_8_);}
+	.st223{clip-path:url(#SVGID_10_);}
+	.st224{fill:#B7BBBB;}
+	.st225{opacity:0.53;fill:#6E7071;enable-background:new    ;}
+	.st226{opacity:0.87;fill:#E8E7E7;enable-background:new    ;}
+	.st227{fill:#E8E7E7;}
+	.st228{fill:#A0A1A1;}
+	.st229{opacity:0.41;fill:#E8E7E7;enable-background:new    ;}
+	.st230{fill:none;stroke:#E2E2E2;stroke-miterlimit:10;}
+	.st231{display:none;}
+	.st232{display:inline;}
+	.st233{fill:#636968;}
+	.st234{fill:none;stroke:#595B5C;stroke-miterlimit:10;}
+	.st235{fill:#9DD8D9;}
+	.st236{opacity:0.15;fill:#595B5C;}
+	.st237{opacity:0.48;fill:#636968;}
+	.st238{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st239{fill:#98D6DA;}
+	.st240{opacity:0.41;fill:#98D6DA;}
+	.st241{opacity:0.5;fill:url(#XMLID_23_);}
+	.st242{opacity:0.21;fill:url(#XMLID_24_);}
+	.st243{opacity:0.5;fill:url(#XMLID_25_);}
+	.st244{opacity:0.21;fill:url(#XMLID_26_);}
+</style>
+<g id="Layer_1">
+	<g>
+		<g id="Layer_2">
+			<path id="_Path_" class="st0" d="M5.2,398.3l264.9-152.9c6.3-3.6,14-3.6,20.3,0l379.5,219.1c3.7,2.2,5,6.9,2.8,10.6
+				c-0.7,1.2-1.6,2.1-2.8,2.8L395.8,640.1c-2.5,1.5-5.5,1.5-8,0L5.2,411.7c-3.7-2.2-4.9-7-2.7-10.7C3.1,399.9,4.1,399,5.2,398.3z"/>
+			<path id="_Path_2" class="st1" d="M3.9,383.5L268,231c6.3-3.6,14-3.6,20.2,0l378.4,218.4c3.7,2.1,5,6.9,2.8,10.6
+				c-0.7,1.1-1.6,2.1-2.8,2.8L393.3,624.6c-2.4,1.4-5.5,1.4-7.9,0L3.8,396.9c-3.7-2.2-4.9-7-2.7-10.6C1.8,385.1,2.7,384.2,3.9,383.5
+				z"/>
+			<polygon class="st1" points="670.5,456.3 670.5,450.9 668,451.7 668,457.1 			"/>
+			<path id="_Path_3" class="st2" d="M5,378.8l263.7-152.2c6.2-3.6,13.9-3.6,20.2,0l377.7,218c1.4,0.8,2.5,2,3.1,3.4
+				c1.7,3.6,0.4,8-3.1,10L393.8,619.5c-2.4,1.4-5.5,1.4-7.9,0L4.9,392.2c-3.7-2.2-4.9-6.9-2.7-10.6C2.9,380.4,3.9,379.5,5,378.8z"/>
+			<path id="_Path_4" class="st0" d="M505.9,690.5l264.8-152.9c6.3-3.6,14-3.6,20.3,0l379.3,219c3.7,2.1,5,6.9,2.8,10.6
+				c-0.7,1.2-1.6,2.1-2.8,2.8l-274,162.1c-2.4,1.5-5.5,1.5-7.9,0L505.8,703.9c-3.7-2.2-4.9-7-2.7-10.7
+				C503.8,692.1,504.7,691.2,505.9,690.5z"/>
+			<path id="_Path_5" class="st1" d="M504.3,676.4l264-152.4c6.3-3.6,14-3.6,20.2,0l378.1,218.3c3.7,2.1,5,6.9,2.8,10.6
+				c-0.7,1.2-1.6,2.1-2.8,2.8L893.5,917.3c-2.4,1.5-5.5,1.5-7.9,0L504.2,689.8c-3.7-2.2-4.9-6.9-2.7-10.6
+				C502.2,678,503.2,677,504.3,676.4z"/>
+			<rect x="1167.1" y="743.2" class="st1" width="3.5" height="6.4"/>
+			<path id="_Path_6" class="st2" d="M505.7,671l263.4-152.1c6.2-3.6,13.9-3.6,20.2,0l377.4,217.9c1.4,0.8,2.5,2,3.1,3.4
+				c1.7,3.6,0.4,8-3.1,10L894,911.4c-2.4,1.4-5.5,1.4-7.9,0L505.6,684.3c-3.7-2.2-4.9-6.9-2.7-10.6
+				C503.6,672.6,504.5,671.6,505.7,671z"/>
+			<path id="_Path_7" class="st3" d="M504.2,684.2l9.1,5.4l285.9-165l-9.7-5.8c-6.3-3.6-14-3.6-20.3,0l-264.9,152
+				c-3.7,2.2-4.9,7-2.7,10.7C502.2,682.6,503.2,683.6,504.2,684.2z"/>
+			<ellipse id="_Path_8" class="st4" cx="566.8" cy="645.8" rx="5.1" ry="3"/>
+			<ellipse id="_Path_9" class="st4" cx="760.8" cy="533.4" rx="5.1" ry="3"/>
+			<polygon class="st4" points="757,531.3 563,643.8 569.9,648.2 764.5,535.5 			"/>
+			<path id="_Path_10" class="st0" d="M366.4,179.5L636.9,23.4c6.4-3.7,14.3-3.7,20.7,0L1045,247.1c3.8,2.2,5.1,7,2.9,10.8
+				c-0.7,1.2-1.7,2.2-2.8,2.9l-280,165.6c-2.5,1.5-5.6,1.5-8.1,0L366.3,193.2c-3.8-2.2-5-7.1-2.8-10.9
+				C364.2,181.2,365.2,180.2,366.4,179.5z"/>
+			<path id="_Path_11" class="st1" d="M361.8,165L634.1,7.7c6.4-3.7,14.4-3.7,20.8,0L1045,232.9c3.8,2.2,5.1,7.1,2.9,10.9
+				c-0.7,1.2-1.7,2.2-2.9,2.9L763.2,413.5c-2.5,1.5-5.7,1.5-8.2,0L361.7,178.8c-3.8-2.3-5-7.2-2.8-11
+				C359.6,166.6,360.6,165.6,361.8,165z"/>
+			<path id="_Path_12" class="st2" d="M362.2,160L634.5,2.8c6.4-3.7,14.4-3.7,20.8,0L1045.4,228c3.8,2.2,5.1,7.1,2.9,10.9
+				c-0.7,1.2-1.7,2.2-2.9,2.9L763.6,408.5c-2.5,1.5-5.7,1.5-8.2,0L362.1,173.8c-3.8-2.3-5-7.2-2.8-11C360,161.7,361,160.7,362.2,160
+				z"/>
+			<path id="_Path_13" class="st3" d="M362,173.8l9.4,5.6L666.8,9.1l-11-6.3c-6.5-3.7-14.4-3.7-20.9,0L362.1,160
+				c-3.8,2.2-5.1,7.1-2.9,10.9C359.8,172.1,360.8,173.1,362,173.8z"/>
+			<polyline class="st3" points="364.7,168.9 358.1,166.7 357.8,172.1 			"/>
+			<g id="_Group_">
+				<polygon id="_Path_14" class="st5" points="619.7,292.3 758.2,212.3 903.8,294.3 763.7,375.1 				"/>
+				<polygon id="_Path_15" class="st6" points="855.4,248.4 877.3,235.7 900.3,248.7 878.1,261.5 				"/>
+				<polygon id="_Path_16" class="st7" points="930.6,250 979,221.5 1004.4,235.6 954.5,264.4 				"/>
+				
+					<linearGradient id="_Path_17_1_" gradientUnits="userSpaceOnUse" x1="778.4536" y1="642.3818" x2="856.3235" y2="694.0118" gradientTransform="matrix(1 0 0 -1 0 931.89)">
+					<stop  offset="0" style="stop-color:#B3B2B3"/>
+					<stop  offset="0.86" style="stop-color:#FFFFFF"/>
+					<stop  offset="0.92" style="stop-color:#FFFFFF"/>
+				</linearGradient>
+				<polygon id="_Path_17" class="st8" points="794.1,308.3 845.4,261.1 808.3,240.6 				"/>
+				<g id="_Group_2">
+					<path id="_Path_18" class="st9" d="M808.1,242.1c0.9-2,1.3-4.1,1.3-6.3v0.4h0.6v-0.9c0-16.4-22.7-29.2-50.4-29.2
+						s-50.3,13.2-50.4,30.2h-0.1h0.1c0,1.5,0.3,3,0.7,4.4l9.1,58.9l-0.1-0.1l0,0c0,12.7,17.4,23,38.8,23s38.8-10.3,38.8-23
+						c0,0,0-0.1,0-0.1L808.1,242.1z"/>
+					<ellipse id="_Path_19" class="st10" cx="759.8" cy="235" rx="39.6" ry="23.5"/>
+					
+						<linearGradient id="_Path_20_1_" gradientUnits="userSpaceOnUse" x1="6542.6084" y1="-1338.6283" x2="6610.0186" y2="-1319.1383" gradientTransform="matrix(1 0 0 -1 -5826.2598 -1044.5)">
+						<stop  offset="0" style="stop-color:#B3B2B3"/>
+						<stop  offset="0.86" style="stop-color:#FFFFFF"/>
+						<stop  offset="0.92" style="stop-color:#FFFFFF"/>
+					</linearGradient>
+					<path id="_Path_20" class="st11" d="M799.5,285.8l-0.4,0.9c-2.7-11.3-13.9-14.7-24.1-15.3c-5.2,0.8-10.4,1.2-15.6,1.2
+						c-0.7,0-1.4,0-2.1,0l-1,0.2l0.5-0.2c-23.6-1.4-35.8-9.1-44.7-20.3l7,46.8h0.1v0.2c0,12.7,17.4,23,38.8,23s38.8-10.3,38.8-23
+						c0,0,0-0.1,0-0.1L799.5,285.8z"/>
+					<ellipse id="_Path_21" class="st12" cx="760.1" cy="237.2" rx="35.8" ry="21.3"/>
+					<path id="_Path_22" class="st13" d="M723.6,225.1c0,0,41.3-8.2,46.3,32.2c0,0,27.5-2.5,29.6-22.2c0,0,0.6-21.3-37.8-23.8
+						C761.6,211.2,738.6,209.7,723.6,225.1z"/>
+					<line id="_Path_23" class="st14" x1="759.2" y1="150.4" x2="759.4" y2="239.7"/>
+					<path id="_Path_24" class="st15" d="M759.7,201.1c0,0,1.4-12.6,20.7-21C780.3,180,778.9,195.8,759.7,201.1z"/>
+					<path id="_Path_25" class="st15" d="M759.7,165.5c0,0,1-8.8,14.4-14.6C774,150.9,773,161.8,759.7,165.5z"/>
+					<path id="_Path_26" class="st15" d="M759.6,181.3c0,0-1.2-10.6-17.5-17.8C742.1,163.5,743.3,176.8,759.6,181.3z"/>
+					<path id="_Path_27" class="st15" d="M759.4,152.8c0,0,3.2-6.3-3.3-16.1C756.1,136.7,752,144.5,759.4,152.8z"/>
+					<path id="_Path_28" class="st15" d="M759.4,226.8c0,0-2.2-19.8-32.5-33.1C726.9,193.7,729.1,218.5,759.4,226.8z"/>
+					<path id="_Path_29" class="st15" d="M759.4,236.7c0,0,2.4-21.4,35.1-35.7C794.5,201,792.1,227.8,759.4,236.7z"/>
+					
+						<linearGradient id="_Path_30_1_" gradientUnits="userSpaceOnUse" x1="6617.3965" y1="-1248.0314" x2="6587.1963" y2="-1283.1315" gradientTransform="matrix(1 0 0 -1 -5826.2598 -1044.5)">
+						<stop  offset="0" style="stop-color:#FAAF3A"/>
+						<stop  offset="1" style="stop-color:#6FCBDC"/>
+					</linearGradient>
+					<path id="_Path_30" class="st16" d="M759.4,236.7c0,0,2.4-21.4,35.1-35.7C794.5,201,792.1,227.8,759.4,236.7z"/>
+					
+						<linearGradient id="_Path_31_1_" gradientUnits="userSpaceOnUse" x1="3159.5471" y1="-1240.472" x2="3131.6072" y2="-1272.962" gradientTransform="matrix(-1 0 0 -1 3889.5798 -1044.5)">
+						<stop  offset="0" style="stop-color:#FAAF3A"/>
+						<stop  offset="1" style="stop-color:#6FCBDC"/>
+					</linearGradient>
+					<path id="_Path_31" class="st17" d="M759.4,226.7c0,0-2.2-19.8-32.5-33C726.9,193.6,729.1,218.4,759.4,226.7z"/>
+					
+						<linearGradient id="_Path_32_1_" gradientUnits="userSpaceOnUse" x1="6604.5977" y1="-1226.3126" x2="6586.5776" y2="-1247.2526" gradientTransform="matrix(1 0 0 -1 -5826.2598 -1044.5)">
+						<stop  offset="0" style="stop-color:#FAAF3A"/>
+						<stop  offset="1" style="stop-color:#6FCBDC"/>
+					</linearGradient>
+					<path id="_Path_32" class="st18" d="M759.4,201.6c0,0,1.4-12.8,21-21.3C780.3,180.3,778.9,196.3,759.4,201.6z"/>
+					
+						<linearGradient id="_Path_33_1_" gradientUnits="userSpaceOnUse" x1="6598.9346" y1="-1196.3198" x2="6587.0942" y2="-1210.0798" gradientTransform="matrix(1 0 0 -1 -5826.2598 -1044.5)">
+						<stop  offset="0" style="stop-color:#FAAF3A"/>
+						<stop  offset="1" style="stop-color:#6FCBDC"/>
+					</linearGradient>
+					<path id="_Path_33" class="st19" d="M760.2,164.8c0,0,0.9-8.4,13.8-14C774,150.8,773.1,161.3,760.2,164.8z"/>
+					<circle id="_Path_34" class="st20" cx="740.5" cy="247" r="1.8"/>
+					<circle id="_Path_35" class="st20" cx="752.7" cy="248" r="1.2"/>
+					<circle id="_Path_36" class="st20" cx="747.6" cy="241.9" r="1.3"/>
+					<circle id="_Path_37" class="st20" cx="762.8" cy="251.5" r="1"/>
+					<ellipse id="_Path_38" class="st20" cx="746.2" cy="253.3" rx="1.2" ry="0.8"/>
+					<circle id="_Path_39" class="st20" cx="732.6" cy="238.8" r="1.2"/>
+					<circle id="_Path_40" class="st20" cx="737.1" cy="237.6" r="0.7"/>
+					<circle id="_Path_41" class="st20" cx="734.4" cy="243.9" r="0.3"/>
+					<circle id="_Path_42" class="st20" cx="757" cy="255.6" r="1.5"/>
+					<circle id="_Path_45" class="st21" cx="773.4" cy="251.1" r="1.3"/>
+					<circle id="_Path_46" class="st21" cx="777.6" cy="243.2" r="1"/>
+					<circle id="_Path_47" class="st21" cx="782.6" cy="249.5" r="1"/>
+					<circle id="_Path_50" class="st21" cx="782.8" cy="240.4" r="0.5"/>
+					<circle id="_Path_51" class="st21" cx="786.4" cy="246.3" r="0.5"/>
+					<path id="_Path_52" class="st14" d="M759,188c0.5-0.2,17.5-6.6,20.5-25.2"/>
+					<path id="_Path_53" class="st14" d="M759.7,209.7c-0.4-0.1-14.4-5.4-16.8-20.8"/>
+					<circle id="_Path_54" class="st7" cx="779.9" cy="161" r="2.9"/>
+					<circle id="_Path_55" class="st7" cx="742.6" cy="189.4" r="2.2"/>
+					<path id="_Path_56" class="st13" d="M730,233.8c-0.5-0.5,11.4-2.9,30.2,5.9C760.2,239.6,741.7,245.9,730,233.8z"/>
+				</g>
+				<circle id="_Path_57" class="st22" cx="780.3" cy="159.8" r="5.8"/>
+				<circle id="_Path_58" class="st22" cx="742.7" cy="187.3" r="5.8"/>
+			</g>
+			<path class="st23" d="M797.4,213.9c-1.2,0-2.2-1-2.3-2.2c0-0.8,0.4-1.5,1.1-1.9l81.9-50.1c1.1-0.6,2.4-0.3,3.1,0.7
+				s0.3,2.4-0.7,3.1l-81.9,50.1C798.2,213.8,797.8,213.9,797.4,213.9z"/>
+			<path class="st23" d="M820,226.6c-1.2,0-2.2-1-2.3-2.2c0-0.8,0.4-1.5,1.1-1.9l79-48.3c1.1-0.6,2.4-0.3,3.1,0.7s0.3,2.4-0.7,3.1
+				l-79,48.3C820.8,226.5,820.4,226.6,820,226.6z"/>
+			<path class="st23" d="M841.1,239.3c-1.2,0-2.2-1-2.3-2.2c0-0.8,0.4-1.5,1.1-1.9l80.2-49.1c1.1-0.6,2.4-0.3,3.1,0.7
+				s0.3,2.4-0.7,3.1l0,0L842.3,239C841.9,239.2,841.5,239.3,841.1,239.3z"/>
+			<polygon id="_Path_59" class="st5" points="890.7,688 969.2,642.6 1079.2,706.1 999.8,752 			"/>
+			<polygon id="_Path_60" class="st5" points="715.4,790.8 794,745.4 903.9,808.9 824.5,854.7 			"/>
+			<polygon id="_Path_61" class="st5" points="642.9,642.7 721.4,597.3 831.4,660.8 752,706.7 			"/>
+			<polygon id="_Path_62" class="st5" points="732.2,591.3 810.7,545.9 920.7,609.4 841.3,655.3 			"/>
+			<path class="st24" d="M669.5,763.4c-0.6,0-1-0.4-1.1-0.9c0-0.4,0.2-0.8,0.6-1l66.5-38.5c0.5-0.3,1.1-0.1,1.4,0.4
+				c0.3,0.5,0.1,1.1-0.4,1.4L670,763.3C669.8,763.4,669.6,763.4,669.5,763.4z"/>
+			<path class="st24" d="M678.5,767.9c-0.6,0-1-0.4-1.1-0.9c0-0.4,0.2-0.8,0.6-1l66.5-38.5c0.5-0.3,1.1-0.1,1.4,0.4
+				c0.3,0.5,0.1,1.1-0.4,1.4L679,767.8C678.9,767.9,678.7,767.9,678.5,767.9z"/>
+			<polygon id="_Path_63" class="st5" points="386.9,423.4 478.8,370.4 575.4,424.7 482.5,478.3 			"/>
+			<polygon id="_Path_64" class="st5" points="262,350.8 353.8,297.7 450.4,352.1 357.5,405.7 			"/>
+			<polygon id="_Path_65" class="st5" points="268.6,492.7 360.5,439.7 457,494 364.2,547.7 			"/>
+			<path id="_Path_66" class="st3" d="M3.8,393l9.1,5.4l286.8-165.6l-10.7-6.2c-6.3-3.6-14-3.6-20.3,0L3.9,379.5
+				c-3.7,2.2-5,6.9-2.8,10.6C1.7,391.3,2.7,392.3,3.8,393z"/>
+			<g class="st25">
+				<ellipse id="_Path_67" class="st26" cx="19.2" cy="381.2" rx="5.1" ry="3"/>
+				<ellipse id="_Path_68" class="st26" cx="32.4" cy="373.9" rx="5.1" ry="3"/>
+				<ellipse id="_Path_69" class="st26" cx="45.5" cy="366.5" rx="5.1" ry="3"/>
+			</g>
+			<ellipse id="_Path_70" class="st4" cx="81.5" cy="347" rx="5.1" ry="3"/>
+			<ellipse id="_Path_71" class="st4" cx="275.5" cy="234.5" rx="5.1" ry="3"/>
+			<polygon class="st4" points="271.7,232.5 77.7,345 84.7,349.4 279.2,236.6 			"/>
+			<g id="_Group_3">
+				<ellipse id="_Path_72" class="st27" cx="223.6" cy="310.7" rx="18.8" ry="11.1"/>
+				<ellipse id="_Path_73" class="st27" cx="185.2" cy="331.3" rx="18.8" ry="11.1"/>
+				<line id="_Path_74" class="st27" x1="199.9" y1="323.7" x2="212.1" y2="317.8"/>
+			</g>
+			<path class="st28" d="M488.3,483c-0.8,0-1.4-0.6-1.4-1.4c0-0.5,0.3-1,0.7-1.2l89.2-51.6c0.7-0.4,1.5-0.3,2,0.4s0.3,1.5-0.4,2
+				c-0.1,0-0.1,0.1-0.2,0.1L489,482.8C488.8,482.9,488.6,483,488.3,483z"/>
+			<path class="st28" d="M493.8,487.4c-0.8,0-1.4-0.6-1.4-1.4c0-0.5,0.3-1,0.7-1.2l50.5-29.5c0.7-0.4,1.6-0.2,2,0.5
+				c0.4,0.7,0.2,1.6-0.5,2c0,0,0,0-0.1,0l-50.5,29.5C494.3,487.3,494.1,487.4,493.8,487.4z"/>
+			<path class="st28" d="M367.8,553.4c-0.8,0-1.4-0.6-1.4-1.4c0-0.5,0.3-1,0.7-1.2l89.2-51.6c0.7-0.4,1.6-0.1,1.9,0.6
+				c0.3,0.6,0.1,1.4-0.5,1.8l-89.2,51.6C368.3,553.3,368,553.4,367.8,553.4z"/>
+			<path class="st28" d="M373.3,557.8c-0.8,0-1.4-0.6-1.4-1.4c0-0.5,0.3-1,0.7-1.2l50.5-29.5c0.7-0.4,1.6-0.1,1.9,0.6
+				c0.4,0.7,0.1,1.5-0.5,1.9L374,557.6C373.8,557.7,373.5,557.8,373.3,557.8z"/>
+			<path class="st28" d="M363.3,411.4c-0.8,0-1.4-0.6-1.4-1.4c0-0.5,0.3-1,0.7-1.2l89.2-51.6c0.7-0.4,1.5-0.3,2,0.4s0.3,1.5-0.4,2
+				c-0.1,0-0.1,0.1-0.2,0.1L364,411.2C363.8,411.4,363.6,411.4,363.3,411.4z"/>
+			<path class="st28" d="M368.9,415.8c-0.8,0-1.4-0.6-1.4-1.4c0-0.5,0.3-1,0.7-1.2l50.5-29.5c0.7-0.4,1.6-0.2,2,0.5
+				c0.4,0.7,0.2,1.6-0.5,2c0,0,0,0-0.1,0l-50.5,29.4C369.4,415.8,369.1,415.8,368.9,415.8z"/>
+			<path class="st29" d="M461.4,555.4c-0.5,0-0.8-0.4-0.8-0.8c0-0.3,0.2-0.5,0.4-0.7l95-55.1c0.4-0.2,0.9,0,1.1,0.4
+				c0.2,0.4,0,0.8-0.3,1l-95,55.1C461.7,555.4,461.6,555.4,461.4,555.4z"/>
+			<g id="_Group_4">
+				<polygon id="_Path_75" class="st26" points="449.4,381.1 449.4,435.1 464.8,444.2 464.8,390.3 				"/>
+				<polygon id="_Path_76" class="st30" points="464.8,390.3 496.1,372.2 496.1,426.1 464.8,444.2 				"/>
+				<polygon id="_Path_77" class="st30" points="449.4,381.1 480.5,363.2 480.5,365.9 453.1,383.3 				"/>
+				<polygon id="_Path_78" class="st31" points="493.1,373.9 479.8,365.4 450.8,381.9 464.8,390.3 				"/>
+				<line id="_Path_79" class="st32" x1="484.8" y1="372.1" x2="461" y2="385.7"/>
+				<line id="_Path_80" class="st32" x1="470.5" y1="373.5" x2="455.5" y2="382.1"/>
+				<line id="_Path_81" class="st32" x1="479.6" y1="371.7" x2="458.3" y2="383.9"/>
+				<line id="_Path_82" class="st33" x1="452.4" y1="390" x2="459.8" y2="394.3"/>
+				<line id="_Path_83" class="st33" x1="452.4" y1="391.8" x2="459.8" y2="396.2"/>
+				<polygon id="_Path_84" class="st34" points="475.3,369.8 475.3,373.5 480.5,370.5 480.5,366.8 				"/>
+				<polygon id="_Path_85" class="st31" points="452.4,427.9 452.4,433.3 461.8,438.8 461.8,433.3 				"/>
+				<line id="_Path_86" class="st35" x1="471.9" y1="402.5" x2="489.5" y2="393.1"/>
+			</g>
+			<g id="_Group_5">
+				<polygon id="_Path_87" class="st30" points="469.4,374 500.6,356 500.6,427.9 469.4,445.8 				"/>
+				<polygon id="_Path_88" class="st36" points="504.6,362.7 498.4,359.5 470.3,376 476.4,379 				"/>
+				<polygon id="_Path_89" class="st37" points="469.4,374.3 476.3,378.8 476.3,450.6 469.4,446.1 				"/>
+				<polygon id="_Path_90" class="st30" points="476.3,378.8 507.4,360.8 507.4,432.7 476.3,450.6 				"/>
+				<line id="_Path_91" class="st38" x1="483.1" y1="393.2" x2="502.1" y2="383.1"/>
+				<line id="_Path_92" class="st38" x1="483.1" y1="396.9" x2="502.1" y2="386.8"/>
+				<polygon id="_Path_93" class="st26" points="469.4,437.4 469.4,442.8 476.3,446.8 476.3,441.4 				"/>
+				<line id="_Path_94" class="st35" x1="471.6" y1="418.2" x2="471.6" y2="436.2"/>
+				<line id="_Path_95" class="st35" x1="471.6" y1="427.2" x2="471.6" y2="436.2"/>
+			</g>
+			<g id="_Group_6">
+				<polygon id="_Path_96" class="st39" points="481.3,397.8 512.5,379.8 512.5,433.4 481.3,451.3 				"/>
+				<polygon id="_Path_97" class="st36" points="516.5,386.5 510.3,383.3 482.3,399.8 488.3,402.9 				"/>
+				<polygon id="_Path_98" class="st40" points="481.3,398.1 488.2,402.5 488.2,456.1 481.3,451.6 				"/>
+				<polygon id="_Path_99" class="st34" points="488.2,402.5 519.3,384.6 519.3,438.1 488.2,456.1 				"/>
+				<polygon id="_Path_100" class="st31" points="503.7,432.7 508.6,429.9 508.6,441.1 503.7,443.9 				"/>
+				<ellipse id="_Path_101" class="st31" cx="484.5" cy="406.3" rx="1.7" ry="2.6"/>
+				<line id="_Path_102" class="st33" x1="497.8" y1="412.4" x2="512.3" y2="404.7"/>
+				<line id="_Path_103" class="st33" x1="500.4" y1="415.6" x2="512.3" y2="409.3"/>
+			</g>
+			<g id="_Group_7">
+				<g id="_Group_8">
+					<g id="_Group_9">
+						<line id="_Path_104" class="st41" x1="394.5" y1="487.9" x2="370.7" y2="474.2"/>
+						
+							<linearGradient id="_Ellipse__1_" gradientUnits="userSpaceOnUse" x1="6184.8481" y1="-1527.597" x2="6200.3184" y2="-1527.597" gradientTransform="matrix(1.0034 1.987308e-03 1.987308e-03 -1.0034 -5829.0244 -1042.0189)">
+							<stop  offset="0" style="stop-color:#CBCBCA"/>
+							<stop  offset="0.99" style="stop-color:#F2F2F2"/>
+						</linearGradient>
+						<path id="_Ellipse_" class="st42" d="M359.8,499.9c3-5.1,7.9-7.8,10.9-6.1c3.1,1.8,3.2,7.4,0.2,12.5s-7.9,7.8-10.9,6.1
+							C357,510.6,356.9,505,359.8,499.9z"/>
+						
+							<linearGradient id="_Ellipse_2_1_" gradientUnits="userSpaceOnUse" x1="6205.6479" y1="-1534.4575" x2="6221.1187" y2="-1534.4575" gradientTransform="matrix(1 0 0 -1 -5826.2686 -1044.4847)">
+							<stop  offset="0" style="stop-color:#CBCBCA"/>
+							<stop  offset="0.99" style="stop-color:#F2F2F2"/>
+						</linearGradient>
+						<path id="_Ellipse_2" class="st43" d="M381.5,486.8c3-5.1,7.9-7.8,10.9-6.1s3.2,7.4,0.2,12.5s-7.9,7.8-10.9,6.1
+							S378.6,491.9,381.5,486.8z"/>
+						<line id="_Path_105" class="st41" x1="357.7" y1="504.5" x2="333.9" y2="490.8"/>
+					</g>
+					<line id="_Path_106" class="st44" x1="373.2" y1="500.2" x2="379.4" y2="494.3"/>
+				</g>
+				<path id="_Path_107" class="st45" d="M360.9,511.7c2.8,1.6,7.2-0.9,9.8-5.5s2.5-9.7-0.3-11.3c0,0,1.6,12.5-9.8,17"/>
+				<path id="_Path_108" class="st45" d="M382.8,499c2.8,1.6,7.2-0.9,9.8-5.5s2.5-9.7-0.3-11.3c0,0,1.6,12.5-9.8,17"/>
+			</g>
+			<g id="_Group_10">
+				<path id="_Path_109" class="st46" d="M399.5,361.3l-30.3-20.9c-0.1-0.1-0.2,2.1-0.3,2.1l-1.7-11.2l0,0c-0.1-4-7.3-7.6-16.5-7.6
+					s-16.7,0.2-16.7,3.2v17.1c-0.1,1.6,0.8,3,2.3,3.6c2.1,0.8,4.3,1.4,6.5,1.9l-11.1,6.3c-1.4,0.8-1.9,2.5-1.1,3.9
+					c0.2,0.4,0.6,0.8,0.9,1l10,6.4c1,0.6,2.2,0.6,3.2-0.1l18.8-12.9l24.4,17.9c1.1,0.8,2.5,0.8,3.6,0.1l7.9-5.4
+					c1.4-1,1.8-2.9,0.8-4.4C400,361.8,399.8,361.5,399.5,361.3z"/>
+				<line id="_Path_110" class="st47" x1="399.5" y1="364.8" x2="402.7" y2="366.9"/>
+				<line id="_Path_111" class="st47" x1="397" y1="365.9" x2="401.3" y2="368.7"/>
+				<line id="_Path_112" class="st47" x1="395.4" y1="366.8" x2="400.4" y2="369.9"/>
+				<line id="_Path_113" class="st47" x1="394.2" y1="367.9" x2="399.2" y2="371.1"/>
+				<line id="_Path_114" class="st47" x1="391" y1="368.9" x2="397" y2="372.1"/>
+				<line id="_Path_115" class="st47" x1="390.6" y1="370.5" x2="394.1" y2="373.2"/>
+				<g id="_Group_11">
+					<g id="_Clip_Group_">
+						<g>
+							<defs>
+								<line id="SVGID_1_" x1="332.7" y1="358.9" x2="327.4" y2="362"/>
+							</defs>
+							<clipPath id="SVGID_2_">
+								<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st48">
+								<polygon id="_Path_116" class="st49" points="330.2,362.7 323.6,362 323.6,362.7 								"/>
+								<polygon id="_Path_117" class="st49" points="330.2,362.7 323.6,362 323.6,362 330.2,362.7 								"/>
+								<polygon id="_Path_118" class="st50" points="330.2,362.7 323.6,362 323.6,362 330.2,362.7 								"/>
+								<polygon id="_Path_119" class="st50" points="330.2,362.7 323.6,362 323.6,362 330.2,362.7 								"/>
+								<polygon id="_Path_120" class="st51" points="330.2,362.7 323.6,362 323.6,362 330.2,362.7 								"/>
+								<polygon id="_Path_121" class="st52" points="330.2,362.7 325.5,364 323.6,362.1 323.6,362 330.2,362.7 								"/>
+								<polygon id="_Path_122" class="st53" points="330.2,361.7 327.5,361.7 327.5,361.7 330.2,361.7 								"/>
+								<polygon id="_Path_123" class="st54" points="330.3,361.7 327.5,361.7 327.5,361.7 330.2,361.7 								"/>
+								<polygon id="_Path_124" class="st54" points="330.3,361.7 327.5,361.7 327.5,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_125" class="st54" points="330.3,361.7 327.5,361.7 327.5,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_126" class="st55" points="330.3,361.7 327.5,361.7 327.5,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_127" class="st56" points="330.3,361.7 327.5,361.7 327.5,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_128" class="st57" points="330.3,361.7 327.5,361.7 327.5,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_129" class="st57" points="330.3,361.7 327.5,361.7 327.5,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_130" class="st58" points="330.3,361.7 327.5,361.7 327.5,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_131" class="st59" points="330.3,361.7 327.6,361.7 327.5,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_132" class="st59" points="330.3,361.7 327.6,361.7 327.6,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_133" class="st60" points="330.4,361.7 327.6,361.7 327.6,361.7 330.3,361.7 								"/>
+								<polygon id="_Path_134" class="st60" points="330.4,361.7 327.6,361.7 327.6,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_135" class="st60" points="330.4,361.7 327.6,361.7 327.6,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_136" class="st61" points="330.4,361.7 327.6,361.7 327.6,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_137" class="st61" points="330.4,361.7 327.6,361.7 327.6,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_138" class="st62" points="330.4,361.7 327.6,361.7 327.6,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_139" class="st62" points="330.4,361.7 327.6,361.7 327.6,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_140" class="st62" points="330.4,361.7 327.6,361.7 327.6,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_141" class="st63" points="330.4,361.7 327.7,361.7 327.6,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_142" class="st64" points="330.4,361.7 327.7,361.7 327.7,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_143" class="st65" points="330.5,361.7 327.7,361.7 327.7,361.7 330.4,361.7 								"/>
+								<polygon id="_Path_144" class="st65" points="330.5,361.7 327.7,361.7 327.7,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_145" class="st65" points="330.5,361.7 327.7,361.7 327.7,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_146" class="st66" points="330.5,361.7 327.7,361.7 327.7,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_147" class="st67" points="330.5,361.7 327.7,361.7 327.7,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_148" class="st68" points="330.5,361.7 327.7,361.7 327.7,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_149" class="st68" points="330.5,361.7 327.7,361.7 327.7,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_150" class="st66" points="330.5,361.7 327.7,361.7 327.7,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_151" class="st69" points="330.5,361.7 327.8,361.7 327.7,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_152" class="st69" points="330.5,361.7 327.8,361.7 327.8,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_153" class="st69" points="330.6,361.7 327.8,361.7 327.8,361.7 330.5,361.7 								"/>
+								<polygon id="_Path_154" class="st70" points="330.6,361.7 327.8,361.7 327.8,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_155" class="st70" points="330.6,361.7 327.8,361.7 327.8,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_156" class="st71" points="330.6,361.7 327.8,361.7 327.8,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_157" class="st72" points="330.6,361.7 327.8,361.7 327.8,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_158" class="st73" points="330.6,361.7 327.8,361.7 327.8,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_159" class="st74" points="330.6,361.7 327.8,361.7 327.8,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_160" class="st75" points="330.6,361.7 327.8,361.7 327.8,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_161" class="st76" points="330.6,361.7 327.9,361.7 327.8,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_162" class="st76" points="330.6,361.7 327.9,361.7 327.9,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_163" class="st76" points="330.7,361.7 327.9,361.7 327.9,361.7 330.6,361.7 								"/>
+								<polygon id="_Path_164" class="st76" points="330.7,361.7 327.9,361.7 327.9,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_165" class="st77" points="330.7,361.7 327.9,361.7 327.9,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_166" class="st78" points="330.7,361.7 327.9,361.7 327.9,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_167" class="st79" points="330.7,361.7 327.9,361.7 327.9,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_168" class="st80" points="330.7,361.7 327.9,361.7 327.9,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_169" class="st78" points="330.7,361.7 327.9,361.7 327.9,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_170" class="st81" points="330.7,361.7 327.9,361.7 327.9,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_171" class="st82" points="330.7,361.7 328,361.7 327.9,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_172" class="st83" points="330.7,361.7 328,361.7 328,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_173" class="st84" points="330.8,361.7 328,361.7 328,361.7 330.7,361.7 								"/>
+								<polygon id="_Path_174" class="st85" points="330.8,361.7 328,361.7 328,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_175" class="st86" points="330.8,361.7 328,361.7 328,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_176" class="st87" points="330.8,361.7 328,361.7 328,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_177" class="st87" points="330.8,361.7 328,361.7 328,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_178" class="st87" points="330.8,361.7 328,361.7 328,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_179" class="st88" points="330.8,361.7 328,361.7 328,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_180" class="st89" points="330.8,361.7 328,361.7 328,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_181" class="st90" points="330.8,361.7 328.1,361.7 328,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_182" class="st90" points="330.8,361.7 328.1,361.7 328.1,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_183" class="st91" points="330.9,361.7 328.1,361.7 328.1,361.7 330.8,361.7 								"/>
+								<polygon id="_Path_184" class="st91" points="330.9,361.7 328.1,361.7 328.1,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_185" class="st92" points="330.9,361.7 328.1,361.7 328.1,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_186" class="st93" points="330.9,361.7 328.1,361.7 328.1,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_187" class="st93" points="330.9,361.7 328.1,361.7 328.1,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_188" class="st94" points="330.9,361.7 328.1,361.7 328.1,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_189" class="st93" points="330.9,361.7 328.1,361.7 328.1,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_190" class="st95" points="330.9,361.7 328.1,361.7 328.1,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_191" class="st96" points="330.9,361.7 328.2,361.7 328.1,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_192" class="st96" points="330.9,361.7 328.2,361.7 328.2,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_193" class="st96" points="331,361.7 328.2,361.7 328.2,361.7 330.9,361.7 								"/>
+								<polygon id="_Path_194" class="st96" points="331,361.7 328.2,361.7 328.2,361.7 331,361.7 								"/>
+								<polygon id="_Path_195" class="st97" points="331,361.7 328.2,361.7 328.2,361.7 331,361.7 								"/>
+								<polygon id="_Path_196" class="st96" points="331,361.7 328.2,361.7 328.2,361.7 331,361.7 								"/>
+								<polygon id="_Path_197" class="st98" points="331,361.7 328.2,361.7 328.2,361.7 331,361.7 								"/>
+								<polygon id="_Path_198" class="st98" points="331,361.7 328.2,361.7 328.2,361.7 331,361.7 								"/>
+								<polygon id="_Path_199" class="st98" points="331,361.7 328.2,361.7 328.2,361.7 331,361.7 								"/>
+								<polygon id="_Path_200" class="st99" points="331,361.7 328.2,361.7 328.2,361.7 331,361.7 								"/>
+								<polygon id="_Path_201" class="st100" points="331,361.7 328.3,361.7 328.2,361.7 331,361.7 								"/>
+								<polygon id="_Path_202" class="st99" points="331,361.7 328.3,361.7 328.3,361.7 331,361.7 								"/>
+								<polygon id="_Path_203" class="st101" points="331.1,361.7 328.3,361.7 328.3,361.7 331,361.7 								"/>
+								<polygon id="_Path_204" class="st102" points="331.1,361.7 328.3,361.7 328.3,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_205" class="st103" points="331.1,361.7 328.3,361.7 328.3,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_206" class="st103" points="331.1,361.7 328.3,361.7 328.3,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_207" class="st104" points="331.1,361.7 328.3,361.7 328.3,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_208" class="st105" points="331.1,361.7 328.3,361.7 328.3,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_209" class="st105" points="331.1,361.7 328.3,361.7 328.3,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_210" class="st105" points="331.1,361.7 328.3,361.7 328.3,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_211" class="st106" points="331.1,361.7 328.4,361.7 328.3,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_212" class="st107" points="331.1,361.7 328.4,361.7 328.4,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_213" class="st108" points="331.2,361.7 328.4,361.7 328.4,361.7 331.1,361.7 								"/>
+								<polygon id="_Path_214" class="st109" points="331.2,361.7 328.4,361.7 328.4,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_215" class="st110" points="331.2,361.7 328.4,361.7 328.4,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_216" class="st110" points="331.2,361.7 328.4,361.7 328.4,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_217" class="st111" points="331.2,361.7 328.4,361.7 328.4,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_218" class="st111" points="331.2,361.7 328.4,361.7 328.4,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_219" class="st112" points="331.2,361.7 328.4,361.7 328.4,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_220" class="st113" points="331.2,361.7 328.4,361.7 328.4,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_221" class="st114" points="331.2,361.7 328.5,361.7 328.4,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_222" class="st113" points="331.2,361.7 328.5,361.7 328.5,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_223" class="st115" points="331.3,361.7 328.5,361.7 328.5,361.7 331.2,361.7 								"/>
+								<polygon id="_Path_224" class="st116" points="331.3,361.7 328.5,361.7 328.5,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_225" class="st117" points="331.3,361.7 328.5,361.7 328.5,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_226" class="st118" points="331.3,361.7 328.5,361.7 328.5,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_227" class="st119" points="331.3,361.7 328.5,361.7 328.5,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_228" class="st119" points="331.3,361.7 328.5,361.7 328.5,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_229" class="st120" points="331.3,361.7 328.5,361.7 328.5,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_230" class="st120" points="331.3,361.7 328.5,361.7 328.5,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_231" class="st121" points="331.3,361.7 328.6,361.7 328.5,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_232" class="st122" points="331.3,361.7 328.6,361.7 328.6,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_233" class="st123" points="331.4,361.7 328.6,361.7 328.6,361.7 331.3,361.7 								"/>
+								<polygon id="_Path_234" class="st124" points="331.4,361.7 328.6,361.7 328.6,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_235" class="st124" points="331.4,361.7 328.6,361.7 328.6,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_236" class="st125" points="331.4,361.7 328.6,361.7 328.6,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_237" class="st126" points="331.4,361.7 328.6,361.7 328.6,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_238" class="st127" points="331.4,361.7 328.6,361.7 328.6,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_239" class="st127" points="331.4,361.7 328.6,361.7 328.6,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_240" class="st128" points="331.4,361.7 328.6,361.7 328.6,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_241" class="st129" points="331.4,361.7 328.7,361.7 328.6,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_242" class="st129" points="331.4,361.7 328.7,361.7 328.7,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_243" class="st130" points="331.5,361.7 328.7,361.7 328.7,361.7 331.4,361.7 								"/>
+								<polygon id="_Path_244" class="st131" points="331.5,361.7 328.7,361.7 328.7,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_245" class="st132" points="331.5,361.7 328.7,361.7 328.7,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_246" class="st133" points="331.5,361.7 328.7,361.7 328.7,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_247" class="st133" points="331.5,361.7 328.7,361.7 328.7,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_248" class="st134" points="331.5,361.7 328.7,361.7 328.7,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_249" class="st134" points="331.5,361.7 328.7,361.7 328.7,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_250" class="st135" points="331.5,361.7 328.7,361.7 328.7,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_251" class="st135" points="331.5,361.7 328.8,361.7 328.7,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_252" class="st136" points="331.5,361.7 328.8,361.7 328.8,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_253" class="st137" points="331.6,361.7 328.8,361.7 328.8,361.7 331.5,361.7 								"/>
+								<polygon id="_Path_254" class="st138" points="331.6,361.7 328.8,361.7 328.8,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_255" class="st139" points="331.6,361.7 328.8,361.7 328.8,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_256" class="st138" points="331.6,361.7 328.8,361.7 328.8,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_257" class="st140" points="331.6,361.7 328.8,361.7 328.8,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_258" class="st141" points="331.6,361.7 328.8,361.7 328.8,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_259" class="st142" points="331.6,361.7 328.8,361.7 328.8,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_260" class="st142" points="331.6,361.7 328.8,361.7 328.8,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_261" class="st143" points="331.6,361.7 328.9,361.7 328.8,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_262" class="st144" points="331.6,361.7 328.9,361.7 328.9,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_263" class="st145" points="331.7,361.7 328.9,361.7 328.9,361.7 331.6,361.7 								"/>
+								<polygon id="_Path_264" class="st146" points="331.7,361.7 328.9,361.7 328.9,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_265" class="st147" points="331.7,361.7 328.9,361.7 328.9,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_266" class="st148" points="331.7,361.7 328.9,361.7 328.9,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_267" class="st148" points="331.7,361.7 328.9,361.7 328.9,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_268" class="st149" points="331.7,361.7 328.9,361.7 328.9,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_269" class="st150" points="331.7,361.7 328.9,361.7 328.9,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_270" class="st151" points="331.7,361.7 328.9,361.7 328.9,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_271" class="st152" points="331.7,361.7 329,361.7 328.9,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_272" class="st153" points="331.7,361.7 329,361.7 329,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_273" class="st153" points="331.8,361.7 329,361.7 329,361.7 331.7,361.7 								"/>
+								<polygon id="_Path_274" class="st154" points="331.8,361.7 329,361.7 329,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_275" class="st155" points="331.8,361.7 329,361.7 329,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_276" class="st156" points="331.8,361.7 329,361.7 329,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_277" class="st157" points="331.8,361.7 329,361.7 329,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_278" class="st158" points="331.8,361.7 329,361.7 329,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_279" class="st159" points="331.8,361.7 329,361.7 329,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_280" class="st160" points="331.8,361.7 329,361.7 329,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_281" class="st161" points="331.8,361.7 329.1,361.7 329,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_282" class="st162" points="331.8,361.7 329.1,361.7 329.1,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_283" class="st162" points="331.9,361.7 329.1,361.7 329.1,361.7 331.8,361.7 								"/>
+								<polygon id="_Path_284" class="st163" points="331.9,361.7 329.1,361.7 329.1,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_285" class="st164" points="331.9,361.7 329.1,361.7 329.1,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_286" class="st165" points="331.9,361.7 329.1,361.7 329.1,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_287" class="st166" points="331.9,361.7 329.1,361.7 329.1,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_288" class="st166" points="331.9,361.7 329.1,361.7 329.1,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_289" class="st167" points="331.9,361.7 329.1,361.7 329.1,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_290" class="st168" points="331.9,361.7 329.1,361.7 329.1,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_291" class="st169" points="331.9,361.7 329.2,361.7 329.1,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_292" class="st170" points="331.9,361.7 329.2,361.7 329.2,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_293" class="st171" points="332,361.7 329.2,361.7 329.2,361.7 331.9,361.7 								"/>
+								<polygon id="_Path_294" class="st172" points="332,361.7 329.2,361.7 329.2,361.7 332,361.7 								"/>
+								<polygon id="_Path_295" class="st172" points="332,361.7 329.2,361.7 329.2,361.7 332,361.7 								"/>
+								<polygon id="_Path_296" class="st173" points="332,361.7 329.2,361.7 329.2,361.7 332,361.7 								"/>
+								<polygon id="_Path_297" class="st174" points="332,361.7 329.2,361.7 329.2,361.7 332,361.7 								"/>
+								<polygon id="_Path_298" class="st175" points="332,361.7 329.2,361.7 329.2,361.7 332,361.7 								"/>
+								<polygon id="_Path_299" class="st176" points="332,361.7 329.2,361.7 329.2,361.7 332,361.7 								"/>
+								<polygon id="_Path_300" class="st177" points="332,361.7 329.2,361.7 329.2,361.7 332,361.7 								"/>
+								<polygon id="_Path_301" class="st178" points="332,361.7 329.3,361.7 329.2,361.7 332,361.7 								"/>
+								<polygon id="_Path_302" class="st179" points="332,361.7 329.3,361.7 329.3,361.7 332,361.7 								"/>
+								<polygon id="_Path_303" class="st180" points="332.1,361.7 329.3,361.7 329.3,361.7 332,361.7 								"/>
+								<polygon id="_Path_304" class="st181" points="332.1,361.7 329.3,361.7 329.3,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_305" class="st182" points="332.1,361.7 329.3,361.7 329.3,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_306" class="st183" points="332.1,361.7 329.3,361.7 329.3,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_307" class="st184" points="332.1,361.7 329.3,361.7 329.3,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_308" class="st185" points="332.1,361.7 329.3,361.7 329.3,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_309" class="st186" points="332.1,361.7 329.3,361.7 329.3,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_310" class="st187" points="332.1,361.7 329.3,361.7 329.3,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_311" class="st188" points="332.1,361.7 329.4,361.7 329.3,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_312" class="st189" points="332.1,361.7 329.4,361.7 329.4,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_313" class="st189" points="332.2,361.7 329.4,361.7 329.4,361.7 332.1,361.7 								"/>
+								<polygon id="_Path_314" class="st190" points="332.2,361.7 329.4,361.7 329.4,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_315" class="st191" points="332.2,361.7 329.4,361.7 329.4,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_316" class="st192" points="332.2,361.7 329.4,361.7 329.4,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_317" class="st193" points="332.2,361.7 329.4,361.7 329.4,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_318" class="st194" points="332.2,361.7 329.4,361.7 329.4,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_319" class="st195" points="332.2,361.7 329.4,361.7 329.4,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_320" class="st196" points="332.2,361.7 329.4,361.7 329.4,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_321" class="st197" points="332.2,361.7 329.5,361.7 329.4,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_322" class="st198" points="332.2,361.7 329.5,361.7 329.5,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_323" class="st199" points="332.3,361.7 329.5,361.7 329.5,361.7 332.2,361.7 								"/>
+								<polygon id="_Path_324" class="st200" points="332.3,361.7 329.5,361.7 329.5,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_325" class="st201" points="332.3,361.7 329.5,361.7 329.5,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_326" class="st202" points="332.3,361.7 329.5,361.7 329.5,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_327" class="st203" points="332.3,361.7 329.5,361.7 329.5,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_328" class="st204" points="332.3,361.7 329.5,361.7 329.5,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_329" class="st205" points="332.3,361.7 329.5,361.7 329.5,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_330" class="st205" points="332.3,361.7 329.5,361.7 329.5,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_331" class="st206" points="332.3,361.7 329.6,361.7 329.5,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_332" class="st207" points="332.3,361.7 329.6,361.7 329.6,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_333" class="st208" points="332.4,361.7 329.6,361.7 329.6,361.7 332.3,361.7 								"/>
+								<polygon id="_Path_334" class="st209" points="332.4,361.7 329.6,361.7 329.6,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_335" class="st210" points="332.4,361.7 329.6,361.7 329.6,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_336" class="st211" points="332.4,361.7 329.6,361.7 329.6,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_337" class="st211" points="332.4,361.7 329.6,361.7 329.6,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_338" class="st212" points="332.4,361.7 329.6,361.7 329.6,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_339" class="st213" points="332.4,361.7 329.6,361.7 329.6,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_340" class="st214" points="332.4,361.7 329.6,361.7 329.6,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_341" class="st215" points="332.4,361.7 329.7,361.7 329.6,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_342" class="st216" points="332.4,361.7 329.7,361.7 329.7,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_343" class="st217" points="332.5,361.7 329.7,361.7 329.7,361.7 332.4,361.7 								"/>
+								<polygon id="_Path_344" class="st217" points="329.7,361.7 332.5,361.7 331.9,361.7 331.9,361.7 								"/>
+							</g>
+						</g>
+						<line id="_Clipping_Path_6" class="st218" x1="332.7" y1="358.9" x2="327.5" y2="362"/>
+					</g>
+					<path id="_Path_345" class="st219" d="M327.4,362.4c-0.2,0-0.4-0.1-0.4-0.4c0-0.2,0.1-0.3,0.2-0.4l5.3-3.1
+						c0.2-0.1,0.4,0,0.5,0.1c0.1,0.2,0,0.4-0.1,0.5l-5.3,3.1C327.6,362.4,327.5,362.4,327.4,362.4z"/>
+				</g>
+				<g id="_Group_12">
+					<g id="_Clip_Group_2">
+						<g>
+							<defs>
+								<line id="SVGID_3_" x1="334.6" y1="360.5" x2="329.4" y2="363.5"/>
+							</defs>
+							<clipPath id="SVGID_4_">
+								<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st220">
+								<polygon id="_Path_346" class="st49" points="332.1,362.7 326.6,363.5 326.6,362.7 								"/>
+								<polygon id="_Path_347" class="st49" points="332.1,362.7 326.6,363.5 326.6,363.5 332.1,362.7 								"/>
+								<polygon id="_Path_348" class="st50" points="332.1,362.7 326.6,363.5 326.6,363.5 332.1,362.7 								"/>
+								<polygon id="_Path_349" class="st50" points="332.1,362.7 326.6,363.5 326.6,363.5 332.1,362.7 								"/>
+								<polygon id="_Path_350" class="st51" points="332.1,362.7 326.6,363.5 326.6,363.5 332.1,362.7 								"/>
+								<polygon id="_Path_351" class="st52" points="332.2,362.7 328,364.7 326.6,363.7 326.6,363.5 332.1,362.7 								"/>
+								<polygon id="_Path_352" class="st53" points="332.2,361.7 329.4,362.7 329.4,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_353" class="st54" points="332.2,361.7 329.4,362.7 329.4,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_354" class="st54" points="332.2,361.7 329.4,362.7 329.4,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_355" class="st54" points="332.2,361.7 329.4,362.7 329.4,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_356" class="st55" points="332.2,361.7 329.4,362.7 329.4,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_357" class="st56" points="332.2,361.7 329.4,362.7 329.4,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_358" class="st57" points="332.2,361.7 329.4,362.7 329.4,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_359" class="st57" points="332.2,361.7 329.5,362.7 329.4,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_360" class="st58" points="332.2,361.7 329.5,362.7 329.5,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_361" class="st59" points="332.3,361.7 329.5,362.7 329.5,362.7 332.2,361.7 								"/>
+								<polygon id="_Path_362" class="st59" points="332.3,361.7 329.5,362.7 329.5,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_363" class="st60" points="332.3,361.7 329.5,362.7 329.5,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_364" class="st60" points="332.3,361.7 329.5,362.7 329.5,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_365" class="st60" points="332.3,361.7 329.5,362.7 329.5,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_366" class="st61" points="332.3,361.7 329.5,362.7 329.5,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_367" class="st61" points="332.3,361.7 329.5,362.7 329.5,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_368" class="st62" points="332.3,361.7 329.5,362.7 329.5,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_369" class="st62" points="332.3,361.7 329.6,362.7 329.5,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_370" class="st62" points="332.3,361.7 329.6,362.7 329.6,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_371" class="st63" points="332.4,361.7 329.6,362.7 329.6,362.7 332.3,361.7 								"/>
+								<polygon id="_Path_372" class="st64" points="332.4,361.7 329.6,362.7 329.6,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_373" class="st65" points="332.4,361.7 329.6,362.7 329.6,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_374" class="st65" points="332.4,361.7 329.6,362.7 329.6,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_375" class="st65" points="332.4,361.7 329.6,362.7 329.6,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_376" class="st66" points="332.4,361.7 329.6,362.7 329.6,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_377" class="st67" points="332.4,361.7 329.6,362.7 329.6,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_378" class="st68" points="332.4,361.7 329.6,362.7 329.6,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_379" class="st68" points="332.4,361.7 329.7,362.7 329.6,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_380" class="st66" points="332.4,361.7 329.7,362.7 329.7,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_381" class="st69" points="332.5,361.7 329.7,362.7 329.7,362.7 332.4,361.7 								"/>
+								<polygon id="_Path_382" class="st69" points="332.5,361.7 329.7,362.7 329.7,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_383" class="st69" points="332.5,361.7 329.7,362.7 329.7,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_384" class="st70" points="332.5,361.7 329.7,362.7 329.7,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_385" class="st70" points="332.5,361.7 329.7,362.7 329.7,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_386" class="st71" points="332.5,361.7 329.7,362.7 329.7,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_387" class="st72" points="332.5,361.7 329.7,362.7 329.7,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_388" class="st73" points="332.5,361.7 329.7,362.7 329.7,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_389" class="st74" points="332.5,361.7 329.8,362.7 329.7,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_390" class="st75" points="332.5,361.7 329.8,362.7 329.8,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_391" class="st76" points="332.6,361.7 329.8,362.7 329.8,362.7 332.5,361.7 								"/>
+								<polygon id="_Path_392" class="st76" points="332.6,361.7 329.8,362.7 329.8,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_393" class="st76" points="332.6,361.7 329.8,362.7 329.8,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_394" class="st76" points="332.6,361.7 329.8,362.7 329.8,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_395" class="st77" points="332.6,361.7 329.8,362.7 329.8,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_396" class="st78" points="332.6,361.7 329.8,362.7 329.8,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_397" class="st79" points="332.6,361.7 329.8,362.7 329.8,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_398" class="st80" points="332.6,361.7 329.8,362.7 329.8,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_399" class="st78" points="332.6,361.7 329.9,362.7 329.8,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_400" class="st81" points="332.6,361.7 329.9,362.7 329.9,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_401" class="st82" points="332.7,361.7 329.9,362.7 329.9,362.7 332.6,361.7 								"/>
+								<polygon id="_Path_402" class="st83" points="332.7,361.7 329.9,362.7 329.9,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_403" class="st84" points="332.7,361.7 329.9,362.7 329.9,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_404" class="st85" points="332.7,361.7 329.9,362.7 329.9,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_405" class="st86" points="332.7,361.7 329.9,362.7 329.9,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_406" class="st87" points="332.7,361.7 329.9,362.7 329.9,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_407" class="st87" points="332.7,361.7 329.9,362.7 329.9,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_408" class="st87" points="332.7,361.7 329.9,362.7 329.9,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_409" class="st88" points="332.7,361.7 330,362.7 329.9,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_410" class="st89" points="332.7,361.7 330,362.7 330,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_411" class="st90" points="332.8,361.7 330,362.7 330,362.7 332.7,361.7 								"/>
+								<polygon id="_Path_412" class="st90" points="332.8,361.7 330,362.7 330,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_413" class="st91" points="332.8,361.7 330,362.7 330,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_414" class="st91" points="332.8,361.7 330,362.7 330,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_415" class="st92" points="332.8,361.7 330,362.7 330,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_416" class="st93" points="332.8,361.7 330,362.7 330,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_417" class="st93" points="332.8,361.7 330,362.7 330,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_418" class="st94" points="332.8,361.7 330,362.7 330,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_419" class="st93" points="332.8,361.7 330.1,362.7 330,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_420" class="st95" points="332.8,361.7 330.1,362.7 330.1,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_421" class="st96" points="332.9,361.7 330.1,362.7 330.1,362.7 332.8,361.7 								"/>
+								<polygon id="_Path_422" class="st96" points="332.9,361.7 330.1,362.7 330.1,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_423" class="st96" points="332.9,361.7 330.1,362.7 330.1,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_424" class="st96" points="332.9,361.7 330.1,362.7 330.1,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_425" class="st97" points="332.9,361.7 330.1,362.7 330.1,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_426" class="st96" points="332.9,361.7 330.1,362.7 330.1,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_427" class="st98" points="332.9,361.7 330.1,362.7 330.1,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_428" class="st98" points="332.9,361.7 330.1,362.7 330.1,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_429" class="st98" points="332.9,361.7 330.2,362.7 330.1,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_430" class="st99" points="332.9,361.7 330.2,362.7 330.2,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_431" class="st100" points="333,361.7 330.2,362.7 330.2,362.7 332.9,361.7 								"/>
+								<polygon id="_Path_432" class="st99" points="333,361.7 330.2,362.7 330.2,362.7 333,361.7 								"/>
+								<polygon id="_Path_433" class="st101" points="333,361.7 330.2,362.7 330.2,362.7 333,361.7 								"/>
+								<polygon id="_Path_434" class="st102" points="333,361.7 330.2,362.7 330.2,362.7 333,361.7 								"/>
+								<polygon id="_Path_435" class="st103" points="333,361.7 330.2,362.7 330.2,362.7 333,361.7 								"/>
+								<polygon id="_Path_436" class="st103" points="333,361.7 330.2,362.7 330.2,362.7 333,361.7 								"/>
+								<polygon id="_Path_437" class="st104" points="333,361.7 330.2,362.7 330.2,362.7 333,361.7 								"/>
+								<polygon id="_Path_438" class="st105" points="333,361.7 330.2,362.7 330.2,362.7 333,361.7 								"/>
+								<polygon id="_Path_439" class="st105" points="333,361.7 330.3,362.7 330.2,362.7 333,361.7 								"/>
+								<polygon id="_Path_440" class="st105" points="333,361.7 330.3,362.7 330.3,362.7 333,361.7 								"/>
+								<polygon id="_Path_441" class="st106" points="333.1,361.7 330.3,362.7 330.3,362.7 333,361.7 								"/>
+								<polygon id="_Path_442" class="st107" points="333.1,361.7 330.3,362.7 330.3,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_443" class="st108" points="333.1,361.7 330.3,362.7 330.3,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_444" class="st109" points="333.1,361.7 330.3,362.7 330.3,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_445" class="st110" points="333.1,361.7 330.3,362.7 330.3,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_446" class="st110" points="333.1,361.7 330.3,362.7 330.3,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_447" class="st111" points="333.1,361.7 330.3,362.7 330.3,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_448" class="st111" points="333.1,361.7 330.3,362.7 330.3,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_449" class="st112" points="333.1,361.7 330.4,362.7 330.3,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_450" class="st113" points="333.1,361.7 330.4,362.7 330.4,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_451" class="st114" points="333.2,361.7 330.4,362.7 330.4,362.7 333.1,361.7 								"/>
+								<polygon id="_Path_452" class="st113" points="333.2,361.7 330.4,362.7 330.4,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_453" class="st115" points="333.2,361.7 330.4,362.7 330.4,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_454" class="st116" points="333.2,361.7 330.4,362.7 330.4,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_455" class="st117" points="333.2,361.7 330.4,362.7 330.4,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_456" class="st118" points="333.2,361.7 330.4,362.7 330.4,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_457" class="st119" points="333.2,361.7 330.4,362.7 330.4,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_458" class="st119" points="333.2,361.7 330.4,362.7 330.4,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_459" class="st120" points="333.2,361.7 330.5,362.7 330.4,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_460" class="st120" points="333.2,361.7 330.5,362.7 330.5,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_461" class="st121" points="333.3,361.7 330.5,362.7 330.5,362.7 333.2,361.7 								"/>
+								<polygon id="_Path_462" class="st122" points="333.3,361.7 330.5,362.7 330.5,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_463" class="st123" points="333.3,361.7 330.5,362.7 330.5,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_464" class="st124" points="333.3,361.7 330.5,362.7 330.5,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_465" class="st124" points="333.3,361.7 330.5,362.7 330.5,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_466" class="st125" points="333.3,361.7 330.5,362.7 330.5,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_467" class="st126" points="333.3,361.7 330.5,362.7 330.5,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_468" class="st127" points="333.3,361.7 330.5,362.7 330.5,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_469" class="st127" points="333.3,361.7 330.6,362.7 330.5,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_470" class="st128" points="333.3,361.7 330.6,362.7 330.6,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_471" class="st129" points="333.4,361.7 330.6,362.7 330.6,362.7 333.3,361.7 								"/>
+								<polygon id="_Path_472" class="st129" points="333.4,361.7 330.6,362.7 330.6,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_473" class="st130" points="333.4,361.7 330.6,362.7 330.6,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_474" class="st131" points="333.4,361.7 330.6,362.7 330.6,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_475" class="st132" points="333.4,361.7 330.6,362.7 330.6,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_476" class="st133" points="333.4,361.7 330.6,362.7 330.6,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_477" class="st133" points="333.4,361.7 330.6,362.7 330.6,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_478" class="st134" points="333.4,361.7 330.6,362.7 330.6,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_479" class="st134" points="333.4,361.7 330.7,362.7 330.6,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_480" class="st135" points="333.4,361.7 330.7,362.7 330.7,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_481" class="st135" points="333.5,361.7 330.7,362.7 330.7,362.7 333.4,361.7 								"/>
+								<polygon id="_Path_482" class="st136" points="333.5,361.7 330.7,362.7 330.7,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_483" class="st137" points="333.5,361.7 330.7,362.7 330.7,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_484" class="st138" points="333.5,361.7 330.7,362.7 330.7,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_485" class="st139" points="333.5,361.7 330.7,362.7 330.7,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_486" class="st138" points="333.5,361.7 330.7,362.7 330.7,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_487" class="st140" points="333.5,361.7 330.7,362.7 330.7,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_488" class="st141" points="333.5,361.7 330.7,362.7 330.7,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_489" class="st142" points="333.5,361.7 330.8,362.7 330.7,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_490" class="st142" points="333.5,361.7 330.8,362.7 330.8,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_491" class="st143" points="333.6,361.7 330.8,362.7 330.8,362.7 333.5,361.7 								"/>
+								<polygon id="_Path_492" class="st144" points="333.6,361.7 330.8,362.7 330.8,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_493" class="st145" points="333.6,361.7 330.8,362.7 330.8,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_494" class="st146" points="333.6,361.7 330.8,362.7 330.8,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_495" class="st147" points="333.6,361.7 330.8,362.7 330.8,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_496" class="st148" points="333.6,361.7 330.8,362.7 330.8,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_497" class="st148" points="333.6,361.7 330.8,362.7 330.8,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_498" class="st149" points="333.6,361.7 330.8,362.7 330.8,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_499" class="st150" points="333.6,361.7 330.9,362.7 330.8,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_500" class="st151" points="333.6,361.7 330.9,362.7 330.9,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_501" class="st152" points="333.7,361.7 330.9,362.7 330.9,362.7 333.6,361.7 								"/>
+								<polygon id="_Path_502" class="st153" points="333.7,361.7 330.9,362.7 330.9,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_503" class="st153" points="333.7,361.7 330.9,362.7 330.9,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_504" class="st154" points="333.7,361.7 330.9,362.7 330.9,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_505" class="st155" points="333.7,361.7 330.9,362.7 330.9,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_506" class="st156" points="333.7,361.7 330.9,362.7 330.9,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_507" class="st157" points="333.7,361.7 330.9,362.7 330.9,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_508" class="st158" points="333.7,361.7 330.9,362.7 330.9,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_509" class="st159" points="333.7,361.7 331,362.7 330.9,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_510" class="st160" points="333.7,361.7 331,362.7 331,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_511" class="st161" points="333.8,361.7 331,362.7 331,362.7 333.7,361.7 								"/>
+								<polygon id="_Path_512" class="st162" points="333.8,361.7 331,362.7 331,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_513" class="st162" points="333.8,361.7 331,362.7 331,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_514" class="st163" points="333.8,361.7 331,362.7 331,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_515" class="st164" points="333.8,361.7 331,362.7 331,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_516" class="st165" points="333.8,361.7 331,362.7 331,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_517" class="st166" points="333.8,361.7 331,362.7 331,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_518" class="st166" points="333.8,361.7 331,362.7 331,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_519" class="st167" points="333.8,361.7 331.1,362.7 331,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_520" class="st168" points="333.8,361.7 331.1,362.7 331.1,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_521" class="st169" points="333.9,361.7 331.1,362.7 331.1,362.7 333.8,361.7 								"/>
+								<polygon id="_Path_522" class="st170" points="333.9,361.7 331.1,362.7 331.1,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_523" class="st171" points="333.9,361.7 331.1,362.7 331.1,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_524" class="st172" points="333.9,361.7 331.1,362.7 331.1,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_525" class="st172" points="333.9,361.7 331.1,362.7 331.1,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_526" class="st173" points="333.9,361.7 331.1,362.7 331.1,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_527" class="st174" points="333.9,361.7 331.1,362.7 331.1,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_528" class="st175" points="333.9,361.7 331.1,362.7 331.1,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_529" class="st176" points="333.9,361.7 331.2,362.7 331.1,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_530" class="st177" points="333.9,361.7 331.2,362.7 331.2,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_531" class="st178" points="334,361.7 331.2,362.7 331.2,362.7 333.9,361.7 								"/>
+								<polygon id="_Path_532" class="st179" points="334,361.7 331.2,362.7 331.2,362.7 334,361.7 								"/>
+								<polygon id="_Path_533" class="st180" points="334,361.7 331.2,362.7 331.2,362.7 334,361.7 								"/>
+								<polygon id="_Path_534" class="st181" points="334,361.7 331.2,362.7 331.2,362.7 334,361.7 								"/>
+								<polygon id="_Path_535" class="st182" points="334,361.7 331.2,362.7 331.2,362.7 334,361.7 								"/>
+								<polygon id="_Path_536" class="st183" points="334,361.7 331.2,362.7 331.2,362.7 334,361.7 								"/>
+								<polygon id="_Path_537" class="st184" points="334,361.7 331.2,362.7 331.2,362.7 334,361.7 								"/>
+								<polygon id="_Path_538" class="st185" points="334,361.7 331.2,362.7 331.2,362.7 334,361.7 								"/>
+								<polygon id="_Path_539" class="st186" points="334,361.7 331.3,362.7 331.2,362.7 334,361.7 								"/>
+								<polygon id="_Path_540" class="st187" points="334,361.7 331.3,362.7 331.3,362.7 334,361.7 								"/>
+								<polygon id="_Path_541" class="st188" points="334.1,361.7 331.3,362.7 331.3,362.7 334,361.7 								"/>
+								<polygon id="_Path_542" class="st189" points="334.1,361.7 331.3,362.7 331.3,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_543" class="st189" points="334.1,361.7 331.3,362.7 331.3,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_544" class="st190" points="334.1,361.7 331.3,362.7 331.3,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_545" class="st191" points="334.1,361.7 331.3,362.7 331.3,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_546" class="st192" points="334.1,361.7 331.3,362.7 331.3,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_547" class="st193" points="334.1,361.7 331.3,362.7 331.3,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_548" class="st194" points="334.1,361.7 331.3,362.7 331.3,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_549" class="st195" points="334.1,361.7 331.4,362.7 331.3,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_550" class="st196" points="334.1,361.7 331.4,362.7 331.4,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_551" class="st197" points="334.2,361.7 331.4,362.7 331.4,362.7 334.1,361.7 								"/>
+								<polygon id="_Path_552" class="st198" points="334.2,361.7 331.4,362.7 331.4,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_553" class="st199" points="334.2,361.7 331.4,362.7 331.4,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_554" class="st200" points="334.2,361.7 331.4,362.7 331.4,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_555" class="st201" points="334.2,361.7 331.4,362.7 331.4,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_556" class="st202" points="334.2,361.7 331.4,362.7 331.4,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_557" class="st203" points="334.2,361.7 331.4,362.7 331.4,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_558" class="st204" points="334.2,361.7 331.4,362.7 331.4,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_559" class="st205" points="334.2,361.7 331.5,362.7 331.4,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_560" class="st205" points="334.2,361.7 331.5,362.7 331.5,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_561" class="st206" points="334.3,361.7 331.5,362.7 331.5,362.7 334.2,361.7 								"/>
+								<polygon id="_Path_562" class="st207" points="334.3,361.7 331.5,362.7 331.5,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_563" class="st208" points="334.3,361.7 331.5,362.7 331.5,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_564" class="st209" points="334.3,361.7 331.5,362.7 331.5,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_565" class="st210" points="334.3,361.7 331.5,362.7 331.5,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_566" class="st211" points="334.3,361.7 331.5,362.7 331.5,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_567" class="st211" points="334.3,361.7 331.5,362.7 331.5,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_568" class="st212" points="334.3,361.7 331.5,362.7 331.5,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_569" class="st213" points="334.3,361.7 331.6,362.7 331.5,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_570" class="st214" points="334.3,361.7 331.6,362.7 331.6,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_571" class="st215" points="334.4,361.7 331.6,362.7 331.6,362.7 334.3,361.7 								"/>
+								<polygon id="_Path_572" class="st216" points="334.4,361.7 331.6,362.7 331.6,362.7 334.4,361.7 								"/>
+								<polygon id="_Path_573" class="st217" points="334.4,361.7 331.6,362.7 331.6,362.7 334.4,361.7 								"/>
+								<polygon id="_Path_574" class="st217" points="331.6,362.7 334.4,361.7 332.6,361.7 332.6,362.7 								"/>
+							</g>
+						</g>
+						<line id="_Clipping_Path_7" class="st218" x1="334.6" y1="360.5" x2="329.4" y2="363.5"/>
+					</g>
+					<path id="_Path_575" class="st219" d="M329.4,363.9c-0.2,0-0.4-0.1-0.4-0.4c0-0.2,0.1-0.3,0.2-0.4l5.3-3.1
+						c0.2-0.1,0.4,0,0.5,0.1c0.1,0.2,0,0.4-0.1,0.5l-5.3,3.1C329.5,363.9,329.4,363.9,329.4,363.9z"/>
+				</g>
+				<g id="_Group_13">
+					<g id="_Clip_Group_3">
+						<g>
+							<defs>
+								<line id="SVGID_5_" x1="336.5" y1="362.4" x2="331.3" y2="365.5"/>
+							</defs>
+							<clipPath id="SVGID_6_">
+								<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st221">
+								<polygon id="_Path_576" class="st49" points="334,362.7 331.6,365.4 331.6,362.7 								"/>
+								<polygon id="_Path_577" class="st49" points="334,362.7 331.6,365.4 331.6,365.4 334,362.7 								"/>
+								<polygon id="_Path_578" class="st50" points="334,362.7 331.6,365.4 331.6,365.4 334,362.7 								"/>
+								<polygon id="_Path_579" class="st50" points="334.1,362.7 331.6,365.5 331.6,365.4 334,362.7 								"/>
+								<polygon id="_Path_580" class="st51" points="334.1,362.7 331.6,365.5 331.6,365.5 334.1,362.7 								"/>
+								<polygon id="_Path_581" class="st52" points="334.1,362.7 331.5,365.7 331.6,365.6 331.6,365.5 334.1,362.7 								"/>
+								<polygon id="_Path_582" class="st53" points="334.1,362.7 331.3,366.7 331.3,366.7 334.1,362.7 								"/>
+								<polygon id="_Path_583" class="st54" points="334.1,362.7 331.3,366.7 331.3,366.7 334.1,362.7 								"/>
+								<polygon id="_Path_584" class="st54" points="334.1,362.7 331.3,366.7 331.3,366.7 334.1,362.7 								"/>
+								<polygon id="_Path_585" class="st54" points="334.1,362.7 331.3,366.7 331.3,366.7 334.1,362.7 								"/>
+								<polygon id="_Path_586" class="st55" points="334.1,362.7 331.3,366.7 331.3,366.7 334.1,362.7 								"/>
+								<polygon id="_Path_587" class="st56" points="334.1,362.7 331.4,366.7 331.3,366.7 334.1,362.7 								"/>
+								<polygon id="_Path_588" class="st57" points="334.1,362.7 331.4,366.7 331.4,366.7 334.1,362.7 								"/>
+								<polygon id="_Path_589" class="st57" points="334.2,362.7 331.4,366.7 331.4,366.7 334.1,362.7 								"/>
+								<polygon id="_Path_590" class="st58" points="334.2,362.7 331.4,366.7 331.4,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_591" class="st59" points="334.2,362.7 331.4,366.7 331.4,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_592" class="st59" points="334.2,362.7 331.4,366.7 331.4,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_593" class="st60" points="334.2,362.7 331.4,366.7 331.4,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_594" class="st60" points="334.2,362.7 331.4,366.7 331.4,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_595" class="st60" points="334.2,362.7 331.4,366.7 331.4,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_596" class="st61" points="334.2,362.7 331.4,366.7 331.4,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_597" class="st61" points="334.2,362.7 331.5,366.7 331.4,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_598" class="st62" points="334.2,362.7 331.5,366.7 331.5,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_599" class="st62" points="334.3,362.7 331.5,366.7 331.5,366.7 334.2,362.7 								"/>
+								<polygon id="_Path_600" class="st62" points="334.3,362.7 331.5,366.7 331.5,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_601" class="st63" points="334.3,362.7 331.5,366.7 331.5,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_602" class="st64" points="334.3,362.7 331.5,366.7 331.5,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_603" class="st65" points="334.3,362.7 331.5,366.7 331.5,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_604" class="st65" points="334.3,362.7 331.5,366.7 331.5,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_605" class="st65" points="334.3,362.7 331.5,366.7 331.5,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_606" class="st66" points="334.3,362.7 331.5,366.7 331.5,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_607" class="st67" points="334.3,362.7 331.6,366.7 331.5,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_608" class="st68" points="334.3,362.7 331.6,366.7 331.6,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_609" class="st68" points="334.4,362.7 331.6,366.7 331.6,366.7 334.3,362.7 								"/>
+								<polygon id="_Path_610" class="st66" points="334.4,362.7 331.6,366.7 331.6,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_611" class="st69" points="334.4,362.7 331.6,366.7 331.6,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_612" class="st69" points="334.4,362.7 331.6,366.7 331.6,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_613" class="st69" points="334.4,362.7 331.6,366.7 331.6,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_614" class="st70" points="334.4,362.7 331.6,366.7 331.6,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_615" class="st70" points="334.4,362.7 331.6,366.7 331.6,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_616" class="st71" points="334.4,362.7 331.6,366.7 331.6,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_617" class="st72" points="334.4,362.7 331.7,366.7 331.6,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_618" class="st73" points="334.4,362.7 331.7,366.7 331.7,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_619" class="st74" points="334.5,362.7 331.7,366.7 331.7,366.7 334.4,362.7 								"/>
+								<polygon id="_Path_620" class="st75" points="334.5,362.7 331.7,366.7 331.7,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_621" class="st76" points="334.5,362.7 331.7,366.7 331.7,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_622" class="st76" points="334.5,362.7 331.7,366.7 331.7,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_623" class="st76" points="334.5,362.7 331.7,366.7 331.7,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_624" class="st76" points="334.5,362.7 331.7,366.7 331.7,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_625" class="st77" points="334.5,362.7 331.7,366.7 331.7,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_626" class="st78" points="334.5,362.7 331.7,366.7 331.7,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_627" class="st79" points="334.5,362.7 331.8,366.7 331.7,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_628" class="st80" points="334.5,362.7 331.8,366.7 331.8,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_629" class="st78" points="334.6,362.7 331.8,366.7 331.8,366.7 334.5,362.7 								"/>
+								<polygon id="_Path_630" class="st81" points="334.6,362.7 331.8,366.7 331.8,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_631" class="st82" points="334.6,362.7 331.8,366.7 331.8,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_632" class="st83" points="334.6,362.7 331.8,366.7 331.8,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_633" class="st84" points="334.6,362.7 331.8,366.7 331.8,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_634" class="st85" points="334.6,362.7 331.8,366.7 331.8,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_635" class="st86" points="334.6,362.7 331.8,366.7 331.8,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_636" class="st87" points="334.6,362.7 331.8,366.7 331.8,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_637" class="st87" points="334.6,362.7 331.9,366.7 331.8,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_638" class="st87" points="334.6,362.7 331.9,366.7 331.9,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_639" class="st88" points="334.7,362.7 331.9,366.7 331.9,366.7 334.6,362.7 								"/>
+								<polygon id="_Path_640" class="st89" points="334.7,362.7 331.9,366.7 331.9,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_641" class="st90" points="334.7,362.7 331.9,366.7 331.9,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_642" class="st90" points="334.7,362.7 331.9,366.7 331.9,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_643" class="st91" points="334.7,362.7 331.9,366.7 331.9,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_644" class="st91" points="334.7,362.7 331.9,366.7 331.9,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_645" class="st92" points="334.7,362.7 331.9,366.7 331.9,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_646" class="st93" points="334.7,362.7 331.9,366.7 331.9,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_647" class="st93" points="334.7,362.7 332,366.7 331.9,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_648" class="st94" points="334.7,362.7 332,366.7 332,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_649" class="st93" points="334.8,362.7 332,366.7 332,366.7 334.7,362.7 								"/>
+								<polygon id="_Path_650" class="st95" points="334.8,362.7 332,366.7 332,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_651" class="st96" points="334.8,362.7 332,366.7 332,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_652" class="st96" points="334.8,362.7 332,366.7 332,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_653" class="st96" points="334.8,362.7 332,366.7 332,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_654" class="st96" points="334.8,362.7 332,366.7 332,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_655" class="st97" points="334.8,362.7 332,366.7 332,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_656" class="st96" points="334.8,362.7 332,366.7 332,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_657" class="st98" points="334.8,362.7 332.1,366.7 332,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_658" class="st98" points="334.8,362.7 332.1,366.7 332.1,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_659" class="st98" points="334.9,362.7 332.1,366.7 332.1,366.7 334.8,362.7 								"/>
+								<polygon id="_Path_660" class="st99" points="334.9,362.7 332.1,366.7 332.1,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_661" class="st100" points="334.9,362.7 332.1,366.7 332.1,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_662" class="st99" points="334.9,362.7 332.1,366.7 332.1,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_663" class="st101" points="334.9,362.7 332.1,366.7 332.1,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_664" class="st102" points="334.9,362.7 332.1,366.7 332.1,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_665" class="st103" points="334.9,362.7 332.1,366.7 332.1,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_666" class="st103" points="334.9,362.7 332.1,366.7 332.1,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_667" class="st104" points="334.9,362.7 332.2,366.7 332.1,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_668" class="st105" points="334.9,362.7 332.2,366.7 332.2,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_669" class="st105" points="335,362.7 332.2,366.7 332.2,366.7 334.9,362.7 								"/>
+								<polygon id="_Path_670" class="st105" points="335,362.7 332.2,366.7 332.2,366.7 335,362.7 								"/>
+								<polygon id="_Path_671" class="st106" points="335,362.7 332.2,366.7 332.2,366.7 335,362.7 								"/>
+								<polygon id="_Path_672" class="st107" points="335,362.7 332.2,366.7 332.2,366.7 335,362.7 								"/>
+								<polygon id="_Path_673" class="st108" points="335,362.7 332.2,366.7 332.2,366.7 335,362.7 								"/>
+								<polygon id="_Path_674" class="st109" points="335,362.7 332.2,366.7 332.2,366.7 335,362.7 								"/>
+								<polygon id="_Path_675" class="st110" points="335,362.7 332.2,366.7 332.2,366.7 335,362.7 								"/>
+								<polygon id="_Path_676" class="st110" points="335,362.7 332.2,366.7 332.2,366.7 335,362.7 								"/>
+								<polygon id="_Path_677" class="st111" points="335,362.7 332.3,366.7 332.2,366.7 335,362.7 								"/>
+								<polygon id="_Path_678" class="st111" points="335,362.7 332.3,366.7 332.3,366.7 335,362.7 								"/>
+								<polygon id="_Path_679" class="st112" points="335.1,362.7 332.3,366.7 332.3,366.7 335,362.7 								"/>
+								<polygon id="_Path_680" class="st113" points="335.1,362.7 332.3,366.7 332.3,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_681" class="st114" points="335.1,362.7 332.3,366.7 332.3,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_682" class="st113" points="335.1,362.7 332.3,366.7 332.3,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_683" class="st115" points="335.1,362.7 332.3,366.7 332.3,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_684" class="st116" points="335.1,362.7 332.3,366.7 332.3,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_685" class="st117" points="335.1,362.7 332.3,366.7 332.3,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_686" class="st118" points="335.1,362.7 332.3,366.7 332.3,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_687" class="st119" points="335.1,362.7 332.4,366.7 332.3,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_688" class="st119" points="335.1,362.7 332.4,366.7 332.4,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_689" class="st120" points="335.2,362.7 332.4,366.7 332.4,366.7 335.1,362.7 								"/>
+								<polygon id="_Path_690" class="st120" points="335.2,362.7 332.4,366.7 332.4,366.7 335.2,362.7 								"/>
+								<polygon id="_Path_691" class="st121" points="335.2,362.7 332.4,366.7 332.4,366.7 335.2,362.7 								"/>
+								<polygon id="_Path_692" class="st122" points="335.2,362.7 332.4,366.7 332.4,366.7 335.2,362.7 								"/>
+								<polygon id="_Path_693" class="st123" points="335.2,362.7 332.4,366.7 332.4,366.7 335.2,362.7 								"/>
+								<polygon id="_Path_694" class="st124" points="335.2,362.7 332.4,366.7 332.4,366.7 335.2,362.7 								"/>
+								<polygon id="_Path_695" class="st124" points="335.2,362.7 332.4,366.7 332.4,366.7 335.2,362.7 								"/>
+								<polygon id="_Path_696" class="st125" points="335.2,362.7 332.5,366.7 332.4,366.7 335.2,362.7 								"/>
+								<polygon id="_Path_697" class="st126" points="335.2,362.7 332.5,366.7 332.5,366.7 335.2,362.7 								"/>
+								<polygon id="_Path_698" class="st127" points="335.3,362.7 332.5,366.7 332.5,366.7 335.2,362.7 								"/>
+								<polygon id="_Path_699" class="st127" points="335.3,362.7 332.5,366.7 332.5,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_700" class="st128" points="335.3,362.7 332.5,366.7 332.5,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_701" class="st129" points="335.3,362.7 332.5,366.7 332.5,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_702" class="st129" points="335.3,362.7 332.5,366.7 332.5,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_703" class="st130" points="335.3,362.7 332.5,366.7 332.5,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_704" class="st131" points="335.3,362.7 332.5,366.7 332.5,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_705" class="st132" points="335.3,362.7 332.5,366.7 332.5,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_706" class="st133" points="335.3,362.7 332.5,366.7 332.5,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_707" class="st133" points="335.3,362.7 332.6,366.7 332.5,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_708" class="st134" points="335.3,362.7 332.6,366.7 332.6,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_709" class="st134" points="335.4,362.7 332.6,366.7 332.6,366.7 335.3,362.7 								"/>
+								<polygon id="_Path_710" class="st135" points="335.4,362.7 332.6,366.7 332.6,366.7 335.4,362.7 								"/>
+								<polygon id="_Path_711" class="st135" points="335.4,362.7 332.6,366.7 332.6,366.7 335.4,362.7 								"/>
+								<polygon id="_Path_712" class="st136" points="335.4,362.7 332.6,366.7 332.6,366.7 335.4,362.7 								"/>
+								<polygon id="_Path_713" class="st137" points="335.4,362.7 332.6,366.7 332.6,366.7 335.4,362.7 								"/>
+								<polygon id="_Path_714" class="st138" points="335.4,362.7 332.6,366.7 332.6,366.7 335.4,362.7 								"/>
+								<polygon id="_Path_715" class="st139" points="335.4,362.7 332.6,366.7 332.6,366.7 335.4,362.7 								"/>
+								<polygon id="_Path_716" class="st138" points="335.4,362.7 332.7,366.7 332.6,366.7 335.4,362.7 								"/>
+								<polygon id="_Path_717" class="st140" points="335.4,362.7 332.7,366.7 332.7,366.7 335.4,362.7 								"/>
+								<polygon id="_Path_718" class="st141" points="335.5,362.7 332.7,366.7 332.7,366.7 335.4,362.7 								"/>
+								<polygon id="_Path_719" class="st142" points="335.5,362.7 332.7,366.7 332.7,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_720" class="st142" points="335.5,362.7 332.7,366.7 332.7,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_721" class="st143" points="335.5,362.7 332.7,366.7 332.7,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_722" class="st144" points="335.5,362.7 332.7,366.7 332.7,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_723" class="st145" points="335.5,362.7 332.7,366.7 332.7,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_724" class="st146" points="335.5,362.7 332.7,366.7 332.7,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_725" class="st147" points="335.5,362.7 332.7,366.7 332.7,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_726" class="st148" points="335.5,362.7 332.8,366.7 332.7,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_727" class="st148" points="335.5,362.7 332.8,366.7 332.8,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_728" class="st149" points="335.5,362.7 332.8,366.7 332.8,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_729" class="st150" points="335.6,362.7 332.8,366.7 332.8,366.7 335.5,362.7 								"/>
+								<polygon id="_Path_730" class="st151" points="335.6,362.7 332.8,366.7 332.8,366.7 335.6,362.7 								"/>
+								<polygon id="_Path_731" class="st152" points="335.6,362.7 332.8,366.7 332.8,366.7 335.6,362.7 								"/>
+								<polygon id="_Path_732" class="st153" points="335.6,362.7 332.8,366.7 332.8,366.7 335.6,362.7 								"/>
+								<polygon id="_Path_733" class="st153" points="335.6,362.7 332.8,366.7 332.8,366.7 335.6,362.7 								"/>
+								<polygon id="_Path_734" class="st154" points="335.6,362.7 332.8,366.7 332.8,366.7 335.6,362.7 								"/>
+								<polygon id="_Path_735" class="st155" points="335.6,362.7 332.8,366.7 332.8,366.7 335.6,362.7 								"/>
+								<polygon id="_Path_736" class="st156" points="335.6,362.7 332.9,366.7 332.8,366.7 335.6,362.7 								"/>
+								<polygon id="_Path_737" class="st157" points="335.6,362.7 332.9,366.7 332.9,366.7 335.6,362.7 								"/>
+								<polygon id="_Path_738" class="st158" points="335.7,362.7 332.9,366.7 332.9,366.7 335.6,362.7 								"/>
+								<polygon id="_Path_739" class="st159" points="335.7,362.7 332.9,366.7 332.9,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_740" class="st160" points="335.7,362.7 332.9,366.7 332.9,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_741" class="st161" points="335.7,362.7 332.9,366.7 332.9,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_742" class="st162" points="335.7,362.7 332.9,366.7 332.9,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_743" class="st162" points="335.7,362.7 332.9,366.7 332.9,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_744" class="st163" points="335.7,362.7 332.9,366.7 332.9,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_745" class="st164" points="335.7,362.7 332.9,366.7 332.9,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_746" class="st165" points="335.7,362.7 333,366.7 332.9,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_747" class="st166" points="335.7,362.7 333,366.7 333,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_748" class="st166" points="335.8,362.7 333,366.7 333,366.7 335.7,362.7 								"/>
+								<polygon id="_Path_749" class="st167" points="335.8,362.7 333,366.7 333,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_750" class="st168" points="335.8,362.7 333,366.7 333,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_751" class="st169" points="335.8,362.7 333,366.7 333,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_752" class="st170" points="335.8,362.7 333,366.7 333,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_753" class="st171" points="335.8,362.7 333,366.7 333,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_754" class="st172" points="335.8,362.7 333,366.7 333,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_755" class="st172" points="335.8,362.7 333,366.7 333,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_756" class="st173" points="335.8,362.7 333.1,366.7 333,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_757" class="st174" points="335.8,362.7 333.1,366.7 333.1,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_758" class="st175" points="335.9,362.7 333.1,366.7 333.1,366.7 335.8,362.7 								"/>
+								<polygon id="_Path_759" class="st176" points="335.9,362.7 333.1,366.7 333.1,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_760" class="st177" points="335.9,362.7 333.1,366.7 333.1,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_761" class="st178" points="335.9,362.7 333.1,366.7 333.1,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_762" class="st179" points="335.9,362.7 333.1,366.7 333.1,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_763" class="st180" points="335.9,362.7 333.1,366.7 333.1,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_764" class="st181" points="335.9,362.7 333.1,366.7 333.1,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_765" class="st182" points="335.9,362.7 333.1,366.7 333.1,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_766" class="st183" points="335.9,362.7 333.2,366.7 333.1,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_767" class="st184" points="335.9,362.7 333.2,366.7 333.2,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_768" class="st185" points="336,362.7 333.2,366.7 333.2,366.7 335.9,362.7 								"/>
+								<polygon id="_Path_769" class="st186" points="336,362.7 333.2,366.7 333.2,366.7 336,362.7 								"/>
+								<polygon id="_Path_770" class="st187" points="336,362.7 333.2,366.7 333.2,366.7 336,362.7 								"/>
+								<polygon id="_Path_771" class="st188" points="336,362.7 333.2,366.7 333.2,366.7 336,362.7 								"/>
+								<polygon id="_Path_772" class="st189" points="336,362.7 333.2,366.7 333.2,366.7 336,362.7 								"/>
+								<polygon id="_Path_773" class="st189" points="336,362.7 333.2,366.7 333.2,366.7 336,362.7 								"/>
+								<polygon id="_Path_774" class="st190" points="336,362.7 333.2,366.7 333.2,366.7 336,362.7 								"/>
+								<polygon id="_Path_775" class="st191" points="336,362.7 333.2,366.7 333.2,366.7 336,362.7 								"/>
+								<polygon id="_Path_776" class="st192" points="336,362.7 333.3,366.7 333.2,366.7 336,362.7 								"/>
+								<polygon id="_Path_777" class="st193" points="336,362.7 333.3,366.7 333.3,366.7 336,362.7 								"/>
+								<polygon id="_Path_778" class="st194" points="336.1,362.7 333.3,366.7 333.3,366.7 336,362.7 								"/>
+								<polygon id="_Path_779" class="st195" points="336.1,362.7 333.3,366.7 333.3,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_780" class="st196" points="336.1,362.7 333.3,366.7 333.3,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_781" class="st197" points="336.1,362.7 333.3,366.7 333.3,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_782" class="st198" points="336.1,362.7 333.3,366.7 333.3,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_783" class="st199" points="336.1,362.7 333.3,366.7 333.3,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_784" class="st200" points="336.1,362.7 333.3,366.7 333.3,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_785" class="st201" points="336.1,362.7 333.3,366.7 333.3,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_786" class="st202" points="336.1,362.7 333.4,366.7 333.3,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_787" class="st203" points="336.1,362.7 333.4,366.7 333.4,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_788" class="st204" points="336.2,362.7 333.4,366.7 333.4,366.7 336.1,362.7 								"/>
+								<polygon id="_Path_789" class="st205" points="336.2,362.7 333.4,366.7 333.4,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_790" class="st205" points="336.2,362.7 333.4,366.7 333.4,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_791" class="st206" points="336.2,362.7 333.4,366.7 333.4,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_792" class="st207" points="336.2,362.7 333.4,366.7 333.4,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_793" class="st208" points="336.2,362.7 333.4,366.7 333.4,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_794" class="st209" points="336.2,362.7 333.4,366.7 333.4,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_795" class="st210" points="336.2,362.7 333.4,366.7 333.4,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_796" class="st211" points="336.2,362.7 333.5,366.7 333.4,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_797" class="st211" points="336.2,362.7 333.5,366.7 333.5,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_798" class="st212" points="336.3,362.7 333.5,366.7 333.5,366.7 336.2,362.7 								"/>
+								<polygon id="_Path_799" class="st213" points="336.3,362.7 333.5,366.7 333.5,366.7 336.3,362.7 								"/>
+								<polygon id="_Path_800" class="st214" points="336.3,362.7 333.5,366.7 333.5,366.7 336.3,362.7 								"/>
+								<polygon id="_Path_801" class="st215" points="336.3,362.7 333.5,366.7 333.5,366.7 336.3,362.7 								"/>
+								<polygon id="_Path_802" class="st216" points="336.3,362.7 333.5,366.7 333.5,366.7 336.3,362.7 								"/>
+								<polygon id="_Path_803" class="st217" points="336.3,362.7 333.5,366.7 333.5,366.7 336.3,362.7 								"/>
+								<polygon id="_Path_804" class="st217" points="333.5,366.7 336.3,362.7 335.6,362.7 335.6,366.7 								"/>
+							</g>
+						</g>
+						<line id="_Clipping_Path_8" class="st218" x1="336.6" y1="362.4" x2="331.3" y2="365.5"/>
+					</g>
+					<path id="_Path_805" class="st219" d="M331.3,365.9c-0.2,0-0.4-0.1-0.4-0.4c0-0.2,0.1-0.3,0.2-0.4l5.3-3.1
+						c0.2-0.1,0.4,0,0.5,0.1c0.1,0.2,0,0.4-0.1,0.5l-5.3,3.1C331.4,365.8,331.4,365.9,331.3,365.9z"/>
+				</g>
+				<g id="_Group_14">
+					<g id="_Clip_Group_4">
+						<g>
+							<defs>
+								<line id="SVGID_7_" x1="338.9" y1="363.9" x2="333.6" y2="367"/>
+							</defs>
+							<clipPath id="SVGID_8_">
+								<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st222">
+								<polygon id="_Path_806" class="st49" points="336.3,364.7 332.6,367 332.6,364.7 								"/>
+								<polygon id="_Path_807" class="st49" points="336.3,364.7 332.6,367 332.6,367 336.3,364.7 								"/>
+								<polygon id="_Path_808" class="st50" points="336.4,364.7 332.6,367 332.6,367 336.3,364.7 								"/>
+								<polygon id="_Path_809" class="st50" points="336.4,364.7 332.6,367 332.6,367 336.4,364.7 								"/>
+								<polygon id="_Path_810" class="st51" points="336.4,364.7 332.6,367 332.6,367 336.4,364.7 								"/>
+								<polygon id="_Path_811" class="st52" points="336.4,364.7 333.1,367.5 332.6,367.1 332.6,367 336.4,364.7 								"/>
+								<polygon id="_Path_812" class="st53" points="336.4,362.7 333.6,370.7 333.6,370.7 336.4,362.7 								"/>
+								<polygon id="_Path_813" class="st54" points="336.4,362.7 333.6,370.7 333.6,370.7 336.4,362.7 								"/>
+								<polygon id="_Path_814" class="st54" points="336.4,362.7 333.6,370.7 333.6,370.7 336.4,362.7 								"/>
+								<polygon id="_Path_815" class="st54" points="336.4,362.7 333.6,370.7 333.6,370.7 336.4,362.7 								"/>
+								<polygon id="_Path_816" class="st55" points="336.4,362.7 333.7,370.7 333.6,370.7 336.4,362.7 								"/>
+								<polygon id="_Path_817" class="st56" points="336.4,362.7 333.7,370.7 333.7,370.7 336.4,362.7 								"/>
+								<polygon id="_Path_818" class="st57" points="336.5,362.7 333.7,370.7 333.7,370.7 336.4,362.7 								"/>
+								<polygon id="_Path_819" class="st57" points="336.5,362.7 333.7,370.7 333.7,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_820" class="st58" points="336.5,362.7 333.7,370.7 333.7,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_821" class="st59" points="336.5,362.7 333.7,370.7 333.7,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_822" class="st59" points="336.5,362.7 333.7,370.7 333.7,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_823" class="st60" points="336.5,362.7 333.7,370.7 333.7,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_824" class="st60" points="336.5,362.7 333.7,370.7 333.7,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_825" class="st60" points="336.5,362.7 333.7,370.7 333.7,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_826" class="st61" points="336.5,362.7 333.8,370.7 333.7,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_827" class="st61" points="336.5,362.7 333.8,370.7 333.8,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_828" class="st62" points="336.6,362.7 333.8,370.7 333.8,370.7 336.5,362.7 								"/>
+								<polygon id="_Path_829" class="st62" points="336.6,362.7 333.8,370.7 333.8,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_830" class="st62" points="336.6,362.7 333.8,370.7 333.8,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_831" class="st63" points="336.6,362.7 333.8,370.7 333.8,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_832" class="st64" points="336.6,362.7 333.8,370.7 333.8,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_833" class="st65" points="336.6,362.7 333.8,370.7 333.8,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_834" class="st65" points="336.6,362.7 333.8,370.7 333.8,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_835" class="st65" points="336.6,362.7 333.8,370.7 333.8,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_836" class="st66" points="336.6,362.7 333.9,370.7 333.8,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_837" class="st67" points="336.6,362.7 333.9,370.7 333.9,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_838" class="st68" points="336.7,362.7 333.9,370.7 333.9,370.7 336.6,362.7 								"/>
+								<polygon id="_Path_839" class="st68" points="336.7,362.7 333.9,370.7 333.9,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_840" class="st66" points="336.7,362.7 333.9,370.7 333.9,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_841" class="st69" points="336.7,362.7 333.9,370.7 333.9,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_842" class="st69" points="336.7,362.7 333.9,370.7 333.9,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_843" class="st69" points="336.7,362.7 333.9,370.7 333.9,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_844" class="st70" points="336.7,362.7 333.9,370.7 333.9,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_845" class="st70" points="336.7,362.7 333.9,370.7 333.9,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_846" class="st71" points="336.7,362.7 334,370.7 333.9,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_847" class="st72" points="336.7,362.7 334,370.7 334,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_848" class="st73" points="336.8,362.7 334,370.7 334,370.7 336.7,362.7 								"/>
+								<polygon id="_Path_849" class="st74" points="336.8,362.7 334,370.7 334,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_850" class="st75" points="336.8,362.7 334,370.7 334,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_851" class="st76" points="336.8,362.7 334,370.7 334,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_852" class="st76" points="336.8,362.7 334,370.7 334,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_853" class="st76" points="336.8,362.7 334,370.7 334,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_854" class="st76" points="336.8,362.7 334,370.7 334,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_855" class="st77" points="336.8,362.7 334,370.7 334,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_856" class="st78" points="336.8,362.7 334.1,370.7 334,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_857" class="st79" points="336.8,362.7 334.1,370.7 334.1,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_858" class="st80" points="336.9,362.7 334.1,370.7 334.1,370.7 336.8,362.7 								"/>
+								<polygon id="_Path_859" class="st78" points="336.9,362.7 334.1,370.7 334.1,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_860" class="st81" points="336.9,362.7 334.1,370.7 334.1,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_861" class="st82" points="336.9,362.7 334.1,370.7 334.1,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_862" class="st83" points="336.9,362.7 334.1,370.7 334.1,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_863" class="st84" points="336.9,362.7 334.1,370.7 334.1,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_864" class="st85" points="336.9,362.7 334.1,370.7 334.1,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_865" class="st86" points="336.9,362.7 334.1,370.7 334.1,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_866" class="st87" points="336.9,362.7 334.2,370.7 334.1,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_867" class="st87" points="336.9,362.7 334.2,370.7 334.2,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_868" class="st87" points="337,362.7 334.2,370.7 334.2,370.7 336.9,362.7 								"/>
+								<polygon id="_Path_869" class="st88" points="337,362.7 334.2,370.7 334.2,370.7 337,362.7 								"/>
+								<polygon id="_Path_870" class="st89" points="337,362.7 334.2,370.7 334.2,370.7 337,362.7 								"/>
+								<polygon id="_Path_871" class="st90" points="337,362.7 334.2,370.7 334.2,370.7 337,362.7 								"/>
+								<polygon id="_Path_872" class="st90" points="337,362.7 334.2,370.7 334.2,370.7 337,362.7 								"/>
+								<polygon id="_Path_873" class="st91" points="337,362.7 334.2,370.7 334.2,370.7 337,362.7 								"/>
+								<polygon id="_Path_874" class="st91" points="337,362.7 334.2,370.7 334.2,370.7 337,362.7 								"/>
+								<polygon id="_Path_875" class="st92" points="337,362.7 334.2,370.7 334.2,370.7 337,362.7 								"/>
+								<polygon id="_Path_876" class="st93" points="337,362.7 334.3,370.7 334.2,370.7 337,362.7 								"/>
+								<polygon id="_Path_877" class="st93" points="337,362.7 334.3,370.7 334.3,370.7 337,362.7 								"/>
+								<polygon id="_Path_878" class="st94" points="337.1,362.7 334.3,370.7 334.3,370.7 337,362.7 								"/>
+								<polygon id="_Path_879" class="st93" points="337.1,362.7 334.3,370.7 334.3,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_880" class="st95" points="337.1,362.7 334.3,370.7 334.3,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_881" class="st96" points="337.1,362.7 334.3,370.7 334.3,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_882" class="st96" points="337.1,362.7 334.3,370.7 334.3,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_883" class="st96" points="337.1,362.7 334.3,370.7 334.3,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_884" class="st96" points="337.1,362.7 334.3,370.7 334.3,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_885" class="st97" points="337.1,362.7 334.3,370.7 334.3,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_886" class="st96" points="337.1,362.7 334.4,370.7 334.3,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_887" class="st98" points="337.1,362.7 334.4,370.7 334.4,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_888" class="st98" points="337.2,362.7 334.4,370.7 334.4,370.7 337.1,362.7 								"/>
+								<polygon id="_Path_889" class="st98" points="337.2,362.7 334.4,370.7 334.4,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_890" class="st99" points="337.2,362.7 334.4,370.7 334.4,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_891" class="st100" points="337.2,362.7 334.4,370.7 334.4,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_892" class="st99" points="337.2,362.7 334.4,370.7 334.4,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_893" class="st101" points="337.2,362.7 334.4,370.7 334.4,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_894" class="st102" points="337.2,362.7 334.4,370.7 334.4,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_895" class="st103" points="337.2,362.7 334.4,370.7 334.4,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_896" class="st103" points="337.2,362.7 334.5,370.7 334.4,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_897" class="st104" points="337.2,362.7 334.5,370.7 334.5,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_898" class="st105" points="337.3,362.7 334.5,370.7 334.5,370.7 337.2,362.7 								"/>
+								<polygon id="_Path_899" class="st105" points="337.3,362.7 334.5,370.7 334.5,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_900" class="st105" points="337.3,362.7 334.5,370.7 334.5,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_901" class="st106" points="337.3,362.7 334.5,370.7 334.5,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_902" class="st107" points="337.3,362.7 334.5,370.7 334.5,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_903" class="st108" points="337.3,362.7 334.5,370.7 334.5,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_904" class="st109" points="337.3,362.7 334.5,370.7 334.5,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_905" class="st110" points="337.3,362.7 334.5,370.7 334.5,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_906" class="st110" points="337.3,362.7 334.6,370.7 334.5,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_907" class="st111" points="337.3,362.7 334.6,370.7 334.6,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_908" class="st111" points="337.4,362.7 334.6,370.7 334.6,370.7 337.3,362.7 								"/>
+								<polygon id="_Path_909" class="st112" points="337.4,362.7 334.6,370.7 334.6,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_910" class="st113" points="337.4,362.7 334.6,370.7 334.6,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_911" class="st114" points="337.4,362.7 334.6,370.7 334.6,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_912" class="st113" points="337.4,362.7 334.6,370.7 334.6,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_913" class="st115" points="337.4,362.7 334.6,370.7 334.6,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_914" class="st116" points="337.4,362.7 334.6,370.7 334.6,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_915" class="st117" points="337.4,362.7 334.6,370.7 334.6,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_916" class="st118" points="337.4,362.7 334.7,370.7 334.6,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_917" class="st119" points="337.4,362.7 334.7,370.7 334.7,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_918" class="st119" points="337.5,362.7 334.7,370.7 334.7,370.7 337.4,362.7 								"/>
+								<polygon id="_Path_919" class="st120" points="337.5,362.7 334.7,370.7 334.7,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_920" class="st120" points="337.5,362.7 334.7,370.7 334.7,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_921" class="st121" points="337.5,362.7 334.7,370.7 334.7,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_922" class="st122" points="337.5,362.7 334.7,370.7 334.7,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_923" class="st123" points="337.5,362.7 334.7,370.7 334.7,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_924" class="st124" points="337.5,362.7 334.7,370.7 334.7,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_925" class="st124" points="337.5,362.7 334.7,370.7 334.7,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_926" class="st125" points="337.5,362.7 334.8,370.7 334.7,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_927" class="st126" points="337.5,362.7 334.8,370.7 334.8,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_928" class="st127" points="337.6,362.7 334.8,370.7 334.8,370.7 337.5,362.7 								"/>
+								<polygon id="_Path_929" class="st127" points="337.6,362.7 334.8,370.7 334.8,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_930" class="st128" points="337.6,362.7 334.8,370.7 334.8,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_931" class="st129" points="337.6,362.7 334.8,370.7 334.8,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_932" class="st129" points="337.6,362.7 334.8,370.7 334.8,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_933" class="st130" points="337.6,362.7 334.8,370.7 334.8,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_934" class="st131" points="337.6,362.7 334.8,370.7 334.8,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_935" class="st132" points="337.6,362.7 334.8,370.7 334.8,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_936" class="st133" points="337.6,362.7 334.9,370.7 334.8,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_937" class="st133" points="337.6,362.7 334.9,370.7 334.9,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_938" class="st134" points="337.7,362.7 334.9,370.7 334.9,370.7 337.6,362.7 								"/>
+								<polygon id="_Path_939" class="st134" points="337.7,362.7 334.9,370.7 334.9,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_940" class="st135" points="337.7,362.7 334.9,370.7 334.9,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_941" class="st135" points="337.7,362.7 334.9,370.7 334.9,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_942" class="st136" points="337.7,362.7 334.9,370.7 334.9,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_943" class="st137" points="337.7,362.7 334.9,370.7 334.9,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_944" class="st138" points="337.7,362.7 334.9,370.7 334.9,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_945" class="st139" points="337.7,362.7 334.9,370.7 334.9,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_946" class="st138" points="337.7,362.7 335,370.7 334.9,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_947" class="st140" points="337.7,362.7 335,370.7 335,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_948" class="st141" points="337.8,362.7 335,370.7 335,370.7 337.7,362.7 								"/>
+								<polygon id="_Path_949" class="st142" points="337.8,362.7 335,370.7 335,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_950" class="st142" points="337.8,362.7 335,370.7 335,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_951" class="st143" points="337.8,362.7 335,370.7 335,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_952" class="st144" points="337.8,362.7 335,370.7 335,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_953" class="st145" points="337.8,362.7 335,370.7 335,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_954" class="st146" points="337.8,362.7 335,370.7 335,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_955" class="st147" points="337.8,362.7 335,370.7 335,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_956" class="st148" points="337.8,362.7 335.1,370.7 335,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_957" class="st148" points="337.8,362.7 335.1,370.7 335.1,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_958" class="st149" points="337.9,362.7 335.1,370.7 335.1,370.7 337.8,362.7 								"/>
+								<polygon id="_Path_959" class="st150" points="337.9,362.7 335.1,370.7 335.1,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_960" class="st151" points="337.9,362.7 335.1,370.7 335.1,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_961" class="st152" points="337.9,362.7 335.1,370.7 335.1,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_962" class="st153" points="337.9,362.7 335.1,370.7 335.1,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_963" class="st153" points="337.9,362.7 335.1,370.7 335.1,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_964" class="st154" points="337.9,362.7 335.1,370.7 335.1,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_965" class="st155" points="337.9,362.7 335.1,370.7 335.1,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_966" class="st156" points="337.9,362.7 335.2,370.7 335.1,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_967" class="st157" points="337.9,362.7 335.2,370.7 335.2,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_968" class="st158" points="338,362.7 335.2,370.7 335.2,370.7 337.9,362.7 								"/>
+								<polygon id="_Path_969" class="st159" points="338,362.7 335.2,370.7 335.2,370.7 338,362.7 								"/>
+								<polygon id="_Path_970" class="st160" points="338,362.7 335.2,370.7 335.2,370.7 338,362.7 								"/>
+								<polygon id="_Path_971" class="st161" points="338,362.7 335.2,370.7 335.2,370.7 338,362.7 								"/>
+								<polygon id="_Path_972" class="st162" points="338,362.7 335.2,370.7 335.2,370.7 338,362.7 								"/>
+								<polygon id="_Path_973" class="st162" points="338,362.7 335.2,370.7 335.2,370.7 338,362.7 								"/>
+								<polygon id="_Path_974" class="st163" points="338,362.7 335.2,370.7 335.2,370.7 338,362.7 								"/>
+								<polygon id="_Path_975" class="st164" points="338,362.7 335.2,370.7 335.2,370.7 338,362.7 								"/>
+								<polygon id="_Path_976" class="st165" points="338,362.7 335.3,370.7 335.2,370.7 338,362.7 								"/>
+								<polygon id="_Path_977" class="st166" points="338,362.7 335.3,370.7 335.3,370.7 338,362.7 								"/>
+								<polygon id="_Path_978" class="st166" points="338.1,362.7 335.3,370.7 335.3,370.7 338,362.7 								"/>
+								<polygon id="_Path_979" class="st167" points="338.1,362.7 335.3,370.7 335.3,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_980" class="st168" points="338.1,362.7 335.3,370.7 335.3,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_981" class="st169" points="338.1,362.7 335.3,370.7 335.3,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_982" class="st170" points="338.1,362.7 335.3,370.7 335.3,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_983" class="st171" points="338.1,362.7 335.3,370.7 335.3,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_984" class="st172" points="338.1,362.7 335.3,370.7 335.3,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_985" class="st172" points="338.1,362.7 335.3,370.7 335.3,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_986" class="st173" points="338.1,362.7 335.4,370.7 335.3,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_987" class="st174" points="338.1,362.7 335.4,370.7 335.4,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_988" class="st175" points="338.2,362.7 335.4,370.7 335.4,370.7 338.1,362.7 								"/>
+								<polygon id="_Path_989" class="st176" points="338.2,362.7 335.4,370.7 335.4,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_990" class="st177" points="338.2,362.7 335.4,370.7 335.4,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_991" class="st178" points="338.2,362.7 335.4,370.7 335.4,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_992" class="st179" points="338.2,362.7 335.4,370.7 335.4,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_993" class="st180" points="338.2,362.7 335.4,370.7 335.4,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_994" class="st181" points="338.2,362.7 335.4,370.7 335.4,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_995" class="st182" points="338.2,362.7 335.4,370.7 335.4,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_996" class="st183" points="338.2,362.7 335.5,370.7 335.4,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_997" class="st184" points="338.2,362.7 335.5,370.7 335.5,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_998" class="st185" points="338.3,362.7 335.5,370.7 335.5,370.7 338.2,362.7 								"/>
+								<polygon id="_Path_999" class="st186" points="338.3,362.7 335.5,370.7 335.5,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1000" class="st187" points="338.3,362.7 335.5,370.7 335.5,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1001" class="st188" points="338.3,362.7 335.5,370.7 335.5,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1002" class="st189" points="338.3,362.7 335.5,370.7 335.5,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1003" class="st189" points="338.3,362.7 335.5,370.7 335.5,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1004" class="st190" points="338.3,362.7 335.5,370.7 335.5,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1005" class="st191" points="338.3,362.7 335.5,370.7 335.5,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1006" class="st192" points="338.3,362.7 335.6,370.7 335.5,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1007" class="st193" points="338.3,362.7 335.6,370.7 335.6,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1008" class="st194" points="338.4,362.7 335.6,370.7 335.6,370.7 338.3,362.7 								"/>
+								<polygon id="_Path_1009" class="st195" points="338.4,362.7 335.6,370.7 335.6,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1010" class="st196" points="338.4,362.7 335.6,370.7 335.6,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1011" class="st197" points="338.4,362.7 335.6,370.7 335.6,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1012" class="st198" points="338.4,362.7 335.6,370.7 335.6,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1013" class="st199" points="338.4,362.7 335.6,370.7 335.6,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1014" class="st200" points="338.4,362.7 335.6,370.7 335.6,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1015" class="st201" points="338.4,362.7 335.6,370.7 335.6,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1016" class="st202" points="338.4,362.7 335.7,370.7 335.6,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1017" class="st203" points="338.4,362.7 335.7,370.7 335.7,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1018" class="st204" points="338.5,362.7 335.7,370.7 335.7,370.7 338.4,362.7 								"/>
+								<polygon id="_Path_1019" class="st205" points="338.5,362.7 335.7,370.7 335.7,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1020" class="st205" points="338.5,362.7 335.7,370.7 335.7,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1021" class="st206" points="338.5,362.7 335.7,370.7 335.7,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1022" class="st207" points="338.5,362.7 335.7,370.7 335.7,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1023" class="st208" points="338.5,362.7 335.7,370.7 335.7,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1024" class="st209" points="338.5,362.7 335.7,370.7 335.7,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1025" class="st210" points="338.5,362.7 335.7,370.7 335.7,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1026" class="st211" points="338.5,362.7 335.8,370.7 335.7,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1027" class="st211" points="338.5,362.7 335.8,370.7 335.8,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1028" class="st212" points="338.6,362.7 335.8,370.7 335.8,370.7 338.5,362.7 								"/>
+								<polygon id="_Path_1029" class="st213" points="338.6,362.7 335.8,370.7 335.8,370.7 338.6,362.7 								"/>
+								<polygon id="_Path_1030" class="st214" points="338.6,362.7 335.8,370.7 335.8,370.7 338.6,362.7 								"/>
+								<polygon id="_Path_1031" class="st215" points="338.6,362.7 335.8,370.7 335.8,370.7 338.6,362.7 								"/>
+								<polygon id="_Path_1032" class="st216" points="338.6,362.7 335.8,370.7 335.8,370.7 338.6,362.7 								"/>
+								<polygon id="_Path_1033" class="st217" points="338.6,362.7 335.8,370.7 335.8,370.7 338.6,362.7 								"/>
+								<polygon id="_Path_1034" class="st217" points="335.8,370.7 338.6,362.7 337.6,362.7 337.6,370.7 								"/>
+							</g>
+						</g>
+						<line id="_Clipping_Path_9" class="st218" x1="338.9" y1="363.9" x2="333.6" y2="367"/>
+					</g>
+					<path id="_Path_1035" class="st219" d="M333.6,367.4c-0.2,0-0.4-0.1-0.4-0.4c0-0.2,0.1-0.3,0.2-0.4l5.3-3.1
+						c0.2-0.1,0.4,0,0.5,0.1c0.1,0.2,0,0.4-0.1,0.5l0,0l-5.3,3.1C333.7,367.4,333.7,367.4,333.6,367.4z"/>
+				</g>
+				<g id="_Group_15">
+					<g id="_Clip_Group_5">
+						<g>
+							<defs>
+								<line id="SVGID_9_" x1="341.2" y1="365.5" x2="335.9" y2="368.5"/>
+							</defs>
+							<clipPath id="SVGID_10_">
+								<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st223">
+								<polygon id="_Path_1036" class="st49" points="338.6,366.7 334.6,368.5 334.6,366.7 								"/>
+								<polygon id="_Path_1037" class="st49" points="338.7,366.7 334.6,368.5 334.6,368.5 338.6,366.7 								"/>
+								<polygon id="_Path_1038" class="st50" points="338.7,366.7 334.6,368.5 334.6,368.5 338.7,366.7 								"/>
+								<polygon id="_Path_1039" class="st50" points="338.7,366.7 334.6,368.5 334.6,368.5 338.7,366.7 								"/>
+								<polygon id="_Path_1040" class="st51" points="338.7,366.7 334.6,368.5 334.6,368.5 338.7,366.7 								"/>
+								<polygon id="_Path_1041" class="st52" points="338.7,366.7 335.3,369.2 334.6,368.7 334.6,368.5 338.7,366.7 								"/>
+								<polygon id="_Path_1042" class="st53" points="338.7,366.7 335.9,369.7 335.9,369.7 338.7,366.7 								"/>
+								<polygon id="_Path_1043" class="st54" points="338.7,366.7 335.9,369.7 335.9,369.7 338.7,366.7 								"/>
+								<polygon id="_Path_1044" class="st54" points="338.7,366.7 335.9,369.7 335.9,369.7 338.7,366.7 								"/>
+								<polygon id="_Path_1045" class="st54" points="338.7,366.7 336,369.7 335.9,369.7 338.7,366.7 								"/>
+								<polygon id="_Path_1046" class="st55" points="338.7,366.7 336,369.7 336,369.7 338.7,366.7 								"/>
+								<polygon id="_Path_1047" class="st56" points="338.8,366.7 336,369.7 336,369.7 338.7,366.7 								"/>
+								<polygon id="_Path_1048" class="st57" points="338.8,366.7 336,369.7 336,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1049" class="st57" points="338.8,366.7 336,369.7 336,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1050" class="st58" points="338.8,366.7 336,369.7 336,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1051" class="st59" points="338.8,366.7 336,369.7 336,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1052" class="st59" points="338.8,366.7 336,369.7 336,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1053" class="st60" points="338.8,366.7 336,369.7 336,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1054" class="st60" points="338.8,366.7 336,369.7 336,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1055" class="st60" points="338.8,366.7 336.1,369.7 336,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1056" class="st61" points="338.8,366.7 336.1,369.7 336.1,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1057" class="st61" points="338.9,366.7 336.1,369.7 336.1,369.7 338.8,366.7 								"/>
+								<polygon id="_Path_1058" class="st62" points="338.9,366.7 336.1,369.7 336.1,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1059" class="st62" points="338.9,366.7 336.1,369.7 336.1,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1060" class="st62" points="338.9,366.7 336.1,369.7 336.1,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1061" class="st63" points="338.9,366.7 336.1,369.7 336.1,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1062" class="st64" points="338.9,366.7 336.1,369.7 336.1,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1063" class="st65" points="338.9,366.7 336.1,369.7 336.1,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1064" class="st65" points="338.9,366.7 336.1,369.7 336.1,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1065" class="st65" points="338.9,366.7 336.2,369.7 336.1,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1066" class="st66" points="338.9,366.7 336.2,369.7 336.2,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1067" class="st67" points="339,366.7 336.2,369.7 336.2,369.7 338.9,366.7 								"/>
+								<polygon id="_Path_1068" class="st68" points="339,366.7 336.2,369.7 336.2,369.7 339,366.7 								"/>
+								<polygon id="_Path_1069" class="st68" points="339,366.7 336.2,369.7 336.2,369.7 339,366.7 								"/>
+								<polygon id="_Path_1070" class="st66" points="339,366.7 336.2,369.7 336.2,369.7 339,366.7 								"/>
+								<polygon id="_Path_1071" class="st69" points="339,366.7 336.2,369.7 336.2,369.7 339,366.7 								"/>
+								<polygon id="_Path_1072" class="st69" points="339,366.7 336.2,369.7 336.2,369.7 339,366.7 								"/>
+								<polygon id="_Path_1073" class="st69" points="339,366.7 336.2,369.7 336.2,369.7 339,366.7 								"/>
+								<polygon id="_Path_1074" class="st70" points="339,366.7 336.2,369.7 336.2,369.7 339,366.7 								"/>
+								<polygon id="_Path_1075" class="st70" points="339,366.7 336.3,369.7 336.2,369.7 339,366.7 								"/>
+								<polygon id="_Path_1076" class="st71" points="339,366.7 336.3,369.7 336.3,369.7 339,366.7 								"/>
+								<polygon id="_Path_1077" class="st72" points="339.1,366.7 336.3,369.7 336.3,369.7 339,366.7 								"/>
+								<polygon id="_Path_1078" class="st73" points="339.1,366.7 336.3,369.7 336.3,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1079" class="st74" points="339.1,366.7 336.3,369.7 336.3,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1080" class="st75" points="339.1,366.7 336.3,369.7 336.3,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1081" class="st76" points="339.1,366.7 336.3,369.7 336.3,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1082" class="st76" points="339.1,366.7 336.3,369.7 336.3,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1083" class="st76" points="339.1,366.7 336.3,369.7 336.3,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1084" class="st76" points="339.1,366.7 336.3,369.7 336.3,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1085" class="st77" points="339.1,366.7 336.4,369.7 336.3,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1086" class="st78" points="339.1,366.7 336.4,369.7 336.4,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1087" class="st79" points="339.2,366.7 336.4,369.7 336.4,369.7 339.1,366.7 								"/>
+								<polygon id="_Path_1088" class="st80" points="339.2,366.7 336.4,369.7 336.4,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1089" class="st78" points="339.2,366.7 336.4,369.7 336.4,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1090" class="st81" points="339.2,366.7 336.4,369.7 336.4,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1091" class="st82" points="339.2,366.7 336.4,369.7 336.4,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1092" class="st83" points="339.2,366.7 336.4,369.7 336.4,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1093" class="st84" points="339.2,366.7 336.4,369.7 336.4,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1094" class="st85" points="339.2,366.7 336.4,369.7 336.4,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1095" class="st86" points="339.2,366.7 336.5,369.7 336.4,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1096" class="st87" points="339.2,366.7 336.5,369.7 336.5,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1097" class="st87" points="339.3,366.7 336.5,369.7 336.5,369.7 339.2,366.7 								"/>
+								<polygon id="_Path_1098" class="st87" points="339.3,366.7 336.5,369.7 336.5,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1099" class="st88" points="339.3,366.7 336.5,369.7 336.5,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1100" class="st89" points="339.3,366.7 336.5,369.7 336.5,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1101" class="st90" points="339.3,366.7 336.5,369.7 336.5,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1102" class="st90" points="339.3,366.7 336.5,369.7 336.5,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1103" class="st91" points="339.3,366.7 336.5,369.7 336.5,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1104" class="st91" points="339.3,366.7 336.5,369.7 336.5,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1105" class="st92" points="339.3,366.7 336.6,369.7 336.5,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1106" class="st93" points="339.3,366.7 336.6,369.7 336.6,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1107" class="st93" points="339.4,366.7 336.6,369.7 336.6,369.7 339.3,366.7 								"/>
+								<polygon id="_Path_1108" class="st94" points="339.4,366.7 336.6,369.7 336.6,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1109" class="st93" points="339.4,366.7 336.6,369.7 336.6,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1110" class="st95" points="339.4,366.7 336.6,369.7 336.6,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1111" class="st96" points="339.4,366.7 336.6,369.7 336.6,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1112" class="st96" points="339.4,366.7 336.6,369.7 336.6,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1113" class="st96" points="339.4,366.7 336.6,369.7 336.6,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1114" class="st96" points="339.4,366.7 336.6,369.7 336.6,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1115" class="st97" points="339.4,366.7 336.7,369.7 336.6,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1116" class="st96" points="339.4,366.7 336.7,369.7 336.7,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1117" class="st98" points="339.5,366.7 336.7,369.7 336.7,369.7 339.4,366.7 								"/>
+								<polygon id="_Path_1118" class="st98" points="339.5,366.7 336.7,369.7 336.7,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1119" class="st98" points="339.5,366.7 336.7,369.7 336.7,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1120" class="st99" points="339.5,366.7 336.7,369.7 336.7,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1121" class="st100" points="339.5,366.7 336.7,369.7 336.7,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1122" class="st99" points="339.5,366.7 336.7,369.7 336.7,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1123" class="st101" points="339.5,366.7 336.7,369.7 336.7,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1124" class="st102" points="339.5,366.7 336.7,369.7 336.7,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1125" class="st103" points="339.5,366.7 336.8,369.7 336.7,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1126" class="st103" points="339.5,366.7 336.8,369.7 336.8,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1127" class="st104" points="339.6,366.7 336.8,369.7 336.8,369.7 339.5,366.7 								"/>
+								<polygon id="_Path_1128" class="st105" points="339.6,366.7 336.8,369.7 336.8,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1129" class="st105" points="339.6,366.7 336.8,369.7 336.8,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1130" class="st105" points="339.6,366.7 336.8,369.7 336.8,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1131" class="st106" points="339.6,366.7 336.8,369.7 336.8,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1132" class="st107" points="339.6,366.7 336.8,369.7 336.8,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1133" class="st108" points="339.6,366.7 336.8,369.7 336.8,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1134" class="st109" points="339.6,366.7 336.8,369.7 336.8,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1135" class="st110" points="339.6,366.7 336.9,369.7 336.8,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1136" class="st110" points="339.6,366.7 336.9,369.7 336.9,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1137" class="st111" points="339.7,366.7 336.9,369.7 336.9,369.7 339.6,366.7 								"/>
+								<polygon id="_Path_1138" class="st111" points="339.7,366.7 336.9,369.7 336.9,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1139" class="st112" points="339.7,366.7 336.9,369.7 336.9,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1140" class="st113" points="339.7,366.7 336.9,369.7 336.9,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1141" class="st114" points="339.7,366.7 336.9,369.7 336.9,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1142" class="st113" points="339.7,366.7 336.9,369.7 336.9,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1143" class="st115" points="339.7,366.7 336.9,369.7 336.9,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1144" class="st116" points="339.7,366.7 336.9,369.7 336.9,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1145" class="st117" points="339.7,366.7 337,369.7 336.9,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1146" class="st118" points="339.7,366.7 337,369.7 337,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1147" class="st119" points="339.8,366.7 337,369.7 337,369.7 339.7,366.7 								"/>
+								<polygon id="_Path_1148" class="st119" points="339.8,366.7 337,369.7 337,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1149" class="st120" points="339.8,366.7 337,369.7 337,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1150" class="st120" points="339.8,366.7 337,369.7 337,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1151" class="st121" points="339.8,366.7 337,369.7 337,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1152" class="st122" points="339.8,366.7 337,369.7 337,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1153" class="st123" points="339.8,366.7 337,369.7 337,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1154" class="st124" points="339.8,366.7 337,369.7 337,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1155" class="st124" points="339.8,366.7 337.1,369.7 337,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1156" class="st125" points="339.8,366.7 337.1,369.7 337.1,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1157" class="st126" points="339.9,366.7 337.1,369.7 337.1,369.7 339.8,366.7 								"/>
+								<polygon id="_Path_1158" class="st127" points="339.9,366.7 337.1,369.7 337.1,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1159" class="st127" points="339.9,366.7 337.1,369.7 337.1,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1160" class="st128" points="339.9,366.7 337.1,369.7 337.1,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1161" class="st129" points="339.9,366.7 337.1,369.7 337.1,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1162" class="st129" points="339.9,366.7 337.1,369.7 337.1,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1163" class="st130" points="339.9,366.7 337.1,369.7 337.1,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1164" class="st131" points="339.9,366.7 337.1,369.7 337.1,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1165" class="st132" points="339.9,366.7 337.2,369.7 337.1,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1166" class="st133" points="339.9,366.7 337.2,369.7 337.2,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1167" class="st133" points="340,366.7 337.2,369.7 337.2,369.7 339.9,366.7 								"/>
+								<polygon id="_Path_1168" class="st134" points="340,366.7 337.2,369.7 337.2,369.7 340,366.7 								"/>
+								<polygon id="_Path_1169" class="st134" points="340,366.7 337.2,369.7 337.2,369.7 340,366.7 								"/>
+								<polygon id="_Path_1170" class="st135" points="340,366.7 337.2,369.7 337.2,369.7 340,366.7 								"/>
+								<polygon id="_Path_1171" class="st135" points="340,366.7 337.2,369.7 337.2,369.7 340,366.7 								"/>
+								<polygon id="_Path_1172" class="st136" points="340,366.7 337.2,369.7 337.2,369.7 340,366.7 								"/>
+								<polygon id="_Path_1173" class="st137" points="340,366.7 337.2,369.7 337.2,369.7 340,366.7 								"/>
+								<polygon id="_Path_1174" class="st138" points="340,366.7 337.2,369.7 337.2,369.7 340,366.7 								"/>
+								<polygon id="_Path_1175" class="st139" points="340,366.7 337.3,369.7 337.2,369.7 340,366.7 								"/>
+								<polygon id="_Path_1176" class="st138" points="340,366.7 337.3,369.7 337.3,369.7 340,366.7 								"/>
+								<polygon id="_Path_1177" class="st140" points="340.1,366.7 337.3,369.7 337.3,369.7 340,366.7 								"/>
+								<polygon id="_Path_1178" class="st141" points="340.1,366.7 337.3,369.7 337.3,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1179" class="st142" points="340.1,366.7 337.3,369.7 337.3,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1180" class="st142" points="340.1,366.7 337.3,369.7 337.3,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1181" class="st143" points="340.1,366.7 337.3,369.7 337.3,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1182" class="st144" points="340.1,366.7 337.3,369.7 337.3,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1183" class="st145" points="340.1,366.7 337.3,369.7 337.3,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1184" class="st146" points="340.1,366.7 337.3,369.7 337.3,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1185" class="st147" points="340.1,366.7 337.4,369.7 337.3,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1186" class="st148" points="340.1,366.7 337.4,369.7 337.4,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1187" class="st148" points="340.2,366.7 337.4,369.7 337.4,369.7 340.1,366.7 								"/>
+								<polygon id="_Path_1188" class="st149" points="340.2,366.7 337.4,369.7 337.4,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1189" class="st150" points="340.2,366.7 337.4,369.7 337.4,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1190" class="st151" points="340.2,366.7 337.4,369.7 337.4,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1191" class="st152" points="340.2,366.7 337.4,369.7 337.4,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1192" class="st153" points="340.2,366.7 337.4,369.7 337.4,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1193" class="st153" points="340.2,366.7 337.4,369.7 337.4,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1194" class="st154" points="340.2,366.7 337.4,369.7 337.4,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1195" class="st155" points="340.2,366.7 337.5,369.7 337.4,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1196" class="st156" points="340.2,366.7 337.5,369.7 337.5,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1197" class="st157" points="340.3,366.7 337.5,369.7 337.5,369.7 340.2,366.7 								"/>
+								<polygon id="_Path_1198" class="st158" points="340.3,366.7 337.5,369.7 337.5,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1199" class="st159" points="340.3,366.7 337.5,369.7 337.5,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1200" class="st160" points="340.3,366.7 337.5,369.7 337.5,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1201" class="st161" points="340.3,366.7 337.5,369.7 337.5,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1202" class="st162" points="340.3,366.7 337.5,369.7 337.5,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1203" class="st162" points="340.3,366.7 337.5,369.7 337.5,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1204" class="st163" points="340.3,366.7 337.5,369.7 337.5,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1205" class="st164" points="340.3,366.7 337.6,369.7 337.5,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1206" class="st165" points="340.3,366.7 337.6,369.7 337.6,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1207" class="st166" points="340.4,366.7 337.6,369.7 337.6,369.7 340.3,366.7 								"/>
+								<polygon id="_Path_1208" class="st166" points="340.4,366.7 337.6,369.7 337.6,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1209" class="st167" points="340.4,366.7 337.6,369.7 337.6,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1210" class="st168" points="340.4,366.7 337.6,369.7 337.6,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1211" class="st169" points="340.4,366.7 337.6,369.7 337.6,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1212" class="st170" points="340.4,366.7 337.6,369.7 337.6,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1213" class="st171" points="340.4,366.7 337.6,369.7 337.6,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1214" class="st172" points="340.4,366.7 337.6,369.7 337.6,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1215" class="st172" points="340.4,366.7 337.7,369.7 337.6,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1216" class="st173" points="340.4,366.7 337.7,369.7 337.7,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1217" class="st174" points="340.5,366.7 337.7,369.7 337.7,369.7 340.4,366.7 								"/>
+								<polygon id="_Path_1218" class="st175" points="340.5,366.7 337.7,369.7 337.7,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1219" class="st176" points="340.5,366.7 337.7,369.7 337.7,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1220" class="st177" points="340.5,366.7 337.7,369.7 337.7,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1221" class="st178" points="340.5,366.7 337.7,369.7 337.7,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1222" class="st179" points="340.5,366.7 337.7,369.7 337.7,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1223" class="st180" points="340.5,366.7 337.7,369.7 337.7,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1224" class="st181" points="340.5,366.7 337.7,369.7 337.7,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1225" class="st182" points="340.5,366.7 337.8,369.7 337.7,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1226" class="st183" points="340.5,366.7 337.8,369.7 337.8,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1227" class="st184" points="340.6,366.7 337.8,369.7 337.8,369.7 340.5,366.7 								"/>
+								<polygon id="_Path_1228" class="st185" points="340.6,366.7 337.8,369.7 337.8,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1229" class="st186" points="340.6,366.7 337.8,369.7 337.8,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1230" class="st187" points="340.6,366.7 337.8,369.7 337.8,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1231" class="st188" points="340.6,366.7 337.8,369.7 337.8,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1232" class="st189" points="340.6,366.7 337.8,369.7 337.8,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1233" class="st189" points="340.6,366.7 337.8,369.7 337.8,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1234" class="st190" points="340.6,366.7 337.8,369.7 337.8,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1235" class="st191" points="340.6,366.7 337.9,369.7 337.8,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1236" class="st192" points="340.6,366.7 337.9,369.7 337.9,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1237" class="st193" points="340.7,366.7 337.9,369.7 337.9,369.7 340.6,366.7 								"/>
+								<polygon id="_Path_1238" class="st194" points="340.7,366.7 337.9,369.7 337.9,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1239" class="st195" points="340.7,366.7 337.9,369.7 337.9,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1240" class="st196" points="340.7,366.7 337.9,369.7 337.9,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1241" class="st197" points="340.7,366.7 337.9,369.7 337.9,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1242" class="st198" points="340.7,366.7 337.9,369.7 337.9,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1243" class="st199" points="340.7,366.7 337.9,369.7 337.9,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1244" class="st200" points="340.7,366.7 337.9,369.7 337.9,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1245" class="st201" points="340.7,366.7 338,369.7 337.9,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1246" class="st202" points="340.7,366.7 338,369.7 338,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1247" class="st203" points="340.8,366.7 338,369.7 338,369.7 340.7,366.7 								"/>
+								<polygon id="_Path_1248" class="st204" points="340.8,366.7 338,369.7 338,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1249" class="st205" points="340.8,366.7 338,369.7 338,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1250" class="st205" points="340.8,366.7 338,369.7 338,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1251" class="st206" points="340.8,366.7 338,369.7 338,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1252" class="st207" points="340.8,366.7 338,369.7 338,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1253" class="st208" points="340.8,366.7 338,369.7 338,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1254" class="st209" points="340.8,366.7 338,369.7 338,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1255" class="st210" points="340.8,366.7 338.1,369.7 338,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1256" class="st211" points="340.8,366.7 338.1,369.7 338.1,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1257" class="st211" points="340.9,366.7 338.1,369.7 338.1,369.7 340.8,366.7 								"/>
+								<polygon id="_Path_1258" class="st212" points="340.9,366.7 338.1,369.7 338.1,369.7 340.9,366.7 								"/>
+								<polygon id="_Path_1259" class="st213" points="340.9,366.7 338.1,369.7 338.1,369.7 340.9,366.7 								"/>
+								<polygon id="_Path_1260" class="st214" points="340.9,366.7 338.1,369.7 338.1,369.7 340.9,366.7 								"/>
+								<polygon id="_Path_1261" class="st215" points="340.9,366.7 338.1,369.7 338.1,369.7 340.9,366.7 								"/>
+								<polygon id="_Path_1262" class="st216" points="340.9,366.7 338.1,369.7 338.1,369.7 340.9,366.7 								"/>
+								<polygon id="_Path_1263" class="st217" points="340.9,366.7 338.1,369.7 338.1,369.7 340.9,366.7 								"/>
+								<polygon id="_Path_1264" class="st217" points="338.1,369.7 340.9,366.7 339.6,366.7 339.6,369.7 								"/>
+							</g>
+						</g>
+						<line id="_Clipping_Path_10" class="st218" x1="341.2" y1="365.5" x2="335.9" y2="368.5"/>
+					</g>
+					<path id="_Path_1265" class="st219" d="M335.9,368.9c-0.2,0-0.4-0.1-0.4-0.4c0-0.2,0.1-0.3,0.2-0.4l5.3-3.1
+						c0.2-0.1,0.4,0,0.5,0.1c0.1,0.2,0,0.4-0.1,0.5l-5.3,3.1C336,368.9,336,368.9,335.9,368.9z"/>
+				</g>
+				<path id="_Path_1266" class="st224" d="M369.2,340.3c0,0,2.1,5.5-5.6,13.7c0,0,6.5-1.5,8.8-11.3L369.2,340.3z"/>
+				<path id="_Path_1267" class="st225" d="M342.8,349.3c0,0,19.6-7.3,19.9-21.4c0,0,0.5,9.5-23.9,20.5L342.8,349.3z"/>
+				<path id="_Path_1268" class="st226" d="M363,328.2c-0.3,3.7-6.6,6.7-14.3,6.7c-7.9,0-14.3-3.1-14.3-6.9c0-0.1,0-0.1,0-0.2
+					c0,0.1,0,0.2,0,0.3l-0.2,15.5c-0.2,1.8,1,3.4,2.8,3.8c0.3,0.1,0.5,0.2,0.8,0.3l5.2,1.5c0.3,0,0.3,0.1,1.5-0.5
+					c3.3-1.8,15.2-6,18.7-19.3C363.3,328.8,363.2,328.4,363,328.2z"/>
+				
+					<ellipse id="_Path_1269" transform="matrix(7.167154e-02 -0.9974 0.9974 7.167154e-02 -2.5898 652.4356)" class="st227" cx="349.2" cy="327.6" rx="5" ry="13.5"/>
+				<path id="_Path_1270" class="st228" d="M343,322.7c-0.4,0,16.8,2.4,10,10c0,0,9.4,0.1,9.9-4C362.8,328.6,361.4,321.8,343,322.7z
+					"/>
+				<polygon id="_Path_1271" class="st229" points="358.3,355.4 339.4,359.7 342.2,361.9 				"/>
+				<line id="_Path_1272" class="st230" x1="393.1" y1="368.9" x2="398.2" y2="371.1"/>
+			</g>
+			<g class="st25">
+				<ellipse id="_Path_1273" class="st26" cx="373.7" cy="165.1" rx="5.1" ry="3"/>
+				<ellipse id="_Path_1274" class="st26" cx="386.8" cy="157.8" rx="5.1" ry="3"/>
+				<ellipse id="_Path_1275" class="st26" cx="400" cy="150.5" rx="5.1" ry="3"/>
+			</g>
+			<ellipse id="_Path_1276" class="st4" cx="436" cy="130.9" rx="5.1" ry="3"/>
+			<ellipse id="_Path_1277" class="st4" cx="630" cy="18.4" rx="5.1" ry="3"/>
+			<polygon class="st4" points="626.2,16.4 432.2,128.9 439.1,133.3 633.7,20.5 			"/>
+			<g class="st25">
+				<ellipse id="_Path_1278" class="st26" cx="519.6" cy="674.3" rx="5.1" ry="3"/>
+				<ellipse id="_Path_1279" class="st26" cx="532.8" cy="667" rx="5.1" ry="3"/>
+				<ellipse id="_Path_1280" class="st26" cx="545.9" cy="659.7" rx="5.1" ry="3"/>
+			</g>
+			<rect x="0" y="386.6" class="st3" width="1.6" height="4.6"/>
+			<rect x="500.5" y="677.6" class="st3" width="3.5" height="5.8"/>
+		</g>
+	</g>
+	<polygon id="XMLID_16383_" class="st5" points="550.1,693.4 627.7,648.6 736.4,711.3 657.9,756.6 	"/>
+	<polygon id="XMLID_16400_" class="st5" points="801.1,739 880.7,693.1 992,757.4 911.6,803.8 	"/>
+</g>
+<g id="Layer_2_1_" class="st231">
+	<g class="st232">
+		<g id="XMLID_16405_">
+			<path id="XMLID_16413_" class="st233" d="M883.6,675c0,0-28.5,17.3-28.1,35.5l6.6,43.3l49.5-28.9l0.8-40.4
+				C912.4,684.5,909.1,668.4,883.6,675z"/>
+			<polygon id="XMLID_16412_" class="st233" points="873.2,673.1 873.2,685.3 893.5,676.6 892.1,668.2 			"/>
+			<path id="XMLID_16411_" class="st233" d="M864.3,697.6l4.4,1.7c2.3,0.9,3.5,3.5,2.6,5.8l-20.5,54.8c-0.4,1.1-1.2,2-2.3,2.5l0,0
+				c-3.3,1.6-7.1-1.2-6.4-4.9c2.7-15.2,8.9-46.5,16.9-58.3C860.1,697.5,862.4,696.9,864.3,697.6z"/>
+			<path id="XMLID_16410_" class="st233" d="M911,682.1l19.7,23.9c2.4,2.8,1.8,7.1-1.3,9.2l0,0c-2.6,1.8-6.2,1.3-8.2-1.1l-13.1-15.2
+				c-1.8-2.1-2-5.3-0.4-7.6l0.1-0.1C910.1,687.8,908.3,679,911,682.1z"/>
+			<path id="XMLID_16409_" class="st234" d="M874.1,682c0,0,16.5,5.8,19-7.8"/>
+			<path id="XMLID_16408_" class="st234" d="M861.3,696.4c0,0,15.7,5.8-0.8,38.4"/>
+			<polygon id="XMLID_16407_" class="st235" points="890.2,700.6 902.9,693.1 902.9,698.5 891.4,705.1 			"/>
+			<line id="XMLID_16406_" class="st234" x1="912.4" y1="684.5" x2="912" y2="703.5"/>
+		</g>
+		<path id="XMLID_16404_" class="st236" d="M950.5,772.3l-4.7-4.4c9.7-14.2,0.7-22.5,0.7-22.5l-6-17.8l-16.3-9.4l5.9,17.7
+			l-18.6-10.7l-50.3,27.5l13.4,11.1l-26.2-4.9l-6.2,4.1l13.5,7.9c14.2,5.2,34.5,11.8,47,12.6c8.3,1.4,18.1-1,25.5-3.6l4.8,2.7
+			l16.6-9.6L950.5,772.3z"/>
+		<polyline id="XMLID_16403_" class="st237" points="911.4,725.2 912.9,793.4 903.9,799.3 869.3,778.9 862.1,753.8 		"/>
+		<path id="XMLID_16402_" class="st238" d="M880,754.8c0,0,28.3-5.9,37.1-22.7"/>
+		<path id="XMLID_16401_" class="st238" d="M889.2,757.9c0,0,23.5-4.9,30.9-18.9"/>
+	</g>
+</g>
+<g id="Layer_3" class="st231">
+	<g class="st232">
+		<path id="XMLID_16391_" class="st239" d="M647,583.6c0,0-26.9,30.9-25.9,131.4l51.8-29.9C672.9,685.2,676.9,599.6,647,583.6z"/>
+		<path id="XMLID_16390_" class="st240" d="M672.9,684.6l-51.5,27.5c-0.1,8.3,0,16,0.3,23.4l36.2,21.4l15.8-9
+			C675.2,713.4,672.9,684.6,672.9,684.6z"/>
+		<linearGradient id="XMLID_23_" gradientUnits="userSpaceOnUse" x1="628.3786" y1="613.8521" x2="658.373" y2="713.7578">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#B3B2B3"/>
+		</linearGradient>
+		<path id="XMLID_16389_" class="st241" d="M646.8,583.2c0,0-26.9,30.9-25.9,131.4l51.8-29.9C672.7,684.7,676.7,599.1,646.8,583.2z"
+			/>
+		<path id="XMLID_16388_" class="st238" d="M628.6,719.3c0,0,40.7-8.2,47-28.7"/>
+		<path id="XMLID_16387_" class="st238" d="M643.5,722.3c0,0,27.6-5.7,36.2-22.1"/>
+		<path id="XMLID_16386_" class="st9" d="M649.5,605.1c0,0,9.7,64.2-2.6,95.2l8.2-4.5C655.1,695.8,660,635.7,649.5,605.1z"/>
+		<linearGradient id="XMLID_24_" gradientUnits="userSpaceOnUse" x1="636.3889" y1="645.2758" x2="613.4488" y2="720.7645">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.1551" style="stop-color:#FCFCFC"/>
+			<stop  offset="0.2846" style="stop-color:#F1F1F1"/>
+			<stop  offset="0.405" style="stop-color:#E0E0E0"/>
+			<stop  offset="0.5198" style="stop-color:#C8C8C8"/>
+			<stop  offset="0.6308" style="stop-color:#A8A8A8"/>
+			<stop  offset="0.7388" style="stop-color:#818181"/>
+			<stop  offset="0.8443" style="stop-color:#535353"/>
+			<stop  offset="0.9454" style="stop-color:#1F1F1F"/>
+			<stop  offset="1" style="stop-color:#000000"/>
+		</linearGradient>
+		<path id="XMLID_16385_" class="st242" d="M647.5,583.2l0.5,5.1c0,0-27.6,67.6-17.9,121.3l-8.4,5
+			C621.7,714.6,620.6,612.4,647.5,583.2z"/>
+		<path id="XMLID_16384_" class="st238" d="M619.6,688.3c0,0-7.1,4.9-9.3,11.9"/>
+	</g>
+</g>
+</svg>

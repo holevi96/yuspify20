@@ -1,0 +1,65 @@
+@import (reference) "../../../proto";
+
+section#benefits{
+
+  h2{
+    .text('Roboto', 26px, 400, @blueLight);
+    letter-spacing: -1px;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  ul.row{
+
+    li{
+
+      .text-wrapper{
+        display: table;
+        height: 50vh;
+        .col;
+        width: 50%;
+
+        .text-cell{
+          display: table-cell;
+          height: 50vh;
+          vertical-align: middle;
+
+          h2{
+            .text('AvantgardeBold', 36px, 800, @blueLight);
+            letter-spacing: -1px;
+            text-align: left;
+            margin: 0;
+            padding-bottom: 20px;
+
+          }
+
+          p{
+            .text('Roboto', 22px, 400, @gray3);
+            text-align: left;
+
+          }
+        }
+      }
+      .illustration-wrapper{
+        .col;
+        width: 50%;
+
+      }
+    }
+
+    li:nth-child(2){
+
+      .text-wrapper{
+        margin-right: 50%;
+
+      }
+      .illustration-wrapper{
+        margin-left: -50%;
+
+      }
+
+    }
+  }
+
+
+}

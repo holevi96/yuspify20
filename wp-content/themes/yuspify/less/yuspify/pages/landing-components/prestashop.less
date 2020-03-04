@@ -1,0 +1,429 @@
+@import (reference) "../../../proto";
+
+@presta-magenta: #df0067 ;
+@presta-purple: #5a4d9d;
+@presta-blue: #241f3e;
+
+body.page-prestashop-module-free-trial {
+
+  #sme-menu{
+    background: #241f3e;
+
+    #menu-sme-menu{
+      li{
+        a{
+          color: @presta-magenta;
+        }
+      }
+    }
+  }
+
+  #button-wrapper {
+    position: relative;
+
+    .button-description {
+      position: absolute;
+      top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      display: block;
+      text-align: center;
+
+      span {
+        .text('AvantgardeBold', 22px, 800, @white);
+        text-align: center;
+        .text
+      }
+
+    }
+
+    @media @sm, @xs, @md {
+      display: none;
+    }
+    @media @lg {
+      display: inline-block;
+    }
+    @media @xl {
+      display: inline-block;
+    }
+    @media @xxl {
+      display: inline-block;
+    }
+
+    background: @white;
+    color: fade(@blue, 60%);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 999em;
+    padding: 3px;
+    width: 528px;
+    .col;
+
+    a.free-trial-button {
+      display: inline-block;
+      padding: 10px 16px;
+      .text('AvantgardeBold', 18px, 800, inherit);
+
+      span.number {
+        .text('AvantgardeBold', 18px, 800, @gray4);
+        .col;
+        display: block;
+        background: @white;
+        padding: 1px 7px !important;
+        border-radius: 999em;
+        margin-right: 8px;
+        left: -4px;
+      }
+    }
+
+    a.free-trial-button.try {
+      background: @presta-purple;
+      left: 11px;
+      position: relative;
+      color: @white;
+      line-height: 25px;
+
+      &:hover {
+        background: @greenNew;
+        color: fade(@blue, 60%);
+      }
+
+    }
+
+    a.free-trial-button.download {
+      background: @presta-magenta;
+      position: relative;
+      //left: -12px;
+      color: @white;
+      line-height: 25px;
+
+      &:hover {
+        background: @greenNew;
+        color: fade(@blue, 60%);
+      }
+    }
+  }
+
+  #cat-button-wrapper-mobile{
+    max-width: 360px;
+    margin: 0 auto;
+    float: none;
+
+    a.free-trial-button{
+      padding: 10px 14px;
+      border-radius: 999em;
+      display: block;
+
+      &.download:hover, &.try:hover{
+        background: @presta-blue;
+        color: @white;
+        .tr2;
+      }
+
+      &.download{
+        background: @presta-magenta;
+        color: @white;
+        margin-bottom: 30px;
+      }
+
+      &.try{
+        background: @presta-purple;
+        color: @white;
+      }
+    }
+
+    .button-description{
+      text-align: center;
+
+      span{
+        .text('AvantgardeBold', 18px, 800, @gray3);
+        position: relative;
+        top: 20px;
+      }
+    }
+  }
+}
+
+body.page-prestashop-module-free-trial{
+
+
+  .presta-button{
+    background-color: @presta-magenta !important;
+    color: @white !important;
+    .tr2;
+
+    &:hover{
+      background-color: @presta-blue !important;
+      color: @presta-magenta !important;
+
+      i.MatIcons{
+        color: @presta-magenta !important;
+      }
+    }
+  }
+
+
+  #header{
+    background: @presta-blue;
+  }
+
+  #floating-menu{
+
+    #call-to-action{
+
+      .coupon-code p{
+        color: @presta-blue;
+      }
+
+      a.start-free-trial-floating{
+        .presta-button;
+      }
+    }
+
+
+    button.request-a-demo-button{
+      .presta-button;
+    }
+  }
+
+
+  #above-the-fold-animation{
+    background: @presta-blue;
+
+    #button-wrapper{
+      position: relative;
+      display: block !important;
+      top: 0px;
+
+      .button-description{
+        position: absolute;
+        top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        display: block;
+        text-align: center;
+
+        span{
+          .text('AvantgardeBold', 22px, 800, @white);
+          text-align: center;
+        }
+
+      }
+
+      @media @sm, @xs, @md{display: none;}
+      @media @lg  {display: inline-block;}
+      @media @xl  {display: inline-block;}
+      @media @xxl {display: inline-block;}
+
+      background: @white;
+      color: fade(@blue, 60%);
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      border-radius: 999em;
+      padding: 3px;
+      width: 575px !important;
+      .col;
+
+      a.free-trial-button{
+        display: inline-block;
+        padding: 10px 16px;
+        .text('AvantgardeBold', 18px, 800, inherit);
+
+        span.number{
+          .text('AvantgardeBold', 18px, 800, @gray4);
+          .col;
+          display: block;
+          background: @white;
+          padding: 1px 7px !important;
+          border-radius: 999em;
+          margin-right: 8px;
+          left: -4px;
+        }
+      }
+
+      a.free-trial-button.try{
+        background: @presta-purple;
+        left: 1px;
+        position: relative;
+        color: @white;
+        line-height: 25px;
+
+        &:hover{
+          background: @greenNew;
+          color: fade(@blue, 60%);
+        }
+
+      }
+
+      a.free-trial-button.download{
+        background: @presta-magenta;
+        position: relative;
+        left: 0;
+        color: @white;
+        line-height: 25px;
+
+        &:hover{
+          background: @greenNew;
+          color: fade(@blue, 60%);
+        }
+      }
+    }
+
+
+    .start-free-trial{
+      display: none;
+
+      .presta-button;
+
+      &:hover{
+        background-color: @white !important;
+        color: @presta-magenta !important;
+      }
+    }
+  }
+
+  #mobile-breakdown{
+
+    ul.steps{
+
+      li{
+        border-left: 1px solid @presta-magenta;
+
+        h2:after{
+          background-color: @presta-magenta;
+        }
+
+        p{
+          color: fade(white, 60%);
+        }
+      }
+    }
+  }
+
+  .install-wrapper{
+
+    .start-free-trial{
+      h2{
+        color: @presta-magenta !important;
+      }
+    }
+
+    .start-now{
+      i.material-icons{
+        color: @presta-purple !important;
+      }
+    }
+  }
+
+
+  #few-steps-to-start{
+
+    .wrapper{
+      //background: @presta-purple;
+      background: @presta-blue;
+
+      h2{
+        color: @presta-magenta !important;
+      }
+      h3{
+        color: @white;
+      }
+    }
+  }
+
+  #button-wrapper{
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    z-index: 100000;
+    top: -110px;
+
+    .button-description{
+      span{
+        color: @presta-blue;
+      }
+    }
+  }
+
+  #placement-type-tabulator-section{
+
+    .placement-type-tab.vertical-tab{
+
+      h3{
+        color: @presta-purple;
+      }
+
+      &.selected{
+        background: @presta-magenta;
+        color: @white;
+
+        h3{
+          color: @presta-blue;
+        }
+      }
+    }
+  }
+
+  #netflix-badge{
+
+    h2{
+      color: @presta-purple;
+    }
+  }
+
+  body.page-prestashop-module-free-trial #dynamic-landing-components #numbers .examples h2{
+    color: @presta-magenta !important;
+  }
+
+  body.page-prestashop-module-free-trial #numbers h2, #dynamic-landing-components.presta #numbers h2 {
+    color: #df0067 !important;
+  }
+
+
+  #why-start{
+    background: @presta-purple;
+  }
+
+  #plugin-pricing{
+    background: @presta-magenta;
+  }
+
+  .cat-button-holder{
+
+    .probalja-ki-ingyen{
+      background: @white !important;
+      color: @presta-blue !important;
+    }
+
+    p.kezdje-el{
+      color: @white !important;
+    }
+  }
+
+  #campaign-call-to-action{
+    @media @xs, @sm, @md{
+      background: @presta-purple;
+    }
+  }
+
+  section#call-to-action.sme-features:hover:before {
+    background-color: @presta-magenta;
+    opacity: 1;
+  }
+
+}
+
+body.page-prestashop-module-free-trial #dynamic-landing-components{
+
+  section#few-steps-to-start, section#placement-type-tabulator-section{
+    h2{
+      color: @presta-purple;
+    }
+  }
+
+}

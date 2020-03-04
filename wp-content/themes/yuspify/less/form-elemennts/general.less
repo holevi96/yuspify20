@@ -1,0 +1,113 @@
+/* UNIVERSAL PLACEHOLDER */
+.placeholderColor(@standardColor; @hoverColor; @focusColor){
+
+
+  // standard
+  &::-webkit-input-placeholder {
+    color: @standardColor;
+    .tr2;
+  }
+  &::-moz-placeholder {
+    color: @standardColor;
+    .tr2;
+  }
+  &:-moz-placeholder {
+    color: @standardColor;
+    .tr2;
+  }
+  &:-ms-input-placeholder {
+    color: @standardColor;
+    .tr2;
+  }
+
+  // hover
+  &:hover::-webkit-input-placeholder {
+    color: @hoverColor;
+    .tr2;
+  }
+  &:hover:-moz-placeholder {
+    color: @hoverColor;
+    .tr2;
+  }
+  &:hover::-moz-placeholder {
+    color: @hoverColor;
+    .tr2;
+  }
+  &:hover:-ms-input-placeholder {
+    color: @hoverColor;
+    .tr2;
+  }
+
+  // focus
+  &:focus::-webkit-input-placeholder {
+    color: @focusColor;
+    .tr2;
+  }
+  &:focus:-moz-placeholder {
+    color: @focusColor;
+    .tr2;
+  }
+  &:focus::-moz-placeholder {
+    color: @focusColor;
+    .tr2;
+  }
+  &:focus:-ms-input-placeholder {
+    color: @focusColor;
+    .tr2;
+  }
+}
+
+/* YUSPIFY */
+/* --------------------------- */
+
+.placeholder-standard(@standardColor){
+  // standard
+  &::-webkit-input-placeholder {
+    color: @standardColor;
+  }
+  &::-moz-placeholder {
+    color: @standardColor;
+  }
+  &:-moz-placeholder {
+    color: @standardColor;
+  }
+  &:-ms-input-placeholder {
+    color: @standardColor;
+  }
+}
+
+.placeholder-hover(@hoverColor){
+  // hover
+  &:hover::-webkit-input-placeholder {
+    color: @hoverColor;
+  }
+  &:hover:-moz-placeholder {
+    color: @hoverColor;
+  }
+  &:hover::-moz-placeholder {
+    color: @hoverColor;
+  }
+  &:hover:-ms-input-placeholder {
+    color: @hoverColor;
+  }
+}
+
+.placeholder-focus(@focusColor){
+  // focus
+  &:focus::-webkit-input-placeholder {
+    color: @focusColor;
+    .tr2;
+  }
+  &:focus:-moz-placeholder {
+    color: @focusColor;
+    .tr2;
+  }
+  &:focus::-moz-placeholder {
+    color: @focusColor;
+    .tr2;
+  }
+  &:focus:-ms-input-placeholder {
+    color: @focusColor;
+    .tr2;
+  }
+}

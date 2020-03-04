@@ -1,0 +1,480 @@
+@import (reference) "../../proto";
+
+
+body.page-template-page-company-php, body.page-id-14{
+
+  #header {
+    .gradient-ye-darkgray;
+  }
+
+  .breadcrumbsWrapper{
+    .gradient-ye-darkgray;
+    border-bottom: 1px solid fade(@white, 20%);
+    border-top: 1px solid fade(@white, 20%);
+
+    a{
+      color: @white;
+    }
+  }
+
+  nav.submenu{
+    //.gradient-ye-darkgray;
+    background: @ye-bg-3;
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 4px 13px -2px fade(@blue, 60%);
+    padding: 10px 0;
+    border-top: 1px solid @ye-1;
+
+    ul{
+      padding: 10px 0;
+
+      li{
+        .col;
+        list-style: none;
+        cursor: pointer;
+        margin-right: 40px;
+      }
+
+      li a{
+        .text('Roboto', 16px, 400, fade(@white, 60%));
+        .tr2;
+      }
+      li a:hover{
+        color: @white
+      }
+    }
+  }
+}
+
+#company-page{
+  background: @bg;
+
+  .fluid-container{
+    @media @xs{padding: 0 10px;}
+    @media @sm{padding: 0 20px;}
+    @media @md{padding: 0 20px;}
+    @media @lg{padding: 0 10px;}
+
+    @media @xs, @sm, @md, @lg{
+      box-sizing: border-box;
+    }
+  }
+
+  section{
+    border-bottom: 2px solid #ececec;
+    padding: 30px 0;
+
+    h2.general-title{
+      border-top: 3px solid @ye-0;
+      padding-top: 10px;
+    }
+
+    h2.title{
+      padding: 10px 0;
+      .text('AvantgardeBold', 24px, 800, @ye-1);
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+
+  section#about-us{
+    margin-top: 70px;
+
+    h2{
+      .text('AvantgardeBold', 42px, 800, @ye-bg-3);
+      margin-bottom: 8px;
+    }
+
+    p{
+      padding-top: 20px;
+      .text('Roboto', 17px, 400, #999);
+      line-height: 25px;
+    }
+
+    img.badge{
+      float: right;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media @xs, @sm, @md{
+      padding: 40px 0px;
+
+      h2{
+        text-align: center;
+        font-size: 30px;
+      }
+
+      p{
+        text-align: center;
+      }
+
+      img.badge{
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+
+  section#team{
+    background: @white;
+
+    ul.row{
+      padding: 50px 0px 50px 0px;
+    }
+
+    li.team-member{
+      .col;
+      cursor: pointer;
+
+      @media @xs, @sm {
+        width: 100%;
+        padding: 30px 20%;
+      }
+
+      @media @md, @lg{
+        width: 100% / 4;
+      }
+
+      @media @xl, @xxl {
+        width: 100% / 4;
+      }
+
+      &.selected{
+        //background: red;
+      }
+
+      img.member{
+        max-width: 130px;
+        width: 100%;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+      }
+
+      .row{
+        text-align: center;
+
+        h2.name{
+          .text('Roboto', 16px, 400, @ye-1);
+          text-align: center;
+          display: inline-block;
+          margin: 0;
+        }
+
+        h3.member-position{
+          .text('Roboto', 16px, 400, @gray4);
+          text-align: center;
+          display: inline-block;
+          margin: 0;
+        }
+      }
+    }
+
+    #team-member-details{
+      //background: @bg-dash;
+      box-shadow: inset 0 0 25px #d8d8d8;
+      padding: 0;
+      .tr2;
+
+      .text('Roboto', 16px, 400, @gray4);
+      line-height: 28px;
+
+      .detail-box{
+        .center-container(90%, 80%, 70%, 60%);
+        display: none;
+        padding: 60px 0;
+        .tr2;
+
+        &.selected{
+          display: block;
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+}
+
+#company-page{
+  section#partners{
+    background: white;
+
+    li.partner{
+      padding: 30px 0;
+	  text-align:center;
+    }
+  }
+}
+
+
+#company-submenu-top{
+  position: fixed;
+  top: -150px;
+  .tr(50ms);
+
+  &.active{
+    top: 0px;
+  }
+}
+
+#company-submenu.bottom{
+  position: absolute;
+  bottom: -80px;
+  .tr(8);
+}
+
+
+section#partners{
+  background: @white;
+
+  .partner{
+    cursor: pointer;
+
+    img{
+      .desaturate;
+      .tr2;
+    }
+
+    img:hover{
+      .saturate;
+    }
+  }
+}
+
+section#careers{
+  padding: 30px;
+  background-color: @ye-bg-3;
+  background-image: url('@{root}/img/main-image-bw.jpg');
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+	@media @xs,@sm{
+		padding:30px 0px 30px 0px;
+	}
+  &:after{
+    visibility: visible;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    content: '';
+    display: block;
+    background-color: @ye-bg-3;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+  }
+
+  .fluid-container{
+    z-index: 5;
+  }
+
+  h2.general-title{
+    color: @white;
+  }
+
+  .careers-list{
+    .description{
+      .text('Roboto', 16px, 400, @white);
+      line-height: 28px;
+      padding: 60px 0;
+    }
+
+    ul.careers{
+
+      li.career{
+        .row;
+        list-style: none;
+        padding: 20px 0;
+        margin-bottom: 6px;
+
+        //box-shadow: 0 0 1px fade(@ye-bg-3, 5%);
+        //border-bottom: 1px solid #dcdcdc;
+        //background: white;
+        //border-left: 3px solid @ye-1;
+
+        border-top: 3px solid @black;
+
+
+        .tr2;
+
+        i.material-icons{
+          .col;
+          color: #a6a8ab;
+          padding: 0 20px;
+          .tr2;
+        }
+
+        p{
+          .col;
+          .text('AvantgardeBold', 20px, 700, @ye-0);
+          margin: 0 20px;
+        }
+      }
+
+      li.career:hover{
+        //background: @ye-bg-3;
+        //border-left: 3px solid @ye-0;
+
+        background: @ye-0;
+        border-left: 3px solid @ye-bg-3;
+        box-shadow: 0 0 15px fade(@ye-bg-3, 25%);
+
+
+        i{
+          color: @white;
+        }
+
+        p{
+          color: @ye-bg-3;
+        }
+
+
+      }
+    }
+  }
+
+
+  .benefits-wrapper{
+
+    h2{
+      color: @ye-bg-3;
+    }
+
+    @media @lg, @xl, @xxl{
+      padding: 0 30px;
+      margin-top: 290px;
+    }
+
+    @media @xs, @sm, @md{
+      padding: 20px 0;
+    }
+
+    .benefits{
+      //background: @ye-bg-3;
+      background: @white;
+      box-shadow: 0 0 10px fade(@black, 30%);
+      padding: 30px;
+
+      ul{
+        li{
+          .text('Roboto', 16px, 400, @ye-bg-3);
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+section#grants{
+  padding: 30px;
+  background: @bg;
+
+  .grant{
+    padding: 30px 0;
+    border-top: 1px solid #dcdcdc;
+
+    .grant-text, .grant-text li{
+      .text('Roboto', 18px, 400, @gray4);
+      line-height: 30px;
+
+      strong{
+        background: none;
+        font-weight: 600;
+        color: @blue;
+        padding: 0;
+      }
+    }
+  }
+}
+
+section#grants-widget{
+  background: @bg;
+
+  #accordion{
+
+    h4.accordion-toggle {
+      .text('AvantgardeBold', 18px, 400, @gray2);
+      .tr2;
+      background: #f9f6f6;
+      padding: 20px;
+      border-left: 3px solid #d5d5d5;
+      border-top: 2px solid #d5d5d5;
+
+      &:hover{
+        border-left: 3px solid @ye-0;
+        background: @white;
+        color: @ye-bg-3;
+      }
+    }
+
+    h4.accordion-toggle.active{
+      background: @white;
+      border-left: 3px solid @ye-0;
+      border-top: 2px solid #d5d5d5;
+      color: @ye-bg-3;
+
+      &:hover{
+        background: @ye-0;
+        color: @ye-bg-3;
+      }
+    }
+
+    .accordion-content{
+      border-left: 3px solid #d5d5d5;
+      padding: 20px;
+      margin: 0;
+      background-color: @white;
+
+      @media @xs, @sm{
+        height: auto !important;
+      }
+    }
+
+    .accordion-content.selected{
+      background: @white;
+      border-left: 3px solid @ye-0;
+    }
+
+    /* WYSWYG ELEMENTS */
+    .accordion-content{
+
+      .text('Roboto', 17px, 400, @ye-bg-3);
+
+      p{
+
+      }
+
+      .row{
+        img{
+          width: auto;
+        }
+      }
+
+      ul{
+        li{
+          margin-bottom: 5px;
+          list-style-type: disc;
+          margin-left: 13px;
+
+          span{
+            .text('Roboto', 17px, 400, @gray2);
+          }
+        }
+      }
+    }
+
+    .accordion-toggle:last-child, .accordion-content:last-child {
+      border-bottom: 2px solid @gray1;
+    }
+  }
+
+  .accordion-toggle {cursor: pointer;}
+  .accordion-content {display: none;}
+  .accordion-content.default {display: block;}
+
+}

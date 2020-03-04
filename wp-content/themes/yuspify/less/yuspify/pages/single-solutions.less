@@ -1,0 +1,461 @@
+@import (reference) "../../proto";
+
+/*
+#solution .vertical-tabulator li.placement-type-tab.vertical-tab.selected h3{
+  position:relative;
+
+  &:before{
+    content:'';
+    display:block;
+    position:absolute;
+    width: 0;
+    right:-49px;
+
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 0 0;
+    border-color: #2AFFA3 transparent transparent transparent;
+  }
+}
+*/
+
+.bullets{
+  @media @sm,@xs,@md{
+    display:none;
+  }
+
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  height: 20px;
+  margin-top: -50px;
+  padding-left: 46%;
+
+  li{
+    .col;
+    cursor:pointer;
+    text-align: center;
+    padding: 6px;
+    border: 2px solid #e4e4e4;
+    border-radius: 50px;
+    margin-left: 4px;
+    background: @white;
+    .tr2;
+
+    &.active{
+      background:@white;
+      border: 2px solid @white;
+      box-shadow: 0 0 30px @ye-gray-1;
+    }
+  }
+}
+
+section#single-solutions{
+
+  .the-content p{
+    padding: 30px 0 0 0;
+    .text('Roboto', 22px, 400, @gray4);
+
+  }
+
+  .long-description p{
+    padding: 30px 0 0 0;
+    .text('Roboto', 18px, 400, @gray3);
+  }
+
+  #solution{
+    padding: 30px 0;
+
+    p{
+      .text('Roboto', 18px, 400, @gray3);
+      margin-bottom: 20px;
+    }
+
+    .solution-illustration{
+
+      img{
+        width: 100%;
+        height: auto;
+      }
+
+      h4{
+        padding: 4px;
+        display: inline;
+        background: @ye-0;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.14);
+        border-radius: 2px;
+        cursor: pointer;
+
+        .text('Roboto', 16px, 400, @ye-bg-1);
+        .tr2;
+
+        &:hover{
+          background: @blueExtra;
+          color: @white;
+        }
+      }
+    }
+
+    .description-wrapper{
+		display: table;
+	    top: 10vh;
+        margin-left: 20px;
+        z-index: 10;
+        padding: 30px;
+        background: @blueExtra;
+        .text('Roboto', 18px, 400, @white);
+        line-height: 30px;
+        .tr2;
+		
+        &:before{
+          content: '';
+          display: block;
+          background-color: @blueExtra;
+          width: 46px;
+          height: 46px;
+          .rotate(45deg);
+
+          margin-left: -40px;
+          margin-top: -12px;
+          position: absolute;
+          z-index: -1;
+        }
+
+		.solution-desc{
+			 color:#fff !important;
+		}
+    }
+  }
+
+  #solution{
+
+    #placement-type-tabulator-section{
+
+      h2{
+        display: none;
+      }
+
+    }
+
+    .vertical-tab{
+      border-left: 3px solid #e2e2e2;
+      background: transparent;
+
+      h3{
+        color: @ye-gray-2;
+      }
+
+      ul{
+        li{
+          margin-left: 18px;
+          list-style: initial;
+          color: @gray3;
+        }
+      }
+
+      &.selected{
+        border-left: 3px solid @ye-0;
+        box-shadow: 0 0 30px @ye-gray-1;
+        background: @white;
+
+        /*
+        &:after{
+          content: '';
+          position: absolute;
+          border-left: 13px solid transparent;
+          border-right: 13px solid @bg;
+          border-top: 13px solid transparent;
+          border-bottom: 13px solid transparent;
+          border-top: 13px solid @bg;
+          right: 0;
+          top: -1px;
+        }
+        */
+
+        h3{
+          color: @ye-bg-3;
+        }
+
+        p, ul li{
+          color: fade(@ye-bg-0, 60%);
+        }
+      }
+    }
+
+    li.vertical-tab-content{
+
+      @media @lg, @xl, @xxl{
+        top: -50px;
+      }
+    }
+  }
+
+  .related-case-studies{
+
+    .case-study-wrapper{
+      .image-wrapper{
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+#solution-key-benefits{
+
+  ul{
+    padding-right: 30px;
+    padding-top: 30px;
+
+    /*
+    li{
+      background: @white;
+      padding: 10px;
+      border-left: 3px solid @greenNew;
+      margin-bottom: 10px;
+
+
+      &:before{
+        display: block;
+        content: '';
+        height: 4px;
+        background-color: @ye-0;
+        width: 200px;
+        margin-bottom: 10px;
+      }
+
+
+      p{
+        .text('Roboto', 16px, 400, @gray3);
+      }
+
+      i{
+        color: @ye-bg-3;
+        padding-right:30px;
+      }
+    }
+    */
+
+  }
+}
+
+#solution-form{
+  padding-top: 30px;
+
+  form{
+    .row;
+    padding: 30px;
+    background: @ye-0;
+
+    input{
+      .form-input;
+      margin-bottom: 10px;
+      .row;
+
+      background: @ye-bg-3;
+      border: 1px solid @ye-bg-3;
+      color: @ye-0;
+      .placeholderColor(fade(@ye-0, 60%), @ye-bg-3, @ye-bg-3);
+
+      &:hover, :focus{
+        border: 1px solid fade(@bg-dash, 50%);
+        box-shadow: 0 0 9px rgba(191,192,193,.7);
+        background: @white;
+        color: @ye-bg-3;
+      }
+    }
+
+    textarea{
+      .row;
+      height: 110px;
+
+      .form-input;
+
+      background: @ye-bg-3;
+      border: 1px solid @ye-bg-3;
+      color: @ye-0;
+      .placeholderColor(fade(@ye-0, 60%), @ye-bg-3, @ye-bg-3);
+
+      &:hover, :focus{
+        border: 1px solid fade(@bg-dash, 50%);
+        box-shadow: 0 0 9px rgba(191,192,193,.7);
+        background: @white;
+        color: @ye-bg-3;
+      }
+    }
+
+    input[type="submit"]{
+      .form-button;
+      .col;
+
+      @media @lg, @xl, @xxl{
+        width: 40%;
+      }
+
+      padding: 4px 11px;
+      margin-top: 10px;
+      background: @ye-bg-1;
+      border-color: @ye-bg-0;
+      color: @white;
+
+      &:hover{
+        background: @white;
+        border-color: @white;
+        color: @ye-bg-3;
+      }
+    }
+  }
+}
+
+
+
+#solution-key-benefits{
+
+  .key-benefits-gird{
+
+    li.key-beneftis-list-unit{
+
+      @media @lg, @xl, @xxl{
+        padding: 10px 2vw;
+      }
+
+      i{
+        color: @blueExtra;
+        .row;
+      }
+
+      p{
+        .text('Roboto', 18px, 400, @gray3);
+      }
+
+    }
+  }
+
+  .vertical-tabulator.desktop{
+    .section;
+
+    li.placement-type-tab.vertical-tab{
+      background: transparent;
+      border-left: 4px solid @ye-bg-3;
+
+      h3{
+        .text('Roboto', 18px, 400, @ye-bg-3);
+      }
+    }
+
+    li.placement-type-tab.vertical-tab.selected{
+		&:after{
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 30px 30px 0 0;
+			border-color: #007bff transparent transparent transparent;
+		}
+      background: transparent;
+      border-left: 4px solid @ye-0;
+	  position:relative;
+
+      h3{
+        .text('Roboto', 18px, 400, @ye-bg-2);
+      }
+    }
+
+    .visible-placement{
+      background: @white;
+      border-top: 5px solid @ye-0;
+      box-shadow: 0 0 13px fade(@ye-bg-0, 10%);
+      .text('Roboto', 18px, 400, fade(@ye-bg-1, 80%));
+
+      @media @xs, @sm{
+        padding: 30px;
+      }
+
+      @media @md{
+        padding: 60px;
+      }
+
+      @media @lg, @xl, @xxl{
+        padding: 90px 160px;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  #horizontal.vertical-tabulator{
+
+    li.placement-type-tab.vertical-tab.horizontal{
+      border-bottom: 3px solid @gray2;
+      padding: 8px 0 16px 0;
+      border-left: none;
+
+      h3{
+        .text('Roboto', 18px, 400, @ye-bg-2);
+      }
+    }
+
+    li.placement-type-tab.vertical-tab.horizontal.selected{
+      border-left: none;;
+      border-bottom: 3px solid @ye-0;
+
+      h3{
+        .text('Roboto', 18px, 400, @ye-bg-2);
+      }
+    }
+
+    .visible-placement.horizontal{
+      .row;
+      margin-top: 0;
+      padding: 20px;
+    }
+
+  }
+}
+
+
+.pre-next-post-links{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  //border-top: 1px solid #ccc;
+  background: @ye-bg-3;
+
+  h3{
+    font-family: 'AvantgardeBold';
+    font-size: 18px;
+    color: @ye-gray-2;
+  }
+
+  .left-col{
+
+    .material-icons{
+      float:left;
+      color: fade(@ye-0, 60%);
+      .tr2;
+    }
+
+    &:hover{
+      .material-icons{
+        color: @ye-0;
+      }
+    }
+  }
+
+  .right-col{
+    text-align:right;
+    h3{
+      float:right;
+    }
+    .material-icons{
+      float:right;
+      color: fade(@ye-0, 60%);
+      .tr2;
+    }
+
+    &:hover{
+      .material-icons{
+        color: @ye-0;
+      }
+    }
+  }
+}

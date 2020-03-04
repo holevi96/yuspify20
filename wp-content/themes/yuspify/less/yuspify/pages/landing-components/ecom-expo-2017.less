@@ -1,0 +1,342 @@
+@import (reference) "../../../proto";
+
+
+/***--- EXPO LANDING ---***/
+
+body.page-ecomexpo-2017-offer{
+
+  header#header{
+    background: none;
+    top: 37px;
+
+    .logo{
+      margin: 0 auto;
+      float: none;
+    }
+
+    .moreEnglishContent{
+      display: block;
+      height: 28px;
+      background: white;
+      position: fixed;
+      h1{
+        .text('Roboto', 20px, 400, @blueNew);
+        text-align: center;
+      }
+    }
+
+    .breadcrumbsWrapper{
+      display: none;
+    }
+    .top-navi{
+      display: none;
+    }
+    ul#fomenu{
+      display: none;
+    }
+  }
+
+  #content{
+    background: @bg;
+    margin-top: -100px;
+    z-index: 1;
+    position: relative;
+  }
+
+  #floating-menu.hun{
+
+    .form-wrapper{
+
+      .submit-button{
+        max-width: 180px;
+      }
+    }
+  }
+
+
+  #how-it-works ul.tabs .tab[data-tab="tab-5"]{
+    display: none;
+  }
+}
+
+
+
+#landing.expo{
+  section.welcome{
+    background: url('@{root}/img/budapest-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    padding-top: 170px;
+
+    @media @xs, @sm, @md {
+      height: 100%;
+      background-position-y: 0px;
+    }
+
+    @media @lg, @xl, @xxl {
+      height: auto;
+    }
+  }
+}
+
+
+.welcomeWrapper.expo{
+  position: relative;
+  padding: 0;
+  width: 100%;
+  z-index: 2;
+  float: left;
+
+  .mainText{
+    position: relative;
+  }
+  h1.desktop{
+    @media @xs, @sm {
+      display: none;
+    }
+    @media @md, @lg, @xl, @xxl {
+      display: block;
+      font-size: 50px;
+      width: 600px;
+      color: fade(#00FFDF, 80%) !important;
+      span{
+        font-size: 110px;
+        color: fade(#00FFDF, 100%);
+        text-transform: uppercase;
+      }
+    }
+  }
+  h1.mobile{
+    @media @xs, @sm {
+      display: block;
+      font-size: 35px;
+      color: fade(#00FFDF, 80%) !important;
+      span{
+        background: url('@{root}/img/budapest-typo.svg');
+        display: block;
+        height: 250px;
+        width: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+
+      }
+    }
+    @media @md, @lg, @xl, @xxl {
+      display: none;
+    }
+  }
+  h2{}
+
+  .expoMessages{
+    padding-bottom: 30px;
+
+    @media @lg, @xl, @xxl {
+      h2{
+        .text('AvantgardeThin', 50px, 800, @white);
+        text-align: center;
+      }
+      h3{
+        .text('Roboto', 30px, 400, @white);
+        margin: 0;
+        text-align: center;
+      }
+      p{
+        .text('Roboto',18px, 400, fade(@white, 70%));
+        line-height: 26px;
+        margin: 0 auto;
+        margin-top: 16px;
+        text-align: center;
+        display: block;
+        width: 80%;
+      }
+    }
+
+    @media @xs, @sm, @md {
+      h2{
+        .text('AvantgardeThin', 30px, 400, #00FFDF);
+        text-align: center;
+      }
+      h3{
+        .text('Roboto',20px, 400, @white);
+        margin: 0;
+        text-align: center;
+      }
+      p{
+        .text('Roboto',18px, 300, fade(@white, 70%));
+        line-height: 26px;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-bottom: 16px;
+        text-align: center;
+        width: 80%;
+        display: block;
+      }
+    }
+  }
+}
+
+#expo{
+  div{
+    @media @lg, @xl, @xxl {
+      padding: 50px;
+      h2{
+        .text('Roboto', 30px, 300, @white);
+        margin-bottom: 30px;
+      }
+      p{
+        .text('Roboto', 18px, 300, @white);
+        line-height: 22px;
+        display: block;
+        max-width: 80%;
+      }
+      h3{
+        .text('AvantgardeThin', 30px, 400, @white);
+        span{
+          .text('Roboto', 20px, 300, @white);
+        }
+      }
+      a{
+        .btn-variables(@white, 'Roboto', @blueNew);
+      }
+    }
+
+    @media @xs, @sm, @md {
+      padding: 20px;
+      text-align: center;
+
+      h2{
+        .text('Roboto', 20px, 300, @white);
+        margin-bottom: 15px;
+      }
+      p{
+        .text('Roboto', 18px, 300, @white);
+        line-height: 22px;
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+      }
+      h3{
+        .text('AvantgardeThin', 25px, 800, @white);
+        span{
+          .text('Roboto', 18px, 300, @white);
+          font-weight: 300;
+        }
+      }
+      a{
+        .btn-variables(@white, 'Roboto', @blueNew);
+      }
+    }
+
+  }
+
+  .forClients{
+    background: url('@{root}/img/yusp-for-clients.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .forPartners{
+    background: url('@{root}/img/yusp-for-partners.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.counterWrapper{
+
+}
+
+#expoCountDown {
+  background: @blue;
+  .text('AvantgardeThin', 70px, 200, @greenNew);
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.countDays, .countHours, .countMinutes, .countSeconds {
+  float: left;
+  width: 102px;
+  height: 138px;
+  padding-left: 36px;
+}
+
+.points {
+  float: left;
+  width: 40px;
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 138px;
+  text-shadow: none;
+}
+
+.position {
+  position: relative;
+  float: left;
+  width: 35px;
+  height: 92px;
+  margin: 8px 0 0 0;
+}
+
+.digit {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.boxName {
+  float: left;
+  width: 80px;
+  margin: -5px 0 0 7px;
+  font-size: 36px;
+  color: #a6a6a6;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.Hours { margin-left: 5px; }
+.Seconds { margin-left: 2px; }
+
+/* CONTENT */
+
+body.page-ecomexpo-2017-offer{
+
+  section#above-the-fold-animation{
+    background: transparent;
+
+    h1{
+      color: @blueLight;
+    }
+
+    h2{
+      color: @blueLight;
+    }
+  }
+
+
+  #button-wrapper{
+    display: none;
+  }
+
+  #how-it-works{
+
+    .form-control{
+
+      .tabs{
+
+      }
+
+      li#5{
+        display: none;
+      }
+    }
+  }
+}
